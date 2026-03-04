@@ -5,6 +5,76 @@
   },
   "news": [
     {
+      "id": "news_3c9d8eac2318",
+      "date": "2026-03-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Self-Promotion Thread",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing req...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/"
+    },
+    {
+      "id": "news_520105f32414",
+      "date": "2026-03-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.03194"
+    },
+    {
+      "id": "news_411d469fbacb",
+      "date": "2026-03-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] UniG2U-Bench: Do Unified Models Advance Multimodal Understan",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.03241"
+    },
+    {
+      "id": "news_6afd91cf7440",
+      "date": "2026-03-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Utonia: Toward One Encoder for All Point Clouds",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.03283"
+    },
+    {
+      "id": "news_101713d9f58f",
+      "date": "2026-03-04",
+      "tag": "tool",
+      "tag_label": "🛠️ 开源",
+      "title": "GitHub 热榜 · trending/2-dimensional-array?since=daily&amp;spoken_language_code=",
+      "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending/2-dimensional-array?since=daily&amp;spoken_language_code="
+    },
+    {
+      "id": "news_ce39b4ef95f8",
+      "date": "2026-03-04",
+      "tag": "tool",
+      "tag_label": "🛠️ 开源",
+      "title": "GitHub 热榜 · trending/1c-enterprise?since=daily&amp;spoken_language_code=",
+      "summary": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all withou",
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending/1c-enterprise?since=daily&amp;spoken_language_code="
+    },
+    {
+      "id": "news_faf61c87fdf0",
+      "date": "2026-03-04",
+      "tag": "tool",
+      "tag_label": "🛠️ 开源",
+      "title": "GitHub 热榜 · trending/unknown?since=daily&amp;spoken_language_code=",
+      "summary": "A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is",
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending/unknown?since=daily&amp;spoken_language_code="
+    },
+    {
       "id": "news_20260304_001",
       "date": "2026-03-04",
       "tag": "hot",
@@ -66,13 +136,16 @@
     }
   ],
   "ticker": [
-    "DeepSeek V4 多模态大模型即将发布，支持文/图/视频生成",
-    "OpenAI 与美国防部合作，设史上最严AI安全约束",
-    "MWC 2026开幕：AI重构智能网络底座，6G技术成核心议题",
-    "淘宝开源食安大模型「白泽」：24小时智能监控预警",
-    "Vibe Coding开启万亿创作者经济：一人即一支队伍",
-    "国产AI芯片集体涨价超10%，数据中心需求强劲",
-    "Claude 4、GPT-5.2、Qwen 3.5 三大模型横评出炉"
+    "[D] Self-Promotion Thread",
+    "[论文] BeyondSWE: Can Current ...",
+    "[论文] UniG2U-Bench: Do Unifie...",
+    "[论文] Utonia: Toward One Enco...",
+    "GitHub 热榜 · trending/2-dimen...",
+    "GitHub 热榜 · trending/1c-ente...",
+    "GitHub 热榜 · trending/unknown...",
+    "大模型格局巨变：Claude 4、GPT-5.2 与六大...",
+    "2026 AI风向：Vibe Coding开启万亿创作者经济",
+    "MWC 2026：AI重构智能网络，6G技术全面加速布局"
   ],
   "learning": {
     "phases": [
@@ -146,9 +219,24 @@
           }
         ],
         "roadmap": [
-          {"step": 1, "title": "Python 基础语法", "desc": "变量、函数、类、文件操作、常用库（Pandas/Numpy）", "duration": "2-3周"},
-          {"step": 2, "title": "AI/ML 基础概念", "desc": "监督学习、无监督学习、神经网络基本原理、损失函数", "duration": "2-3周"},
-          {"step": 3, "title": "动手跑第一个模型", "desc": "使用sklearn训练分类/回归模型，理解训练-测试流程", "duration": "1-2周"}
+          {
+            "step": 1,
+            "title": "Python 基础语法",
+            "desc": "变量、函数、类、文件操作、常用库（Pandas/Numpy）",
+            "duration": "2-3周"
+          },
+          {
+            "step": 2,
+            "title": "AI/ML 基础概念",
+            "desc": "监督学习、无监督学习、神经网络基本原理、损失函数",
+            "duration": "2-3周"
+          },
+          {
+            "step": 3,
+            "title": "动手跑第一个模型",
+            "desc": "使用sklearn训练分类/回归模型，理解训练-测试流程",
+            "duration": "1-2周"
+          }
         ]
       },
       {
@@ -221,9 +309,24 @@
           }
         ],
         "roadmap": [
-          {"step": 1, "title": "PyTorch 基础", "desc": "张量操作、自动微分、nn.Module构建神经网络", "duration": "2-3周"},
-          {"step": 2, "title": "Transformer 原理", "desc": "注意力机制、位置编码、Encoder-Decoder架构", "duration": "2-3周"},
-          {"step": 3, "title": "大模型基础", "desc": "预训练/微调范式、Prompt工程、LangChain入门", "duration": "2-3周"}
+          {
+            "step": 1,
+            "title": "PyTorch 基础",
+            "desc": "张量操作、自动微分、nn.Module构建神经网络",
+            "duration": "2-3周"
+          },
+          {
+            "step": 2,
+            "title": "Transformer 原理",
+            "desc": "注意力机制、位置编码、Encoder-Decoder架构",
+            "duration": "2-3周"
+          },
+          {
+            "step": 3,
+            "title": "大模型基础",
+            "desc": "预训练/微调范式、Prompt工程、LangChain入门",
+            "duration": "2-3周"
+          }
         ]
       },
       {
@@ -296,9 +399,24 @@
           }
         ],
         "roadmap": [
-          {"step": 1, "title": "RAG 系统开发", "desc": "向量化、检索、增强生成，构建知识库问答系统", "duration": "3-4周"},
-          {"step": 2, "title": "模型微调实战", "desc": "LoRA/QLoRA微调，领域适配，效果评估", "duration": "3-4周"},
-          {"step": 3, "title": "AI Agent 构建", "desc": "工具调用、多步规划、ReAct框架，自主任务执行", "duration": "3-4周"}
+          {
+            "step": 1,
+            "title": "RAG 系统开发",
+            "desc": "向量化、检索、增强生成，构建知识库问答系统",
+            "duration": "3-4周"
+          },
+          {
+            "step": 2,
+            "title": "模型微调实战",
+            "desc": "LoRA/QLoRA微调，领域适配，效果评估",
+            "duration": "3-4周"
+          },
+          {
+            "step": 3,
+            "title": "AI Agent 构建",
+            "desc": "工具调用、多步规划、ReAct框架，自主任务执行",
+            "duration": "3-4周"
+          }
         ]
       },
       {
@@ -371,9 +489,24 @@
           }
         ],
         "roadmap": [
-          {"step": 1, "title": "多模态技术", "desc": "视觉-语言模型、图文理解、多模态生成", "duration": "3-4周"},
-          {"step": 2, "title": "AI系统部署", "desc": "模型量化压缩、推理优化、云端部署方案", "duration": "2-3周"},
-          {"step": 3, "title": "持续跟踪前沿", "desc": "订阅arXiv、关注顶会（NeurIPS/ICML/ICLR）论文", "duration": "持续"}
+          {
+            "step": 1,
+            "title": "多模态技术",
+            "desc": "视觉-语言模型、图文理解、多模态生成",
+            "duration": "3-4周"
+          },
+          {
+            "step": 2,
+            "title": "AI系统部署",
+            "desc": "模型量化压缩、推理优化、云端部署方案",
+            "duration": "2-3周"
+          },
+          {
+            "step": 3,
+            "title": "持续跟踪前沿",
+            "desc": "订阅arXiv、关注顶会（NeurIPS/ICML/ICLR）论文",
+            "duration": "持续"
+          }
         ]
       }
     ]
@@ -387,7 +520,12 @@
       "diff_label": "入门级",
       "cat": "beginner nlp",
       "desc": "使用 OpenAI API 或 ChatGLM 搭建一个多轮对话机器人，理解对话历史管理、Prompt工程基础，支持网页界面展示。",
-      "tags": ["Python", "OpenAI API", "Streamlit", "Prompt工程"],
+      "tags": [
+        "Python",
+        "OpenAI API",
+        "Streamlit",
+        "Prompt工程"
+      ],
       "duration": "1-2天",
       "highlight": "⭐ 推荐首选",
       "bg": "linear-gradient(135deg,#1e3a5f,#1e4080)",
@@ -403,7 +541,12 @@
       "diff_label": "入门级",
       "cat": "beginner vision",
       "desc": "调用 DALL-E 3 或 Stable Diffusion API，构建文本生成图片工具，体验多模态AI的魅力，可加入风格选择功能。",
-      "tags": ["DALL-E 3", "Stable Diffusion", "Python", "图像生成"],
+      "tags": [
+        "DALL-E 3",
+        "Stable Diffusion",
+        "Python",
+        "图像生成"
+      ],
       "duration": "1-2天",
       "highlight": "🎨 创意十足",
       "bg": "linear-gradient(135deg,#1a3a2a,#0f4020)",
@@ -419,7 +562,12 @@
       "diff_label": "进阶级",
       "cat": "medium nlp",
       "desc": "基于RAG架构，将PDF/Word/网页内容向量化存入数据库，实现「和你的文档对话」。核心技术：Embedding + 向量检索 + LLM生成。",
-      "tags": ["RAG", "LangChain", "向量数据库", "Chroma"],
+      "tags": [
+        "RAG",
+        "LangChain",
+        "向量数据库",
+        "Chroma"
+      ],
       "duration": "3-5天",
       "highlight": "💼 高价值",
       "bg": "linear-gradient(135deg,#3a1e5f,#5020a0)",
@@ -435,7 +583,12 @@
       "diff_label": "进阶级",
       "cat": "medium nlp",
       "desc": "构建具有长期记忆的AI写作工具，支持文章续写、润色、风格转换。使用记忆模块记住用户偏好，每次使用更个性化。",
-      "tags": ["Memory", "LLM", "Streamlit", "Prompt设计"],
+      "tags": [
+        "Memory",
+        "LLM",
+        "Streamlit",
+        "Prompt设计"
+      ],
       "duration": "3-5天",
       "highlight": "📝 实用",
       "bg": "linear-gradient(135deg,#1e3f5f,#0a4060)",
@@ -451,7 +604,12 @@
       "diff_label": "进阶级",
       "cat": "medium vision",
       "desc": "利用GPT-4V或Gemini Vision，构建可以「看图说话」的应用。支持上传图片，自动描述内容、识别文字、分析情感、回答图片相关问题。",
-      "tags": ["GPT-4V", "多模态", "视觉理解", "FastAPI"],
+      "tags": [
+        "GPT-4V",
+        "多模态",
+        "视觉理解",
+        "FastAPI"
+      ],
       "duration": "3-4天",
       "highlight": "👁️ 视觉方向",
       "bg": "linear-gradient(135deg,#3f1e2a,#801040)",
@@ -467,7 +625,12 @@
       "diff_label": "进阶级",
       "cat": "medium nlp",
       "desc": "上传CSV/Excel，用自然语言提问数据集，AI自动生成分析代码并执行，输出图表和结论。实现「和数据对话」的核心功能。",
-      "tags": ["Code Interpreter", "Pandas", "Matplotlib", "LangChain"],
+      "tags": [
+        "Code Interpreter",
+        "Pandas",
+        "Matplotlib",
+        "LangChain"
+      ],
       "duration": "4-6天",
       "highlight": "📈 商业价值高",
       "bg": "linear-gradient(135deg,#1e2e4f,#203060)",
@@ -483,7 +646,12 @@
       "diff_label": "挑战级",
       "cat": "advanced nlp",
       "desc": "构建能自主规划、调用工具、执行多步任务的AI Agent。可自动搜索网页、写代码、操作文件、发送邮件，实现真正的任务自动化。",
-      "tags": ["ReAct", "Tool Use", "LangGraph", "AutoGen"],
+      "tags": [
+        "ReAct",
+        "Tool Use",
+        "LangGraph",
+        "AutoGen"
+      ],
       "duration": "1-2周",
       "highlight": "🔥 最热方向",
       "bg": "linear-gradient(135deg,#2a1e1e,#602020)",
@@ -499,7 +667,12 @@
       "diff_label": "挑战级",
       "cat": "advanced nlp",
       "desc": "选择一个垂直领域（医疗/法律/客服），收集领域数据，使用LoRA对开源大模型进行微调，让模型在特定领域表现更优异。",
-      "tags": ["LoRA", "LLaMA-Factory", "Qwen", "SFT"],
+      "tags": [
+        "LoRA",
+        "LLaMA-Factory",
+        "Qwen",
+        "SFT"
+      ],
       "duration": "2-3周",
       "highlight": "💎 核心技能",
       "bg": "linear-gradient(135deg,#1a2a3a,#103050)",
@@ -515,7 +688,12 @@
       "diff_label": "入门级",
       "cat": "beginner vision",
       "desc": "使用预训练CNN模型（ResNet/VGG）做图片分类，或自己训练猫狗分类模型。理解迁移学习原理，是计算机视觉最基础的实战项目。",
-      "tags": ["PyTorch", "ResNet", "迁移学习", "CV"],
+      "tags": [
+        "PyTorch",
+        "ResNet",
+        "迁移学习",
+        "CV"
+      ],
       "duration": "2-3天",
       "highlight": "🖼️ 视觉入门",
       "bg": "linear-gradient(135deg,#1a3a1e,#204020)",
@@ -531,7 +709,12 @@
       "diff_label": "挑战级",
       "cat": "advanced vision",
       "desc": "基于Whisper语音识别 + GPT翻译，构建视频自动字幕生成和翻译工具。支持多语言输出，可作为实际工具发布使用。",
-      "tags": ["Whisper", "FFmpeg", "翻译API", "语音识别"],
+      "tags": [
+        "Whisper",
+        "FFmpeg",
+        "翻译API",
+        "语音识别"
+      ],
       "duration": "1周",
       "highlight": "🌍 实用工具",
       "bg": "linear-gradient(135deg,#2a2a1e,#404010)",
@@ -547,7 +730,12 @@
       "diff_label": "进阶级",
       "cat": "medium nlp",
       "desc": "输入任意YouTube链接或文章URL，自动获取文本内容，生成多种格式的摘要（3句话版/深度分析版/要点列表版），支持批量处理。",
-      "tags": ["LLM摘要", "内容抓取", "Map-Reduce", "API"],
+      "tags": [
+        "LLM摘要",
+        "内容抓取",
+        "Map-Reduce",
+        "API"
+      ],
       "duration": "2-4天",
       "highlight": "⚡ 高效实用",
       "bg": "linear-gradient(135deg,#1e3a3a,#106060)",
@@ -563,7 +751,12 @@
       "diff_label": "挑战级",
       "cat": "advanced nlp vision",
       "desc": "综合运用所学技能，构建完整的AI SaaS产品：用户系统+AI核心功能+计费模块+前端界面。可选方向：AI简历助手/AI客服/AI教育辅导。",
-      "tags": ["全栈", "React/Vue", "FastAPI", "云部署"],
+      "tags": [
+        "全栈",
+        "React/Vue",
+        "FastAPI",
+        "云部署"
+      ],
       "duration": "2-4周",
       "highlight": "🏆 作品集必备",
       "bg": "linear-gradient(135deg,#2a1e3a,#4a1070)",
