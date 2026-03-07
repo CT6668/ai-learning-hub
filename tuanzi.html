@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>🦘 跟着团子学 · AI学习路线</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07090f;--bg2:#0d1220;--card:#111827;--card2:#1a2236;
+  --border:rgba(99,179,237,.1);--accent:#3b82f6;--accent2:#8b5cf6;
+  --accent3:#06b6d4;--green:#10b981;--orange:#f59e0b;--red:#ef4444;
+  --pink:#ec4899;--yellow:#fbbf24;
+  --text:#f1f5f9;--text2:#94a3b8;--text3:#64748b;
+  --radius:16px;--radius-sm:10px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans SC','Inter',sans-serif;font-size:15px;line-height:1.6;overflow-x:hidden;min-height:100vh}
+a{color:inherit;text-decoration:none}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:#334155;border-radius:3px}
+
+/* ─── NAV ─── */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;background:rgba(7,9,15,.9);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;background:linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;white-space:nowrap}
+.nav-logo-icon{flex-shrink:0}
+.nav-right{display:flex;align-items:center;gap:12px}
+.nav-back{padding:6px 16px;border-radius:20px;font-size:13px;font-weight:500;color:var(--text2);border:1px solid var(--border);transition:all .2s;cursor:pointer}
+.nav-back:hover{color:var(--text);border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.05)}
+.nav-user{display:flex;align-items:center;gap:8px;padding:5px 14px;border-radius:20px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.2);font-size:13px;font-weight:600;color:#60a5fa;cursor:pointer}
+.nav-user .avatar{width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,#3b82f6,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:white}
+.nav-logout{font-size:12px;color:var(--text3);cursor:pointer;padding:4px 8px;border-radius:8px;transition:all .2s}
+.nav-logout:hover{color:var(--red);background:rgba(239,68,68,.1)}
+
+/* ─── LOGIN SCREEN ─── */
+#login-screen{position:fixed;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse 80% 60% at 50% 30%,rgba(245,158,11,.12) 0%,rgba(139,92,246,.1) 40%,transparent 70%),var(--bg);padding:20px}
+.login-card{width:100%;max-width:420px;background:var(--card);border:1px solid var(--border);border-radius:24px;padding:40px;text-align:center;box-shadow:0 0 80px rgba(139,92,246,.15)}
+.login-panda{font-size:72px;margin-bottom:16px;animation:pandabounce 2s ease-in-out infinite}
+@keyframes pandabounce{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-12px) rotate(3deg)}}
+.login-title{font-size:28px;font-weight:900;background:linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.login-sub{color:var(--text2);font-size:14px;margin-bottom:32px;line-height:1.7}
+.login-form{display:flex;flex-direction:column;gap:14px;margin-bottom:20px}
+.login-input{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:12px 16px;color:var(--text);font-size:15px;font-family:inherit;transition:all .2s;outline:none}
+.login-input:focus{border-color:rgba(245,158,11,.5);box-shadow:0 0 0 3px rgba(245,158,11,.1)}
+.login-input::placeholder{color:var(--text3)}
+.login-btn{padding:14px;border-radius:12px;font-size:15px;font-weight:700;background:linear-gradient(135deg,#f59e0b,#ec4899);color:white;border:none;cursor:pointer;transition:all .3s;box-shadow:0 4px 20px rgba(245,158,11,.3)}
+.login-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(245,158,11,.45)}
+.login-tip{font-size:12px;color:var(--text3)}
+.login-switch{font-size:13px;color:var(--text2);margin-top:4px}
+.login-switch span{color:#f59e0b;cursor:pointer;font-weight:600}
+.login-switch span:hover{text-decoration:underline}
+.login-error{color:var(--red);font-size:13px;padding:8px 12px;background:rgba(239,68,68,.1);border-radius:8px;display:none}
+
+/* ─── MAIN LAYOUT ─── */
+#app{display:none;padding-top:64px}
+
+/* ─── DASHBOARD ─── */
+.dashboard{padding:32px 32px 0;max-width:1200px;margin:0 auto}
+.dash-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.dash-greeting{font-size:22px;font-weight:800}
+.dash-greeting span{background:linear-gradient(135deg,#f59e0b,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.dash-date{font-size:13px;color:var(--text3)}
+.dash-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:28px}
+.dash-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;position:relative;overflow:hidden;transition:all .3s}
+.dash-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--card-color,linear-gradient(90deg,#3b82f6,#8b5cf6))}
+.dash-card:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.1)}
+.dc-label{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px}
+.dc-value{font-size:30px;font-weight:900;line-height:1;margin-bottom:4px;background:var(--card-color,linear-gradient(135deg,#3b82f6,#8b5cf6));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.dc-sub{font-size:12px;color:var(--text3)}
+.progress-bar-wrap{height:6px;background:rgba(255,255,255,.08);border-radius:3px;margin-top:10px;overflow:hidden}
+.progress-bar{height:100%;border-radius:3px;background:var(--card-color,linear-gradient(90deg,#3b82f6,#8b5cf6));transition:width .8s ease;width:0}
+
+/* ─── SIDEBAR TOGGLE BTN ─── */
+#sidebar-toggle-btn{
+  position:fixed;right:20px;top:50%;transform:translateY(-50%);
+  width:48px;height:48px;border-radius:50%;
+  background:linear-gradient(135deg,#f59e0b,#fbbf24);
+  border:none;cursor:pointer;z-index:300;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;box-shadow:0 4px 20px rgba(245,158,11,.5);
+  transition:all .25s;
+}
+#sidebar-toggle-btn:hover{transform:translateY(-50%) scale(1.1);box-shadow:0 6px 28px rgba(245,158,11,.7)}
+
+/* ─── SIDEBAR OVERLAY ─── */
+#sidebar-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:350;
+  opacity:0;pointer-events:none;transition:opacity .3s;
+}
+#sidebar-overlay.active{opacity:1;pointer-events:auto}
+
+/* ─── SIDEBAR PANEL ─── */
+#sidebar-panel{
+  position:fixed;top:0;right:-300px;width:280px;height:100vh;
+  background:#0f172a;border-left:1px solid rgba(255,255,255,.08);
+  z-index:360;transition:right .3s ease;
+  display:flex;flex-direction:column;overflow:hidden;
+}
+#sidebar-panel.open{right:0}
+.sidebar-head{
+  padding:16px 16px 12px;border-bottom:1px solid rgba(255,255,255,.07);
+  display:flex;align-items:center;justify-content:space-between;
+  flex-shrink:0;
+}
+.sidebar-head-title{font-size:15px;font-weight:700;color:var(--text)}
+.sidebar-close{background:none;border:none;color:var(--text3);font-size:18px;cursor:pointer;padding:4px 8px;border-radius:6px;transition:all .2s}
+.sidebar-close:hover{color:var(--text);background:rgba(255,255,255,.07)}
+.sidebar-body{flex:1;overflow-y:auto;padding:10px 0}
+.sidebar-body::-webkit-scrollbar{width:4px}
+.sidebar-body::-webkit-scrollbar-thumb{background:#334155;border-radius:2px}
+
+/* sidebar phase */
+.sdb-phase{margin-bottom:4px}
+.sdb-phase-title{
+  display:flex;align-items:center;gap:8px;
+  padding:8px 16px;cursor:pointer;
+  font-size:13px;font-weight:700;color:var(--text);
+  border-radius:0;transition:background .2s;
+  user-select:none;
+}
+.sdb-phase-title:hover{background:rgba(255,255,255,.05)}
+.sdb-phase-title.active-phase{color:#f59e0b}
+.sdb-phase-arrow{margin-left:auto;font-size:11px;transition:transform .2s;color:var(--text3)}
+.sdb-phase-arrow.open{transform:rotate(90deg)}
+.sdb-phase-content{overflow:hidden;transition:max-height .3s ease}
+.sdb-phase-content.collapsed{max-height:0!important}
+
+/* sidebar section */
+.sdb-section{padding:4px 0}
+.sdb-section-title{
+  padding:5px 16px 5px 28px;font-size:12px;font-weight:600;
+  color:var(--text2);cursor:pointer;transition:color .2s;
+}
+.sdb-section-title:hover{color:var(--text)}
+
+/* sidebar item */
+.sdb-item{
+  padding:4px 16px 4px 36px;font-size:12px;color:var(--text3);
+  cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px;
+  line-height:1.4;
+}
+.sdb-item:hover{color:var(--text);background:rgba(255,255,255,.04)}
+.sdb-item.done{color:var(--green)}
+.sdb-item-status{flex-shrink:0;font-size:11px}
+
+/* ─── ROAD MAP ─── */
+.roadmap{padding:0 32px 60px;max-width:1200px;margin:0 auto}
+.phase{margin-bottom:48px}
+.phase-header{display:flex;align-items:center;gap:16px;margin-bottom:28px;padding:20px 24px;border-radius:var(--radius);border-left:4px solid var(--phase-color,#3b82f6);background:linear-gradient(90deg,rgba(59,130,246,.06),transparent)}
+.phase-icon{font-size:36px;line-height:1}
+.phase-info{flex:1}
+.phase-num{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--phase-color,#3b82f6);margin-bottom:4px}
+.phase-title{font-size:20px;font-weight:800;margin-bottom:4px}
+.phase-desc{font-size:13px;color:var(--text2)}
+.phase-prog{text-align:right;min-width:80px}
+.phase-pct{font-size:24px;font-weight:900;color:var(--phase-color,#3b82f6)}
+.phase-pct-label{font-size:11px;color:var(--text3)}
+
+/* ─── SECTION BLOCK ─── */
+.section-block{margin-bottom:32px}
+.sb-title{font-size:14px;font-weight:700;color:var(--text2);margin-bottom:14px;display:flex;align-items:center;gap:8px;padding-left:2px}
+.sb-title::before{content:'';width:3px;height:16px;border-radius:2px;background:var(--phase-color,#3b82f6);display:inline-block}
+.items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+
+/* ─── ITEM CARD (clickable) ─── */
+.item-card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:16px;display:flex;align-items:flex-start;gap:12px;
+  transition:all .25s;position:relative;overflow:hidden;
+  cursor:pointer;
+}
+.item-card:hover{border-color:rgba(245,158,11,.35);transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.35)}
+.item-card.completed{border-color:rgba(16,185,129,.25);background:linear-gradient(135deg,rgba(16,185,129,.05),var(--card))}
+.item-card.completed::after{content:'✓';position:absolute;top:10px;right:12px;width:22px;height:22px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:white;line-height:22px;text-align:center}
+.item-card.highlighted{border-color:rgba(245,158,11,.4);background:rgba(245,158,11,.03)}
+.item-card.flash-highlight{animation:cardFlash .7s ease}
+@keyframes cardFlash{0%{border-color:rgba(245,158,11,.9);box-shadow:0 0 20px rgba(245,158,11,.5)}50%{border-color:rgba(245,158,11,.6);box-shadow:0 0 30px rgba(245,158,11,.3)}100%{border-color:var(--border);box-shadow:none}}
+.item-icon{font-size:22px;flex-shrink:0;margin-top:2px}
+.item-body{flex:1;min-width:0}
+.item-title{font-size:14px;font-weight:600;margin-bottom:5px;line-height:1.4}
+.item-desc{font-size:12px;color:var(--text2);line-height:1.5;margin-bottom:10px}
+.item-footer{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.item-link{padding:5px 12px;border-radius:8px;font-size:12px;font-weight:600;background:rgba(59,130,246,.15);color:#60a5fa;border:1px solid rgba(59,130,246,.2);transition:all .2s;cursor:pointer;text-decoration:none;display:inline-block}
+.item-link:hover{background:rgba(59,130,246,.3)}
+.item-link.orange{background:rgba(245,158,11,.12);color:#f59e0b;border-color:rgba(245,158,11,.2)}
+.item-link.orange:hover{background:rgba(245,158,11,.25)}
+.item-done-btn{padding:5px 12px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;border:1px solid rgba(16,185,129,.25);background:rgba(16,185,129,.08);color:var(--green);transition:all .2s;white-space:nowrap}
+.item-done-btn:hover{background:rgba(16,185,129,.2)}
+.item-done-btn.done{background:rgba(16,185,129,.15);color:var(--green);border-color:rgba(16,185,129,.35)}
+.item-tag{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:600;background:rgba(99,102,241,.15);color:#818cf8}
+.item-tag.video{background:rgba(236,72,153,.12);color:#f472b6}
+.item-tag.tool{background:rgba(6,182,212,.12);color:#22d3ee}
+.item-tag.project{background:rgba(245,158,11,.12);color:#f59e0b}
+.item-tag.practice{background:rgba(139,92,246,.12);color:#a78bfa}
+
+/* ─── QUIZ BLOCK ─── */
+.quiz-block{background:linear-gradient(135deg,rgba(139,92,246,.08),rgba(59,130,246,.05));border:1px solid rgba(139,92,246,.2);border-radius:var(--radius);padding:20px;margin-bottom:12px}
+.quiz-block h4{font-size:14px;font-weight:700;color:#a78bfa;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.quiz-questions{display:flex;flex-direction:column;gap:10px}
+.quiz-qa{border-radius:8px;background:rgba(255,255,255,.03);border-left:2px solid rgba(139,92,246,.3);overflow:hidden}
+.quiz-q-row{display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer}
+.quiz-q-text{font-size:13px;color:var(--text2);line-height:1.5;flex:1}
+.quiz-ans-btn{flex-shrink:0;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid rgba(139,92,246,.3);background:rgba(139,92,246,.12);color:#a78bfa;white-space:nowrap;transition:all .2s;align-self:center}
+.quiz-ans-btn:hover{background:rgba(139,92,246,.25)}
+.quiz-ans-body{display:none;padding:0 12px 12px 12px;font-size:12px;color:#c4b5fd;line-height:1.7;border-top:1px solid rgba(139,92,246,.15)}
+.quiz-ans-body.open{display:block}
+
+/* ─── TOAST NOTIFICATION ─── */
+#toast-container{position:fixed;top:72px;right:20px;z-index:1200;pointer-events:none;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.toast-item{
+  pointer-events:auto;
+  padding:12px 18px;
+  border-radius:12px;
+  background:linear-gradient(135deg,#f59e0b,#ec4899);
+  color:white;font-size:13px;font-weight:600;
+  box-shadow:0 4px 24px rgba(245,158,11,.4);
+  max-width:280px;line-height:1.5;
+  transform:translateX(120%);transition:transform .4s cubic-bezier(.34,1.56,.64,1);
+  cursor:pointer;
+}
+.toast-item.show{transform:translateX(0)}
+.toast-item.hide{transform:translateX(120%);transition:transform .3s ease-in}
+
+/* ─── FULLSCREEN PARTICLE CANVAS ─── */
+#particle-canvas{
+  position:fixed;inset:0;width:100%;height:100%;
+  z-index:1100;pointer-events:none;
+  opacity:0;transition:opacity .3s;
+}
+#particle-canvas.active{opacity:1}
+
+/* ─── PARTICLES BG ─── */
+.bg-particles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.bg-particle{position:absolute;border-radius:50%;animation:bgfloat linear infinite;opacity:.4}
+@keyframes bgfloat{from{transform:translateY(110vh)}to{transform:translateY(-10vh)}}
+
+/* ─── EMPTY / LOADING ─── */
+.empty-state{text-align:center;padding:60px 20px;color:var(--text3)}
+.empty-state .es-icon{font-size:48px;margin-bottom:12px}
+.empty-state p{font-size:14px}
+
+/* ─── PHASE CONNECTOR ─── */
+.phase-connector{display:flex;justify-content:center;margin:-10px 0 20px;color:var(--text3);font-size:20px;opacity:.5}
+
+/* ─── PROGRESS RING ─── */
+.prog-ring-wrap{display:flex;align-items:center;justify-content:flex-end;gap:10px}
+.prog-ring{transform:rotate(-90deg)}
+.prog-ring-bg{fill:none;stroke:rgba(255,255,255,.06)}
+.prog-ring-bar{fill:none;stroke-linecap:round;transition:stroke-dashoffset 1s ease}
+
+@media(max-width:768px){
+  nav{padding:0 16px}.dashboard,.roadmap{padding-left:16px;padding-right:16px}
+  .items-grid{grid-template-columns:1fr}
+  .dash-cards{grid-template-columns:repeat(2,1fr)}
+  #sidebar-toggle-btn{right:12px}
+}
+</style>
+</head>
+<body>
+
+<!-- BG PARTICLES -->
+<div class="bg-particles" id="bg-particles"></div>
+
+<!-- FULLSCREEN PARTICLE CANVAS -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- TOAST CONTAINER -->
+<div id="toast-container"></div>
+
+<!-- ─── LOGIN SCREEN ─── -->
+<div id="login-screen">
+  <div class="login-card">
+    <div class="login-panda">🦘</div>
+    <div class="login-title">跟着团子学</div>
+    <p class="login-sub">专为美团人打造的 AI 学习路线<br/>从入门小白到大神，无脑跟着学就对了！</p>
+    <div class="login-form" id="login-form">
+      <input class="login-input" id="login-username" type="text" placeholder="👤 起个昵称（随便起）" maxlength="20" autocomplete="off"/>
+      <input class="login-input" id="login-password" type="password" placeholder="🔑 设置密码（随便设）" maxlength="30"/>
+      <div class="login-error" id="login-error"></div>
+      <button class="login-btn" id="login-btn" onclick="doLogin()">🚀 开始学习</button>
+    </div>
+    <div class="login-tip">账号数据保存在本设备浏览器 · 美团内网可访问所有学习链接</div>
+    <div class="login-switch" id="login-switch">已有账号？<span onclick="toggleMode()">点击登录</span></div>
+  </div>
+</div>
+
+<!-- ─── MAIN APP ─── -->
+<div id="app">
+  <nav>
+    <div class="nav-logo">
+      <span class="nav-logo-icon">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <ellipse cx="14" cy="17" rx="8" ry="9" fill="#f59e0b"/>
+          <ellipse cx="14" cy="8" rx="6" ry="5.5" fill="#f59e0b"/>
+          <ellipse cx="9.5" cy="3.5" rx="2" ry="3" fill="#f59e0b"/>
+          <ellipse cx="18.5" cy="3.5" rx="2" ry="3" fill="#f59e0b"/>
+          <ellipse cx="9.5" cy="3.5" rx="1" ry="1.8" fill="#fcd34d"/>
+          <ellipse cx="18.5" cy="3.5" rx="1" ry="1.8" fill="#fcd34d"/>
+          <circle cx="11.5" cy="7.5" r="1.2" fill="#1e293b"/>
+          <circle cx="16.5" cy="7.5" r="1.2" fill="#1e293b"/>
+          <circle cx="12" cy="7" r="0.4" fill="white"/>
+          <circle cx="17" cy="7" r="0.4" fill="white"/>
+          <ellipse cx="14" cy="10" rx="1" ry="0.7" fill="#92400e"/>
+          <ellipse cx="11" cy="18" rx="3" ry="3.5" fill="#fbbf24"/>
+          <circle cx="11" cy="16" r="1.8" fill="#fde68a"/>
+          <path d="M22 22 Q26 20 25 26 Q22 24 20 25" stroke="#f59e0b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M10 25 Q8 28 6 27" stroke="#d97706" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M18 25 Q20 28 22 27" stroke="#d97706" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+      </span>
+      跟着团子学
+    </div>
+    <div class="nav-right">
+      <a href="index.html" class="nav-back">← 返回主站</a>
+      <div class="nav-user" id="nav-user">
+        <div class="avatar" id="nav-avatar">?</div>
+        <span id="nav-username">加载中</span>
+      </div>
+      <div class="nav-logout" onclick="doLogout()" title="退出登录">退出</div>
+    </div>
+  </nav>
+
+  <!-- DASHBOARD -->
+  <div class="dashboard" id="dashboard">
+    <div class="dash-header">
+      <div>
+        <div class="dash-greeting">你好，<span id="greet-name">同学</span>！👋 继续你的 AI 之旅</div>
+        <div class="dash-date" id="dash-date"></div>
+      </div>
+      <div class="prog-ring-wrap">
+        <div style="text-align:right">
+          <div style="font-size:13px;color:var(--text3)">总体进度</div>
+          <div style="font-size:11px;color:var(--text3)" id="ring-label">0 / 0</div>
+        </div>
+        <svg class="prog-ring" width="60" height="60" viewBox="0 0 60 60">
+          <circle class="prog-ring-bg" cx="30" cy="30" r="24" stroke-width="5"/>
+          <circle class="prog-ring-bar" id="prog-ring-bar" cx="30" cy="30" r="24" stroke-width="5"
+            stroke="url(#ringGrad)" stroke-dasharray="150.8" stroke-dashoffset="150.8"/>
+          <defs><linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#f59e0b"/>
+            <stop offset="100%" style="stop-color:#ec4899"/>
+          </linearGradient></defs>
+        </svg>
+      </div>
+    </div>
+    <div class="dash-cards">
+      <div class="dash-card" style="--card-color:linear-gradient(135deg,#3b82f6,#8b5cf6)">
+        <div class="dc-label">已完成</div>
+        <div class="dc-value" id="dc-done">0</div>
+        <div class="dc-sub">个学习任务</div>
+        <div class="progress-bar-wrap"><div class="progress-bar" id="pb-done" style="--card-color:linear-gradient(90deg,#3b82f6,#8b5cf6)"></div></div>
+      </div>
+      <div class="dash-card" style="--card-color:linear-gradient(135deg,#f59e0b,#ec4899)">
+        <div class="dc-label">已阅读</div>
+        <div class="dc-value" id="dc-read">0</div>
+        <div class="dc-sub">篇文档/视频</div>
+        <div class="progress-bar-wrap"><div class="progress-bar" id="pb-read" style="--card-color:linear-gradient(90deg,#f59e0b,#ec4899)"></div></div>
+      </div>
+      <div class="dash-card" style="--card-color:linear-gradient(135deg,#10b981,#06b6d4)">
+        <div class="dc-label">学习进度</div>
+        <div class="dc-value" id="dc-pct">0%</div>
+        <div class="dc-sub">整体完成率</div>
+        <div class="progress-bar-wrap"><div class="progress-bar" id="pb-pct" style="--card-color:linear-gradient(90deg,#10b981,#06b6d4)"></div></div>
+      </div>
+      <div class="dash-card" style="--card-color:linear-gradient(135deg,#8b5cf6,#ec4899)">
+        <div class="dc-label">当前阶段</div>
+        <div class="dc-value" id="dc-stage" style="font-size:18px;padding-top:4px">--</div>
+        <div class="dc-sub" id="dc-stage-sub">继续加油</div>
+      </div>
+      <div class="dash-card" style="--card-color:linear-gradient(135deg,#f59e0b,#10b981)">
+        <div class="dc-label">学习天数</div>
+        <div class="dc-value" id="dc-days">1</div>
+        <div class="dc-sub">天坚持学习</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROADMAP -->
+  <div class="roadmap" id="roadmap-container"></div>
+</div>
+
+<!-- ─── SIDEBAR TOGGLE BUTTON ─── -->
+<button id="sidebar-toggle-btn" onclick="toggleSidebar()" title="学习目录">🗂️</button>
+
+<!-- ─── SIDEBAR OVERLAY ─── -->
+<div id="sidebar-overlay" onclick="closeSidebar()"></div>
+
+<!-- ─── SIDEBAR PANEL ─── -->
+<div id="sidebar-panel">
+  <div class="sidebar-head">
+    <span class="sidebar-head-title">📚 学习目录</span>
+    <button class="sidebar-close" onclick="closeSidebar()">✕</button>
+  </div>
+  <div class="sidebar-body" id="sidebar-body"></div>
+</div>
+
+<script>
+// ════════════════════════════════════════════════
+//  LEARNING DATA
+// ════════════════════════════════════════════════
+const PHASES = [
+  {
+    id:'phase1',
+    icon:'🌱',
+    num:'第一阶段',
+    title:'小白入门 · AI概念我全懂',
+    desc:'零基础认识AI，搞懂基本概念，上手第一个AI工具',
+    time:'建议 2-3 周',
+    color:'#3b82f6',
+    sections:[
+      {
+        title:'🧠 概念扫盲（先看这里）',
+        items:[
+          {id:'p1_01',icon:'📖',type:'doc',tag:'文档',title:'✨ AI基础知识（官方图文）',desc:'从「什么是AI」到「什么是大语言模型」，官方认证，系统扫盲全家桶',url:'https://km.sankuai.com/collabpage/2705684572'},
+          {id:'p1_02',icon:'❓',type:'doc',tag:'文档',title:'✨ AI百问百答（100+问解答）',desc:'通识/模型/机器学习/技术名词/硬件 五大类，一次搞懂所有AI问题',url:'https://km.sankuai.com/collabpage/2705567735'},
+          {id:'p1_03',icon:'⏳',type:'doc',tag:'文档',title:'🧩 AI百年发展史',desc:'了解AI从图灵时代到ChatGPT的关键节点，建立历史感',url:'https://km.sankuai.com/collabpage/2705548459'},
+          {id:'p1_04',icon:'📚',type:'doc',tag:'文档',title:'🧩 十本AI入门书籍推荐',desc:'精选10本适合零基础的AI入门书单，涵盖科普到实战',url:'https://km.sankuai.com/collabpage/2705753254'},
+          {id:'p1_05',icon:'🎬',type:'doc',tag:'文档',title:'🧩 评分最高的十部AI电影',desc:'用电影理解AI概念，机器姬、黑客帝国...轻松入门必备',url:'https://km.sankuai.com/collabpage/2705800721'},
+        ]
+      },
+      {
+        title:'🎓 AI入门必修课（7节系列视频）',
+        items:[
+          {id:'p1_06',icon:'🎬',type:'video',tag:'视频',title:'大模型的起源与演变',desc:'看懂ChatGPT/DeepSeek怎么来的，30分钟建立大模型世界观',url:'https://km.sankuai.com/collabpage/2706324363'},
+          {id:'p1_07',icon:'🎬',type:'video',tag:'视频',title:'大模型的「能」与「不能」',desc:'建立正确的AI预期，不神化不恐慌，学会合理使用AI',url:'https://km.sankuai.com/collabpage/2706356770'},
+          {id:'p1_08',icon:'🎬',type:'video',tag:'视频',title:'如何写好Prompt · 文生文万能公式',desc:'掌握提示词写作技巧，让AI真正听懂你的意图',url:'https://km.sankuai.com/collabpage/2706560421'},
+          {id:'p1_09',icon:'🎬',type:'video',tag:'视频',title:'AI在工作中的实际应用',desc:'从真实工作场景出发，手把手教你把AI融入日常工作流',url:'https://km.sankuai.com/collabpage/2710585384'},
+          {id:'p1_10',icon:'🎬',type:'video',tag:'视频',title:'AI工具全景介绍',desc:'全球主流AI工具一次摸底，知道有什么才能用好什么',url:'https://km.sankuai.com/collabpage/2706289243'},
+          {id:'p1_11',icon:'🎬',type:'video',tag:'视频',title:'AI安全与风险认知',desc:'了解AI的边界与风险，安全合规地使用AI',url:'https://km.sankuai.com/collabpage/2706169826'},
+          {id:'p1_12',icon:'🎬',type:'video',tag:'视频',title:'AI时代的职业发展',desc:'AI对职业的冲击与机遇，如何让AI成为你的加速器',url:'https://km.sankuai.com/collabpage/2705912502'},
+        ]
+      },
+      {
+        title:'🎙️ 大咖分享·必看12场（拓宽认知）',
+        items:[
+          {id:'p1_13',icon:'🎤',type:'doc',tag:'文章',title:'①梁文锋：DeepSeek创新靠什么',desc:'DeepSeek创始人首度揭秘：伟大不能被计划，颠覆性创新的底层逻辑',url:'https://km.sankuai.com/collabpage/2705754367'},
+          {id:'p1_14',icon:'🎤',type:'doc',tag:'文章',title:'②Sam Altman：当AI比人类更聪明时',desc:'OpenAI CEO最深度访谈，探讨AGI时代人类的角色与思考',url:'https://km.sankuai.com/collabpage/2706252690'},
+          {id:'p1_15',icon:'🎤',type:'doc',tag:'文章',title:'③杨立昆：我们距AGI只剩「三大关」',desc:'AI教父最新万字访谈，对当前AI发展的独特判断与展望',url:'https://km.sankuai.com/collabpage/2706232904'},
+          {id:'p1_16',icon:'🎤',type:'doc',tag:'文章',title:'④Google DeepMind CEO：预测AGI突破点',desc:'深度对话DeepMind掌门人，评DeepSeek与AI Agent元年',url:'https://km.sankuai.com/collabpage/2706272069'},
+          {id:'p1_17',icon:'🎤',type:'doc',tag:'文章',title:'⑤李飞飞&吴恩达：AI冬天不会到来',desc:'两位AI泰斗联手对谈，现在正是最好的时代',url:'https://km.sankuai.com/collabpage/2705578633'},
+          {id:'p1_18',icon:'🎤',type:'doc',tag:'文章',title:'⑥李飞飞：现在是真正的第一个AI时代',desc:'巴黎AI峰会演讲全文，从基础研究到产业变革的宏观视野',url:'https://km.sankuai.com/collabpage/2706233014'},
+          {id:'p1_19',icon:'🎤',type:'doc',tag:'文章',title:'⑦黄仁勋最新2万字对话全文',desc:'英伟达CEO深度访谈，算力视角看AI未来的最全面解读',url:'https://km.sankuai.com/collabpage/2705597786'},
+          {id:'p1_20',icon:'🎤',type:'doc',tag:'文章',title:'⑧Sam Altman：载入科技史的深度访谈',desc:'4万字全文+2小时视频，科技史上最重要的访谈之一',url:'https://km.sankuai.com/collabpage/2705675914'},
+          {id:'p1_21',icon:'🎤',type:'doc',tag:'文章',title:'⑨Hinton：数字智能会取代生物智能吗',desc:'神经网络之父最新演讲，AI风险与人类未来的深度反思',url:'https://km.sankuai.com/collabpage/2705618339'},
+          {id:'p1_22',icon:'🎤',type:'doc',tag:'文章',title:'⑩Midjourney创始人：AI将改变学习与创意',desc:'图像AI先驱谈AI对人类创造力的深远影响',url:'https://km.sankuai.com/collabpage/2705761604'},
+          {id:'p1_23',icon:'🎤',type:'doc',tag:'文章',title:'⑪智谱AI张帆：企业接入AI的最大公约数',desc:'国内顶级AI公司实战经验，企业用AI的路径与方法论',url:'https://km.sankuai.com/collabpage/2705667195'},
+          {id:'p1_24',icon:'🎤',type:'doc',tag:'文章',title:'⑫大模型对行业和职业道路的影响',desc:'从个人职业发展角度看AI冲击，如何主动拥抱而非被动接受',url:'https://km.sankuai.com/collabpage/2706264127'},
+        ]
+      },
+      {
+        title:'🛠️ 第一个AI工具上手',
+        items:[
+          {id:'p1_25',icon:'🤖',type:'tool',tag:'工具',title:'小美智能助理（美团内部AI助手）',desc:'基于大模型的内部办公AI，直接对话完成日常工作任务，0门槛上手',url:'https://chat.sankuai.com/assistant/agent/1',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/1676095401',url2Label:'使用说明'},
+          {id:'p1_26',icon:'🔍',type:'tool',tag:'工具',title:'学城AI深度搜索',desc:'用AI搜索公司内部知识库文档，比普通搜索更智能更精准',url:'https://km.sankuai.com/ai-search',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2717724254',url2Label:'使用说明'},
+        ]
+      },
+      {
+        title:'✏️ 练习题（完成以上内容后作答）',
+        type:'quiz',
+        qas:[
+          {q:'1. 用一句话解释：AI、机器学习、深度学习三者的包含关系是什么？',a:'AI是最大集合，包含一切让机器模拟人类智能的技术；机器学习是AI的子集，让机器从数据中自动学习规律；深度学习是机器学习的子集，用多层神经网络处理复杂问题。关系：AI ⊃ 机器学习 ⊃ 深度学习'},
+          {q:'2. 什么是Token？它为什么影响AI的使用成本？（从AI百问百答中找答案）',a:'Token是模型处理文本的最小单位，1个汉字≈1-2个Token，1个英文单词≈1-2个Token。Token数量直接决定API调用费用（按Token计费），也限制了单次对话的最大长度（上下文窗口）'},
+          {q:'3. 大模型「能」做什么？「不能」做什么？各举2个真实工作中的例子',a:'能：写文案/代码/翻译/总结文档/数据分析/生成图片；不能：实时获取网络信息（知识有截止日期）、100%准确的数学计算、替代专业判断（医疗/法律决策）'},
+          {q:'4. 用「文生文万能公式（角色+背景+任务+格式+约束）」写一个让AI帮你写周报的Prompt',a:'示例：「你是一位资深产品经理，现在需要帮我写一份工作周报。背景：我负责美团旅游业务的推荐算法优化。任务：根据我本周的工作内容，生成一份500字的周报。格式：分"本周完成"、"下周计划"、"需要支持"三部分。约束：语言简洁专业，突出数据结果。」'},
+          {q:'5. 对同一个问题，分别写「坏Prompt」和「好Prompt」，对比AI输出差异，总结2条规律',a:'坏Prompt：「帮我写个分析」→ AI不知道分析什么。好Prompt：「分析美团外卖Q1 2026 DAU下降10%的原因，从用户行为、竞品动态、产品功能三个维度，输出500字分析报告」。规律：① 越具体越好，说清楚对象/目标/格式；② 给AI设定角色身份，输出质量更高'},
+        ]
+      },
+      {
+        title:'🎯 阶段项目 A · AI工具初体验',
+        type:'project',
+        items:[
+          {id:'p1_proj',icon:'🏆',type:'project',tag:'项目',title:'项目A：我的AI工具初体验',desc:'用「小美听写」录制一段5分钟讲解，让AI自动转文字并整理 → 截图结果，写50字：AI帮你节省了多少时间？',url:'https://tingxie.sankuai.com/home',urlLabel:'打开小美听写'},
+        ]
+      },
+    ]
+  },
+  {
+    id:'phase2',
+    icon:'🔥',
+    num:'第二阶段',
+    title:'入门熟练工 · AI工具我会用',
+    desc:'掌握美团内部AI平台，会AI Coding，独立完成AI辅助工作任务',
+    time:'建议 3-4 周',
+    color:'#f59e0b',
+    sections:[
+      {
+        title:'🛠️ 美团内部AI工具全套（重点掌握）',
+        items:[
+          {id:'p2_01',icon:'🎙️',type:'tool',tag:'工具',title:'小美听写（语音转文字）',desc:'美团人专属语音转文字工具，实时转写+智能编辑+区分说话人，会议效率神器',url:'https://tingxie.sankuai.com/home',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2705781669',url2Label:'使用说明'},
+          {id:'p2_02',icon:'👁️',type:'tool',tag:'工具',title:'玉树（图像视觉理解）',desc:'多模态大模型底座，一站式视觉内容理解，低成本高准确率的图像信息提取',url:'https://yushu.sankuai.com/',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2385458948',url2Label:'使用说明'},
+          {id:'p2_03',icon:'🎭',type:'tool',tag:'工具',title:'AI虚拟讲师速成',desc:'20+虚拟人形象任选，自动配字幕，5分钟从上传资料到成片导出',url:'https://aic.sankuai.com/#/train-video',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2706443059',url2Label:'使用说明'},
+          {id:'p2_04',icon:'💻',type:'tool',tag:'工具',title:'NoCode（零代码开发）',desc:'自然语言无编码开发，描述需求就能生成可部署应用，PM/RD/BA必学',url:'https://nocode.sankuai.com/',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2702228870',url2Label:'使用说明'},
+          {id:'p2_05',icon:'🐾',type:'tool',tag:'工具',title:'CatPaw（AI Coding助手）',desc:'美团内部AI编程工具，免费，连内网，代码生成+调试+重构一体',url:'https://catpaw.sankuai.com/',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/1461481448',url2Label:'使用说明'},
+          {id:'p2_06',icon:'🏭',type:'tool',tag:'工具',title:'Friday应用工厂（AI流水线）',desc:'搭建AI处理流水线，调用GPT-4o/DeepSeek等，无需代码实现复杂AI流程',url:'https://friday.sankuai.com/app/appList/appListV2List',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/1745207711',url2Label:'使用说明'},
+          {id:'p2_07',icon:'💡',type:'tool',tag:'工具',title:'FRIDAY提示词工厂',desc:'海量优质Prompt模板库，找到合适模板直接复用，快速提升Prompt质量',url:'https://aigc.sankuai.com/promptPlaza/index/plaza',urlLabel:'打开工具'},
+          {id:'p2_08',icon:'🎨',type:'tool',tag:'工具',title:'美境·AI创意设计平台',desc:'AI生成营销物料、图片、视频，设计师效率倍增，非设计师也能用',url:'https://meigen.sankuai.com/#/home',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2705887672',url2Label:'使用说明'},
+        ]
+      },
+      {
+        title:'📖 进阶必读（理解工具背后的逻辑）',
+        items:[
+          {id:'p2_09',icon:'📊',type:'doc',tag:'文档',title:'AI编程L1-L5超全分级',desc:'从GitHub Copilot(L1)到Devin(L4)，理解AI编程工具的能力梯度与选择策略',url:'https://km.sankuai.com/collabpage/2703443211'},
+          {id:'p2_10',icon:'🔧',type:'doc',tag:'文档',title:'no-code工具修炼手册',desc:'「这东西有啥用→适合谁→怎么用→成长路径」完整闭环，PM/RD必看实战指南',url:'https://km.sankuai.com/collabpage/2703058635'},
+          {id:'p2_11',icon:'⚙️',type:'doc',tag:'文档',title:'常用AI Coding工具及使用技巧',desc:'CatPaw Skills/MCP安装使用，团队实践沉淀的最新工具使用合集',url:'https://km.sankuai.com/collabpage/2748028053'},
+          {id:'p2_12',icon:'🏗️',type:'doc',tag:'文档',title:'从入门到进阶的FRIDAY平台应用指南',desc:'Friday应用工厂完整使用指南，从创建第一个应用到复杂流水线搭建',url:'https://km.sankuai.com/collabpage/2705881288'},
+          {id:'p2_13',icon:'🎯',type:'doc',tag:'文档',title:'NoCode优秀模板',desc:'社区沉淀的高质量NoCode模板，直接复用，快速搭建自己的AI工具',url:'https://nocode.sankuai.com/#/share?chatId=1oqtorf9&source=1&visitSource=1'},
+          {id:'p2_14',icon:'⭐',type:'doc',tag:'文档',title:'CatPaw优秀实践案例',desc:'美团内部CatPaw最佳实践，看真实案例学工具使用技巧',url:'https://km.sankuai.com/collabpage/2412682087'},
+        ]
+      },
+      {
+        title:'📺 AI呀有聊系列（实操视频，边看边练）',
+        items:[
+          {id:'p2_15',icon:'📺',type:'video',tag:'视频',title:'第3话：美团AI相关信息分享',desc:'全面了解美团内部AI发展现状与应用方向，树立正确的美团AI观',url:'https://km.sankuai.com/collabpage/2707041684'},
+          {id:'p2_16',icon:'📺',type:'video',tag:'视频',title:'第5话：用AI秒变设计大师',desc:'手把手教你用AI做设计，0美术基础也能产出高质量视觉内容',url:'https://km.sankuai.com/collabpage/2707061732'},
+          {id:'p2_17',icon:'📺',type:'video',tag:'视频',title:'第6话：手把手带你自建数据工具',desc:'从需求到成品，全程直播式教学，自建一个真正有价值的数据分析工具',url:'https://km.sankuai.com/collabpage/2707041686'},
+          {id:'p2_18',icon:'📺',type:'video',tag:'视频',title:'第7话：零基础用AI写Python',desc:'非程序员也能写代码！用AI完成数据分析小助手，一步步操作不卡壳',url:'https://km.sankuai.com/collabpage/2707372227'},
+          {id:'p2_19',icon:'📺',type:'video',tag:'视频',title:'第8话：NoCode+Friday联动实操课',desc:'两大内部工具联动作战，解锁AI应用工厂的真正威力',url:'https://km.sankuai.com/collabpage/2705190921'},
+          {id:'p2_20',icon:'📺',type:'video',tag:'视频',title:'第9话：学城AI进阶实操课',desc:'进阶技能一网打尽，资深用户的实操经验全面分享',url:'https://km.sankuai.com/collabpage/2704697893'},
+        ]
+      },
+      {
+        title:'💼 美团AI应用案例（学以致用）',
+        items:[
+          {id:'p2_21',icon:'🌟',type:'doc',tag:'案例',title:'44个拿来即用的AI场景方案',desc:'直接可落地的AI应用方案合集，找到你业务最相关的场景直接抄',url:'https://km.sankuai.com/collabpage/2706177182'},
+          {id:'p2_22',icon:'🚀',type:'doc',tag:'案例',title:'想0基础上手AI？手把手教你如何做',desc:'真实零基础用户的上手经历，打消顾虑，建立信心，照着做就行',url:'https://km.sankuai.com/collabpage/2705556472'},
+          {id:'p2_23',icon:'🔨',type:'doc',tag:'案例',title:'产研AI Coding工作提效工具开发实践',desc:'产品+研发协同做AI工具的完整实践，从立项到上线全过程复盘',url:'https://km.sankuai.com/collabpage/2704919347'},
+          {id:'p2_24',icon:'📊',type:'doc',tag:'案例',title:'基于AI的微贷数据准备提效实践',desc:'真实业务场景AI落地案例，数据处理效率提升的方法论与经验',url:'https://km.sankuai.com/collabpage/2704514741'},
+          {id:'p2_25',icon:'🦘',type:'doc',tag:'案例',title:'袋鼠参谋：餐饮商家AI陪跑教练',desc:'美团内部AI应用标杆案例，了解AI如何真正帮助业务增长',url:'https://km.sankuai.com/collabpage/2701368476'},
+        ]
+      },
+      {
+        title:'✏️ 练习题（完成以上内容后作答）',
+        type:'quiz',
+        qas:[
+          {q:'1. 用NoCode完成：用自然语言描述一个需求，生成一个可用的Web页面，截图展示成品',a:'实操题，需截图验证。提示：打开nocode.sankuai.com，在对话框输入「帮我做一个每日工作计划表，支持填写任务、优先级、完成状态」，AI自动生成可用页面'},
+          {q:'2. 用CatPaw完成：让AI帮你写一段Python脚本读取Excel并输出统计摘要，或优化重写一段复杂SQL',a:'CatPaw实操题。Python示例：「读取sales.xlsx，统计每个城市的订单量和GMV，输出Top10城市排名，并画折线图」；SQL优化：将多个子查询改为JOIN，添加合适索引提示'},
+          {q:'3. 用Friday应用工厂搭建一个「文档总结助手」：输入长文本 → AI输出结构化摘要',a:'Friday实操步骤：新建应用→输入节点（接收文本）→AI处理节点（提示词：「请将以下内容总结为：1.核心观点 2.关键数据 3.行动建议」）→输出节点'},
+          {q:'4. 对照AI编程L1-L5分级，你的工作场景目前对应哪个等级？你的下一个目标等级是什么？',a:'大多数日常工作（写文档、问问题、查资料）对应L2；目标是L3：能用AI自动化完成一个完整的业务流程'},
+          {q:'5. 从「44个AI场景方案」中找出3个与你业务最相关的场景，说明你打算如何落地',a:'从44个方案中找与自身业务最相关的3个，分析「输入-处理-输出」流程，制定2周内可落地的试点计划'},
+        ]
+      },
+      {
+        title:'🎯 阶段项目 B · no-code全流程实战',
+        type:'project',
+        items:[
+          {id:'p2_proj',icon:'🏆',type:'project',tag:'项目',title:'项目B：no-code全流程实战',desc:'参照「no-code修炼手册」成长路径表，完成等级3：前端Web页面+调用线上AI模型+返回分析结果的完整工具。验收：可运行页面截图 + 踩坑日记（最大困难和解决方法）',url:'https://km.sankuai.com/collabpage/2703058635',urlLabel:'查看修炼手册'},
+        ]
+      },
+    ]
+  },
+  {
+    id:'phase3',
+    icon:'🚀',
+    num:'第三阶段',
+    title:'成为大神 · AI应用我来造',
+    desc:'理解AI底层原理，能设计完整AI应用方案，独立从需求到落地',
+    time:'建议 4-6 周（持续深造）',
+    color:'#8b5cf6',
+    sections:[
+      {
+        title:'🧬 AI底层理论（系统化学习路径）',
+        items:[
+          {id:'p3_01',icon:'🗺️',type:'doc',tag:'文档',title:'AI学习笔记·理论篇（总目录）',desc:'齐爽整理的系统化AI理论学习笔记，神经网络→Transformer完整路径，结构清晰',url:'https://km.sankuai.com/collabpage/2705542822'},
+          {id:'p3_02',icon:'📜',type:'doc',tag:'文档',title:'序篇：人工智能发展概览',desc:'AI发展全景图，理解技术演进脉络，为后续深入学习建立认知框架',url:'https://km.sankuai.com/collabpage/2706120424'},
+          {id:'p3_03',icon:'🧠',type:'doc',tag:'文档',title:'第一站：什么是神经网络',desc:'AI的基础计算单元，用通俗语言解释神经元、权重、激活函数',url:'https://km.sankuai.com/collabpage/2705743796'},
+          {id:'p3_04',icon:'🔲',type:'doc',tag:'文档',title:'第二站：什么是卷积 Convolution',desc:'图像识别的核心机制，理解卷积核的滑动窗口计算原理',url:'https://km.sankuai.com/collabpage/2705840242'},
+          {id:'p3_05',icon:'👁️',type:'doc',tag:'文档',title:'第三站：卷积神经网络 CNN',desc:'视觉AI的奠基架构，从图片到特征的完整计算流程',url:'https://km.sankuai.com/collabpage/2705993174'},
+          {id:'p3_06',icon:'📄',type:'doc',tag:'论文',title:'第五站：AlexNet论文（神经网络奠基之作）',desc:'读懂这篇，你就读懂了深度学习革命的起点，推荐配合理论笔记系列学习',url:'https://km.sankuai.com/collabpage/2705985078'},
+          {id:'p3_07',icon:'🔄',type:'doc',tag:'文档',title:'第七站：Transformer前序·文本翻译原理',desc:'大模型的前身，理解为什么需要Transformer，什么问题需要它来解决',url:'https://km.sankuai.com/collabpage/2707082912'},
+          {id:'p3_08',icon:'⭐',type:'doc',tag:'文档',title:'第八站：⭐ Transformer工作原理（大模型核心）',desc:'必学！理解自注意力机制、编解码器结构，ChatGPT/DeepSeek背后的核心',url:'https://km.sankuai.com/collabpage/2707078887'},
+          {id:'p3_09',icon:'📄',type:'doc',tag:'论文',title:'第九站：Attention is all you need 论文',desc:'改变AI历史的论文，理解Transformer的数学直觉与架构设计',url:'https://km.sankuai.com/collabpage/2707854796'},
+          {id:'p3_10',icon:'🔍',type:'doc',tag:'文档',title:'扩展：一文读懂RAG（检索增强生成）',desc:'企业AI落地最重要的技术之一，理解知识库+AI问答的实现原理',url:'https://km.sankuai.com/collabpage/2708461729'},
+          {id:'p3_11',icon:'📝',type:'doc',tag:'论文',title:'扩展：BERT论文·挖掘语义',desc:'预训练模型的里程碑，理解双向语言模型如何理解文本语义',url:'https://km.sankuai.com/collabpage/2707786157'},
+        ]
+      },
+      {
+        title:'🏗️ AI工程进阶课程（从原理到落地）',
+        items:[
+          {id:'p3_12',icon:'💥',type:'video',tag:'视频',title:'💥 人人都要学的AI应用系列课（重磅推荐）',desc:'完整AI应用开发全流程课程，覆盖需求分析→方案设计→工程实现→上线验证',url:'https://km.sankuai.com/collabpage/2705422139'},
+          {id:'p3_13',icon:'🔬',type:'doc',tag:'文档',title:'AI工程实践与数据准备',desc:'工程视角的AI落地方法，数据清洗、标注、质量保障的最佳实践',url:'https://km.sankuai.com/collabpage/2649105041'},
+          {id:'p3_14',icon:'⚖️',type:'doc',tag:'文档',title:'大模型选型与评测',desc:'面对众多大模型如何做理性选择，评测维度、测试方法、选型决策框架',url:'https://km.sankuai.com/collabpage/2702266443'},
+          {id:'p3_15',icon:'🎛️',type:'doc',tag:'文档',title:'大模型微调与强化',desc:'针对业务场景定制大模型，LoRA/SFT/RLHF的原理与实践',url:'https://km.sankuai.com/collabpage/2704365946'},
+          {id:'p3_16',icon:'⚡',type:'doc',tag:'文档',title:'大模型推理技术',desc:'模型部署与加速的核心技术，量化/蒸馏/推理优化的工程实践',url:'https://km.sankuai.com/collabpage/2744924929'},
+          {id:'p3_17',icon:'✨',type:'doc',tag:'文档',title:'Prompt的变与不变',desc:'深度理解提示词工程的本质，什么在变、什么永远不变的哲学思考',url:'https://km.sankuai.com/collabpage/2743393470'},
+          {id:'p3_18',icon:'🔗',type:'tool',tag:'工具',title:'MCP服务管理平台（AI连接外部系统）',desc:'Model Context Protocol，让AI智能体连接任意工具和数据，大模型应用的基础设施',url:'http://friday.sankuai.com/mcp',urlLabel:'打开工具',url2:'https://km.sankuai.com/collabpage/2710111716',url2Label:'使用说明'},
+        ]
+      },
+      {
+        title:'📊 前沿资讯与行业观察（持续跟踪）',
+        items:[
+          {id:'p3_19',icon:'🚀',type:'doc',tag:'资讯',title:'🚀 美团AI应用情况汇总（持续更新）',desc:'了解美团内部AI应用全貌，发现业务契机，紧跟公司AI战略方向',url:'https://km.sankuai.com/collabpage/2740603065'},
+          {id:'p3_20',icon:'📰',type:'doc',tag:'资讯',title:'美团内外AI进展双周简报',desc:'计算和智能平台部出品，内外部AI进展双周汇总，质量极高',url:'https://km.sankuai.com/collabpage/2703989426'},
+          {id:'p3_21',icon:'📅',type:'doc',tag:'资讯',title:'2025年AI行业年度观察',desc:'权威年度总结，洞察AI行业趋势与未来方向，必读战略参考',url:'https://km.sankuai.com/collabpage/2742244719'},
+          {id:'p3_22',icon:'📋',type:'doc',tag:'资讯',title:'AI学习资料大全（内外部资源汇总）',desc:'杨斌整理的内外部AI学习资源全集，内部宝库+开源代码+外部资料三合一',url:'https://km.sankuai.com/collabpage/2595567984'},
+          {id:'p3_23',icon:'📑',type:'doc',tag:'论文',title:'提示工程论文合集',desc:'Prompt Engineering领域重要论文精选，深入理解提示词工程的学术基础',url:'https://km.sankuai.com/collabpage/2666967384'},
+        ]
+      },
+      {
+        title:'🏆 美团OpenDay项目案例（看大神怎么做的）',
+        items:[
+          {id:'p3_24',icon:'🥇',type:'doc',tag:'案例',title:'✨ 第一期OpenDay参展项目概览',desc:'美团内部AI创新大赛，看最优秀的同学如何把AI应用到真实业务中',url:'https://km.sankuai.com/collabpage/2720243611'},
+          {id:'p3_25',icon:'🥈',type:'doc',tag:'案例',title:'✨ 第四期OpenDay参展项目概览',desc:'更成熟的AI应用方案，看业务场景与技术方案的结合如何越来越精妙',url:'https://km.sankuai.com/collabpage/2716179515'},
+          {id:'p3_26',icon:'🎖️',type:'doc',tag:'案例',title:'✨ 第五期OpenDay参展项目概览',desc:'覆盖外卖/酒旅/到综等多业务线的AI应用案例，找到你领域的对标',url:'https://km.sankuai.com/collabpage/2713448683'},
+          {id:'p3_27',icon:'🎖️',type:'doc',tag:'案例',title:'✨ 第六期OpenDay参展项目概览',desc:'AI工具链成熟后的应用爆发期案例，技术复杂度和业务价值双双提升',url:'https://km.sankuai.com/collabpage/2710157487'},
+          {id:'p3_28',icon:'🎖️',type:'doc',tag:'案例',title:'✨ 第七期OpenDay参展项目概览',desc:'Agent智能体应用专题，看多步骤自动化如何在美团业务中落地',url:'https://km.sankuai.com/collabpage/2707159047'},
+          {id:'p3_29',icon:'🎖️',type:'doc',tag:'案例',title:'✨ 第八期OpenDay参展项目概览',desc:'最新一期案例合集，代表当前美团AI应用的最高水位线',url:'https://km.sankuai.com/collabpage/2704629244'},
+        ]
+      },
+      {
+        title:'✏️ 练习题（完成以上内容后作答）',
+        type:'quiz',
+        qas:[
+          {q:'1. 用自己的话解释：Transformer的「自注意力机制」如何让AI理解上下文？（300字以上）',a:'自注意力机制让句子中每个词都能「看到」其他所有词，并计算相关性权重。比如「银行存款」里的「银行」和「存款」权重高；而「河边的银行」里「银行」和「河边」权重高。这种动态的全局关注让Transformer能理解多义词、长距离依赖等复杂语义关系，是大模型理解上下文的核心机制'},
+          {q:'2. RAG解决了大模型的什么核心痛点？为你的团队设计一个RAG应用场景',a:'RAG痛点：大模型知识有截止日期、不了解企业私有知识。RAG方案：先检索企业知识库，把检索结果作为上下文给模型，让模型基于最新/私有知识回答。美团场景：搭建「学城知识问答机器人」，输入问题→检索学城文档→AI基于文档回答'},
+          {q:'3. 大模型「微调」和「Prompt工程」各适合什么场景？什么时候选微调？',a:'Prompt工程适合：快速验证想法、通用任务、无私有数据场景；微调适合：特定风格/格式要求、领域专业术语多、需要持续准确率保障的生产环境。判断标准：Prompt优化3轮后效果仍不满意，且有100条以上标注数据→考虑微调'},
+          {q:'4. 完成一个L3级别任务：从需求描述→代码生成→测试→部署，完成一个前后端完整小型应用',a:'L3实操示例：用CatPaw从「用户输入商品名称」→「AI生成商品描述」→「前端页面展示」→「一键复制」的完整应用'},
+          {q:'5. 写一篇「我的团队未来6个月AI应用规划」（500字），结合所学制定可落地行动计划',a:'规划模板：本月（试点1个小工具）→ 2个月（推广到团队）→ 3个月（数据验证效果）→ 6个月（沉淀方法论）'},
+        ]
+      },
+      {
+        title:'🎯 阶段项目 C · 完整AI应用从0到1（毕业大作，三选一）',
+        type:'project',
+        items:[
+          {id:'p3_projA',icon:'🏆',type:'project',tag:'项目',title:'选项A：数据分析工具',desc:'打通真实数据库，调用AI接口分析数据，生成可视化报告。验收：可演示产品+总结文档+团队分享10分钟',url:'https://km.sankuai.com/collabpage/2703058635',urlLabel:'参考手册'},
+          {id:'p3_projB',icon:'🏆',type:'project',tag:'项目',title:'选项B：智能问答系统',desc:'基于RAG技术，搭建「团队知识库问答机器人」，接入学城文档。验收：可演示产品+总结文档+团队分享10分钟',url:'https://km.sankuai.com/collabpage/2708461729',urlLabel:'RAG指南'},
+          {id:'p3_projC',icon:'🏆',type:'project',tag:'项目',title:'选项C：AI工作流自动化',desc:'用Friday应用工厂设计复杂AI处理流水线，解决真实业务问题。验收：可演示产品+总结文档+团队分享10分钟',url:'https://km.sankuai.com/collabpage/1745207711',urlLabel:'Friday指南'},
+        ]
+      },
+    ]
+  }
+];
+
+const CELEBRATE_MSGS = [
+  {emoji:'🎉',title:'太棒了！',msg:'你已经完成了这个任务！每一步都是成长，继续前进！'},
+  {emoji:'🚀',title:'火力全开！',msg:'学习的热情挡不住，你已经超越了昨天的自己！'},
+  {emoji:'⭐',title:'星光闪耀！',msg:'又拿下一个！你的AI技能树正在疯狂生长中！'},
+  {emoji:'🦁',title:'勇气可嘉！',msg:'敢于挑战未知，这正是成为大神的必备素质！'},
+  {emoji:'🔥',title:'燃！',msg:'热情+坚持=无敌！你正在成为团队里最懂AI的人！'},
+  {emoji:'💎',title:'璀璨发光！',msg:'每一次完成都是积累，你的AI竞争力正在飞速提升！'},
+  {emoji:'🌈',title:'彩虹时刻！',msg:'完成！继续这个节奏，离大神只有一步之遥！'},
+  {emoji:'🏅',title:'实力认证！',msg:'不是所有人都有毅力坚持学习，而你做到了！'},
+  {emoji:'🎯',title:'精准命中！',msg:'每个完成的任务都是你对未来的投资，复利效应开始了！'},
+  {emoji:'🤖',title:'AI已就绪！',msg:'你正在驯服最强大的工具，未来的效率将是现在的10倍！'},
+  {emoji:'🌟',title:'闪耀登场！',msg:'这个任务难不倒你！下一关，期待你继续发光！'},
+  {emoji:'⚡',title:'闪电速度！',msg:'学习效率满满，AI小白的帽子马上要摘掉了！'},
+  {emoji:'🎊',title:'可喜可贺！',msg:'进步是真实的！坚持下去，你会是最强的那个！'},
+  {emoji:'🦊',title:'聪明绝顶！',msg:'理解力+执行力双在线，这就是你脱颖而出的原因！'},
+  {emoji:'🏆',title:'冠军姿态！',msg:'一步一个脚印，你的AI成就墙越来越厚实了！'},
+];
+
+// ════════════════════════════════════════════════
+//  STORAGE HELPERS
+// ════════════════════════════════════════════════
+const DB_KEY = 'tuanzi_users';
+const SESSION_KEY = 'tuanzi_session';
+
+function getUsers(){return JSON.parse(localStorage.getItem(DB_KEY)||'{}')}
+function saveUsers(u){localStorage.setItem(DB_KEY,JSON.stringify(u))}
+function getSession(){return localStorage.getItem(SESSION_KEY)}
+function saveSession(u){localStorage.setItem(SESSION_KEY,u)}
+function clearSession(){localStorage.removeItem(SESSION_KEY)}
+
+function getUserData(username){
+  const users=getUsers();
+  if(!users[username])users[username]={password:'',completed:{},clicked:{},joinDate:Date.now(),lastDate:Date.now()};
+  return users[username];
+}
+function saveUserData(username,data){
+  const users=getUsers();users[username]=data;saveUsers(users);
+}
+
+// ════════════════════════════════════════════════
+//  AUTH
+// ════════════════════════════════════════════════
+let isLoginMode=false;
+let currentUser=null;
+
+function toggleMode(){
+  isLoginMode=!isLoginMode;
+  document.getElementById('login-btn').textContent=isLoginMode?'🔐 登录':'🚀 开始学习';
+  document.getElementById('login-switch').innerHTML=isLoginMode?'没有账号？<span onclick="toggleMode()">点击注册</span>':'已有账号？<span onclick="toggleMode()">点击登录</span>';
+  document.getElementById('login-error').style.display='none';
+}
+
+function showError(msg){
+  const el=document.getElementById('login-error');
+  el.textContent=msg;el.style.display='block';
+}
+
+function doLogin(){
+  const u=document.getElementById('login-username').value.trim();
+  const p=document.getElementById('login-password').value;
+  if(!u){showError('请输入昵称');return;}
+  if(!p||p.length<2){showError('密码至少2位');return;}
+
+  const users=getUsers();
+  if(isLoginMode){
+    if(!users[u]){showError('该昵称不存在，请先注册');return;}
+    if(users[u].password!==btoa(p)){showError('密码错误');return;}
+  } else {
+    if(users[u]){showError('昵称已被使用，换一个或点击登录');return;}
+    users[u]={password:btoa(p),completed:{},clicked:{},joinDate:Date.now(),lastDate:Date.now()};
+    saveUsers(users);
+  }
+  saveSession(u);
+  currentUser=u;
+  enterApp();
+}
+
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&document.getElementById('login-screen').style.display!=='none')doLogin()});
+
+function doLogout(){
+  clearSession();currentUser=null;
+  document.getElementById('app').style.display='none';
+  document.getElementById('login-screen').style.display='flex';
+}
+
+// ════════════════════════════════════════════════
+//  APP INIT
+// ════════════════════════════════════════════════
+function enterApp(){
+  document.getElementById('login-screen').style.display='none';
+  document.getElementById('app').style.display='block';
+  const udata=getUserData(currentUser);
+  udata.lastDate=Date.now();
+  saveUserData(currentUser,udata);
+
+  document.getElementById('nav-username').textContent=currentUser;
+  document.getElementById('nav-avatar').textContent=currentUser.charAt(0).toUpperCase();
+  document.getElementById('greet-name').textContent=currentUser;
+  const now=new Date();
+  document.getElementById('dash-date').textContent=`${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日 · 美团AI学习专区`;
+
+  renderRoadmap();
+  updateDashboard();
+  buildSidebar();
+  initScrollSpy();
+}
+
+// ════════════════════════════════════════════════
+//  RENDER ROADMAP
+// ════════════════════════════════════════════════
+function renderRoadmap(){
+  const container=document.getElementById('roadmap-container');
+  container.innerHTML='';
+  PHASES.forEach((phase,pi)=>{
+    const phaseEl=document.createElement('div');
+    phaseEl.className='phase';
+    phaseEl.id=phase.id;
+
+    let totalItems=0,doneItems=0;
+    const udata=getUserData(currentUser);
+    phase.sections.forEach(sec=>{
+      if(sec.items)sec.items.forEach(item=>{
+        totalItems++;
+        if(udata.completed[item.id])doneItems++;
+      });
+    });
+    const pct=totalItems>0?Math.round(doneItems/totalItems*100):0;
+
+    phaseEl.innerHTML=`
+      <div class="phase-header" style="--phase-color:${phase.color}">
+        <div class="phase-icon">${phase.icon}</div>
+        <div class="phase-info">
+          <div class="phase-num">${phase.num} · ${phase.time}</div>
+          <div class="phase-title">${phase.title}</div>
+          <div class="phase-desc">${phase.desc}</div>
+        </div>
+        <div class="phase-prog">
+          <div class="phase-pct" style="color:${phase.color}">${pct}%</div>
+          <div class="phase-pct-label">${doneItems}/${totalItems} 完成</div>
+        </div>
+      </div>
+    `;
+
+    phase.sections.forEach((sec,si)=>{
+      const secEl=document.createElement('div');
+      secEl.className='section-block';
+      secEl.id=`sec-${phase.id}-${si}`;
+
+      if(sec.type==='quiz'){
+        const qasHtml=sec.qas.map((qa,qi)=>`
+          <div class="quiz-qa" id="qa-${phase.id}-${si}-${qi}">
+            <div class="quiz-q-row">
+              <div class="quiz-q-text">${qa.q}</div>
+              <button class="quiz-ans-btn" onclick="toggleAnswer(this,'ans-${phase.id}-${si}-${qi}')">查看答案</button>
+            </div>
+            <div class="quiz-ans-body" id="ans-${phase.id}-${si}-${qi}">${qa.a}</div>
+          </div>
+        `).join('');
+        secEl.innerHTML=`
+          <div class="sb-title" style="--phase-color:${phase.color}">${sec.title}</div>
+          <div class="quiz-block">
+            <h4>✏️ 练习题（完成以上内容后对照练习）</h4>
+            <div class="quiz-questions">${qasHtml}</div>
+          </div>
+        `;
+      } else {
+        secEl.innerHTML=`<div class="sb-title" style="--phase-color:${phase.color}">${sec.title}</div>`;
+        const gridEl=document.createElement('div');
+        gridEl.className='items-grid';
+        if(sec.items)sec.items.forEach(item=>{
+          gridEl.appendChild(renderItem(item,phase.color));
+        });
+        secEl.appendChild(gridEl);
+      }
+      phaseEl.appendChild(secEl);
+    });
+    container.appendChild(phaseEl);
+
+    if(pi<PHASES.length-1){
+      const conn=document.createElement('div');
+      conn.className='phase-connector';
+      conn.innerHTML='⬇️';
+      container.appendChild(conn);
+    }
+  });
+}
+
+function renderItem(item,phaseColor){
+  const udata=getUserData(currentUser);
+  const isDone=!!udata.completed[item.id];
+  const isClicked=!!udata.clicked[item.id];
+
+  const tagMap={doc:'文档',video:'视频',tool:'工具',project:'项目'};
+  const tagClass=item.type==='video'?'video':item.type==='tool'?'tool':item.type==='project'?'project':'';
+
+  const card=document.createElement('div');
+  card.className=`item-card${isDone?' completed':''}`;
+  card.id=`card-${item.id}`;
+
+  // Make whole card clickable if there's a url
+  if(item.url){
+    card.addEventListener('click',function(e){
+      // Don't navigate if clicking on a button or link
+      if(e.target.closest('button')||e.target.closest('a'))return;
+      trackClick(item.id);
+      window.open(item.url,'_blank');
+    });
+  }
+
+  // url2 button only (使用说明 button stays at bottom)
+  let url2Html='';
+  if(item.url2){
+    url2Html=`<a class="item-link orange" href="${item.url2}" target="_blank" onclick="event.stopPropagation()">${item.url2Label||'使用说明'}</a>`;
+  }
+
+  const doneLabel=isDone?'✓ 已完成':'标记完成';
+
+  card.innerHTML=`
+    <div class="item-icon">${item.icon}</div>
+    <div class="item-body">
+      <div class="item-title">${item.title}${isClicked&&!isDone?' <span style="color:var(--text3);font-size:11px;font-weight:400">(已浏览)</span>':''}</div>
+      <div class="item-desc">${item.desc}</div>
+      <div class="item-footer">
+        ${url2Html}
+        <button class="item-done-btn${isDone?' done':''}" onclick="event.stopPropagation();toggleDone('${item.id}',this)">${doneLabel}</button>
+        <span class="item-tag ${tagClass}">${item.tag}</span>
+      </div>
+    </div>
+  `;
+  return card;
+}
+
+// ════════════════════════════════════════════════
+//  QUIZ ANSWER TOGGLE
+// ════════════════════════════════════════════════
+function toggleAnswer(btn,ansId){
+  const body=document.getElementById(ansId);
+  if(!body)return;
+  const isOpen=body.classList.contains('open');
+  body.classList.toggle('open',!isOpen);
+  btn.textContent=isOpen?'查看答案':'收起答案';
+}
+
+// ════════════════════════════════════════════════
+//  INTERACTIONS
+// ════════════════════════════════════════════════
+function trackClick(itemId){
+  const udata=getUserData(currentUser);
+  if(!udata.clicked[itemId]){
+    udata.clicked[itemId]=Date.now();
+    saveUserData(currentUser,udata);
+    updateDashboard();
+    const card=document.getElementById(`card-${itemId}`);
+    if(card){
+      const titleEl=card.querySelector('.item-title');
+      if(titleEl&&!udata.completed[itemId]){
+        const base=titleEl.textContent.replace(/\s*\(已浏览\)/,'');
+        titleEl.innerHTML=`${base} <span style="color:var(--text3);font-size:11px;font-weight:400">(已浏览)</span>`;
+      }
+    }
+  }
+}
+
+function toggleDone(itemId,btn){
+  const udata=getUserData(currentUser);
+  if(udata.completed[itemId]){
+    delete udata.completed[itemId];
+    saveUserData(currentUser,udata);
+    const card=document.getElementById(`card-${itemId}`);
+    if(card){card.classList.remove('completed');btn.textContent='标记完成';btn.classList.remove('done');}
+    updateDashboard();
+    updatePhaseProgress();
+    refreshSidebarItem(itemId,false);
+  } else {
+    udata.completed[itemId]=Date.now();
+    if(!udata.clicked[itemId])udata.clicked[itemId]=Date.now();
+    saveUserData(currentUser,udata);
+    const card=document.getElementById(`card-${itemId}`);
+    if(card){card.classList.add('completed');btn.textContent='✓ 已完成';btn.classList.add('done');}
+    updateDashboard();
+    updatePhaseProgress();
+    refreshSidebarItem(itemId,true);
+    celebrate(itemId);
+  }
+}
+
+// ════════════════════════════════════════════════
+//  CELEBRATE (no modal — particles + toast)
+// ════════════════════════════════════════════════
+function celebrate(itemId){
+  const msg=CELEBRATE_MSGS[Math.floor(Math.random()*CELEBRATE_MSGS.length)];
+  launchParticles();
+  showToast(`${msg.emoji} ${msg.title} ${msg.msg}`);
+}
+
+// ════════════════════════════════════════════════
+//  FULLSCREEN PARTICLE EXPLOSION
+// ════════════════════════════════════════════════
+const PARTICLE_COLORS=['#f59e0b','#ec4899','#8b5cf6','#3b82f6','#10b981','#06b6d4','#fbbf24','#f472b6','#34d399','#60a5fa'];
+let particleAnimId=null;
+
+function launchParticles(){
+  const canvas=document.getElementById('particle-canvas');
+  canvas.width=window.innerWidth;
+  canvas.height=window.innerHeight;
+  canvas.classList.add('active');
+  const ctx=canvas.getContext('2d');
+
+  const cx=canvas.width/2, cy=canvas.height/2;
+  const particles=[];
+  const count=160;
+
+  for(let i=0;i<count;i++){
+    const angle=Math.random()*Math.PI*2;
+    const speed=Math.random()*12+4;
+    const shape=['circle','rect','triangle','star'][Math.floor(Math.random()*4)];
+    particles.push({
+      x:cx, y:cy,
+      vx:Math.cos(angle)*speed,
+      vy:Math.sin(angle)*speed - Math.random()*4,
+      color:PARTICLE_COLORS[Math.floor(Math.random()*PARTICLE_COLORS.length)],
+      size:Math.random()*9+4,
+      shape,
+      rotation:Math.random()*360,
+      rotSpeed:(Math.random()-0.5)*12,
+      scale:1,
+      opacity:1,
+      life:1
+    });
+  }
+
+  const startTime=performance.now();
+  const duration=2000;
+
+  function draw(now){
+    const elapsed=now-startTime;
+    const progress=elapsed/duration;
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    let alive=false;
+    particles.forEach(p=>{
+      p.x+=p.vx;
+      p.y+=p.vy;
+      p.vy+=0.25; // gravity
+      p.vx*=0.99;
+      p.rotation+=p.rotSpeed;
+      p.opacity=Math.max(0,1-progress*1.2);
+      p.scale=Math.max(0.1,1-progress*0.5);
+
+      if(p.opacity>0){
+        alive=true;
+        ctx.save();
+        ctx.globalAlpha=p.opacity;
+        ctx.fillStyle=p.color;
+        ctx.strokeStyle=p.color;
+        ctx.translate(p.x,p.y);
+        ctx.rotate(p.rotation*Math.PI/180);
+        ctx.scale(p.scale,p.scale);
+        const s=p.size;
+        switch(p.shape){
+          case 'circle':
+            ctx.beginPath();ctx.arc(0,0,s/2,0,Math.PI*2);ctx.fill();break;
+          case 'rect':
+            ctx.fillRect(-s/2,-s/4,s,s/2);break;
+          case 'triangle':
+            ctx.beginPath();ctx.moveTo(0,-s/2);ctx.lineTo(s/2,s/2);ctx.lineTo(-s/2,s/2);ctx.closePath();ctx.fill();break;
+          case 'star':
+            drawStar(ctx,0,0,5,s/2,s/4);ctx.fill();break;
+        }
+        ctx.restore();
+      }
+    });
+
+    if(alive&&elapsed<duration+500){
+      particleAnimId=requestAnimationFrame(draw);
+    } else {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      canvas.classList.remove('active');
+      if(particleAnimId)cancelAnimationFrame(particleAnimId);
+    }
+  }
+
+  if(particleAnimId)cancelAnimationFrame(particleAnimId);
+  particleAnimId=requestAnimationFrame(draw);
+}
+
+function drawStar(ctx,cx,cy,spikes,outerR,innerR){
+  let rot=Math.PI/2*3;
+  const step=Math.PI/spikes;
+  ctx.beginPath();
+  ctx.moveTo(cx,cy-outerR);
+  for(let i=0;i<spikes;i++){
+    ctx.lineTo(cx+Math.cos(rot)*outerR,cy+Math.sin(rot)*outerR);
+    rot+=step;
+    ctx.lineTo(cx+Math.cos(rot)*innerR,cy+Math.sin(rot)*innerR);
+    rot+=step;
+  }
+  ctx.lineTo(cx,cy-outerR);
+  ctx.closePath();
+}
+
+// ════════════════════════════════════════════════
+//  TOAST NOTIFICATION
+// ════════════════════════════════════════════════
+function showToast(text){
+  const container=document.getElementById('toast-container');
+  const toast=document.createElement('div');
+  toast.className='toast-item';
+  toast.textContent=text;
+  toast.onclick=()=>dismissToast(toast);
+  container.appendChild(toast);
+
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{toast.classList.add('show');});
+  });
+
+  setTimeout(()=>dismissToast(toast),3000);
+}
+
+function dismissToast(toast){
+  if(!toast.parentNode)return;
+  toast.classList.remove('show');
+  toast.classList.add('hide');
+  setTimeout(()=>{if(toast.parentNode)toast.parentNode.removeChild(toast);},350);
+}
+
+// ════════════════════════════════════════════════
+//  SIDEBAR
+// ════════════════════════════════════════════════
+function buildSidebar(){
+  const body=document.getElementById('sidebar-body');
+  body.innerHTML='';
+  const udata=getUserData(currentUser);
+
+  PHASES.forEach((phase,pi)=>{
+    const phaseDiv=document.createElement('div');
+    phaseDiv.className='sdb-phase';
+
+    const titleDiv=document.createElement('div');
+    titleDiv.className='sdb-phase-title';
+    titleDiv.id=`sdb-phase-title-${pi}`;
+    titleDiv.innerHTML=`<span>${phase.icon} ${phase.num}</span><span class="sdb-phase-arrow open" id="sdb-arrow-${pi}">▶</span>`;
+    titleDiv.onclick=()=>{
+      closeSidebar();
+      const el=document.getElementById(phase.id);
+      if(el){el.scrollIntoView({behavior:'smooth',block:'start'});window.scrollBy(0,-80);}
+    };
+
+    const arrowSpan=titleDiv.querySelector('.sdb-phase-arrow');
+    // toggle collapse
+    const toggleBtn=document.createElement('span');
+    arrowSpan.onclick=(e)=>{
+      e.stopPropagation();
+      const content=document.getElementById(`sdb-content-${pi}`);
+      const isOpen=!content.classList.contains('collapsed');
+      content.classList.toggle('collapsed',isOpen);
+      arrowSpan.classList.toggle('open',!isOpen);
+    };
+
+    const contentDiv=document.createElement('div');
+    contentDiv.className='sdb-phase-content';
+    contentDiv.id=`sdb-content-${pi}`;
+    // set max-height dynamically
+    setTimeout(()=>{contentDiv.style.maxHeight=contentDiv.scrollHeight+'px';},50);
+
+    phase.sections.forEach((sec,si)=>{
+      if(sec.type==='quiz'||sec.type==='project'){return;}
+      if(!sec.items)return;
+
+      const secTitleDiv=document.createElement('div');
+      secTitleDiv.className='sdb-section-title';
+      secTitleDiv.textContent=sec.title;
+      secTitleDiv.onclick=()=>{
+        closeSidebar();
+        const el=document.getElementById(`sec-${phase.id}-${si}`);
+        if(el){el.scrollIntoView({behavior:'smooth',block:'start'});window.scrollBy(0,-80);}
+      };
+      contentDiv.appendChild(secTitleDiv);
+
+      sec.items.forEach(item=>{
+        const isDone=!!udata.completed[item.id];
+        const itemDiv=document.createElement('div');
+        itemDiv.className=`sdb-item${isDone?' done':''}`;
+        itemDiv.id=`sdb-item-${item.id}`;
+        itemDiv.innerHTML=`<span class="sdb-item-status">${isDone?'✓':'○'}</span><span>${item.title.replace(/^[✨🧩💥🚀]\s*/,'')}</span>`;
+        itemDiv.onclick=()=>sidebarScrollToCard(item.id);
+        contentDiv.appendChild(itemDiv);
+      });
+    });
+
+    phaseDiv.appendChild(titleDiv);
+    phaseDiv.appendChild(contentDiv);
+    body.appendChild(phaseDiv);
+  });
+}
+
+function sidebarScrollToCard(itemId){
+  closeSidebar();
+  setTimeout(()=>{
+    const card=document.getElementById(`card-${itemId}`);
+    if(card){
+      card.scrollIntoView({behavior:'smooth',block:'center'});
+      setTimeout(()=>{
+        card.classList.add('flash-highlight');
+        setTimeout(()=>card.classList.remove('flash-highlight'),800);
+      },400);
+    }
+  },300);
+}
+
+function refreshSidebarItem(itemId,isDone){
+  const el=document.getElementById(`sdb-item-${itemId}`);
+  if(!el)return;
+  el.className=`sdb-item${isDone?' done':''}`;
+  const statusEl=el.querySelector('.sdb-item-status');
+  if(statusEl)statusEl.textContent=isDone?'✓':'○';
+}
+
+function toggleSidebar(){
+  const panel=document.getElementById('sidebar-panel');
+  const overlay=document.getElementById('sidebar-overlay');
+  const isOpen=panel.classList.contains('open');
+  if(isOpen){closeSidebar();}
+  else{
+    // Refresh sidebar content
+    buildSidebar();
+    panel.classList.add('open');
+    overlay.classList.add('active');
+    // After content is built, set max-heights
+    setTimeout(()=>{
+      document.querySelectorAll('.sdb-phase-content').forEach(c=>{
+        if(!c.classList.contains('collapsed'))c.style.maxHeight=c.scrollHeight+'px';
+      });
+    },100);
+  }
+}
+
+function closeSidebar(){
+  document.getElementById('sidebar-panel').classList.remove('open');
+  document.getElementById('sidebar-overlay').classList.remove('active');
+}
+
+// ════════════════════════════════════════════════
+//  SCROLL SPY — highlight active phase in sidebar
+// ════════════════════════════════════════════════
+function initScrollSpy(){
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      const id=entry.target.id;
+      const pi=PHASES.findIndex(p=>p.id===id);
+      if(pi<0)return;
+      const titleEl=document.getElementById(`sdb-phase-title-${pi}`);
+      if(titleEl)titleEl.classList.toggle('active-phase',entry.isIntersecting);
+    });
+  },{threshold:0.1,rootMargin:'-64px 0px -60% 0px'});
+
+  PHASES.forEach(phase=>{
+    const el=document.getElementById(phase.id);
+    if(el)observer.observe(el);
+  });
+}
+
+// ════════════════════════════════════════════════
+//  DASHBOARD UPDATE
+// ════════════════════════════════════════════════
+function updateDashboard(){
+  const udata=getUserData(currentUser);
+
+  let totalItems=0;
+  PHASES.forEach(ph=>ph.sections.forEach(sec=>{if(sec.items)sec.items.forEach(()=>totalItems++);}));
+
+  const doneCount=Object.keys(udata.completed).length;
+  const clickCount=Object.keys(udata.clicked).length;
+  const pct=totalItems>0?Math.round(doneCount/totalItems*100):0;
+
+  const days=Math.max(1,Math.ceil((Date.now()-(udata.joinDate||Date.now()))/(1000*60*60*24)));
+
+  let stageName='--',stageSub='开始第一阶段吧！';
+  const p1Items=[],p2Items=[],p3Items=[];
+  PHASES[0].sections.forEach(s=>{if(s.items)s.items.forEach(i=>p1Items.push(i.id))});
+  PHASES[1].sections.forEach(s=>{if(s.items)s.items.forEach(i=>p2Items.push(i.id))});
+  PHASES[2].sections.forEach(s=>{if(s.items)s.items.forEach(i=>p3Items.push(i.id))});
+  const p1Done=p1Items.filter(i=>udata.completed[i]).length;
+  const p2Done=p2Items.filter(i=>udata.completed[i]).length;
+  const p3Done=p3Items.filter(i=>udata.completed[i]).length;
+
+  if(p3Done>0){stageName='🚀 深度求索';stageSub=`第三阶段 ${Math.round(p3Done/p3Items.length*100)}%`;}
+  else if(p2Done>0){stageName='🔥 熟练工';stageSub=`第二阶段 ${Math.round(p2Done/p2Items.length*100)}%`;}
+  else if(p1Done>0){stageName='🌱 入门中';stageSub=`第一阶段 ${Math.round(p1Done/p1Items.length*100)}%`;}
+
+  animateNum('dc-done',doneCount);
+  animateNum('dc-read',clickCount);
+  document.getElementById('dc-pct').textContent=pct+'%';
+  document.getElementById('dc-stage').textContent=stageName;
+  document.getElementById('dc-stage-sub').textContent=stageSub;
+  document.getElementById('dc-days').textContent=days;
+
+  const maxItems=Math.max(totalItems,1);
+  setTimeout(()=>{
+    document.getElementById('pb-done').style.width=(doneCount/maxItems*100)+'%';
+    document.getElementById('pb-read').style.width=(clickCount/maxItems*100)+'%';
+    document.getElementById('pb-pct').style.width=pct+'%';
+    const circ=150.8;
+    document.getElementById('prog-ring-bar').style.strokeDashoffset=circ*(1-pct/100);
+    document.getElementById('ring-label').textContent=`${doneCount} / ${totalItems}`;
+  },200);
+}
+
+let numTimers={};
+function animateNum(id,target){
+  const el=document.getElementById(id);
+  const current=parseInt(el.textContent)||0;
+  if(numTimers[id])clearInterval(numTimers[id]);
+  const step=Math.max(1,Math.ceil(Math.abs(target-current)/20));
+  let val=current;
+  numTimers[id]=setInterval(()=>{
+    if(val<target){val=Math.min(val+step,target);}
+    else if(val>target){val=Math.max(val-step,target);}
+    el.textContent=val;
+    if(val===target)clearInterval(numTimers[id]);
+  },30);
+}
+
+function updatePhaseProgress(){
+  const udata=getUserData(currentUser);
+  PHASES.forEach(phase=>{
+    let totalItems=0,doneItems=0;
+    phase.sections.forEach(sec=>{
+      if(sec.items)sec.items.forEach(item=>{
+        totalItems++;
+        if(udata.completed[item.id])doneItems++;
+      });
+    });
+    const pct=totalItems>0?Math.round(doneItems/totalItems*100):0;
+    const phaseEl=document.getElementById(phase.id);
+    if(phaseEl){
+      const pctEl=phaseEl.querySelector('.phase-pct');
+      const subEl=phaseEl.querySelector('.phase-pct-label');
+      if(pctEl)pctEl.textContent=pct+'%';
+      if(subEl)subEl.textContent=`${doneItems}/${totalItems} 完成`;
+    }
+  });
+}
+
+// ════════════════════════════════════════════════
+//  BG PARTICLES
+// ════════════════════════════════════════════════
+function initBgParticles(){
+  const container=document.getElementById('bg-particles');
+  for(let i=0;i<15;i++){
+    const p=document.createElement('div');
+    p.className='bg-particle';
+    const size=Math.random()*3+1;
+    p.style.cssText=`width:${size}px;height:${size}px;left:${Math.random()*100}%;background:${['#3b82f6','#8b5cf6','#f59e0b','#10b981'][Math.floor(Math.random()*4)]};animation-duration:${Math.random()*20+15}s;animation-delay:${Math.random()*15}s`;
+    container.appendChild(p);
+  }
+}
+
+// ════════════════════════════════════════════════
+//  BOOT
+// ════════════════════════════════════════════════
+initBgParticles();
+const savedUser=getSession();
+if(savedUser&&getUsers()[savedUser]){
+  currentUser=savedUser;
+  document.getElementById('login-screen').style.display='none';
+  enterApp();
+}
+</script>
+</body>
+</html>
