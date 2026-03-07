@@ -5,76 +5,6 @@
   },
   "news": [
     {
-      "id": "news_3c9d8eac2318",
-      "date": "2026-03-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Self-Promotion Thread",
-      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing req...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/"
-    },
-    {
-      "id": "news_520105f32414",
-      "date": "2026-03-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.03194"
-    },
-    {
-      "id": "news_411d469fbacb",
-      "date": "2026-03-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] UniG2U-Bench: Do Unified Models Advance Multimodal Understan",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.03241"
-    },
-    {
-      "id": "news_6afd91cf7440",
-      "date": "2026-03-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Utonia: Toward One Encoder for All Point Clouds",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.03283"
-    },
-    {
-      "id": "news_101713d9f58f",
-      "date": "2026-03-04",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · trending/2-dimensional-array?since=daily&amp;spoken_language_code=",
-      "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/trending/2-dimensional-array?since=daily&amp;spoken_language_code="
-    },
-    {
-      "id": "news_ce39b4ef95f8",
-      "date": "2026-03-04",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · trending/1c-enterprise?since=daily&amp;spoken_language_code=",
-      "summary": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all withou",
-      "source": "GitHub Trending",
-      "url": "https://github.com/trending/1c-enterprise?since=daily&amp;spoken_language_code="
-    },
-    {
-      "id": "news_faf61c87fdf0",
-      "date": "2026-03-04",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · trending/unknown?since=daily&amp;spoken_language_code=",
-      "summary": "A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is",
-      "source": "GitHub Trending",
-      "url": "https://github.com/trending/unknown?since=daily&amp;spoken_language_code="
-    },
-    {
       "id": "news_20260304_001",
       "date": "2026-03-04",
       "tag": "hot",
@@ -136,16 +66,12 @@
     }
   ],
   "ticker": [
-    "[D] Self-Promotion Thread",
-    "[论文] BeyondSWE: Can Current ...",
-    "[论文] UniG2U-Bench: Do Unifie...",
-    "[论文] Utonia: Toward One Enco...",
-    "GitHub 热榜 · trending/2-dimen...",
-    "GitHub 热榜 · trending/1c-ente...",
-    "GitHub 热榜 · trending/unknown...",
-    "大模型格局巨变：Claude 4、GPT-5.2 与六大...",
+    "大模型格局巨变：Claude 4、GPT-5.2 与六大国产模型全面横...",
     "2026 AI风向：Vibe Coding开启万亿创作者经济",
-    "MWC 2026：AI重构智能网络，6G技术全面加速布局"
+    "MWC 2026：AI重构智能网络，6G技术全面加速布局",
+    "Gemini 2026：多模态挑战者的真实格局解析",
+    "2026 十大必藏 GitHub AI 开源项目 · 开发者直接抄作业",
+    "今日AI新闻：淘宝开源食安大模型 · 国产AI芯片涨价"
   ],
   "learning": {
     "phases": [
@@ -216,6 +142,16 @@
             "type_label": "课程",
             "url": "https://www.kaggle.com/learn",
             "added_date": "2026-03-01"
+          },
+          {
+            "icon": "🎓",
+            "title": "CS50: Introduction to AI with Python（哈佛）",
+            "desc": "哈佛大学免费AI入门课，用Python讲解搜索/神经网络/NLP，附完整作业",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://cs50.harvard.edu/ai/",
+            "id": "r_44dae288",
+            "added_date": "2026-03-07"
           }
         ],
         "roadmap": [
@@ -306,6 +242,16 @@
             "type_label": "代码",
             "url": "https://github.com/karpathy/nanoGPT",
             "added_date": "2026-03-01"
+          },
+          {
+            "icon": "📄",
+            "title": "The Illustrated Transformer（图解Transformer）",
+            "desc": "用动图把 Transformer 讲得无比清楚，全网最佳可视化解释",
+            "type": "doc",
+            "type_label": "文档",
+            "url": "https://jalammar.github.io/illustrated-transformer/",
+            "id": "r_e4f3864d",
+            "added_date": "2026-03-07"
           }
         ],
         "roadmap": [
@@ -396,6 +342,16 @@
             "type_label": "代码",
             "url": "https://github.com/datawhalechina/hello-agents",
             "added_date": "2026-03-01"
+          },
+          {
+            "icon": "🎓",
+            "title": "吴恩达 - Building Agentic RAG with LlamaIndex",
+            "desc": "1小时掌握 Agentic RAG，DeepLearning.AI 免费课",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
+            "id": "r_df63fd0c",
+            "added_date": "2026-03-07"
           }
         ],
         "roadmap": [
@@ -486,6 +442,16 @@
             "type_label": "文档",
             "url": "https://github.com/anthropics/anthropic-cookbook",
             "added_date": "2026-03-01"
+          },
+          {
+            "icon": "📑",
+            "title": "DeepSeek-R1 技术报告（arXiv）",
+            "desc": "2026最强推理模型技术报告，强化学习训练路线深度解析",
+            "type": "doc",
+            "type_label": "论文",
+            "url": "https://arxiv.org/abs/2501.12948",
+            "id": "r_fd8abd46",
+            "added_date": "2026-03-07"
           }
         ],
         "roadmap": [
@@ -763,6 +729,48 @@
       "tutorial_url": "https://vercel.com",
       "github_url": "https://github.com/open-sauced/intro",
       "added_date": "2026-03-01"
+    },
+    {
+      "emoji": "🦙",
+      "title": "Ollama 本地大模型部署",
+      "difficulty": "beginner",
+      "diff_label": "入门级",
+      "cat": "beginner nlp",
+      "desc": "在本地电脑运行 Llama3/Qwen/Gemma 等大模型，完全离线，零API费用。最简单的大模型本地化方案，一行命令即可运行。",
+      "tags": [
+        "Ollama",
+        "Llama3",
+        "Qwen",
+        "本地部署"
+      ],
+      "duration": "半天",
+      "highlight": "⭐ 超推荐",
+      "bg": "linear-gradient(135deg,#1e3a2a,#0a5030)",
+      "tutorial_url": "https://ollama.ai/",
+      "github_url": "https://github.com/ollama/ollama",
+      "id": "p_9767027f",
+      "added_date": "2026-03-07"
+    },
+    {
+      "emoji": "🔧",
+      "title": "Dify 低代码 AI 应用开发",
+      "difficulty": "beginner",
+      "diff_label": "入门级",
+      "cat": "beginner nlp",
+      "desc": "用 Dify 无需写代码即可构建 RAG 知识库问答、AI 工作流、Chatbot 应用。国产开源，中文友好，GitHub 60k+ Star。",
+      "tags": [
+        "Dify",
+        "RAG",
+        "低代码",
+        "工作流"
+      ],
+      "duration": "1天",
+      "highlight": "🔥 国产之光",
+      "bg": "linear-gradient(135deg,#1a2050,#102060)",
+      "tutorial_url": "https://docs.dify.ai/zh-hans",
+      "github_url": "https://github.com/langgenius/dify",
+      "id": "p_22675237",
+      "added_date": "2026-03-07"
     }
   ]
 }
