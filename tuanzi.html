@@ -52,7 +52,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .login-error{color:var(--red);font-size:13px;padding:8px 12px;background:rgba(239,68,68,.1);border-radius:8px;display:none}
 
 /* ─── MAIN LAYOUT ─── */
-#app{display:none;padding-top:64px}
+#app{display:none;padding-top:64px;margin-left:240px;transition:margin-left .3s}
+#app.sidebar-hidden{margin-left:0}
 
 /* ─── DASHBOARD ─── */
 .dashboard{padding:32px 32px 0;max-width:1200px;margin:0 auto}
@@ -70,78 +71,80 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .progress-bar-wrap{height:6px;background:rgba(255,255,255,.08);border-radius:3px;margin-top:10px;overflow:hidden}
 .progress-bar{height:100%;border-radius:3px;background:var(--card-color,linear-gradient(90deg,#3b82f6,#8b5cf6));transition:width .8s ease;width:0}
 
-/* ─── SIDEBAR TOGGLE BTN ─── */
-#sidebar-toggle-btn{
-  position:fixed;right:20px;top:50%;transform:translateY(-50%);
-  width:48px;height:48px;border-radius:50%;
-  background:linear-gradient(135deg,#f59e0b,#fbbf24);
-  border:none;cursor:pointer;z-index:300;
-  display:flex;align-items:center;justify-content:center;
-  font-size:20px;box-shadow:0 4px 20px rgba(245,158,11,.5);
-  transition:all .25s;
+/* ─── LEFT SIDEBAR (固定左侧目录，参考学城样式) ─── */
+#left-sidebar{
+  position:fixed;top:64px;left:0;width:240px;height:calc(100vh - 64px);
+  background:#0b1120;border-right:1px solid rgba(255,255,255,.07);
+  z-index:100;display:flex;flex-direction:column;overflow:hidden;
+  transition:transform .3s ease;
 }
-#sidebar-toggle-btn:hover{transform:translateY(-50%) scale(1.1);box-shadow:0 6px 28px rgba(245,158,11,.7)}
+#left-sidebar.hidden{transform:translateX(-100%)}
 
-/* ─── SIDEBAR OVERLAY ─── */
-#sidebar-overlay{
-  position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:350;
-  opacity:0;pointer-events:none;transition:opacity .3s;
+.lsb-head{
+  padding:14px 16px 10px;border-bottom:1px solid rgba(255,255,255,.06);
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
 }
-#sidebar-overlay.active{opacity:1;pointer-events:auto}
+.lsb-head-title{font-size:13px;font-weight:700;color:var(--text2);letter-spacing:.4px;text-transform:uppercase}
+.lsb-toggle-btn{
+  background:none;border:none;color:var(--text3);font-size:15px;
+  cursor:pointer;padding:3px 7px;border-radius:6px;transition:all .2s;line-height:1;
+}
+.lsb-toggle-btn:hover{color:var(--text);background:rgba(255,255,255,.08)}
 
-/* ─── SIDEBAR PANEL ─── */
-#sidebar-panel{
-  position:fixed;top:0;right:-300px;width:280px;height:100vh;
-  background:#0f172a;border-left:1px solid rgba(255,255,255,.08);
-  z-index:360;transition:right .3s ease;
-  display:flex;flex-direction:column;overflow:hidden;
-}
-#sidebar-panel.open{right:0}
-.sidebar-head{
-  padding:16px 16px 12px;border-bottom:1px solid rgba(255,255,255,.07);
-  display:flex;align-items:center;justify-content:space-between;
-  flex-shrink:0;
-}
-.sidebar-head-title{font-size:15px;font-weight:700;color:var(--text)}
-.sidebar-close{background:none;border:none;color:var(--text3);font-size:18px;cursor:pointer;padding:4px 8px;border-radius:6px;transition:all .2s}
-.sidebar-close:hover{color:var(--text);background:rgba(255,255,255,.07)}
-.sidebar-body{flex:1;overflow-y:auto;padding:10px 0}
-.sidebar-body::-webkit-scrollbar{width:4px}
-.sidebar-body::-webkit-scrollbar-thumb{background:#334155;border-radius:2px}
+.lsb-body{flex:1;overflow-y:auto;padding:8px 0 20px}
+.lsb-body::-webkit-scrollbar{width:3px}
+.lsb-body::-webkit-scrollbar-thumb{background:#334155;border-radius:2px}
 
-/* sidebar phase */
-.sdb-phase{margin-bottom:4px}
+/* phase row */
+.sdb-phase{margin-bottom:2px}
 .sdb-phase-title{
-  display:flex;align-items:center;gap:8px;
-  padding:8px 16px;cursor:pointer;
-  font-size:13px;font-weight:700;color:var(--text);
-  border-radius:0;transition:background .2s;
-  user-select:none;
+  display:flex;align-items:center;gap:6px;
+  padding:8px 14px 8px 12px;cursor:pointer;
+  font-size:12px;font-weight:700;color:var(--text);
+  transition:background .2s;user-select:none;position:relative;
 }
-.sdb-phase-title:hover{background:rgba(255,255,255,.05)}
-.sdb-phase-title.active-phase{color:#f59e0b}
-.sdb-phase-arrow{margin-left:auto;font-size:11px;transition:transform .2s;color:var(--text3)}
+.sdb-phase-title::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:transparent;border-radius:0 2px 2px 0;transition:background .2s;
+}
+.sdb-phase-title:hover{background:rgba(255,255,255,.04)}
+.sdb-phase-title.active-phase{color:#f59e0b;background:rgba(245,158,11,.06)}
+.sdb-phase-title.active-phase::before{background:#f59e0b}
+.sdb-phase-arrow{margin-left:auto;font-size:10px;transition:transform .25s;color:var(--text3);flex-shrink:0}
 .sdb-phase-arrow.open{transform:rotate(90deg)}
 .sdb-phase-content{overflow:hidden;transition:max-height .3s ease}
 .sdb-phase-content.collapsed{max-height:0!important}
 
-/* sidebar section */
-.sdb-section{padding:4px 0}
+/* section title */
 .sdb-section-title{
-  padding:5px 16px 5px 28px;font-size:12px;font-weight:600;
-  color:var(--text2);cursor:pointer;transition:color .2s;
+  padding:5px 14px 4px 22px;font-size:11px;font-weight:600;
+  color:var(--text3);cursor:pointer;transition:color .2s;letter-spacing:.2px;
+  margin-top:4px;
 }
-.sdb-section-title:hover{color:var(--text)}
+.sdb-section-title:hover{color:var(--text2)}
 
-/* sidebar item */
+/* item row */
 .sdb-item{
-  padding:4px 16px 4px 36px;font-size:12px;color:var(--text3);
-  cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px;
-  line-height:1.4;
+  padding:4px 12px 4px 30px;font-size:11.5px;color:var(--text3);
+  cursor:pointer;transition:all .15s;display:flex;align-items:flex-start;gap:5px;
+  line-height:1.45;border-left:2px solid transparent;
 }
-.sdb-item:hover{color:var(--text);background:rgba(255,255,255,.04)}
+.sdb-item:hover{color:var(--text);background:rgba(255,255,255,.03)}
 .sdb-item.done{color:var(--green)}
-.sdb-item-status{flex-shrink:0;font-size:11px}
+.sdb-item.active-item{color:var(--text);background:rgba(59,130,246,.07);border-left-color:#3b82f6}
+.sdb-item-status{flex-shrink:0;font-size:10px;margin-top:2px}
+
+/* ─── 左侧目录收起时的悬浮按钮 ─── */
+#sidebar-float-btn{
+  position:fixed;left:20px;top:50%;transform:translateY(-50%);
+  width:36px;height:36px;border-radius:10px;
+  background:rgba(15,23,42,.9);border:1px solid rgba(255,255,255,.1);
+  color:var(--text2);font-size:16px;cursor:pointer;z-index:300;
+  display:none;align-items:center;justify-content:center;
+  transition:all .2s;box-shadow:0 2px 12px rgba(0,0,0,.4);
+}
+#sidebar-float-btn:hover{color:var(--text);border-color:rgba(255,255,255,.2);background:rgba(30,41,59,.95)}
+#sidebar-float-btn.visible{display:flex}
 
 /* ─── ROAD MAP ─── */
 .roadmap{padding:0 32px 60px;max-width:1200px;margin:0 auto}
@@ -205,29 +208,34 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .quiz-ans-body{display:none;padding:0 12px 12px 12px;font-size:12px;color:#c4b5fd;line-height:1.7;border-top:1px solid rgba(139,92,246,.15)}
 .quiz-ans-body.open{display:block}
 
-/* ─── TOAST NOTIFICATION ─── */
-#toast-container{position:fixed;top:72px;right:20px;z-index:1200;pointer-events:none;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+/* ─── TOAST NOTIFICATION (顶部居中) ─── */
+#toast-container{
+  position:fixed;top:80px;left:50%;transform:translateX(-50%);
+  z-index:1200;pointer-events:none;
+  display:flex;flex-direction:column;gap:8px;align-items:center;
+  width:max-content;max-width:90vw;
+}
 .toast-item{
   pointer-events:auto;
-  padding:12px 18px;
-  border-radius:12px;
-  background:linear-gradient(135deg,#f59e0b,#ec4899);
-  color:white;font-size:13px;font-weight:600;
-  box-shadow:0 4px 24px rgba(245,158,11,.4);
-  max-width:280px;line-height:1.5;
-  transform:translateX(120%);transition:transform .4s cubic-bezier(.34,1.56,.64,1);
-  cursor:pointer;
+  padding:12px 24px;
+  border-radius:50px;
+  background:linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6);
+  color:white;font-size:14px;font-weight:700;
+  box-shadow:0 6px 30px rgba(245,158,11,.5),0 2px 12px rgba(0,0,0,.3);
+  line-height:1.5;letter-spacing:.3px;
+  opacity:0;transform:translateY(-20px) scale(.9);
+  transition:opacity .4s cubic-bezier(.34,1.56,.64,1),transform .4s cubic-bezier(.34,1.56,.64,1);
+  cursor:pointer;white-space:nowrap;
 }
-.toast-item.show{transform:translateX(0)}
-.toast-item.hide{transform:translateX(120%);transition:transform .3s ease-in}
+.toast-item.show{opacity:1;transform:translateY(0) scale(1)}
+.toast-item.hide{opacity:0;transform:translateY(-12px) scale(.95);transition:opacity .3s ease-in,transform .3s ease-in}
 
-/* ─── FULLSCREEN PARTICLE CANVAS ─── */
+/* ─── PARTICLE CANVAS (就地局部效果，跟随卡片位置) ─── */
 #particle-canvas{
   position:fixed;inset:0;width:100%;height:100%;
   z-index:1100;pointer-events:none;
-  opacity:0;transition:opacity .3s;
+  opacity:1;
 }
-#particle-canvas.active{opacity:1}
 
 /* ─── PARTICLES BG ─── */
 .bg-particles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
@@ -248,12 +256,25 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .prog-ring-bg{fill:none;stroke:rgba(255,255,255,.06)}
 .prog-ring-bar{fill:none;stroke-linecap:round;transition:stroke-dashoffset 1s ease}
 
+@media(max-width:900px){
+  #left-sidebar{transform:translateX(-100%);z-index:400}
+  #left-sidebar.mobile-open{transform:translateX(0)}
+  #app{margin-left:0!important}
+  #sidebar-float-btn{display:flex!important}
+  #sidebar-mobile-overlay{display:block}
+}
 @media(max-width:768px){
   nav{padding:0 16px}.dashboard,.roadmap{padding-left:16px;padding-right:16px}
   .items-grid{grid-template-columns:1fr}
   .dash-cards{grid-template-columns:repeat(2,1fr)}
-  #sidebar-toggle-btn{right:12px}
 }
+
+/* 移动端目录遮罩 */
+#sidebar-mobile-overlay{
+  display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);
+  z-index:390;opacity:0;pointer-events:none;transition:opacity .3s;
+}
+#sidebar-mobile-overlay.active{opacity:1;pointer-events:auto}
 </style>
 </head>
 <body>
@@ -379,20 +400,20 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
   <div class="roadmap" id="roadmap-container"></div>
 </div>
 
-<!-- ─── SIDEBAR TOGGLE BUTTON ─── -->
-<button id="sidebar-toggle-btn" onclick="toggleSidebar()" title="学习目录">🗂️</button>
-
-<!-- ─── SIDEBAR OVERLAY ─── -->
-<div id="sidebar-overlay" onclick="closeSidebar()"></div>
-
-<!-- ─── SIDEBAR PANEL ─── -->
-<div id="sidebar-panel">
-  <div class="sidebar-head">
-    <span class="sidebar-head-title">📚 学习目录</span>
-    <button class="sidebar-close" onclick="closeSidebar()">✕</button>
+<!-- ─── LEFT SIDEBAR ─── -->
+<div id="left-sidebar">
+  <div class="lsb-head">
+    <span class="lsb-head-title">📚 学习目录</span>
+    <button class="lsb-toggle-btn" onclick="collapseSidebar()" title="收起目录">‹</button>
   </div>
-  <div class="sidebar-body" id="sidebar-body"></div>
+  <div class="lsb-body" id="sidebar-body"></div>
 </div>
+
+<!-- 移动端遮罩 -->
+<div id="sidebar-mobile-overlay" onclick="closeMobileSidebar()"></div>
+
+<!-- 收起后的悬浮按钮 -->
+<button id="sidebar-float-btn" onclick="expandSidebar()" title="展开目录">›</button>
 
 <script>
 // ════════════════════════════════════════════════
@@ -917,74 +938,100 @@ function toggleDone(itemId,btn){
 }
 
 // ════════════════════════════════════════════════
-//  CELEBRATE (no modal — particles + toast)
+//  CELEBRATE (就地粒子 + 顶部居中Toast)
 // ════════════════════════════════════════════════
 function celebrate(itemId){
   const msg=CELEBRATE_MSGS[Math.floor(Math.random()*CELEBRATE_MSGS.length)];
-  launchParticles();
+  // 获取卡片位置，在卡片中心就地播放粒子
+  const card=document.getElementById(`card-${itemId}`);
+  let cx, cy;
+  if(card){
+    const rect=card.getBoundingClientRect();
+    cx=rect.left+rect.width/2;
+    cy=rect.top+rect.height/2;
+  } else {
+    cx=window.innerWidth/2;
+    cy=window.innerHeight/2;
+  }
+  launchParticles(cx, cy);
   showToast(`${msg.emoji} ${msg.title} ${msg.msg}`);
 }
 
 // ════════════════════════════════════════════════
-//  FULLSCREEN PARTICLE EXPLOSION
+//  CARD-LOCAL PARTICLE EXPLOSION（卡片就地爆发）
 // ════════════════════════════════════════════════
 const PARTICLE_COLORS=['#f59e0b','#ec4899','#8b5cf6','#3b82f6','#10b981','#06b6d4','#fbbf24','#f472b6','#34d399','#60a5fa'];
 let particleAnimId=null;
 
-function launchParticles(){
+function launchParticles(originX, originY){
   const canvas=document.getElementById('particle-canvas');
   canvas.width=window.innerWidth;
   canvas.height=window.innerHeight;
-  canvas.classList.add('active');
   const ctx=canvas.getContext('2d');
 
-  const cx=canvas.width/2, cy=canvas.height/2;
+  // 默认以卡片中心为原点
+  const cx = originX || window.innerWidth/2;
+  const cy = originY || window.innerHeight/2;
   const particles=[];
-  const count=160;
+  // 局部爆发：粒子数量适中，扩散半径控制在卡片附近
+  const count=90;
 
   for(let i=0;i<count;i++){
     const angle=Math.random()*Math.PI*2;
-    const speed=Math.random()*12+4;
+    // 速度比全屏版稍小，集中在卡片周围
+    const speed=Math.random()*8+2;
     const shape=['circle','rect','triangle','star'][Math.floor(Math.random()*4)];
     particles.push({
       x:cx, y:cy,
       vx:Math.cos(angle)*speed,
-      vy:Math.sin(angle)*speed - Math.random()*4,
+      vy:Math.sin(angle)*speed - Math.random()*3,
       color:PARTICLE_COLORS[Math.floor(Math.random()*PARTICLE_COLORS.length)],
-      size:Math.random()*9+4,
+      size:Math.random()*7+3,
       shape,
       rotation:Math.random()*360,
-      rotSpeed:(Math.random()-0.5)*12,
+      rotSpeed:(Math.random()-0.5)*10,
       scale:1,
       opacity:1,
-      life:1
+    });
+  }
+
+  // 额外：在卡片周围散落一些小星星（固定位置闪烁）
+  const sparkles=[];
+  for(let i=0;i<8;i++){
+    sparkles.push({
+      x:cx+(Math.random()-0.5)*200,
+      y:cy+(Math.random()-0.5)*120,
+      size:Math.random()*4+2,
+      color:PARTICLE_COLORS[Math.floor(Math.random()*PARTICLE_COLORS.length)],
+      delay:Math.random()*0.4,
+      opacity:0,
     });
   }
 
   const startTime=performance.now();
-  const duration=2000;
+  const duration=1800;
 
   function draw(now){
     const elapsed=now-startTime;
     const progress=elapsed/duration;
     ctx.clearRect(0,0,canvas.width,canvas.height);
 
+    // 绘制主粒子
     let alive=false;
     particles.forEach(p=>{
       p.x+=p.vx;
       p.y+=p.vy;
-      p.vy+=0.25; // gravity
-      p.vx*=0.99;
+      p.vy+=0.2; // 轻微重力
+      p.vx*=0.98;
       p.rotation+=p.rotSpeed;
-      p.opacity=Math.max(0,1-progress*1.2);
-      p.scale=Math.max(0.1,1-progress*0.5);
+      p.opacity=Math.max(0,1-progress*1.3);
+      p.scale=Math.max(0.1,1-progress*0.4);
 
       if(p.opacity>0){
         alive=true;
         ctx.save();
         ctx.globalAlpha=p.opacity;
         ctx.fillStyle=p.color;
-        ctx.strokeStyle=p.color;
         ctx.translate(p.x,p.y);
         ctx.rotate(p.rotation*Math.PI/180);
         ctx.scale(p.scale,p.scale);
@@ -1003,12 +1050,27 @@ function launchParticles(){
       }
     });
 
-    if(alive&&elapsed<duration+500){
+    // 绘制周围闪烁星点
+    sparkles.forEach(sp=>{
+      const spProgress=Math.max(0,(progress-sp.delay)/(1-sp.delay));
+      sp.opacity=spProgress<0.3?spProgress/0.3:1-((spProgress-0.3)/0.7);
+      if(sp.opacity>0){
+        ctx.save();
+        ctx.globalAlpha=sp.opacity*0.9;
+        ctx.fillStyle=sp.color;
+        ctx.shadowBlur=6;ctx.shadowColor=sp.color;
+        drawStar(ctx,sp.x,sp.y,4,sp.size,sp.size*0.45);
+        ctx.fill();
+        ctx.restore();
+      }
+    });
+
+    if(alive&&elapsed<duration+300){
       particleAnimId=requestAnimationFrame(draw);
     } else {
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      canvas.classList.remove('active');
       if(particleAnimId)cancelAnimationFrame(particleAnimId);
+      particleAnimId=null;
     }
   }
 
@@ -1073,7 +1135,7 @@ function buildSidebar(){
     titleDiv.id=`sdb-phase-title-${pi}`;
     titleDiv.innerHTML=`<span>${phase.icon} ${phase.num}</span><span class="sdb-phase-arrow open" id="sdb-arrow-${pi}">▶</span>`;
     titleDiv.onclick=()=>{
-      closeSidebar();
+      if(window.innerWidth<=900)closeMobileSidebar();
       const el=document.getElementById(phase.id);
       if(el){el.scrollIntoView({behavior:'smooth',block:'start'});window.scrollBy(0,-80);}
     };
@@ -1103,7 +1165,7 @@ function buildSidebar(){
       secTitleDiv.className='sdb-section-title';
       secTitleDiv.textContent=sec.title;
       secTitleDiv.onclick=()=>{
-        closeSidebar();
+        if(window.innerWidth<=900)closeMobileSidebar();
         const el=document.getElementById(`sec-${phase.id}-${si}`);
         if(el){el.scrollIntoView({behavior:'smooth',block:'start'});window.scrollBy(0,-80);}
       };
@@ -1127,7 +1189,8 @@ function buildSidebar(){
 }
 
 function sidebarScrollToCard(itemId){
-  closeSidebar();
+  // 移动端才需要关闭
+  if(window.innerWidth<=900)closeMobileSidebar();
   setTimeout(()=>{
     const card=document.getElementById(`card-${itemId}`);
     if(card){
@@ -1135,9 +1198,9 @@ function sidebarScrollToCard(itemId){
       setTimeout(()=>{
         card.classList.add('flash-highlight');
         setTimeout(()=>card.classList.remove('flash-highlight'),800);
-      },400);
+      },300);
     }
-  },300);
+  },window.innerWidth<=900?300:50);
 }
 
 function refreshSidebarItem(itemId,isDone){
@@ -1148,29 +1211,52 @@ function refreshSidebarItem(itemId,isDone){
   if(statusEl)statusEl.textContent=isDone?'✓':'○';
 }
 
-function toggleSidebar(){
-  const panel=document.getElementById('sidebar-panel');
-  const overlay=document.getElementById('sidebar-overlay');
-  const isOpen=panel.classList.contains('open');
-  if(isOpen){closeSidebar();}
-  else{
-    // Refresh sidebar content
-    buildSidebar();
-    panel.classList.add('open');
-    overlay.classList.add('active');
-    // After content is built, set max-heights
-    setTimeout(()=>{
-      document.querySelectorAll('.sdb-phase-content').forEach(c=>{
-        if(!c.classList.contains('collapsed'))c.style.maxHeight=c.scrollHeight+'px';
-      });
-    },100);
-  }
+// 收起左侧目录（桌面端）
+function collapseSidebar(){
+  const sidebar=document.getElementById('left-sidebar');
+  const floatBtn=document.getElementById('sidebar-float-btn');
+  const app=document.getElementById('app');
+  sidebar.classList.add('hidden');
+  floatBtn.classList.add('visible');
+  app.classList.add('sidebar-hidden');
 }
 
-function closeSidebar(){
-  document.getElementById('sidebar-panel').classList.remove('open');
-  document.getElementById('sidebar-overlay').classList.remove('active');
+// 展开左侧目录（桌面端）
+function expandSidebar(){
+  const sidebar=document.getElementById('left-sidebar');
+  const floatBtn=document.getElementById('sidebar-float-btn');
+  const app=document.getElementById('app');
+  sidebar.classList.remove('hidden');
+  floatBtn.classList.remove('visible');
+  app.classList.remove('sidebar-hidden');
 }
+
+// 移动端：打开目录
+function openMobileSidebar(){
+  const sidebar=document.getElementById('left-sidebar');
+  const overlay=document.getElementById('sidebar-mobile-overlay');
+  sidebar.classList.add('mobile-open');
+  overlay.classList.add('active');
+}
+
+// 移动端：关闭目录
+function closeMobileSidebar(){
+  const sidebar=document.getElementById('left-sidebar');
+  const overlay=document.getElementById('sidebar-mobile-overlay');
+  sidebar.classList.remove('mobile-open');
+  overlay.classList.remove('active');
+}
+
+// 兼容旧调用（sidebarScrollToCard 里可能用到）
+function closeSidebar(){
+  if(window.innerWidth<=900)closeMobileSidebar();
+}
+
+// 移动端悬浮按钮点击 → 打开目录
+document.getElementById('sidebar-float-btn').addEventListener('click',function(){
+  if(window.innerWidth<=900){openMobileSidebar();}
+  else{expandSidebar();}
+});
 
 // ════════════════════════════════════════════════
 //  SCROLL SPY — highlight active phase in sidebar
