@@ -5,6 +5,56 @@
   },
   "news": [
     {
+      "id": "n_e69ed9a0cd73",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Graph-Oriented Generation (GOG): Replacing Vector R.A.G. for Codebases with ",
+      "summary": "Hey everyone. I’m a 5 YoE full-stack engineer who has been crossing over into AI research. Like many of you, I got incredibly frustrated wit...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rmz1zr/r_graphoriented_generation_gog_replacing_vector/"
+    },
+    {
+      "id": "n_e59cedf87b90",
+      "date": "2026-03-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Low-effort papers",
+      "summary": "I came across a professor with 100+ published papers, and the pattern is striking. Almost every paper follows the same formula: take a new Y...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rmk49w/r_loweffort_papers/"
+    },
+    {
+      "id": "n_cc2eaf49050e",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DARE: Aligning LLM Agents with the R Statistical Ecosystem v",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.04743"
+    },
+    {
+      "id": "n_cf7734071a07",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SkillNet: Create, Evaluate, and Connect AI Skills",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.04448"
+    },
+    {
+      "id": "n_a34e58656ecb",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MOOSE-Star: Unlocking Tractable Training for Scientific Disc",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.03756"
+    },
+    {
       "id": "news_20260304_001",
       "date": "2026-03-04",
       "tag": "hot",
@@ -66,12 +116,16 @@
     }
   ],
   "ticker": [
+    "[R] Graph-Oriented Generation (GOG)...",
+    "[R] Low-effort papers",
+    "[论文] DARE: Aligning LLM Agents with...",
+    "[论文] SkillNet: Create, Evaluate, an...",
+    "[论文] MOOSE-Star: Unlocking Tractabl...",
     "大模型格局巨变：Claude 4、GPT-5.2 与六大国产模型全面横...",
     "2026 AI风向：Vibe Coding开启万亿创作者经济",
     "MWC 2026：AI重构智能网络，6G技术全面加速布局",
     "Gemini 2026：多模态挑战者的真实格局解析",
-    "2026 十大必藏 GitHub AI 开源项目 · 开发者直接抄作业",
-    "今日AI新闻：淘宝开源食安大模型 · 国产AI芯片涨价"
+    "2026 十大必藏 GitHub AI 开源项目 · 开发者直接抄作业"
   ],
   "learning": {
     "phases": [
