@@ -2,8 +2,8 @@ name: Daily AI News Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 2 * * *'   # 北京时间 10:00 (UTC+8 = UTC+2反推)
+  workflow_dispatch:       # 支持手动触发
 
 permissions:
   contents: write
@@ -22,18 +22,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install requests -q
-
-      - name: Run auto update
+      - name: Run auto update (data + embed into index.html)
         run: python auto_update.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "bot: daily update $(date +'%Y-%m-%d')"
+          git add data.json index.html update.log
+          git diff --staged --quiet || git commit -m "bot: daily update $(date +'%Y-%m-%d') - data+html embedded"
           git push
 
   deploy:
