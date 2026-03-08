@@ -288,19 +288,20 @@ RESOURCE_POOL = {
 }
 
 def update_learning_resources(data):
-    """每周自动向每个学习阶段添加 1 个新资源"""
+    """每周自动向每个学习阶段添加 1 个新资源（修复：正确判断7天内是否已加）"""
     phases = data.get('learning', {}).get('phases', [])
     added_count = 0
+    cutoff_7d = (now_cst() - timedelta(days=7)).strftime('%Y-%m-%d')
 
     for phase_idx, phase in enumerate(phases):
         existing_urls = {r['url'] for r in phase.get('resources', [])}
-        # 检查本周是否已经给这个阶段加过资源
-        this_week_added = any(
-            r.get('added_date', '')[:7] == THIS_MONTH and  # 本月加过
-            r.get('added_date', '') >= (now_cst() - timedelta(days=7)).strftime('%Y-%m-%d')  # 7天内
+        # 检查最近 7 天内是否已给该阶段加过资源（修复：只看 added_date >= 7天前）
+        recent_added = any(
+            r.get('added_date', '') >= cutoff_7d
             for r in phase.get('resources', [])
         )
-        if this_week_added:
+        if recent_added:
+            log(f'  → 阶段{phase_idx+1} 近7天已更新，跳过')
             continue
 
         pool = RESOURCE_POOL.get(phase_idx, [])
@@ -387,12 +388,16 @@ PROJECT_POOL = [
 ]
 
 def update_projects(data):
-    """每月自动添加 1-2 个新实战项目"""
+    """每月自动添加 1-2 个新实战项目（修复：只统计从 PROJECT_POOL 新增的，不统计初始项目）"""
     projects  = data.get('projects', [])
     existing_titles = {p['title'] for p in projects}
-    # 检查本月是否已加过
-    this_month_added = [p for p in projects if p.get('added_date', '').startswith(THIS_MONTH)]
+    # 检查本月是否已从 PROJECT_POOL 加过（只看 id 以 p_ 开头的，即脚本新增的）
+    this_month_added = [
+        p for p in projects
+        if p.get('added_date', '').startswith(THIS_MONTH) and p.get('id', '').startswith('p_')
+    ]
     if len(this_month_added) >= 2:
+        log(f'  → 本月已新增 {len(this_month_added)} 个项目，跳过')
         return 0
 
     added_count = 0
@@ -468,13 +473,44 @@ def run():
     proj_added = update_projects(data)
     log(f'  → 实战项目新增 {proj_added} 个')
 
-    # ===== 保存 =====
+    # ===== 保存 data.json =====
     save(data)
+
+    # ===== 关键：把最新数据内嵌到 index.html，解决 fetch 被墙问题 =====
+    log('\n💉 内嵌数据到 index.html...')
+    try:
+        embed_data_into_html(data)
+        log('  ✓ index.html 数据内嵌成功')
+    except Exception as e:
+        log(f'  ✗ index.html 内嵌失败: {e}')
 
     log(f'\n✅ 更新完成！')
     log(f'   资讯 +{news_added} | 学习资源 +{res_added} | 项目 +{proj_added}')
     log('=' * 55)
     return news_added + res_added + proj_added
+
+
+def embed_data_into_html(data):
+    """把最新 data 内嵌进 index.html 的 FALLBACK_DATA，确保不依赖 fetch 也能展示数据"""
+    html_file = os.path.join(SCRIPT_DIR, 'index.html')
+    with open(html_file, 'r', encoding='utf-8') as f:
+        html = f.read()
+
+    # 生成紧凑 JSON（单行）
+    compact_json = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
+
+    # 替换 FALLBACK_DATA 定义（精确匹配 const FALLBACK_DATA = {...};）
+    import re as _re
+    pattern = r'const FALLBACK_DATA\s*=\s*\{.*?\};'
+    replacement = f'const FALLBACK_DATA = {compact_json};'
+    new_html, count = _re.subn(pattern, replacement, html, flags=_re.DOTALL)
+
+    if count == 0:
+        raise ValueError('未找到 FALLBACK_DATA 定义，请检查 index.html 格式')
+
+    with open(html_file, 'w', encoding='utf-8') as f:
+        f.write(new_html)
+
 
 if __name__ == '__main__':
     run()
