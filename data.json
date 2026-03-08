@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-03-07",
+    "last_updated": "2026-03-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1ceec113bff1",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] TraceML: wrap your PyTorch training step in single context manager and see w",
+      "summary": "End-summary Building TraceML, an open-source tool for PyTorch training runtime visibility. You add a single context manager: with trace_step...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rnlo0q/p_traceml_wrap_your_pytorch_training_step_in/"
+    },
+    {
+      "id": "n_b05666fb80e7",
+      "date": "2026-03-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] VeridisQuo - open-source deepfake detector that combines spatial + frequency",
+      "summary": "Hey everyone, My teammate and I just finished our deepfake detection project for university and wanted to share it. The idea started pretty ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rnajac/p_veridisquo_opensource_deepfake_detector_that/"
+    },
     {
       "id": "n_e69ed9a0cd73",
       "date": "2026-03-07",
@@ -116,6 +136,8 @@
     }
   ],
   "ticker": [
+    "[P] TraceML: wrap your PyTorch trai...",
+    "[P] VeridisQuo - open-source deepfa...",
     "[R] Graph-Oriented Generation (GOG)...",
     "[R] Low-effort papers",
     "[论文] DARE: Aligning LLM Agents with...",
@@ -123,9 +145,7 @@
     "[论文] MOOSE-Star: Unlocking Tractabl...",
     "大模型格局巨变：Claude 4、GPT-5.2 与六大国产模型全面横...",
     "2026 AI风向：Vibe Coding开启万亿创作者经济",
-    "MWC 2026：AI重构智能网络，6G技术全面加速布局",
-    "Gemini 2026：多模态挑战者的真实格局解析",
-    "2026 十大必藏 GitHub AI 开源项目 · 开发者直接抄作业"
+    "MWC 2026：AI重构智能网络，6G技术全面加速布局"
   ],
   "learning": {
     "phases": [
