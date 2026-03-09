@@ -5,6 +5,46 @@
   },
   "news": [
     {
+      "id": "n_5b5ee49c3b28",
+      "date": "2026-03-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Sim-to-real in robotics — what are the actual unsolved problems?",
+      "summary": "Been reading a lot of recent sim-to-real papers (LucidSim, Genesis, Isaac Lab stuff) and the results look impressive in demos, but Im curiou...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ro7zez/d_simtoreal_in_robotics_what_are_the_actual/"
+    },
+    {
+      "id": "n_4d041bfc9028",
+      "date": "2026-03-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Is there a way to defend using a subset of data for ablation studies?",
+      "summary": "I wanted to do an ablation study, but due to limited compute, I just compared a subset of the data of a very large training set (trained on ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rojehe/p_is_there_a_way_to_defend_using_a_subset_of_data/"
+    },
+    {
+      "id": "n_2391197ff0e0",
+      "date": "2026-03-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] π-StepNFT: Wider Space Needs Finer Steps in Online RL for Fl",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.02083"
+    },
+    {
+      "id": "n_148559850594",
+      "date": "2026-03-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.06569"
+    },
+    {
       "id": "n_1dc3449a3c68",
       "date": "2026-03-09",
       "tag": "tool",
@@ -163,59 +203,19 @@
       "summary": "",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/384637.html"
-    },
-    {
-      "id": "n_1ceec113bff1",
-      "date": "2026-03-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] TraceML: wrap your PyTorch training step in single context manager and see w",
-      "summary": "End-summary Building TraceML, an open-source tool for PyTorch training runtime visibility. You add a single context manager: with trace_step...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rnlo0q/p_traceml_wrap_your_pytorch_training_step_in/"
-    },
-    {
-      "id": "n_b05666fb80e7",
-      "date": "2026-03-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] VeridisQuo - open-source deepfake detector that combines spatial + frequency",
-      "summary": "Hey everyone, My teammate and I just finished our deepfake detection project for university and wanted to share it. The idea started pretty ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rnajac/p_veridisquo_opensource_deepfake_detector_that/"
-    },
-    {
-      "id": "n_e69ed9a0cd73",
-      "date": "2026-03-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Graph-Oriented Generation (GOG): Replacing Vector R.A.G. for Codebases with ",
-      "summary": "Hey everyone. I’m a 5 YoE full-stack engineer who has been crossing over into AI research. Like many of you, I got incredibly frustrated wit...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rmz1zr/r_graphoriented_generation_gog_replacing_vector/"
-    },
-    {
-      "id": "n_e59cedf87b90",
-      "date": "2026-03-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Low-effort papers",
-      "summary": "I came across a professor with 100+ published papers, and the pattern is striking. Almost every paper follows the same formula: take a new Y...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rmk49w/r_loweffort_papers/"
     }
   ],
   "ticker": [
+    "[D] Sim-to-real in robotics — what ...",
+    "[P] Is there a way to defend using ...",
+    "[论文] π-StepNFT: Wider Space Needs F...",
+    "[论文] Penguin-VL: Exploring the Effi...",
     "GitHub 热榜 · shareAI-lab/learn-claud...",
     "GitHub 热榜 · Ed1s0nZ/CyberStrikeAI",
     "GitHub 热榜 · GoogleCloudPlatform/gen...",
     "[论文] Physical Simulator In-the-Loop...",
     "[论文] Reasoning Models Struggle to C...",
-    "[论文] RoboMME: Benchmarking and Unde...",
-    "BMAD方法 v6 与 GitHub Copilot 在应用开发中的协...",
-    "我把同一个需求分别交给初级程序员、高级程序员和AI，结果让我沉默了 -...",
-    "20岁大学生花10天VibeCoding一个开源项目，获盛大3000万...",
-    "OpenClaw最强外挂出现：小龙虾抓不到数据有救了！"
+    "[论文] RoboMME: Benchmarking and Unde..."
   ],
   "learning": {
     "phases": [
