@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_efe793d6abbd",
+      "date": "2026-03-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Real-time multi-dimensional LLM output scoring in production, what's actuall",
+      "summary": "Im deep in research on whether a continuous, multi-dimensional scoring engine for LL outputs is production-viable, not as an offline eval pi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rpixo7/d_realtime_multidimensional_llm_output_scoring_in/"
+    },
+    {
+      "id": "n_4a0c26ad0a44",
+      "date": "2026-03-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] fast-vad: a very fast voice activity detector in Rust with Python bindings.",
+      "summary": "Repo: https://github.com/AtharvBhat/fast-vad I needed something comparable to existing open-source VADs in quality, but with a strong emphas...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rpe31a/p_fastvad_a_very_fast_voice_activity_detector_in/"
+    },
+    {
+      "id": "n_ded754d1163a",
+      "date": "2026-03-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Believe Your Model: Distribution-Guided Confidence Calibrati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.03872"
+    },
+    {
+      "id": "n_a00ae9f83059",
+      "date": "2026-03-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Holi-Spatial: Evolving Video Streams into Holistic 3D Spatia",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.07660"
+    },
+    {
+      "id": "n_a818aef8b9be",
+      "date": "2026-03-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] \\$OneMillion-Bench: How Far are Language Agents from Human E",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.07980"
+    },
     {
       "id": "n_5b5ee49c3b28",
       "date": "2026-03-08",
@@ -153,69 +203,19 @@
       "summary": "全龙虾公司，还设了好几个部门",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/384797.html"
-    },
-    {
-      "id": "n_0a2510023ab0",
-      "date": "2026-03-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "OpenClaw中级到高级教程 - Johny_Zhao",
-      "summary": "OpenClaw从\"能用\"迈向\"好用\"的关键跨越。下面这份教程将涵盖你关注的记忆系统、网络搜索、服务器部署、接入微信/飞书、安装skills、多Agents功能，并补充心跳机制的说明，帮你系统性地掌握这些进阶能力。 一、记忆系统优化：从记录到智能检索 基础记忆依赖Markdown...",
-      "source": "博客园",
-      "url": "https://www.cnblogs.com/Johny-zhao/p/19685861"
-    },
-    {
-      "id": "n_f7978753e465",
-      "date": "2026-03-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AI测试不是工具升级,是思维革命:从OpenClaw看测试工程师的生死劫 - 久曲健",
-      "summary": "我测了100个目标,发现AI测试改变了游戏的规则 我用OpenClaw测了100个目标,效率提升了10倍。 这不是重点。 重点是,我发现测试的逻辑完全变了。 传统测试,我测\"对不对\"。 AI测试,我得测\"稳不稳、准不准、诚不诚\"。 底层逻辑天差地别。 传统软件vs AI系统,测试...",
-      "source": "博客园",
-      "url": "https://www.cnblogs.com/longronglang/p/19686044"
-    },
-    {
-      "id": "n_02de5a9e00c3",
-      "date": "2026-03-07",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "鹅厂门口免费装龙虾，几百人排爆了！一代人有一代人的鸡蛋要领",
-      "summary": "",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384595.html"
-    },
-    {
-      "id": "n_64b351c2fb27",
-      "date": "2026-03-07",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "彻底告别VE与VAE！商汤硬核重构多模态：砍掉所有中间编码器",
-      "summary": "2B规模吊打传统范式",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384623.html"
-    },
-    {
-      "id": "n_720e104136c5",
-      "date": "2026-03-07",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "央视点赞千问APP，“AI办事”让人工智能走进日常生活",
-      "summary": "",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384637.html"
     }
   ],
   "ticker": [
+    "[D] Real-time multi-dimensional LLM...",
+    "[P] fast-vad: a very fast voice act...",
+    "[论文] Believe Your Model: Distributi...",
+    "[论文] Holi-Spatial: Evolving Video S...",
+    "[论文] \\$OneMillion-Bench: How Far ar...",
     "[D] Sim-to-real in robotics — what ...",
     "[P] Is there a way to defend using ...",
     "[论文] π-StepNFT: Wider Space Needs F...",
     "[论文] Penguin-VL: Exploring the Effi...",
-    "GitHub 热榜 · shareAI-lab/learn-claud...",
-    "GitHub 热榜 · Ed1s0nZ/CyberStrikeAI",
-    "GitHub 热榜 · GoogleCloudPlatform/gen...",
-    "[论文] Physical Simulator In-the-Loop...",
-    "[论文] Reasoning Models Struggle to C...",
-    "[论文] RoboMME: Benchmarking and Unde..."
+    "GitHub 热榜 · shareAI-lab/learn-claud..."
   ],
   "learning": {
     "phases": [
