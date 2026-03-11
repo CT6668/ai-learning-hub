@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-10",
+    "last_updated": "2026-03-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_99295df4bd47",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Is there an updated LaTeX / Overleaf template for IJCV? The only one I find ",
+      "summary": "Hey everyone, I’m planning to submit a paper to IJCV and got a bit confused about the LaTeX template situation. When I search online (and on...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rqhz39/r_is_there_an_updated_latex_overleaf_template_for/"
+    },
+    {
+      "id": "n_26f71ee46729",
+      "date": "2026-03-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How I topped the Open LLM Leaderboard using 2x 4090 GPUs - Research notes in Blo",
+      "summary": "A few years ago, I found that duplicating a specific block of 7 middle layers in Qwen2-72B, without modifying any weights, improved performa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rq6g08/how_i_topped_the_open_llm_leaderboard_using_2x/"
+    },
+    {
+      "id": "n_07539c950c85",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Reading, Not Thinking: Understanding and Bridging the Modali",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.09095"
+    },
+    {
+      "id": "n_0a3433e1a82d",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MM-Zero: Self-Evolving Multi-Model Vision Language Models Fr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.09206"
+    },
+    {
+      "id": "n_5e55d3fda1f1",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Omni-Diffusion: Unified Multimodal Understanding and Generat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.06577"
+    },
     {
       "id": "n_efe793d6abbd",
       "date": "2026-03-10",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.04639"
-    },
-    {
-      "id": "n_0f971da1f15e",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "BMAD方法 v6 与 GitHub Copilot 在应用开发中的协同 - 张善友",
-      "summary": "软件工程范式的认知转型与规范驱动开发的崛起 在人工智能技术全面渗透软件工程全生命周期的当下，行业正经历一场深刻的认知与操作模式转型。早期的大语言模型（LLM）应用普遍依赖于一种被称为“氛围编码”（Vibe Coding）的非结构化交互模式 。虽然这种高度依赖即兴对话的模式在初期展...",
-      "source": "博客园",
-      "url": "https://www.cnblogs.com/shanyou/p/19687483"
-    },
-    {
-      "id": "n_29deee8ce268",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "我把同一个需求分别交给初级程序员、高级程序员和AI，结果让我沉默了 - 后端AI实验室",
-      "summary": "上个月，我们有个新功能要做：实现一个订单退款接口。 需求不复杂，但涉及金额变更、库存回滚、状态流转，刚好是个能拉开差距的典型场景。 当时团队有点忙，我临时把这个需求分别交给了三个\"人\"： 小王，工作1年半的初级开发 老陈，工作6年的高级开发 Cursor（我给它写了一个详细的Pr...",
-      "source": "博客园",
-      "url": "https://www.cnblogs.com/taohaijun/p/19688646"
-    },
-    {
-      "id": "n_b18abf65143f",
-      "date": "2026-03-08",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "20岁大学生花10天VibeCoding一个开源项目，获盛大3000万投资",
-      "summary": "",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384728.html"
-    },
-    {
-      "id": "n_15670b704067",
-      "date": "2026-03-08",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "OpenClaw最强外挂出现：小龙虾抓不到数据有救了！",
-      "summary": "Skill版本作者已经亲自安排上了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384786.html"
-    },
-    {
-      "id": "n_3d5108f45aec",
-      "date": "2026-03-08",
-      "tag": "hot",
-      "tag_label": "🔥 热门",
-      "title": "高中生AI创业，现在只招龙虾员工：每月成本2800",
-      "summary": "全龙虾公司，还设了好几个部门",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/384797.html"
     }
   ],
   "ticker": [
+    "[R] Is there an updated LaTeX / Ove...",
+    "How I topped the Open LLM Leaderboa...",
+    "[论文] Reading, Not Thinking: Underst...",
+    "[论文] MM-Zero: Self-Evolving Multi-M...",
+    "[论文] Omni-Diffusion: Unified Multim...",
     "[D] Real-time multi-dimensional LLM...",
     "[P] fast-vad: a very fast voice act...",
     "[论文] Believe Your Model: Distributi...",
     "[论文] Holi-Spatial: Evolving Video S...",
-    "[论文] \\$OneMillion-Bench: How Far ar...",
-    "[D] Sim-to-real in robotics — what ...",
-    "[P] Is there a way to defend using ...",
-    "[论文] π-StepNFT: Wider Space Needs F...",
-    "[论文] Penguin-VL: Exploring the Effi...",
-    "GitHub 热榜 · shareAI-lab/learn-claud..."
+    "[论文] \\$OneMillion-Bench: How Far ar..."
   ],
   "learning": {
     "phases": [
