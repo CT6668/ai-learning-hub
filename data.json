@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-11",
+    "last_updated": "2026-03-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d6dac0d1aa4f",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML paper to review is fully AI generated",
+      "summary": "I got a paper to review at ICML, this is in the category of no LLM assistant allowed for writing or reviewing it, yet the paper is fully AI ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rqs7gd/d_icml_paper_to_review_is_fully_ai_generated/"
+    },
+    {
+      "id": "n_db62a19c3cbd",
+      "date": "2026-03-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Can we stop glazing big labs and universities?",
+      "summary": "I routinely see posts describing a paper with 15+ authors, the middlemost one being a student intern at Google, described in posts as \"Googl...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rr7vup/d_can_we_stop_glazing_big_labs_and_universities/"
+    },
+    {
+      "id": "n_7d56dded96b0",
+      "date": "2026-03-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MA-EgoQA: Question Answering over Egocentric Videos from Mul",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.09827"
+    },
+    {
+      "id": "n_0917adb2a747",
+      "date": "2026-03-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.09229"
+    },
+    {
+      "id": "n_31e2c4eee85d",
+      "date": "2026-03-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OpenClaw-RL: Train Any Agent Simply by Talking",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.10165"
+    },
     {
       "id": "n_99295df4bd47",
       "date": "2026-03-11",
@@ -153,69 +203,19 @@
       "summary": "GitHub 热门 AI 开源项目",
       "source": "GitHub Trending",
       "url": "https://github.com/shareAI-lab/learn-claude-code"
-    },
-    {
-      "id": "n_2da3feec8d23",
-      "date": "2026-03-09",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · Ed1s0nZ/CyberStrikeAI",
-      "summary": "GitHub 热门 AI 开源项目",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI"
-    },
-    {
-      "id": "n_0e04c3f9799b",
-      "date": "2026-03-09",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · GoogleCloudPlatform/generative-ai",
-      "summary": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
-      "source": "GitHub Trending",
-      "url": "https://github.com/GoogleCloudPlatform/generative-ai"
-    },
-    {
-      "id": "n_958165751bc9",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Physical Simulator In-the-Loop Video Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.06408"
-    },
-    {
-      "id": "n_0e42439f3459",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Reasoning Models Struggle to Control their Chains of Thought",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.05706"
-    },
-    {
-      "id": "n_44c39218993f",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RoboMME: Benchmarking and Understanding Memory for Robotic G",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.04639"
     }
   ],
   "ticker": [
+    "[D] ICML paper to review is fully A...",
+    "[D] Can we stop glazing big labs an...",
+    "[论文] MA-EgoQA: Question Answering o...",
+    "[论文] Flash-KMeans: Fast and Memory-...",
+    "[论文] OpenClaw-RL: Train Any Agent S...",
     "[R] Is there an updated LaTeX / Ove...",
     "How I topped the Open LLM Leaderboa...",
     "[论文] Reading, Not Thinking: Underst...",
     "[论文] MM-Zero: Self-Evolving Multi-M...",
-    "[论文] Omni-Diffusion: Unified Multim...",
-    "[D] Real-time multi-dimensional LLM...",
-    "[P] fast-vad: a very fast voice act...",
-    "[论文] Believe Your Model: Distributi...",
-    "[论文] Holi-Spatial: Evolving Video S...",
-    "[论文] \\$OneMillion-Bench: How Far ar..."
+    "[论文] Omni-Diffusion: Unified Multim..."
   ],
   "learning": {
     "phases": [
