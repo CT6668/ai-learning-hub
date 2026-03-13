@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-12",
+    "last_updated": "2026-03-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8ced06721736",
+      "date": "2026-03-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] LEVI: Beating GEPA/OpenEvolve/AlphaEvolve at a fraction of the cost",
+      "summary": "Ive been working on making LLM-guided evolutionary optimization (the AlphaEvolve/FunSearch paradigm) cheaper and more accessible. The result...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rrrgjm/r_levi_beating_gepaopenevolvealphaevolve_at_a/"
+    },
+    {
+      "id": "n_6e941a94dd86",
+      "date": "2026-03-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "CVPR workshop farming citations - how is this ethical?? [D]",
+      "summary": "I cam across the PHAROS-AIF-MIH workshop at CVPR 2026 and one of the condition to participate in their challenge is to cite 13 papers by the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rs56wa/cvpr_workshop_farming_citations_how_is_this/"
+    },
+    {
+      "id": "n_027323510a63",
+      "date": "2026-03-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Video-Based Reward Modeling for Computer-Use Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.10178"
+    },
+    {
+      "id": "n_3be1ca33a7eb",
+      "date": "2026-03-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] IndexCache: Accelerating Sparse Attention via Cross-Layer In",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.12201"
+    },
+    {
+      "id": "n_1bbc88f01d4b",
+      "date": "2026-03-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Spatial-TTT: Streaming Visual-based Spatial Intelligence wit",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.12255"
+    },
     {
       "id": "n_d6dac0d1aa4f",
       "date": "2026-03-11",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.07980"
-    },
-    {
-      "id": "n_5b5ee49c3b28",
-      "date": "2026-03-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Sim-to-real in robotics — what are the actual unsolved problems?",
-      "summary": "Been reading a lot of recent sim-to-real papers (LucidSim, Genesis, Isaac Lab stuff) and the results look impressive in demos, but Im curiou...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ro7zez/d_simtoreal_in_robotics_what_are_the_actual/"
-    },
-    {
-      "id": "n_4d041bfc9028",
-      "date": "2026-03-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Is there a way to defend using a subset of data for ablation studies?",
-      "summary": "I wanted to do an ablation study, but due to limited compute, I just compared a subset of the data of a very large training set (trained on ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rojehe/p_is_there_a_way_to_defend_using_a_subset_of_data/"
-    },
-    {
-      "id": "n_2391197ff0e0",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] π-StepNFT: Wider Space Needs Finer Steps in Online RL for Fl",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.02083"
-    },
-    {
-      "id": "n_148559850594",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.06569"
-    },
-    {
-      "id": "n_1dc3449a3c68",
-      "date": "2026-03-09",
-      "tag": "tool",
-      "tag_label": "🛠️ 开源",
-      "title": "GitHub 热榜 · shareAI-lab/learn-claude-code",
-      "summary": "GitHub 热门 AI 开源项目",
-      "source": "GitHub Trending",
-      "url": "https://github.com/shareAI-lab/learn-claude-code"
     }
   ],
   "ticker": [
+    "[R] LEVI: Beating GEPA/OpenEvolve/A...",
+    "CVPR workshop farming citations - h...",
+    "[论文] Video-Based Reward Modeling fo...",
+    "[论文] IndexCache: Accelerating Spars...",
+    "[论文] Spatial-TTT: Streaming Visual-...",
     "[D] ICML paper to review is fully A...",
     "[D] Can we stop glazing big labs an...",
     "[论文] MA-EgoQA: Question Answering o...",
     "[论文] Flash-KMeans: Fast and Memory-...",
-    "[论文] OpenClaw-RL: Train Any Agent S...",
-    "[R] Is there an updated LaTeX / Ove...",
-    "How I topped the Open LLM Leaderboa...",
-    "[论文] Reading, Not Thinking: Underst...",
-    "[论文] MM-Zero: Self-Evolving Multi-M...",
-    "[论文] Omni-Diffusion: Unified Multim..."
+    "[论文] OpenClaw-RL: Train Any Agent S..."
   ],
   "learning": {
     "phases": [
