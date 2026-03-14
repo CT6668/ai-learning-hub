@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-03-13",
+    "last_updated": "2026-03-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_285821ccdac2",
+      "date": "2026-03-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] What is even the point of these LLM benchmarking papers?",
+      "summary": "Lately, NeurIPS and ICLR are flooded with these LLM benchmarking papers. All they do is take a problem X and benchmark a bunch of propriety ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsdify/d_what_is_even_the_point_of_these_llm/"
+    },
+    {
+      "id": "n_857002407976",
+      "date": "2026-03-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ran controlled experiments on meta's COCONUT and found the \"latent reasoning",
+      "summary": "COCONUT (Hao et al., 2024) claims models can reason in latent space by recycling hidden states instead of writing chain-of-thought tokens. i...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rt4lyd/d_ran_controlled_experiments_on_metas_coconut_and/"
+    },
+    {
+      "id": "n_a0c0120605fa",
+      "date": "2026-03-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Strategic Navigation or Stochastic Search? How Agents and Hu",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.12180"
+    },
     {
       "id": "n_8ced06721736",
       "date": "2026-03-12",
@@ -173,49 +203,19 @@
       "summary": "Repo: https://github.com/AtharvBhat/fast-vad I needed something comparable to existing open-source VADs in quality, but with a strong emphas...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1rpe31a/p_fastvad_a_very_fast_voice_activity_detector_in/"
-    },
-    {
-      "id": "n_ded754d1163a",
-      "date": "2026-03-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Believe Your Model: Distribution-Guided Confidence Calibrati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.03872"
-    },
-    {
-      "id": "n_a00ae9f83059",
-      "date": "2026-03-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Holi-Spatial: Evolving Video Streams into Holistic 3D Spatia",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.07660"
-    },
-    {
-      "id": "n_a818aef8b9be",
-      "date": "2026-03-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] \\$OneMillion-Bench: How Far are Language Agents from Human E",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.07980"
     }
   ],
   "ticker": [
+    "[D] What is even the point of these...",
+    "[D] ran controlled experiments on m...",
+    "[论文] Strategic Navigation or Stocha...",
     "[R] LEVI: Beating GEPA/OpenEvolve/A...",
     "CVPR workshop farming citations - h...",
     "[论文] Video-Based Reward Modeling fo...",
     "[论文] IndexCache: Accelerating Spars...",
     "[论文] Spatial-TTT: Streaming Visual-...",
     "[D] ICML paper to review is fully A...",
-    "[D] Can we stop glazing big labs an...",
-    "[论文] MA-EgoQA: Question Answering o...",
-    "[论文] Flash-KMeans: Fast and Memory-...",
-    "[论文] OpenClaw-RL: Train Any Agent S..."
+    "[D] Can we stop glazing big labs an..."
   ],
   "learning": {
     "phases": [
