@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_893d5d1bcbf0",
+      "date": "2026-03-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Need advice on handling a difficult ACL ARR situation",
+      "summary": "Hi everyone I have been working on a paper about counter-narrative generation. We first submitted to the October ARR cycle and tried to be a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rtled3/d_need_advice_on_handling_a_difficult_acl_arr/"
+    },
+    {
+      "id": "n_146600dd4dca",
+      "date": "2026-03-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Karpathy's autoresearch with evolutionary database.",
+      "summary": "Integrated an evolutionary database to Karpathys autoresearch project that replaces the simple tsv file based logging in the original projec...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rtsbkv/p_karpathys_autoresearch_with_evolutionary/"
+    },
     {
       "id": "n_285821ccdac2",
       "date": "2026-03-13",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.06577"
-    },
-    {
-      "id": "n_efe793d6abbd",
-      "date": "2026-03-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Real-time multi-dimensional LLM output scoring in production, what's actuall",
-      "summary": "Im deep in research on whether a continuous, multi-dimensional scoring engine for LL outputs is production-viable, not as an offline eval pi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rpixo7/d_realtime_multidimensional_llm_output_scoring_in/"
-    },
-    {
-      "id": "n_4a0c26ad0a44",
-      "date": "2026-03-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] fast-vad: a very fast voice activity detector in Rust with Python bindings.",
-      "summary": "Repo: https://github.com/AtharvBhat/fast-vad I needed something comparable to existing open-source VADs in quality, but with a strong emphas...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rpe31a/p_fastvad_a_very_fast_voice_activity_detector_in/"
     }
   ],
   "ticker": [
+    "[D] Need advice on handling a diffi...",
+    "[P] Karpathy's autoresearch with ev...",
     "[D] What is even the point of these...",
     "[D] ran controlled experiments on m...",
     "[论文] Strategic Navigation or Stocha...",
@@ -213,9 +215,7 @@
     "CVPR workshop farming citations - h...",
     "[论文] Video-Based Reward Modeling fo...",
     "[论文] IndexCache: Accelerating Spars...",
-    "[论文] Spatial-TTT: Streaming Visual-...",
-    "[D] ICML paper to review is fully A...",
-    "[D] Can we stop glazing big labs an..."
+    "[论文] Spatial-TTT: Streaming Visual-..."
   ],
   "learning": {
     "phases": [
@@ -296,6 +296,16 @@
             "url": "https://cs50.harvard.edu/ai/",
             "id": "r_44dae288",
             "added_date": "2026-03-07"
+          },
+          {
+            "icon": "📄",
+            "title": "Google Machine Learning Crash Course（中文）",
+            "desc": "谷歌官方机器学习速成课，图文并茂，适合快速入门",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://developers.google.com/machine-learning/crash-course?hl=zh-cn",
+            "id": "r_73dcf9de",
+            "added_date": "2026-03-15"
           }
         ],
         "roadmap": [
@@ -396,6 +406,16 @@
             "url": "https://jalammar.github.io/illustrated-transformer/",
             "id": "r_e4f3864d",
             "added_date": "2026-03-07"
+          },
+          {
+            "icon": "📹",
+            "title": "李沐《动手学深度学习》B站直播回放",
+            "desc": "作者亲自讲解，配合d2l教材，最好的中文深度学习课",
+            "type": "video",
+            "type_label": "视频",
+            "url": "https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497",
+            "id": "r_164e3e77",
+            "added_date": "2026-03-15"
           }
         ],
         "roadmap": [
@@ -496,6 +516,16 @@
             "url": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
             "id": "r_df63fd0c",
             "added_date": "2026-03-07"
+          },
+          {
+            "icon": "🎓",
+            "title": "吴恩达 - AI Agents in LangGraph",
+            "desc": "用 LangGraph 构建生产级 AI Agent，免费课程",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+            "id": "r_dadc59aa",
+            "added_date": "2026-03-15"
           }
         ],
         "roadmap": [
@@ -596,6 +626,16 @@
             "url": "https://arxiv.org/abs/2501.12948",
             "id": "r_fd8abd46",
             "added_date": "2026-03-07"
+          },
+          {
+            "icon": "📊",
+            "title": "LMSys Chatbot Arena（模型排行榜）",
+            "desc": "真实用户投票的大模型能力排行，每周更新，最公正的评测",
+            "type": "tool",
+            "type_label": "平台",
+            "url": "https://chat.lmsys.org/",
+            "id": "r_51526a7a",
+            "added_date": "2026-03-15"
           }
         ],
         "roadmap": [
