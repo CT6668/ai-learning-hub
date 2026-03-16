@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ec9e06829143",
+      "date": "2026-03-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] preflight, a pre-training validator for PyTorch I built after losing 3 days ",
+      "summary": "A few weeks ago I was working on a training run that produced garbage results. No errors, no crashes, just a model that learned nothing. Thr...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ruepfx/p_preflight_a_pretraining_validator_for_pytorch_i/"
+    },
+    {
+      "id": "n_d7062a59367f",
+      "date": "2026-03-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] I got tired of PyTorch Geometric OOMing my laptop, so I wrote a C++ zero-cop",
+      "summary": "If you train Graph Neural Networks on large datasets (like Papers100M), you already know the pain: trying to load the edge list and feature ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ru7bnz/p_i_got_tired_of_pytorch_geometric_ooming_my/"
+    },
+    {
+      "id": "n_947c4c7797f5",
+      "date": "2026-03-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Visual-ERM: Reward Modeling for Visual Equivalence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.13224"
+    },
+    {
+      "id": "n_9af2e650d6d8",
+      "date": "2026-03-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Cheers: Decoupling Patch Details from Semantic Representatio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.12793"
+    },
+    {
+      "id": "n_8e6086f3f70d",
+      "date": "2026-03-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LMEB: Long-horizon Memory Embedding Benchmark",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.12572"
+    },
     {
       "id": "n_893d5d1bcbf0",
       "date": "2026-03-14",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.10165"
-    },
-    {
-      "id": "n_99295df4bd47",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Is there an updated LaTeX / Overleaf template for IJCV? The only one I find ",
-      "summary": "Hey everyone, I’m planning to submit a paper to IJCV and got a bit confused about the LaTeX template situation. When I search online (and on...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rqhz39/r_is_there_an_updated_latex_overleaf_template_for/"
-    },
-    {
-      "id": "n_26f71ee46729",
-      "date": "2026-03-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How I topped the Open LLM Leaderboard using 2x 4090 GPUs - Research notes in Blo",
-      "summary": "A few years ago, I found that duplicating a specific block of 7 middle layers in Qwen2-72B, without modifying any weights, improved performa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rq6g08/how_i_topped_the_open_llm_leaderboard_using_2x/"
-    },
-    {
-      "id": "n_07539c950c85",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Reading, Not Thinking: Understanding and Bridging the Modali",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.09095"
-    },
-    {
-      "id": "n_0a3433e1a82d",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MM-Zero: Self-Evolving Multi-Model Vision Language Models Fr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.09206"
-    },
-    {
-      "id": "n_5e55d3fda1f1",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Omni-Diffusion: Unified Multimodal Understanding and Generat",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.06577"
     }
   ],
   "ticker": [
+    "[P] preflight, a pre-training valid...",
+    "[P] I got tired of PyTorch Geometri...",
+    "[论文] Visual-ERM: Reward Modeling fo...",
+    "[论文] Cheers: Decoupling Patch Detai...",
+    "[论文] LMEB: Long-horizon Memory Embe...",
     "[D] Need advice on handling a diffi...",
     "[P] Karpathy's autoresearch with ev...",
     "[D] What is even the point of these...",
     "[D] ran controlled experiments on m...",
-    "[论文] Strategic Navigation or Stocha...",
-    "[R] LEVI: Beating GEPA/OpenEvolve/A...",
-    "CVPR workshop farming citations - h...",
-    "[论文] Video-Based Reward Modeling fo...",
-    "[论文] IndexCache: Accelerating Spars...",
-    "[论文] Spatial-TTT: Streaming Visual-..."
+    "[论文] Strategic Navigation or Stocha..."
   ],
   "learning": {
     "phases": [
