@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_81721ac549be",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Genomic Large Language Models",
+      "summary": "Can a DNA language model find what sequence alignment cant? Ive been exploring Evo2, Arc Institutes genomic foundation model trained on 9.3 ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/"
+    },
+    {
+      "id": "n_a4d7add4f6c9",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Empirical evidence for a primitive layer in small language models — 18 exper",
+      "summary": "We ran 18 experiments probing small language models (360M–1B parameters) with inputs ranging from random phonemes to Wierzbickas universal s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvrzfk/r_empirical_evidence_for_a_primitive_layer_in/"
+    },
+    {
+      "id": "n_86522dabb0a3",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transfo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.15478"
+    },
+    {
+      "id": "n_ddcde5bd4660",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Safe and Scalable Web Agent Learning via Recreated Websites",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.10505"
+    },
+    {
+      "id": "n_afa296b75064",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Grounding World Simulation Models in a Real-World Metropolis",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.15583"
+    },
     {
       "id": "n_ec9e06829143",
       "date": "2026-03-15",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.12255"
-    },
-    {
-      "id": "n_d6dac0d1aa4f",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML paper to review is fully AI generated",
-      "summary": "I got a paper to review at ICML, this is in the category of no LLM assistant allowed for writing or reviewing it, yet the paper is fully AI ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rqs7gd/d_icml_paper_to_review_is_fully_ai_generated/"
-    },
-    {
-      "id": "n_db62a19c3cbd",
-      "date": "2026-03-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Can we stop glazing big labs and universities?",
-      "summary": "I routinely see posts describing a paper with 15+ authors, the middlemost one being a student intern at Google, described in posts as \"Googl...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rr7vup/d_can_we_stop_glazing_big_labs_and_universities/"
-    },
-    {
-      "id": "n_7d56dded96b0",
-      "date": "2026-03-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MA-EgoQA: Question Answering over Egocentric Videos from Mul",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.09827"
-    },
-    {
-      "id": "n_0917adb2a747",
-      "date": "2026-03-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.09229"
-    },
-    {
-      "id": "n_31e2c4eee85d",
-      "date": "2026-03-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OpenClaw-RL: Train Any Agent Simply by Talking",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.10165"
     }
   ],
   "ticker": [
+    "[R] Genomic Large Language Models",
+    "[R] Empirical evidence for a primit...",
+    "[论文] ViFeEdit: A Video-Free Tuner o...",
+    "[论文] Safe and Scalable Web Agent Le...",
+    "[论文] Grounding World Simulation Mod...",
     "[P] preflight, a pre-training valid...",
     "[P] I got tired of PyTorch Geometri...",
     "[论文] Visual-ERM: Reward Modeling fo...",
     "[论文] Cheers: Decoupling Patch Detai...",
-    "[论文] LMEB: Long-horizon Memory Embe...",
-    "[D] Need advice on handling a diffi...",
-    "[P] Karpathy's autoresearch with ev...",
-    "[D] What is even the point of these...",
-    "[D] ran controlled experiments on m...",
-    "[论文] Strategic Navigation or Stocha..."
+    "[论文] LMEB: Long-horizon Memory Embe..."
   ],
   "learning": {
     "phases": [
