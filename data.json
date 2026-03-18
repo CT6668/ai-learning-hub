@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_74e940b0046f",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Attention Residuals by Kimi Team",
+      "summary": "arXiv:2603.15031 [cs.CL]: https://arxiv.org/abs/2603.15031 Abstract: Residual connections with PreNorm are standard in modern LLMs, yet they...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/"
+    },
+    {
+      "id": "n_1e1614cfc249",
+      "date": "2026-03-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Weight Norm Clipping Accelerates Grokking 18-66× | Zero Failures Across 300 ",
+      "summary": "https://preview.redd.it/9hxa34bwhopg1.png?width=3600&format=png&auto=webp&s=909e4e1ba2feebbab94651d125a5c8e7591c4ca6 Zero failures across 30...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwl1sq/p_weight_norm_clipping_accelerates_grokking_1866/"
+    },
+    {
+      "id": "n_17cfd826305a",
+      "date": "2026-03-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WorldCam: Interactive Autoregressive 3D Gaming Worlds with C",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.16871"
+    },
+    {
+      "id": "n_c33ce75183e5",
+      "date": "2026-03-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TRUST-SQL: Tool-Integrated Multi-Turn Reinforcement Learning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.16448"
+    },
+    {
+      "id": "n_8b2aa39f831a",
+      "date": "2026-03-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Demystifing Video Reasoning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.16870"
+    },
     {
       "id": "n_81721ac549be",
       "date": "2026-03-17",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.12180"
-    },
-    {
-      "id": "n_8ced06721736",
-      "date": "2026-03-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] LEVI: Beating GEPA/OpenEvolve/AlphaEvolve at a fraction of the cost",
-      "summary": "Ive been working on making LLM-guided evolutionary optimization (the AlphaEvolve/FunSearch paradigm) cheaper and more accessible. The result...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rrrgjm/r_levi_beating_gepaopenevolvealphaevolve_at_a/"
-    },
-    {
-      "id": "n_6e941a94dd86",
-      "date": "2026-03-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "CVPR workshop farming citations - how is this ethical?? [D]",
-      "summary": "I cam across the PHAROS-AIF-MIH workshop at CVPR 2026 and one of the condition to participate in their challenge is to cite 13 papers by the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rs56wa/cvpr_workshop_farming_citations_how_is_this/"
-    },
-    {
-      "id": "n_027323510a63",
-      "date": "2026-03-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Video-Based Reward Modeling for Computer-Use Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.10178"
-    },
-    {
-      "id": "n_3be1ca33a7eb",
-      "date": "2026-03-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] IndexCache: Accelerating Sparse Attention via Cross-Layer In",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.12201"
-    },
-    {
-      "id": "n_1bbc88f01d4b",
-      "date": "2026-03-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Spatial-TTT: Streaming Visual-based Spatial Intelligence wit",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.12255"
     }
   ],
   "ticker": [
+    "[R] Attention Residuals by Kimi Tea...",
+    "[P] Weight Norm Clipping Accelerate...",
+    "[论文] WorldCam: Interactive Autoregr...",
+    "[论文] TRUST-SQL: Tool-Integrated Mul...",
+    "[论文] Demystifing Video Reasoning",
     "[R] Genomic Large Language Models",
     "[R] Empirical evidence for a primit...",
     "[论文] ViFeEdit: A Video-Free Tuner o...",
     "[论文] Safe and Scalable Web Agent Le...",
-    "[论文] Grounding World Simulation Mod...",
-    "[P] preflight, a pre-training valid...",
-    "[P] I got tired of PyTorch Geometri...",
-    "[论文] Visual-ERM: Reward Modeling fo...",
-    "[论文] Cheers: Decoupling Patch Detai...",
-    "[论文] LMEB: Long-horizon Memory Embe..."
+    "[论文] Grounding World Simulation Mod..."
   ],
   "learning": {
     "phases": [
