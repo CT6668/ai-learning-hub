@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-18",
+    "last_updated": "2026-03-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5ce716f459c1",
+      "date": "2026-03-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Extreme Sudoku as a constraint-satisfaction benchmark, solved natively witho",
+      "summary": "I came across an interesting writeup from Pathway that I think is more interesting as a reasoning benchmark than as a puzzle result. They us...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rx9qn4/r_extreme_sudoku_as_a_constraintsatisfaction/"
+    },
+    {
+      "id": "n_d2cd098b8afd",
+      "date": "2026-03-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML rejects papers of reviewers who used LLMs despite agreeing not to",
+      "summary": "According to multiple posts on Twitter/X ICML has rejected all paper of reviewers who used LLMs for their reviews even though they chose the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/"
+    },
+    {
+      "id": "n_1519a019bb07",
+      "date": "2026-03-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Stereo World Model: Camera-Guided Stereo Video Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.17375"
+    },
+    {
+      "id": "n_78142c95aeab",
+      "date": "2026-03-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.17187"
+    },
+    {
+      "id": "n_17fafb317ecb",
+      "date": "2026-03-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MosaicMem: Hybrid Spatial Memory for Controllable Video Worl",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.17117"
+    },
     {
       "id": "n_74e940b0046f",
       "date": "2026-03-17",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.12572"
-    },
-    {
-      "id": "n_893d5d1bcbf0",
-      "date": "2026-03-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Need advice on handling a difficult ACL ARR situation",
-      "summary": "Hi everyone I have been working on a paper about counter-narrative generation. We first submitted to the October ARR cycle and tried to be a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rtled3/d_need_advice_on_handling_a_difficult_acl_arr/"
-    },
-    {
-      "id": "n_146600dd4dca",
-      "date": "2026-03-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Karpathy's autoresearch with evolutionary database.",
-      "summary": "Integrated an evolutionary database to Karpathys autoresearch project that replaces the simple tsv file based logging in the original projec...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rtsbkv/p_karpathys_autoresearch_with_evolutionary/"
-    },
-    {
-      "id": "n_285821ccdac2",
-      "date": "2026-03-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] What is even the point of these LLM benchmarking papers?",
-      "summary": "Lately, NeurIPS and ICLR are flooded with these LLM benchmarking papers. All they do is take a problem X and benchmark a bunch of propriety ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsdify/d_what_is_even_the_point_of_these_llm/"
-    },
-    {
-      "id": "n_857002407976",
-      "date": "2026-03-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ran controlled experiments on meta's COCONUT and found the \"latent reasoning",
-      "summary": "COCONUT (Hao et al., 2024) claims models can reason in latent space by recycling hidden states instead of writing chain-of-thought tokens. i...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rt4lyd/d_ran_controlled_experiments_on_metas_coconut_and/"
-    },
-    {
-      "id": "n_a0c0120605fa",
-      "date": "2026-03-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Strategic Navigation or Stochastic Search? How Agents and Hu",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.12180"
     }
   ],
   "ticker": [
+    "[R] Extreme Sudoku as a constraint-...",
+    "[D] ICML rejects papers of reviewer...",
+    "[论文] Stereo World Model: Camera-Gui...",
+    "[论文] MetaClaw: Just Talk -- An Agen...",
+    "[论文] MosaicMem: Hybrid Spatial Memo...",
     "[R] Attention Residuals by Kimi Tea...",
     "[P] Weight Norm Clipping Accelerate...",
     "[论文] WorldCam: Interactive Autoregr...",
     "[论文] TRUST-SQL: Tool-Integrated Mul...",
-    "[论文] Demystifing Video Reasoning",
-    "[R] Genomic Large Language Models",
-    "[R] Empirical evidence for a primit...",
-    "[论文] ViFeEdit: A Video-Free Tuner o...",
-    "[论文] Safe and Scalable Web Agent Le...",
-    "[论文] Grounding World Simulation Mod..."
+    "[论文] Demystifing Video Reasoning"
   ],
   "learning": {
     "phases": [
