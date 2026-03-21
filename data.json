@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-03-20",
+    "last_updated": "2026-03-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b2e66fddcebd",
+      "date": "2026-03-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Has \"AI research lab\" become completely meaningless as a term?",
+      "summary": "Genuinely asking because Ive been thinking about this a lot lately. Like, OpenAI calls itself a research lab. So does Google DeepMind. So do...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rz5met/d_has_ai_research_lab_become_completely/"
+    },
+    {
+      "id": "n_76190908a065",
+      "date": "2026-03-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Medical AI gets 66% worse when you use automated labels for training, and the be",
+      "summary": "A recent work on fairness in medical segmentation for breast cancer tumors found that segmentation models work way worse for younger patient...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rz748k/medical_ai_gets_66_worse_when_you_use_automated/"
+    },
     {
       "id": "n_995bd64500ef",
       "date": "2026-03-19",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.15478"
-    },
-    {
-      "id": "n_ddcde5bd4660",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Safe and Scalable Web Agent Learning via Recreated Websites",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.10505"
-    },
-    {
-      "id": "n_afa296b75064",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Grounding World Simulation Models in a Real-World Metropolis",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.15583"
     }
   ],
   "ticker": [
+    "[D] Has \"AI research lab\" become co...",
+    "Medical AI gets 66% worse when you ...",
     "[D] Extracting time-aware commitmen...",
     "[D] Scale AI ML Research Engineer I...",
     "[论文] SAMA: Factorized Semantic Anch...",
@@ -213,9 +215,7 @@
     "[论文] Generation Models Know Space: ...",
     "[R] Extreme Sudoku as a constraint-...",
     "[D] ICML rejects papers of reviewer...",
-    "[论文] Stereo World Model: Camera-Gui...",
-    "[论文] MetaClaw: Just Talk -- An Agen...",
-    "[论文] MosaicMem: Hybrid Spatial Memo..."
+    "[论文] Stereo World Model: Camera-Gui..."
   ],
   "learning": {
     "phases": [
