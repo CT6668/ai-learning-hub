@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-03-21",
+    "last_updated": "2026-03-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d3d4beee3ccd",
+      "date": "2026-03-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Vibecoded on a home PC: building a ~2700 Elo browser-playable neural chess e",
+      "summary": "I built Autochess NN, a browser-playable neural chess engine that started as a personal experiment in understanding AlphaZero-style systems ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rzrs17/p_vibecoded_on_a_home_pc_building_a_2700_elo/"
+    },
+    {
+      "id": "n_7f5d850ec534",
+      "date": "2026-03-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[N] ArXiv, the pioneering preprint server, declares independence from Cornell | ",
+      "summary": "submitted by /u/Nunki08 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rzp5ph/n_arxiv_the_pioneering_preprint_server_declares/"
+    },
     {
       "id": "n_b2e66fddcebd",
       "date": "2026-03-20",
@@ -183,29 +203,11 @@
       "summary": "Can a DNA language model find what sequence alignment cant? Ive been exploring Evo2, Arc Institutes genomic foundation model trained on 9.3 ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/"
-    },
-    {
-      "id": "n_a4d7add4f6c9",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Empirical evidence for a primitive layer in small language models — 18 exper",
-      "summary": "We ran 18 experiments probing small language models (360M–1B parameters) with inputs ranging from random phonemes to Wierzbickas universal s...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvrzfk/r_empirical_evidence_for_a_primitive_layer_in/"
-    },
-    {
-      "id": "n_86522dabb0a3",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transfo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.15478"
     }
   ],
   "ticker": [
+    "[P] Vibecoded on a home PC: buildin...",
+    "[N] ArXiv, the pioneering preprint ...",
     "[D] Has \"AI research lab\" become co...",
     "Medical AI gets 66% worse when you ...",
     "[D] Extracting time-aware commitmen...",
@@ -213,9 +215,7 @@
     "[论文] SAMA: Factorized Semantic Anch...",
     "[论文] FASTER: Rethinking Real-Time F...",
     "[论文] Generation Models Know Space: ...",
-    "[R] Extreme Sudoku as a constraint-...",
-    "[D] ICML rejects papers of reviewer...",
-    "[论文] Stereo World Model: Camera-Gui..."
+    "[R] Extreme Sudoku as a constraint-..."
   ],
   "learning": {
     "phases": [
