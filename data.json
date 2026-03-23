@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-22",
+    "last_updated": "2026-03-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_7ad7b7dedf64",
+      "date": "2026-03-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Is this paper Nonsense ? [DCdetector: Dual Attention Contrastive Representat",
+      "summary": "what the title says. this is a pretty big paper in the deep learning anomaly detection space, accepted at the International Conference on Kn...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1378o/r_is_this_paper_nonsense_dcdetector_dual/"
+    },
+    {
+      "id": "n_7b02403ec7be",
+      "date": "2026-03-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[N] MIT Flow Matching and Diffusion Lecture 2026",
+      "summary": "Peter Holderrieth and Ezra Erives just released their new MIT 2026 course on flow matching and diffusion models! It introduces the full stac...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/"
+    },
+    {
+      "id": "n_b4bf3abe3247",
+      "date": "2026-03-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LumosX: Relate Any Identities with Their Attributes for Pers",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.20192"
+    },
+    {
+      "id": "n_b39f6c008f57",
+      "date": "2026-03-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Astrolabe: Steering Forward-Process Reinforcement Learning f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.17051"
+    },
+    {
+      "id": "n_3cebd6e574ac",
+      "date": "2026-03-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HopChain: Multi-Hop Data Synthesis for Generalizable Vision-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.17024"
+    },
     {
       "id": "n_d3d4beee3ccd",
       "date": "2026-03-21",
@@ -153,69 +203,19 @@
       "summary": "arXiv:2603.15031 [cs.CL]: https://arxiv.org/abs/2603.15031 Abstract: Residual connections with PreNorm are standard in modern LLMs, yet they...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/"
-    },
-    {
-      "id": "n_1e1614cfc249",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Weight Norm Clipping Accelerates Grokking 18-66× | Zero Failures Across 300 ",
-      "summary": "https://preview.redd.it/9hxa34bwhopg1.png?width=3600&format=png&auto=webp&s=909e4e1ba2feebbab94651d125a5c8e7591c4ca6 Zero failures across 30...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwl1sq/p_weight_norm_clipping_accelerates_grokking_1866/"
-    },
-    {
-      "id": "n_17cfd826305a",
-      "date": "2026-03-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WorldCam: Interactive Autoregressive 3D Gaming Worlds with C",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.16871"
-    },
-    {
-      "id": "n_c33ce75183e5",
-      "date": "2026-03-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TRUST-SQL: Tool-Integrated Multi-Turn Reinforcement Learning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.16448"
-    },
-    {
-      "id": "n_8b2aa39f831a",
-      "date": "2026-03-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Demystifing Video Reasoning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.16870"
-    },
-    {
-      "id": "n_81721ac549be",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Genomic Large Language Models",
-      "summary": "Can a DNA language model find what sequence alignment cant? Ive been exploring Evo2, Arc Institutes genomic foundation model trained on 9.3 ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/"
     }
   ],
   "ticker": [
+    "[R] Is this paper Nonsense ? [DCdet...",
+    "[N] MIT Flow Matching and Diffusion...",
+    "[论文] LumosX: Relate Any Identities ...",
+    "[论文] Astrolabe: Steering Forward-Pr...",
+    "[论文] HopChain: Multi-Hop Data Synth...",
     "[P] Vibecoded on a home PC: buildin...",
     "[N] ArXiv, the pioneering preprint ...",
     "[D] Has \"AI research lab\" become co...",
     "Medical AI gets 66% worse when you ...",
-    "[D] Extracting time-aware commitmen...",
-    "[D] Scale AI ML Research Engineer I...",
-    "[论文] SAMA: Factorized Semantic Anch...",
-    "[论文] FASTER: Rethinking Real-Time F...",
-    "[论文] Generation Models Know Space: ...",
-    "[R] Extreme Sudoku as a constraint-..."
+    "[D] Extracting time-aware commitmen..."
   ],
   "learning": {
     "phases": [
@@ -306,6 +306,16 @@
             "url": "https://developers.google.com/machine-learning/crash-course?hl=zh-cn",
             "id": "r_73dcf9de",
             "added_date": "2026-03-15"
+          },
+          {
+            "icon": "📹",
+            "title": "3Blue1Brown - 神经网络（中文字幕）",
+            "desc": "最美数学可视化，把神经网络讲得极其直观，B站有中文版",
+            "type": "video",
+            "type_label": "视频",
+            "url": "https://www.bilibili.com/video/BV1bx411M7Zx",
+            "id": "r_25d17f6c",
+            "added_date": "2026-03-23"
           }
         ],
         "roadmap": [
@@ -416,6 +426,16 @@
             "url": "https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497",
             "id": "r_164e3e77",
             "added_date": "2026-03-15"
+          },
+          {
+            "icon": "🎓",
+            "title": "Fast.ai - Practical Deep Learning for Coders",
+            "desc": "自顶向下学深度学习，边做项目边学理论，实战派必选",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://course.fast.ai/",
+            "id": "r_58bfec5c",
+            "added_date": "2026-03-23"
           }
         ],
         "roadmap": [
@@ -526,6 +546,16 @@
             "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
             "id": "r_dadc59aa",
             "added_date": "2026-03-15"
+          },
+          {
+            "icon": "📄",
+            "title": "Ollama - 本地运行大模型指南",
+            "desc": "在自己电脑上跑 Llama/Qwen/Gemma，完全免费，零API费用",
+            "type": "tool",
+            "type_label": "工具",
+            "url": "https://ollama.ai/",
+            "id": "r_b4e3fd3b",
+            "added_date": "2026-03-23"
           }
         ],
         "roadmap": [
@@ -636,6 +666,16 @@
             "url": "https://chat.lmsys.org/",
             "id": "r_51526a7a",
             "added_date": "2026-03-15"
+          },
+          {
+            "icon": "📹",
+            "title": "Two Minute Papers - 最新AI论文速读",
+            "desc": "YouTube频道，每期2分钟介绍最新AI研究，紧跟前沿",
+            "type": "video",
+            "type_label": "视频",
+            "url": "https://www.youtube.com/@TwoMinutePapers",
+            "id": "r_f14c0d1f",
+            "added_date": "2026-03-23"
           }
         ],
         "roadmap": [
