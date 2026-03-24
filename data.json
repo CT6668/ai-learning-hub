@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9d120a815dee",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Decoding backchannel info: Is a PI being \"aggressive in research\" a massive ",
+      "summary": "Hey everyone, 4th year Physics PhD here doing applied ML (surrogate models for fluid dynamics). I’m trying to finalize my summer 2026 intern...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s20svb/d_decoding_backchannel_info_is_a_pi_being/"
+    },
+    {
+      "id": "n_437a67c57ef3",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML 2026 Review Discussion",
+      "summary": "ICML 2026 reviews will release today (24-March AoE), This thread is open to discuss about reviews and importantly celebrate successful revie...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1yz2t/d_icml_2026_review_discussion/"
+    },
+    {
+      "id": "n_f6241c1134d1",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VideoDetective: Clue Hunting via both Extrinsic Query and In",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.22285"
+    },
+    {
+      "id": "n_753efb6f7e17",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Speed by Simplicity: A Single-Stream Architecture for Fast A",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.21986"
+    },
+    {
+      "id": "n_045f9e507f59",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongCat-Flash-Prover: Advancing Native Formal Reasoning via ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.21065"
+    },
     {
       "id": "n_7ad7b7dedf64",
       "date": "2026-03-23",
@@ -153,69 +203,19 @@
       "summary": "I came across an interesting writeup from Pathway that I think is more interesting as a reasoning benchmark than as a puzzle result. They us...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1rx9qn4/r_extreme_sudoku_as_a_constraintsatisfaction/"
-    },
-    {
-      "id": "n_d2cd098b8afd",
-      "date": "2026-03-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML rejects papers of reviewers who used LLMs despite agreeing not to",
-      "summary": "According to multiple posts on Twitter/X ICML has rejected all paper of reviewers who used LLMs for their reviews even though they chose the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/"
-    },
-    {
-      "id": "n_1519a019bb07",
-      "date": "2026-03-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Stereo World Model: Camera-Guided Stereo Video Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.17375"
-    },
-    {
-      "id": "n_78142c95aeab",
-      "date": "2026-03-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.17187"
-    },
-    {
-      "id": "n_17fafb317ecb",
-      "date": "2026-03-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MosaicMem: Hybrid Spatial Memory for Controllable Video Worl",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.17117"
-    },
-    {
-      "id": "n_74e940b0046f",
-      "date": "2026-03-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Attention Residuals by Kimi Team",
-      "summary": "arXiv:2603.15031 [cs.CL]: https://arxiv.org/abs/2603.15031 Abstract: Residual connections with PreNorm are standard in modern LLMs, yet they...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/"
     }
   ],
   "ticker": [
+    "[D] Decoding backchannel info: Is a...",
+    "[D] ICML 2026 Review Discussion",
+    "[论文] VideoDetective: Clue Hunting v...",
+    "[论文] Speed by Simplicity: A Single-...",
+    "[论文] LongCat-Flash-Prover: Advancin...",
     "[R] Is this paper Nonsense ? [DCdet...",
     "[N] MIT Flow Matching and Diffusion...",
     "[论文] LumosX: Relate Any Identities ...",
     "[论文] Astrolabe: Steering Forward-Pr...",
-    "[论文] HopChain: Multi-Hop Data Synth...",
-    "[P] Vibecoded on a home PC: buildin...",
-    "[N] ArXiv, the pioneering preprint ...",
-    "[D] Has \"AI research lab\" become co...",
-    "Medical AI gets 66% worse when you ...",
-    "[D] Extracting time-aware commitmen..."
+    "[论文] HopChain: Multi-Hop Data Synth..."
   ],
   "learning": {
     "phases": [
