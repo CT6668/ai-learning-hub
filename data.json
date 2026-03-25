@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-24",
+    "last_updated": "2026-03-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d499b5aa6353",
+      "date": "2026-03-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Matryoshka Representation Learning",
+      "summary": "Hey everyone, Matryoshka Representation Learning (MRL) has gained a lot of traction for its ability to maintain strong downstream performanc...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s27pnk/d_matryoshka_representation_learning/"
+    },
+    {
+      "id": "n_e87983fb414d",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] KALAVAI: Predicting When Independent Specialist Fusion Works (gain = 0.82 × ",
+      "summary": "Hey all, Ive been working on this for a few months and just put the paper on arXiv: https://arxiv.org/abs/2603.22755 Project page: https://m...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/"
+    },
+    {
+      "id": "n_d2bfbec5aef3",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From Static Templates to Dynamic Runtime Graphs: A Survey of",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.22386"
+    },
+    {
+      "id": "n_50d19d8e8d2f",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WildWorld: A Large-Scale Dataset for Dynamic World Modeling ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.23497"
+    },
+    {
+      "id": "n_f85aed972f2d",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PEARL: Personalized Streaming Video Understanding Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.20422"
+    },
     {
       "id": "n_9d120a815dee",
       "date": "2026-03-24",
@@ -153,69 +203,19 @@
       "summary": "Working on a system that saves key context from multi-model conversations (across GPT, Gemini, Grok, Deepseek, Claude) to a persistent store...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ryffof/d_extracting_timeaware_commitment_signals_from/"
-    },
-    {
-      "id": "n_452e8336774a",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Scale AI ML Research Engineer Interview",
-      "summary": "Hi! Im preparing for the first round ML coding round for the ML Research Engineer role at Scale, but Im pretty confused about what to expect...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rym21x/d_scale_ai_ml_research_engineer_interview/"
-    },
-    {
-      "id": "n_f13eceda90fb",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SAMA: Factorized Semantic Anchoring and Motion Alignment for",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.19228"
-    },
-    {
-      "id": "n_c24c1cd1b630",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FASTER: Rethinking Real-Time Flow VLAs",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.19199"
-    },
-    {
-      "id": "n_e960f9cabe84",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Generation Models Know Space: Unleashing Implicit 3D Priors ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.19235"
-    },
-    {
-      "id": "n_5ce716f459c1",
-      "date": "2026-03-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Extreme Sudoku as a constraint-satisfaction benchmark, solved natively witho",
-      "summary": "I came across an interesting writeup from Pathway that I think is more interesting as a reasoning benchmark than as a puzzle result. They us...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rx9qn4/r_extreme_sudoku_as_a_constraintsatisfaction/"
     }
   ],
   "ticker": [
+    "[D] Matryoshka Representation Learn...",
+    "[R] KALAVAI: Predicting When Indepe...",
+    "[论文] From Static Templates to Dynam...",
+    "[论文] WildWorld: A Large-Scale Datas...",
+    "[论文] PEARL: Personalized Streaming ...",
     "[D] Decoding backchannel info: Is a...",
     "[D] ICML 2026 Review Discussion",
     "[论文] VideoDetective: Clue Hunting v...",
     "[论文] Speed by Simplicity: A Single-...",
-    "[论文] LongCat-Flash-Prover: Advancin...",
-    "[R] Is this paper Nonsense ? [DCdet...",
-    "[N] MIT Flow Matching and Diffusion...",
-    "[论文] LumosX: Relate Any Identities ...",
-    "[论文] Astrolabe: Steering Forward-Pr...",
-    "[论文] HopChain: Multi-Hop Data Synth..."
+    "[论文] LongCat-Flash-Prover: Advancin..."
   ],
   "learning": {
     "phases": [
