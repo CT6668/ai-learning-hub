@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-25",
+    "last_updated": "2026-03-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e167f25677a6",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML 2026: Policy A vs Policy B impact on scores discussion",
+      "summary": "I am curious whether others observed the same thing. At ICML 2026, papers could be reviewed under two LLM-review policies: a stricter one wh...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_policy_b_impact_on_scores/"
+    },
+    {
+      "id": "n_d119e937ecef",
+      "date": "2026-03-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Is LeCun’s $1B seed round the signal that autoregressive LLMs have actually ",
+      "summary": "I’m still trying to wrap my head around the Bloomberg news from a couple of weeks ago. A $1 billion seed round is wild enough, but the actua...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/"
+    },
+    {
+      "id": "n_c53a1073f9b4",
+      "date": "2026-03-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] 4DGS360: 360° Gaussian Reconstruction of Dynamic Objects fro",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.21618"
+    },
+    {
+      "id": "n_e32ca7eab97c",
+      "date": "2026-03-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Why Does Self-Distillation (Sometimes) Degrade the Reasoning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.24472"
+    },
+    {
+      "id": "n_fa79940c53f2",
+      "date": "2026-03-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GameplayQA: A Benchmarking Framework for Decision-Dense POV-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.24329"
+    },
     {
       "id": "n_d499b5aa6353",
       "date": "2026-03-24",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.17024"
-    },
-    {
-      "id": "n_d3d4beee3ccd",
-      "date": "2026-03-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Vibecoded on a home PC: building a ~2700 Elo browser-playable neural chess e",
-      "summary": "I built Autochess NN, a browser-playable neural chess engine that started as a personal experiment in understanding AlphaZero-style systems ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rzrs17/p_vibecoded_on_a_home_pc_building_a_2700_elo/"
-    },
-    {
-      "id": "n_7f5d850ec534",
-      "date": "2026-03-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[N] ArXiv, the pioneering preprint server, declares independence from Cornell | ",
-      "summary": "submitted by /u/Nunki08 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rzp5ph/n_arxiv_the_pioneering_preprint_server_declares/"
-    },
-    {
-      "id": "n_b2e66fddcebd",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Has \"AI research lab\" become completely meaningless as a term?",
-      "summary": "Genuinely asking because Ive been thinking about this a lot lately. Like, OpenAI calls itself a research lab. So does Google DeepMind. So do...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rz5met/d_has_ai_research_lab_become_completely/"
-    },
-    {
-      "id": "n_76190908a065",
-      "date": "2026-03-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Medical AI gets 66% worse when you use automated labels for training, and the be",
-      "summary": "A recent work on fairness in medical segmentation for breast cancer tumors found that segmentation models work way worse for younger patient...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rz748k/medical_ai_gets_66_worse_when_you_use_automated/"
-    },
-    {
-      "id": "n_995bd64500ef",
-      "date": "2026-03-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Extracting time-aware commitment signals from conversation history — impleme",
-      "summary": "Working on a system that saves key context from multi-model conversations (across GPT, Gemini, Grok, Deepseek, Claude) to a persistent store...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ryffof/d_extracting_timeaware_commitment_signals_from/"
     }
   ],
   "ticker": [
+    "[D] ICML 2026: Policy A vs Policy B...",
+    "[D] Is LeCun’s $1B seed round the s...",
+    "[论文] 4DGS360: 360° Gaussian Reconst...",
+    "[论文] Why Does Self-Distillation (So...",
+    "[论文] GameplayQA: A Benchmarking Fra...",
     "[D] Matryoshka Representation Learn...",
     "[R] KALAVAI: Predicting When Indepe...",
     "[论文] From Static Templates to Dynam...",
     "[论文] WildWorld: A Large-Scale Datas...",
-    "[论文] PEARL: Personalized Streaming ...",
-    "[D] Decoding backchannel info: Is a...",
-    "[D] ICML 2026 Review Discussion",
-    "[论文] VideoDetective: Clue Hunting v...",
-    "[论文] Speed by Simplicity: A Single-...",
-    "[论文] LongCat-Flash-Prover: Advancin..."
+    "[论文] PEARL: Personalized Streaming ..."
   ],
   "learning": {
     "phases": [
