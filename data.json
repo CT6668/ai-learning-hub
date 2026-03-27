@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-26",
+    "last_updated": "2026-03-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2386dc54c92c",
+      "date": "2026-03-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] - 1M tokens/second serving Qwen 3.5 27B on B200 GPUs, benchmark results and ",
+      "summary": "Wrote up the process of pushing Qwen 3.5 27B (dense, FP8) to 1.1M total tok/s on 96 B200 GPUs with vLLM v0.18.0. DP=8 nearly 4xd throughput ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s4hxgu/d_1m_tokenssecond_serving_qwen_35_27b_on_b200/"
+    },
+    {
+      "id": "n_cbedfc5097a4",
+      "date": "2026-03-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] OOD and Spandrels, or What you should know about EBM.",
+      "summary": "Energy-based model This article will compare EBMs to multi-layered perceptrons, and addresses a lingering question : Whether or not EBMs are...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s4gp7d/d_ood_and_spandrels_or_what_you_should_know_about/"
+    },
+    {
+      "id": "n_368acb6a0c4b",
+      "date": "2026-03-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SlopCodeBench: Benchmarking How Coding Agents Degrade Over L",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.24755"
+    },
+    {
+      "id": "n_a188678f9a8d",
+      "date": "2026-03-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MACRO: Advancing Multi-Reference Image Generation with Struc",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25319"
+    },
+    {
+      "id": "n_c4f42a8eab2d",
+      "date": "2026-03-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Intern-S1-Pro: Scientific Multimodal Foundation Model at Tri",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25040"
+    },
     {
       "id": "n_e167f25677a6",
       "date": "2026-03-25",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.21065"
-    },
-    {
-      "id": "n_7ad7b7dedf64",
-      "date": "2026-03-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Is this paper Nonsense ? [DCdetector: Dual Attention Contrastive Representat",
-      "summary": "what the title says. this is a pretty big paper in the deep learning anomaly detection space, accepted at the International Conference on Kn...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1378o/r_is_this_paper_nonsense_dcdetector_dual/"
-    },
-    {
-      "id": "n_7b02403ec7be",
-      "date": "2026-03-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[N] MIT Flow Matching and Diffusion Lecture 2026",
-      "summary": "Peter Holderrieth and Ezra Erives just released their new MIT 2026 course on flow matching and diffusion models! It introduces the full stac...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/"
-    },
-    {
-      "id": "n_b4bf3abe3247",
-      "date": "2026-03-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LumosX: Relate Any Identities with Their Attributes for Pers",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.20192"
-    },
-    {
-      "id": "n_b39f6c008f57",
-      "date": "2026-03-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Astrolabe: Steering Forward-Process Reinforcement Learning f",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.17051"
-    },
-    {
-      "id": "n_3cebd6e574ac",
-      "date": "2026-03-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HopChain: Multi-Hop Data Synthesis for Generalizable Vision-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.17024"
     }
   ],
   "ticker": [
+    "[D] - 1M tokens/second serving Qwen...",
+    "[D] OOD and Spandrels, or What you ...",
+    "[论文] SlopCodeBench: Benchmarking Ho...",
+    "[论文] MACRO: Advancing Multi-Referen...",
+    "[论文] Intern-S1-Pro: Scientific Mult...",
     "[D] ICML 2026: Policy A vs Policy B...",
     "[D] Is LeCun’s $1B seed round the s...",
     "[论文] 4DGS360: 360° Gaussian Reconst...",
     "[论文] Why Does Self-Distillation (So...",
-    "[论文] GameplayQA: A Benchmarking Fra...",
-    "[D] Matryoshka Representation Learn...",
-    "[R] KALAVAI: Predicting When Indepe...",
-    "[论文] From Static Templates to Dynam...",
-    "[论文] WildWorld: A Large-Scale Datas...",
-    "[论文] PEARL: Personalized Streaming ..."
+    "[论文] GameplayQA: A Benchmarking Fra..."
   ],
   "learning": {
     "phases": [
