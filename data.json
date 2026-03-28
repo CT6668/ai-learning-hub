@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-03-27",
+    "last_updated": "2026-03-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_100c24be8aac",
+      "date": "2026-03-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Thinking about augmentation as invariance assumptions",
+      "summary": "Data augmentation is still used much more heuristically than it should be. A training pipeline can easily turn into a stack of intuition, ol...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5nxwc/d_thinking_about_augmentation_as_invariance/"
+    },
+    {
+      "id": "n_91005d346a9f",
+      "date": "2026-03-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Many times I feel additional experiments during the rebuttal make my paper w",
+      "summary": "Back in the days when I just started to review for major conferences, it was common to give and receive reviews saying \"I dont have major co...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5j8bg/d_many_times_i_feel_additional_experiments_during/"
+    },
+    {
+      "id": "n_4edddf7962fd",
+      "date": "2026-03-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Calibri: Enhancing Diffusion Transformers via Parameter-Effi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.24800"
+    },
+    {
+      "id": "n_6b20dd95fd4b",
+      "date": "2026-03-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PixelSmile: Toward Fine-Grained Facial Expression Editing",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25728"
+    },
     {
       "id": "n_2386dc54c92c",
       "date": "2026-03-26",
@@ -163,59 +203,19 @@
       "summary": "Hey everyone, 4th year Physics PhD here doing applied ML (surrogate models for fluid dynamics). I’m trying to finalize my summer 2026 intern...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1s20svb/d_decoding_backchannel_info_is_a_pi_being/"
-    },
-    {
-      "id": "n_437a67c57ef3",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML 2026 Review Discussion",
-      "summary": "ICML 2026 reviews will release today (24-March AoE), This thread is open to discuss about reviews and importantly celebrate successful revie...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1yz2t/d_icml_2026_review_discussion/"
-    },
-    {
-      "id": "n_f6241c1134d1",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VideoDetective: Clue Hunting via both Extrinsic Query and In",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.22285"
-    },
-    {
-      "id": "n_753efb6f7e17",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Speed by Simplicity: A Single-Stream Architecture for Fast A",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.21986"
-    },
-    {
-      "id": "n_045f9e507f59",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongCat-Flash-Prover: Advancing Native Formal Reasoning via ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.21065"
     }
   ],
   "ticker": [
+    "[D] Thinking about augmentation as ...",
+    "[D] Many times I feel additional ex...",
+    "[论文] Calibri: Enhancing Diffusion T...",
+    "[论文] PixelSmile: Toward Fine-Graine...",
     "[D] - 1M tokens/second serving Qwen...",
     "[D] OOD and Spandrels, or What you ...",
     "[论文] SlopCodeBench: Benchmarking Ho...",
     "[论文] MACRO: Advancing Multi-Referen...",
     "[论文] Intern-S1-Pro: Scientific Mult...",
-    "[D] ICML 2026: Policy A vs Policy B...",
-    "[D] Is LeCun’s $1B seed round the s...",
-    "[论文] 4DGS360: 360° Gaussian Reconst...",
-    "[论文] Why Does Self-Distillation (So...",
-    "[论文] GameplayQA: A Benchmarking Fra..."
+    "[D] ICML 2026: Policy A vs Policy B..."
   ],
   "learning": {
     "phases": [
