@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-03-29",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a1034e531a77",
+      "date": "2026-03-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] TurboQuant for weights: near‑optimal 4‑bit LLM quantization with lossless 8‑",
+      "summary": "An adaptation of the recent TurboQuant algorithm (Zandieh et al., 2025) from KV‑cache quantization to model weight compression. It gives you...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/"
+    },
+    {
+      "id": "n_a3dd68c82b4b",
+      "date": "2026-03-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] I built a benchmark that catches LLMs breaking physics laws",
+      "summary": "I got tired of LLMs confidently giving wrong physics answers, so I built a benchmark that generates adversarial physics questions and grades...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/"
+    },
     {
       "id": "n_100c24be8aac",
       "date": "2026-03-28",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.23497"
-    },
-    {
-      "id": "n_f85aed972f2d",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PEARL: Personalized Streaming Video Understanding Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.20422"
-    },
-    {
-      "id": "n_9d120a815dee",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Decoding backchannel info: Is a PI being \"aggressive in research\" a massive ",
-      "summary": "Hey everyone, 4th year Physics PhD here doing applied ML (surrogate models for fluid dynamics). I’m trying to finalize my summer 2026 intern...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s20svb/d_decoding_backchannel_info_is_a_pi_being/"
     }
   ],
   "ticker": [
+    "[P] TurboQuant for weights: near‑op...",
+    "[R] I built a benchmark that catche...",
     "[D] Thinking about augmentation as ...",
     "[D] Many times I feel additional ex...",
     "[论文] Calibri: Enhancing Diffusion T...",
@@ -213,9 +215,7 @@
     "[D] - 1M tokens/second serving Qwen...",
     "[D] OOD and Spandrels, or What you ...",
     "[论文] SlopCodeBench: Benchmarking Ho...",
-    "[论文] MACRO: Advancing Multi-Referen...",
-    "[论文] Intern-S1-Pro: Scientific Mult...",
-    "[D] ICML 2026: Policy A vs Policy B..."
+    "[论文] MACRO: Advancing Multi-Referen..."
   ],
   "learning": {
     "phases": [
