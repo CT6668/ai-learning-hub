@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-29",
+    "last_updated": "2026-03-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6aae46d9b626",
+      "date": "2026-03-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Implemented TurboQuant in Python",
+      "summary": "Spent ~2 days implementing this paper: TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate Repo: github.com/yashkc2025/...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s73sbf/p_implemented_turboquant_in_python/"
+    },
+    {
+      "id": "n_f5378f183eb0",
+      "date": "2026-03-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Built an open source tool to find the location of any street picture",
+      "summary": "Hey guys, Thank you so much for your love and support regarding Netryx Astra V2 last time. Many people are not that technically savvy to ins...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6uqns/p_built_an_open_source_tool_to_find_the_location/"
+    },
+    {
+      "id": "n_ba5da6e35558",
+      "date": "2026-03-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PackForcing: Short Video Training Suffices for Long Video Sa",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25730"
+    },
+    {
+      "id": "n_2ec091c929dd",
+      "date": "2026-03-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ShotStream: Streaming Multi-Shot Video Generation for Intera",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25746"
+    },
+    {
+      "id": "n_b08d7e96c945",
+      "date": "2026-03-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25716"
+    },
     {
       "id": "n_a1034e531a77",
       "date": "2026-03-28",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.24472"
-    },
-    {
-      "id": "n_fa79940c53f2",
-      "date": "2026-03-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GameplayQA: A Benchmarking Framework for Decision-Dense POV-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.24329"
-    },
-    {
-      "id": "n_d499b5aa6353",
-      "date": "2026-03-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Matryoshka Representation Learning",
-      "summary": "Hey everyone, Matryoshka Representation Learning (MRL) has gained a lot of traction for its ability to maintain strong downstream performanc...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s27pnk/d_matryoshka_representation_learning/"
-    },
-    {
-      "id": "n_e87983fb414d",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] KALAVAI: Predicting When Independent Specialist Fusion Works (gain = 0.82 × ",
-      "summary": "Hey all, Ive been working on this for a few months and just put the paper on arXiv: https://arxiv.org/abs/2603.22755 Project page: https://m...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/"
-    },
-    {
-      "id": "n_d2bfbec5aef3",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Static Templates to Dynamic Runtime Graphs: A Survey of",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.22386"
-    },
-    {
-      "id": "n_50d19d8e8d2f",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WildWorld: A Large-Scale Dataset for Dynamic World Modeling ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.23497"
     }
   ],
   "ticker": [
+    "[P] Implemented TurboQuant in Pytho...",
+    "[P] Built an open source tool to fi...",
+    "[论文] PackForcing: Short Video Train...",
+    "[论文] ShotStream: Streaming Multi-Sh...",
+    "[论文] Out of Sight but Not Out of Mi...",
     "[P] TurboQuant for weights: near‑op...",
     "[R] I built a benchmark that catche...",
     "[D] Thinking about augmentation as ...",
     "[D] Many times I feel additional ex...",
-    "[论文] Calibri: Enhancing Diffusion T...",
-    "[论文] PixelSmile: Toward Fine-Graine...",
-    "[D] - 1M tokens/second serving Qwen...",
-    "[D] OOD and Spandrels, or What you ...",
-    "[论文] SlopCodeBench: Benchmarking Ho...",
-    "[论文] MACRO: Advancing Multi-Referen..."
+    "[论文] Calibri: Enhancing Diffusion T..."
   ],
   "learning": {
     "phases": [
