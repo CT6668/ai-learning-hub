@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-30",
+    "last_updated": "2026-03-31",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4923d2e384cf",
+      "date": "2026-03-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] thoughts on the controversy about Google's new paper?",
+      "summary": "Openreview: https://openreview.net/forum?id=tO3ASKZlok Its sad to see almost no one mention this on Reddit and people are being mean to peop...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/"
+    },
+    {
+      "id": "n_ce44dc04ad6c",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Howcome Muon is only being used for Transformers?",
+      "summary": "Muon has quickly been adopted in LLM training, yet we dont see it being talked about in other contexts. Searches for Muon on ConvNets turn u...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8b6ti/d_howcome_muon_is_only_being_used_for_transformers/"
+    },
+    {
+      "id": "n_77e894ee32d2",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] On Token's Dilemma: Dynamic MoE with Drift-Aware Token Assig",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.27481"
+    },
+    {
+      "id": "n_84c53fe678e3",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Emergent Social Intelligence Risks in Generative Multi-Agent",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.27771"
+    },
+    {
+      "id": "n_640e31647f49",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Towards a Medical AI Scientist",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.28589"
+    },
     {
       "id": "n_6aae46d9b626",
       "date": "2026-03-29",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.25319"
-    },
-    {
-      "id": "n_c4f42a8eab2d",
-      "date": "2026-03-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Intern-S1-Pro: Scientific Multimodal Foundation Model at Tri",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25040"
-    },
-    {
-      "id": "n_e167f25677a6",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML 2026: Policy A vs Policy B impact on scores discussion",
-      "summary": "I am curious whether others observed the same thing. At ICML 2026, papers could be reviewed under two LLM-review policies: a stricter one wh...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_policy_b_impact_on_scores/"
-    },
-    {
-      "id": "n_d119e937ecef",
-      "date": "2026-03-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Is LeCun’s $1B seed round the signal that autoregressive LLMs have actually ",
-      "summary": "I’m still trying to wrap my head around the Bloomberg news from a couple of weeks ago. A $1 billion seed round is wild enough, but the actua...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/"
-    },
-    {
-      "id": "n_c53a1073f9b4",
-      "date": "2026-03-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] 4DGS360: 360° Gaussian Reconstruction of Dynamic Objects fro",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.21618"
-    },
-    {
-      "id": "n_e32ca7eab97c",
-      "date": "2026-03-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Why Does Self-Distillation (Sometimes) Degrade the Reasoning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.24472"
     }
   ],
   "ticker": [
+    "[D] thoughts on the controversy abo...",
+    "[D] Howcome Muon is only being used...",
+    "[论文] On Token's Dilemma: Dynamic Mo...",
+    "[论文] Emergent Social Intelligence R...",
+    "[论文] Towards a Medical AI Scientist",
     "[P] Implemented TurboQuant in Pytho...",
     "[P] Built an open source tool to fi...",
     "[论文] PackForcing: Short Video Train...",
     "[论文] ShotStream: Streaming Multi-Sh...",
-    "[论文] Out of Sight but Not Out of Mi...",
-    "[P] TurboQuant for weights: near‑op...",
-    "[R] I built a benchmark that catche...",
-    "[D] Thinking about augmentation as ...",
-    "[D] Many times I feel additional ex...",
-    "[论文] Calibri: Enhancing Diffusion T..."
+    "[论文] Out of Sight but Not Out of Mi..."
   ],
   "learning": {
     "phases": [
@@ -316,6 +316,16 @@
             "url": "https://www.bilibili.com/video/BV1bx411M7Zx",
             "id": "r_25d17f6c",
             "added_date": "2026-03-23"
+          },
+          {
+            "icon": "🏆",
+            "title": "LeetCode - 数据结构与算法",
+            "desc": "AI面试必备，刷题练编程基础",
+            "type": "tool",
+            "type_label": "平台",
+            "url": "https://leetcode.cn/",
+            "id": "r_c7a386d4",
+            "added_date": "2026-03-31"
           }
         ],
         "roadmap": [
@@ -436,6 +446,16 @@
             "url": "https://course.fast.ai/",
             "id": "r_58bfec5c",
             "added_date": "2026-03-23"
+          },
+          {
+            "icon": "📄",
+            "title": "OpenAI Prompt Engineering 指南（官方中文版）",
+            "desc": "官方出品，系统介绍如何写好 Prompt，必看",
+            "type": "doc",
+            "type_label": "文档",
+            "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+            "id": "r_0d408206",
+            "added_date": "2026-03-31"
           }
         ],
         "roadmap": [
@@ -556,6 +576,16 @@
             "url": "https://ollama.ai/",
             "id": "r_b4e3fd3b",
             "added_date": "2026-03-23"
+          },
+          {
+            "icon": "📄",
+            "title": "Dify - 低代码 LLM 应用开发平台",
+            "desc": "国产开源，拖拽式构建 AI 应用，支持 RAG/Agent/工作流",
+            "type": "tool",
+            "type_label": "工具",
+            "url": "https://github.com/langgenius/dify",
+            "id": "r_24dc2be7",
+            "added_date": "2026-03-31"
           }
         ],
         "roadmap": [
@@ -676,6 +706,16 @@
             "url": "https://www.youtube.com/@TwoMinutePapers",
             "id": "r_f14c0d1f",
             "added_date": "2026-03-23"
+          },
+          {
+            "icon": "📄",
+            "title": "Transformer Circuits Thread（机制可解释性）",
+            "desc": "Anthropic 研究员的博客，深入理解神经网络内部机制",
+            "type": "doc",
+            "type_label": "文档",
+            "url": "https://transformer-circuits.pub/",
+            "id": "r_6c0ad384",
+            "added_date": "2026-03-31"
           }
         ],
         "roadmap": [
