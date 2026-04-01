@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9230313ee831",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score hig",
+      "summary": "A week ago I made a thread asking whether ICML 2026’s review policy might have affected review outcomes, especially whether Policy A papers ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/"
+    },
+    {
+      "id": "n_f203fb09adc5",
+      "date": "2026-03-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] TurboQuant author replies on OpenReview",
+      "summary": "I wanted to follow up to yesterdays thread and see if anyone wanted to weigh in on it. This work is far outside of my niche, but it strikes ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/"
+    },
+    {
+      "id": "n_9965fcecb2bc",
+      "date": "2026-04-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Lingshu-Cell: A generative cellular world model for transcri",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.25240"
+    },
+    {
+      "id": "n_ad378ca72467",
+      "date": "2026-04-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.27538"
+    },
+    {
+      "id": "n_e3a4db6b8847",
+      "date": "2026-04-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FIPO: Eliciting Deep Reasoning with Future-KL Influenced Pol",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.19835"
+    },
     {
       "id": "n_4923d2e384cf",
       "date": "2026-03-30",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.24800"
-    },
-    {
-      "id": "n_6b20dd95fd4b",
-      "date": "2026-03-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PixelSmile: Toward Fine-Grained Facial Expression Editing",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25728"
-    },
-    {
-      "id": "n_2386dc54c92c",
-      "date": "2026-03-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] - 1M tokens/second serving Qwen 3.5 27B on B200 GPUs, benchmark results and ",
-      "summary": "Wrote up the process of pushing Qwen 3.5 27B (dense, FP8) to 1.1M total tok/s on 96 B200 GPUs with vLLM v0.18.0. DP=8 nearly 4xd throughput ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s4hxgu/d_1m_tokenssecond_serving_qwen_35_27b_on_b200/"
-    },
-    {
-      "id": "n_cbedfc5097a4",
-      "date": "2026-03-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] OOD and Spandrels, or What you should know about EBM.",
-      "summary": "Energy-based model This article will compare EBMs to multi-layered perceptrons, and addresses a lingering question : Whether or not EBMs are...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s4gp7d/d_ood_and_spandrels_or_what_you_should_know_about/"
-    },
-    {
-      "id": "n_368acb6a0c4b",
-      "date": "2026-03-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SlopCodeBench: Benchmarking How Coding Agents Degrade Over L",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.24755"
-    },
-    {
-      "id": "n_a188678f9a8d",
-      "date": "2026-03-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MACRO: Advancing Multi-Reference Image Generation with Struc",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25319"
     }
   ],
   "ticker": [
+    "[D] ICML 2026 review policy debate:...",
+    "[D] TurboQuant author replies on Op...",
+    "[论文] Lingshu-Cell: A generative cel...",
+    "[论文] LongCat-Next: Lexicalizing Mod...",
+    "[论文] FIPO: Eliciting Deep Reasoning...",
     "[D] thoughts on the controversy abo...",
     "[D] Howcome Muon is only being used...",
     "[论文] On Token's Dilemma: Dynamic Mo...",
     "[论文] Emergent Social Intelligence R...",
-    "[论文] Towards a Medical AI Scientist",
-    "[P] Implemented TurboQuant in Pytho...",
-    "[P] Built an open source tool to fi...",
-    "[论文] PackForcing: Short Video Train...",
-    "[论文] ShotStream: Streaming Multi-Sh...",
-    "[论文] Out of Sight but Not Out of Mi..."
+    "[论文] Towards a Medical AI Scientist"
   ],
   "learning": {
     "phases": [
@@ -1035,6 +1035,48 @@
       "github_url": "https://github.com/langgenius/dify",
       "id": "p_22675237",
       "added_date": "2026-03-07"
+    },
+    {
+      "emoji": "🔧",
+      "title": "Dify - 低代码 AI 应用开发",
+      "difficulty": "beginner",
+      "diff_label": "入门级",
+      "cat": "beginner nlp",
+      "desc": "用 Dify 无需写代码即可构建 RAG 知识库问答、AI 工作流、Chatbot 应用。国产开源，中文友好，GitHub 50k+ Star。",
+      "tags": [
+        "Dify",
+        "RAG",
+        "低代码",
+        "工作流"
+      ],
+      "duration": "1天",
+      "highlight": "🔥 国产之光",
+      "bg": "linear-gradient(135deg,#1a2050,#102060)",
+      "tutorial_url": "https://docs.dify.ai/zh-hans",
+      "github_url": "https://github.com/langgenius/dify",
+      "id": "p_935d7a5c",
+      "added_date": "2026-04-01"
+    },
+    {
+      "emoji": "🎙️",
+      "title": "AI 实时语音对话助手",
+      "difficulty": "medium",
+      "diff_label": "进阶级",
+      "cat": "medium nlp",
+      "desc": "结合 Whisper 语音识别 + LLM 对话 + TTS 语音合成，构建像 Siri 一样的实时语音 AI 助手，支持中英文。",
+      "tags": [
+        "Whisper",
+        "TTS",
+        "VAD",
+        "语音交互"
+      ],
+      "duration": "3-5天",
+      "highlight": "🎙️ 语音交互",
+      "bg": "linear-gradient(135deg,#3a2a1e,#604010)",
+      "tutorial_url": "https://github.com/openai/whisper",
+      "github_url": "https://github.com/snakers4/silero-vad",
+      "id": "p_856004d4",
+      "added_date": "2026-04-01"
     }
   ]
 }
