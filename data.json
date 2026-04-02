@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-01",
+    "last_updated": "2026-04-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5e623fae317a",
+      "date": "2026-04-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)",
+      "summary": "Tl;dr: One of Stanfords hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa3cf0/stanford_cs_25_transformers_course_open_to_all/"
+    },
+    {
+      "id": "n_5294c5c032ed",
+      "date": "2026-04-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] We reimplemented Claude Code entirely in Python — open source, works with lo",
+      "summary": "Hey everyone, We just released Claw Code Agent — a full Python reimplementation of the Claude Code agent architecture, based on the reverse-...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa09ta/d_we_reimplemented_claude_code_entirely_in_python/"
+    },
+    {
+      "id": "n_f4d5fa7bca31",
+      "date": "2026-04-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] QuitoBench: A High-Quality Open Time Series Forecasting Benc",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.26017"
+    },
+    {
+      "id": "n_da29d0053d29",
+      "date": "2026-04-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Terminal Agents Suffice for Enterprise Automation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.00073"
+    },
+    {
+      "id": "n_f6683a66ae3b",
+      "date": "2026-04-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MiroEval: Benchmarking Multimodal Deep Research Agents in Pr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.28407"
+    },
     {
       "id": "n_9230313ee831",
       "date": "2026-03-31",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.25716"
-    },
-    {
-      "id": "n_a1034e531a77",
-      "date": "2026-03-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] TurboQuant for weights: near‑optimal 4‑bit LLM quantization with lossless 8‑",
-      "summary": "An adaptation of the recent TurboQuant algorithm (Zandieh et al., 2025) from KV‑cache quantization to model weight compression. It gives you...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/"
-    },
-    {
-      "id": "n_a3dd68c82b4b",
-      "date": "2026-03-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] I built a benchmark that catches LLMs breaking physics laws",
-      "summary": "I got tired of LLMs confidently giving wrong physics answers, so I built a benchmark that generates adversarial physics questions and grades...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/"
-    },
-    {
-      "id": "n_100c24be8aac",
-      "date": "2026-03-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Thinking about augmentation as invariance assumptions",
-      "summary": "Data augmentation is still used much more heuristically than it should be. A training pipeline can easily turn into a stack of intuition, ol...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5nxwc/d_thinking_about_augmentation_as_invariance/"
-    },
-    {
-      "id": "n_91005d346a9f",
-      "date": "2026-03-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Many times I feel additional experiments during the rebuttal make my paper w",
-      "summary": "Back in the days when I just started to review for major conferences, it was common to give and receive reviews saying \"I dont have major co...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5j8bg/d_many_times_i_feel_additional_experiments_during/"
-    },
-    {
-      "id": "n_4edddf7962fd",
-      "date": "2026-03-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Calibri: Enhancing Diffusion Transformers via Parameter-Effi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.24800"
     }
   ],
   "ticker": [
+    "Stanford CS 25 Transformers Course ...",
+    "[D] We reimplemented Claude Code en...",
+    "[论文] QuitoBench: A High-Quality Ope...",
+    "[论文] Terminal Agents Suffice for En...",
+    "[论文] MiroEval: Benchmarking Multimo...",
     "[D] ICML 2026 review policy debate:...",
     "[D] TurboQuant author replies on Op...",
     "[论文] Lingshu-Cell: A generative cel...",
     "[论文] LongCat-Next: Lexicalizing Mod...",
-    "[论文] FIPO: Eliciting Deep Reasoning...",
-    "[D] thoughts on the controversy abo...",
-    "[D] Howcome Muon is only being used...",
-    "[论文] On Token's Dilemma: Dynamic Mo...",
-    "[论文] Emergent Social Intelligence R...",
-    "[论文] Towards a Medical AI Scientist"
+    "[论文] FIPO: Eliciting Deep Reasoning..."
   ],
   "learning": {
     "phases": [
