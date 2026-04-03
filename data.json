@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-02",
+    "last_updated": "2026-04-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b6acc9838d03",
+      "date": "2026-04-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Physicist-turned-ML-engineer looking to get into ML research. What's worth w",
+      "summary": "After years of focus on building products, Im carving out time to do independent research again and trying to find the right direction. I ha...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sayptq/d_physicistturnedmlengineer_looking_to_get_into/"
+    },
+    {
+      "id": "n_e0d29abbb939",
+      "date": "2026-04-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Is autoresearch really better than classic hyperparameter tuning?",
+      "summary": "We did experiments comparing Optuna & autoresearch. Autoresearch converges faster, is more cost-efficient, and even generalizes better. Expe...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1satj6r/r_is_autoresearch_really_better_than_classic/"
+    },
+    {
+      "id": "n_de430dcd5f70",
+      "date": "2026-04-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Generative World Renderer",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.02329"
+    },
+    {
+      "id": "n_e0c5396b390d",
+      "date": "2026-04-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DataFlex: A Unified Framework for Data-Centric Dynamic Train",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.26164"
+    },
+    {
+      "id": "n_426916ffb5a3",
+      "date": "2026-04-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SKILL0: In-Context Agentic Reinforcement Learning for Skill ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.02268"
+    },
     {
       "id": "n_5e623fae317a",
       "date": "2026-04-02",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.28589"
-    },
-    {
-      "id": "n_6aae46d9b626",
-      "date": "2026-03-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Implemented TurboQuant in Python",
-      "summary": "Spent ~2 days implementing this paper: TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate Repo: github.com/yashkc2025/...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s73sbf/p_implemented_turboquant_in_python/"
-    },
-    {
-      "id": "n_f5378f183eb0",
-      "date": "2026-03-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Built an open source tool to find the location of any street picture",
-      "summary": "Hey guys, Thank you so much for your love and support regarding Netryx Astra V2 last time. Many people are not that technically savvy to ins...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6uqns/p_built_an_open_source_tool_to_find_the_location/"
-    },
-    {
-      "id": "n_ba5da6e35558",
-      "date": "2026-03-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PackForcing: Short Video Training Suffices for Long Video Sa",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25730"
-    },
-    {
-      "id": "n_2ec091c929dd",
-      "date": "2026-03-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ShotStream: Streaming Multi-Shot Video Generation for Intera",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25746"
-    },
-    {
-      "id": "n_b08d7e96c945",
-      "date": "2026-03-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25716"
     }
   ],
   "ticker": [
+    "[D] Physicist-turned-ML-engineer lo...",
+    "[R] Is autoresearch really better t...",
+    "[论文] Generative World Renderer",
+    "[论文] DataFlex: A Unified Framework ...",
+    "[论文] SKILL0: In-Context Agentic Rei...",
     "Stanford CS 25 Transformers Course ...",
     "[D] We reimplemented Claude Code en...",
     "[论文] QuitoBench: A High-Quality Ope...",
     "[论文] Terminal Agents Suffice for En...",
-    "[论文] MiroEval: Benchmarking Multimo...",
-    "[D] ICML 2026 review policy debate:...",
-    "[D] TurboQuant author replies on Op...",
-    "[论文] Lingshu-Cell: A generative cel...",
-    "[论文] LongCat-Next: Lexicalizing Mod...",
-    "[论文] FIPO: Eliciting Deep Reasoning..."
+    "[论文] MiroEval: Benchmarking Multimo..."
   ],
   "learning": {
     "phases": [
