@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-04-04",
+    "last_updated": "2026-04-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6278902151a6",
+      "date": "2026-04-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Those of you with 10+ years in ML — what is the public completely wrong abou",
+      "summary": "For those of you whove been in ML/AI research or applied ML for 10+ years — whats the gap between what the public thinks AI is doing vs. wha...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/"
+    },
+    {
+      "id": "n_25c79f0615ba",
+      "date": "2026-04-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] KDD Review Discussion",
+      "summary": "KDD 2026 (Feb Cycle) reviews will release today (4-April AoE), This thread is open to discuss about reviews and importantly celebrate succes...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/"
+    },
     {
       "id": "n_17ad55b334e9",
       "date": "2026-04-04",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.19835"
-    },
-    {
-      "id": "n_4923d2e384cf",
-      "date": "2026-03-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] thoughts on the controversy about Google's new paper?",
-      "summary": "Openreview: https://openreview.net/forum?id=tO3ASKZlok Its sad to see almost no one mention this on Reddit and people are being mean to peop...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/"
-    },
-    {
-      "id": "n_ce44dc04ad6c",
-      "date": "2026-03-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Howcome Muon is only being used for Transformers?",
-      "summary": "Muon has quickly been adopted in LLM training, yet we dont see it being talked about in other contexts. Searches for Muon on ConvNets turn u...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8b6ti/d_howcome_muon_is_only_being_used_for_transformers/"
     }
   ],
   "ticker": [
+    "[D] Those of you with 10+ years in ...",
+    "[D] KDD Review Discussion",
     "[P] GPU friendly lossless 12-bit BF...",
     "First time NeurIPS. How different i...",
     "[论文] The Latent Space: Foundation, ...",
@@ -213,9 +215,7 @@
     "[R] Is autoresearch really better t...",
     "[论文] Generative World Renderer",
     "[论文] DataFlex: A Unified Framework ...",
-    "[论文] SKILL0: In-Context Agentic Rei...",
-    "Stanford CS 25 Transformers Course ...",
-    "[D] We reimplemented Claude Code en..."
+    "[论文] SKILL0: In-Context Agentic Rei..."
   ],
   "learning": {
     "phases": [
