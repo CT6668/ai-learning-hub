@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a37f09c33821",
+      "date": "2026-04-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] Dante-2B: I'm training a 2.1B bilingual fully open Italian/English LLM from ",
+      "summary": "The problem If you work with Italian text and local models, you know the pain. Every open-source LLM out there treats Italian as an aftertho...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/"
+    },
+    {
+      "id": "n_d53690933582",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] How to break free from LLM's chains as a PhD student?",
+      "summary": "I didnt realize but over a period of one year i have become overreliant on ChatGPT to write code, I am a second year PhD student and dont wa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdmn97/d_how_to_break_free_from_llms_chains_as_a_phd/"
+    },
+    {
+      "id": "n_9e58c81ad525",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Self-Distilled RLVR",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.03128"
+    },
+    {
+      "id": "n_951e0a187b5f",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agentic-MME: What Agentic Capability Really Brings to Multim",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.03016"
+    },
+    {
+      "id": "n_19675e56b257",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] A Simple Baseline for Streaming Video Understanding",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.02317"
+    },
     {
       "id": "n_6278902151a6",
       "date": "2026-04-04",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2603.28407"
-    },
-    {
-      "id": "n_9230313ee831",
-      "date": "2026-03-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score hig",
-      "summary": "A week ago I made a thread asking whether ICML 2026’s review policy might have affected review outcomes, especially whether Policy A papers ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/"
-    },
-    {
-      "id": "n_f203fb09adc5",
-      "date": "2026-03-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] TurboQuant author replies on OpenReview",
-      "summary": "I wanted to follow up to yesterdays thread and see if anyone wanted to weigh in on it. This work is far outside of my niche, but it strikes ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/"
-    },
-    {
-      "id": "n_9965fcecb2bc",
-      "date": "2026-04-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Lingshu-Cell: A generative cellular world model for transcri",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.25240"
-    },
-    {
-      "id": "n_ad378ca72467",
-      "date": "2026-04-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.27538"
-    },
-    {
-      "id": "n_e3a4db6b8847",
-      "date": "2026-04-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FIPO: Eliciting Deep Reasoning with Future-KL Influenced Pol",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.19835"
     }
   ],
   "ticker": [
+    "[P] Dante-2B: I'm training a 2.1B b...",
+    "[D] How to break free from LLM's ch...",
+    "[论文] Self-Distilled RLVR",
+    "[论文] Agentic-MME: What Agentic Capa...",
+    "[论文] A Simple Baseline for Streamin...",
     "[D] Those of you with 10+ years in ...",
     "[D] KDD Review Discussion",
     "[P] GPU friendly lossless 12-bit BF...",
     "First time NeurIPS. How different i...",
-    "[论文] The Latent Space: Foundation, ...",
-    "[D] Physicist-turned-ML-engineer lo...",
-    "[R] Is autoresearch really better t...",
-    "[论文] Generative World Renderer",
-    "[论文] DataFlex: A Unified Framework ...",
-    "[论文] SKILL0: In-Context Agentic Rei..."
+    "[论文] The Latent Space: Foundation, ..."
   ],
   "learning": {
     "phases": [
