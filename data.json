@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-06",
+    "last_updated": "2026-04-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_17d82e2d660a",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] ICML 26 - What to do with the zero follow-up questions",
+      "summary": "Hello everyone. I submitted my work to ICML 26 this year, and it got somewhat above average reviews. Now, in the rebuttal acknowledgment, th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1se451u/d_icml_26_what_to_do_with_the_zero_followup/"
+    },
+    {
+      "id": "n_b93a4c576704",
+      "date": "2026-04-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] How's MLX and jax/ pytorch on MacBooks these days?",
+      "summary": "&#x200B; So Im looking at buying a new 14 inch MacBook pro with m5 pro and 64 gb of memory vs m4 max with same specs. My priorities are pro ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1seexk0/d_hows_mlx_and_jax_pytorch_on_macbooks_these_days/"
+    },
+    {
+      "id": "n_fa849c2607fe",
+      "date": "2026-04-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OpenWorldLib: A Unified Codebase and Definition of Advanced ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.04707"
+    },
+    {
+      "id": "n_7412df787d72",
+      "date": "2026-04-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AURA: Always-On Understanding and Real-Time Assistance via V",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.04184"
+    },
+    {
+      "id": "n_a6e593eab11a",
+      "date": "2026-04-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TriAttention: Efficient Long Reasoning with Trigonometric KV",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.04921"
+    },
     {
       "id": "n_a37f09c33821",
       "date": "2026-04-05",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.02268"
-    },
-    {
-      "id": "n_5e623fae317a",
-      "date": "2026-04-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)",
-      "summary": "Tl;dr: One of Stanfords hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa3cf0/stanford_cs_25_transformers_course_open_to_all/"
-    },
-    {
-      "id": "n_5294c5c032ed",
-      "date": "2026-04-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] We reimplemented Claude Code entirely in Python — open source, works with lo",
-      "summary": "Hey everyone, We just released Claw Code Agent — a full Python reimplementation of the Claude Code agent architecture, based on the reverse-...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa09ta/d_we_reimplemented_claude_code_entirely_in_python/"
-    },
-    {
-      "id": "n_f4d5fa7bca31",
-      "date": "2026-04-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] QuitoBench: A High-Quality Open Time Series Forecasting Benc",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.26017"
-    },
-    {
-      "id": "n_da29d0053d29",
-      "date": "2026-04-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Terminal Agents Suffice for Enterprise Automation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.00073"
-    },
-    {
-      "id": "n_f6683a66ae3b",
-      "date": "2026-04-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MiroEval: Benchmarking Multimodal Deep Research Agents in Pr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.28407"
     }
   ],
   "ticker": [
+    "[D] ICML 26 - What to do with the z...",
+    "[D] How's MLX and jax/ pytorch on M...",
+    "[论文] OpenWorldLib: A Unified Codeba...",
+    "[论文] AURA: Always-On Understanding ...",
+    "[论文] TriAttention: Efficient Long R...",
     "[P] Dante-2B: I'm training a 2.1B b...",
     "[D] How to break free from LLM's ch...",
     "[论文] Self-Distilled RLVR",
     "[论文] Agentic-MME: What Agentic Capa...",
-    "[论文] A Simple Baseline for Streamin...",
-    "[D] Those of you with 10+ years in ...",
-    "[D] KDD Review Discussion",
-    "[P] GPU friendly lossless 12-bit BF...",
-    "First time NeurIPS. How different i...",
-    "[论文] The Latent Space: Foundation, ..."
+    "[论文] A Simple Baseline for Streamin..."
   ],
   "learning": {
     "phases": [
