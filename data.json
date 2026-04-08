@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6d7ada52bcb5",
+      "date": "2026-04-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Is ACL more about the benchmarks now?",
+      "summary": "I am not a NLP guy, but afaik ACL is one of the premium venues of NLP. And given that the results were announced recently, my LinkedIn and T...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1seqckq/d_is_acl_more_about_the_benchmarks_now/"
+    },
+    {
+      "id": "n_a559f405ed2e",
+      "date": "2026-04-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] thoughts on current community moving away from heavy math?",
+      "summary": "I dont know about how you guys feel but even before LLM started, many papers are already leaning on empirical findings, architecture designs...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sesq0s/d_thoughts_on_current_community_moving_away_from/"
+    },
+    {
+      "id": "n_47b13632176d",
+      "date": "2026-04-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Learning to Retrieve from Agent Trajectories",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.04949"
+    },
+    {
+      "id": "n_46d48ab90c7e",
+      "date": "2026-04-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Int",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.05404"
+    },
+    {
+      "id": "n_ba69239c4fef",
+      "date": "2026-04-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Video-MME-v2: Towards the Next Stage in Benchmarks for Compr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.05015"
+    },
     {
       "id": "n_17d82e2d660a",
       "date": "2026-04-06",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.02029"
-    },
-    {
-      "id": "n_b6acc9838d03",
-      "date": "2026-04-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Physicist-turned-ML-engineer looking to get into ML research. What's worth w",
-      "summary": "After years of focus on building products, Im carving out time to do independent research again and trying to find the right direction. I ha...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sayptq/d_physicistturnedmlengineer_looking_to_get_into/"
-    },
-    {
-      "id": "n_e0d29abbb939",
-      "date": "2026-04-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Is autoresearch really better than classic hyperparameter tuning?",
-      "summary": "We did experiments comparing Optuna & autoresearch. Autoresearch converges faster, is more cost-efficient, and even generalizes better. Expe...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1satj6r/r_is_autoresearch_really_better_than_classic/"
-    },
-    {
-      "id": "n_de430dcd5f70",
-      "date": "2026-04-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Generative World Renderer",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.02329"
-    },
-    {
-      "id": "n_e0c5396b390d",
-      "date": "2026-04-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DataFlex: A Unified Framework for Data-Centric Dynamic Train",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.26164"
-    },
-    {
-      "id": "n_426916ffb5a3",
-      "date": "2026-04-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SKILL0: In-Context Agentic Reinforcement Learning for Skill ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.02268"
     }
   ],
   "ticker": [
+    "[D] Is ACL more about the benchmark...",
+    "[D] thoughts on current community m...",
+    "[论文] Learning to Retrieve from Agen...",
+    "[论文] Beyond Accuracy: Unveiling Ine...",
+    "[论文] Video-MME-v2: Towards the Next...",
     "[D] ICML 26 - What to do with the z...",
     "[D] How's MLX and jax/ pytorch on M...",
     "[论文] OpenWorldLib: A Unified Codeba...",
     "[论文] AURA: Always-On Understanding ...",
-    "[论文] TriAttention: Efficient Long R...",
-    "[P] Dante-2B: I'm training a 2.1B b...",
-    "[D] How to break free from LLM's ch...",
-    "[论文] Self-Distilled RLVR",
-    "[论文] Agentic-MME: What Agentic Capa...",
-    "[论文] A Simple Baseline for Streamin..."
+    "[论文] TriAttention: Efficient Long R..."
   ],
   "learning": {
     "phases": [
@@ -456,6 +456,16 @@
             "url": "https://platform.openai.com/docs/guides/prompt-engineering",
             "id": "r_0d408206",
             "added_date": "2026-03-31"
+          },
+          {
+            "icon": "📹",
+            "title": "Andrej Karpathy - Let's build GPT from scratch",
+            "desc": "前OpenAI大神手把手从零写GPT，YouTube最佳实战视频",
+            "type": "video",
+            "type_label": "视频",
+            "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+            "id": "r_7b76240e",
+            "added_date": "2026-04-08"
           }
         ],
         "roadmap": [
@@ -586,6 +596,16 @@
             "url": "https://github.com/langgenius/dify",
             "id": "r_24dc2be7",
             "added_date": "2026-03-31"
+          },
+          {
+            "icon": "🎓",
+            "title": "吴恩达 - Finetuning LLMs",
+            "desc": "大模型微调实战，SFT/LoRA/RLHF 全流程，免费课",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/",
+            "id": "r_c76956a8",
+            "added_date": "2026-04-08"
           }
         ],
         "roadmap": [
@@ -716,6 +736,16 @@
             "url": "https://transformer-circuits.pub/",
             "id": "r_6c0ad384",
             "added_date": "2026-03-31"
+          },
+          {
+            "icon": "🎓",
+            "title": "Stanford CS336: Language Modeling from Scratch",
+            "desc": "斯坦福2024新课，从头构建大语言模型，公开课资料",
+            "type": "course",
+            "type_label": "课程",
+            "url": "https://stanford-cs336.github.io/spring2024/",
+            "id": "r_aaeb874f",
+            "added_date": "2026-04-08"
           }
         ],
         "roadmap": [
