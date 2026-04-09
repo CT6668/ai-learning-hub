@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-08",
+    "last_updated": "2026-04-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a684652cbece",
+      "date": "2026-04-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICML 2026 am I cooked? [D]",
+      "summary": "Hi, I am currently making the jump to ML from theoretical physics. I just got done with the review period, went from 4333 to 4433, but the r...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sg188m/icml_2026_am_i_cooked_d/"
+    },
+    {
+      "id": "n_6c5658fe02f9",
+      "date": "2026-04-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Dealing with an unprofessional reviewer using fake references and personal a",
+      "summary": "We are currently facing an ICML 2026 reviewer who lowered the score to a 1 (Confidence 5) while ignoring our rebuttal and relying on fake re...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sg0pk1/d_dealing_with_an_unprofessional_reviewer_using/"
+    },
+    {
+      "id": "n_7d80a6e62ddd",
+      "date": "2026-04-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MARS: Enabling Autoregressive Models Multi-Token Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.07023"
+    },
+    {
+      "id": "n_644bc76cb987",
+      "date": "2026-04-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Think in Strokes, Not Pixels: Process-Driven Image Generatio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.04746"
+    },
+    {
+      "id": "n_8a893d5ea6a7",
+      "date": "2026-04-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RAGEN-2: Reasoning Collapse in Agentic RL",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.06268"
+    },
     {
       "id": "n_6d7ada52bcb5",
       "date": "2026-04-07",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.02317"
-    },
-    {
-      "id": "n_6278902151a6",
-      "date": "2026-04-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Those of you with 10+ years in ML — what is the public completely wrong abou",
-      "summary": "For those of you whove been in ML/AI research or applied ML for 10+ years — whats the gap between what the public thinks AI is doing vs. wha...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/"
-    },
-    {
-      "id": "n_25c79f0615ba",
-      "date": "2026-04-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] KDD Review Discussion",
-      "summary": "KDD 2026 (Feb Cycle) reviews will release today (4-April AoE), This thread is open to discuss about reviews and importantly celebrate succes...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/"
-    },
-    {
-      "id": "n_17ad55b334e9",
-      "date": "2026-04-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] GPU friendly lossless 12-bit BF16 format with 0.03% escape rate and 1 intege",
-      "summary": "Hi everyone, I am from Australia : ) I just released a new research prototype It’s a lossless BF16 compression format that stores weights in...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/"
-    },
-    {
-      "id": "n_26fd106f63a6",
-      "date": "2026-04-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "First time NeurIPS. How different is it from low-ranked conferences? [D]",
-      "summary": "Im a PhD student and already published papers in A/B ranked paper (10+). My field of work never allowed me to work on something really excit...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbnbnv/first_time_neurips_how_different_is_it_from/"
-    },
-    {
-      "id": "n_2d5a8fbc90f7",
-      "date": "2026-04-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] The Latent Space: Foundation, Evolution, Mechanism, Ability,",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.02029"
     }
   ],
   "ticker": [
+    "ICML 2026 am I cooked? [D]",
+    "[D] Dealing with an unprofessional ...",
+    "[论文] MARS: Enabling Autoregressive ...",
+    "[论文] Think in Strokes, Not Pixels: ...",
+    "[论文] RAGEN-2: Reasoning Collapse in...",
     "[D] Is ACL more about the benchmark...",
     "[D] thoughts on current community m...",
     "[论文] Learning to Retrieve from Agen...",
     "[论文] Beyond Accuracy: Unveiling Ine...",
-    "[论文] Video-MME-v2: Towards the Next...",
-    "[D] ICML 26 - What to do with the z...",
-    "[D] How's MLX and jax/ pytorch on M...",
-    "[论文] OpenWorldLib: A Unified Codeba...",
-    "[论文] AURA: Always-On Understanding ...",
-    "[论文] TriAttention: Efficient Long R..."
+    "[论文] Video-MME-v2: Towards the Next..."
   ],
   "learning": {
     "phases": [
