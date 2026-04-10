@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-09",
+    "last_updated": "2026-04-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_40d3214be48f",
+      "date": "2026-04-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Studying Sutton and Barto's RL book and its connections to RL for LLMs (e.g., to",
+      "summary": "Hi everyone, I graduated from a Master in Math program last summer. In recent months, I have been trying to understand more about ML/DL and ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/"
+    },
+    {
+      "id": "n_e669d174b6a9",
+      "date": "2026-04-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] PCA before truncation makes non-Matryoshka embeddings compressible: results ",
+      "summary": "Most embedding models are not Matryoshka-trained, so naive dimension truncation tends to destroy them. I tested a simple alternative: fit PC...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/"
+    },
+    {
+      "id": "n_da14e481608b",
+      "date": "2026-04-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] When Numbers Speak: Aligning Textual Numerals and Visual Ins",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.08546"
+    },
+    {
+      "id": "n_095bee4e800e",
+      "date": "2026-04-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HY-Embodied-0.5: Embodied Foundation Models for Real-World A",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.07430"
+    },
+    {
+      "id": "n_e757fdc9a920",
+      "date": "2026-04-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SkillClaw: Let Skills Evolve Collectively with Agentic Evolv",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.08377"
+    },
     {
       "id": "n_a684652cbece",
       "date": "2026-04-08",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.04921"
-    },
-    {
-      "id": "n_a37f09c33821",
-      "date": "2026-04-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] Dante-2B: I'm training a 2.1B bilingual fully open Italian/English LLM from ",
-      "summary": "The problem If you work with Italian text and local models, you know the pain. Every open-source LLM out there treats Italian as an aftertho...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/"
-    },
-    {
-      "id": "n_d53690933582",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] How to break free from LLM's chains as a PhD student?",
-      "summary": "I didnt realize but over a period of one year i have become overreliant on ChatGPT to write code, I am a second year PhD student and dont wa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdmn97/d_how_to_break_free_from_llms_chains_as_a_phd/"
-    },
-    {
-      "id": "n_9e58c81ad525",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Self-Distilled RLVR",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.03128"
-    },
-    {
-      "id": "n_951e0a187b5f",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic-MME: What Agentic Capability Really Brings to Multim",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.03016"
-    },
-    {
-      "id": "n_19675e56b257",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] A Simple Baseline for Streaming Video Understanding",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.02317"
     }
   ],
   "ticker": [
+    "Studying Sutton and Barto's RL book...",
+    "[P] PCA before truncation makes non...",
+    "[论文] When Numbers Speak: Aligning T...",
+    "[论文] HY-Embodied-0.5: Embodied Foun...",
+    "[论文] SkillClaw: Let Skills Evolve C...",
     "ICML 2026 am I cooked? [D]",
     "[D] Dealing with an unprofessional ...",
     "[论文] MARS: Enabling Autoregressive ...",
     "[论文] Think in Strokes, Not Pixels: ...",
-    "[论文] RAGEN-2: Reasoning Collapse in...",
-    "[D] Is ACL more about the benchmark...",
-    "[D] thoughts on current community m...",
-    "[论文] Learning to Retrieve from Agen...",
-    "[论文] Beyond Accuracy: Unveiling Ine...",
-    "[论文] Video-MME-v2: Towards the Next..."
+    "[论文] RAGEN-2: Reasoning Collapse in..."
   ],
   "learning": {
     "phases": [
