@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-04-10",
+    "last_updated": "2026-04-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_949fc096f81c",
+      "date": "2026-04-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Getting sabotaged by a reviewer at IJCAI [D]",
+      "summary": "Recently got the reviews back from ijcai, now all is good except for this one reviewer who has not read the paper in depth, and is making fa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1si2od5/getting_sabotaged_by_a_reviewer_at_ijcai_d/"
+    },
+    {
+      "id": "n_b074502165cb",
+      "date": "2026-04-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] 60% MatMul Performance Bug in cuBLAS on RTX 5090 [D]",
+      "summary": "cuBLAS dispatches an inefficient kernel for every batched FP32 workload, from 256×256 to 8192×8192×8. It only uses ~40% of the available com...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shtv0r/d_60_matmul_performance_bug_in_cublas_on_rtx_5090/"
+    },
+    {
+      "id": "n_342539036eca",
+      "date": "2026-04-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Rethinking Generalization in Reasoning SFT: A Conditional An",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.06628"
+    },
     {
       "id": "n_40d3214be48f",
       "date": "2026-04-09",
@@ -173,49 +203,19 @@
       "summary": "&#x200B; So Im looking at buying a new 14 inch MacBook pro with m5 pro and 64 gb of memory vs m4 max with same specs. My priorities are pro ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1seexk0/d_hows_mlx_and_jax_pytorch_on_macbooks_these_days/"
-    },
-    {
-      "id": "n_fa849c2607fe",
-      "date": "2026-04-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OpenWorldLib: A Unified Codebase and Definition of Advanced ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.04707"
-    },
-    {
-      "id": "n_7412df787d72",
-      "date": "2026-04-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AURA: Always-On Understanding and Real-Time Assistance via V",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.04184"
-    },
-    {
-      "id": "n_a6e593eab11a",
-      "date": "2026-04-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TriAttention: Efficient Long Reasoning with Trigonometric KV",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.04921"
     }
   ],
   "ticker": [
+    "Getting sabotaged by a reviewer at ...",
+    "[D] 60% MatMul Performance Bug in c...",
+    "[论文] Rethinking Generalization in R...",
     "Studying Sutton and Barto's RL book...",
     "[P] PCA before truncation makes non...",
     "[论文] When Numbers Speak: Aligning T...",
     "[论文] HY-Embodied-0.5: Embodied Foun...",
     "[论文] SkillClaw: Let Skills Evolve C...",
     "ICML 2026 am I cooked? [D]",
-    "[D] Dealing with an unprofessional ...",
-    "[论文] MARS: Enabling Autoregressive ...",
-    "[论文] Think in Strokes, Not Pixels: ...",
-    "[论文] RAGEN-2: Reasoning Collapse in..."
+    "[D] Dealing with an unprofessional ..."
   ],
   "learning": {
     "phases": [
