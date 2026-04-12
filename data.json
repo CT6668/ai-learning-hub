@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-04-11",
+    "last_updated": "2026-04-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_825987db84b1",
+      "date": "2026-04-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Post Rebuttal ICML Average Scores? [D]",
+      "summary": "I have an average of 3.5. One of the reviewer gave us a 2 by bringing up a new issue he hadnt mentioned in his initial review, taking that f...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sitqzu/post_rebuttal_icml_average_scores_d/"
+    },
+    {
+      "id": "n_591c2e97306b",
+      "date": "2026-04-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is \"live AI video generation\" a meaningful technical category or just a marketin",
+      "summary": "Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-tim...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/"
+    },
     {
       "id": "n_949fc096f81c",
       "date": "2026-04-10",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.05015"
-    },
-    {
-      "id": "n_17d82e2d660a",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] ICML 26 - What to do with the zero follow-up questions",
-      "summary": "Hello everyone. I submitted my work to ICML 26 this year, and it got somewhat above average reviews. Now, in the rebuttal acknowledgment, th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1se451u/d_icml_26_what_to_do_with_the_zero_followup/"
-    },
-    {
-      "id": "n_b93a4c576704",
-      "date": "2026-04-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] How's MLX and jax/ pytorch on MacBooks these days?",
-      "summary": "&#x200B; So Im looking at buying a new 14 inch MacBook pro with m5 pro and 64 gb of memory vs m4 max with same specs. My priorities are pro ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1seexk0/d_hows_mlx_and_jax_pytorch_on_macbooks_these_days/"
     }
   ],
   "ticker": [
+    "Post Rebuttal ICML Average Scores? ...",
+    "Is \"live AI video generation\" a mea...",
     "Getting sabotaged by a reviewer at ...",
     "[D] 60% MatMul Performance Bug in c...",
     "[论文] Rethinking Generalization in R...",
@@ -213,9 +215,7 @@
     "[P] PCA before truncation makes non...",
     "[论文] When Numbers Speak: Aligning T...",
     "[论文] HY-Embodied-0.5: Embodied Foun...",
-    "[论文] SkillClaw: Let Skills Evolve C...",
-    "ICML 2026 am I cooked? [D]",
-    "[D] Dealing with an unprofessional ..."
+    "[论文] SkillClaw: Let Skills Evolve C..."
   ],
   "learning": {
     "phases": [
