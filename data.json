@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-12",
+    "last_updated": "2026-04-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2cbccf907bc6",
+      "date": "2026-04-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Gary Marcus on the Claude Code leak [D]",
+      "summary": "Gary Marcus just tweeted: ... the way Anthropic built that kernel is straight out of classical symbolic AI. For example, it is in large part...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/"
+    },
+    {
+      "id": "n_67b5239da44c",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[ICML 2026] Extending the deadline for reviewer final justifications while not e",
+      "summary": "Just as the title says, I believe the decision to extend the deadline for reviewers to post their final justifications while not allowing au...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sjzr15/icml_2026_extending_the_deadline_for_reviewer/"
+    },
+    {
+      "id": "n_0046380f04de",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Matrix-Game 3.0: Real-Time and Streaming Interactive World M",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.08995"
+    },
+    {
+      "id": "n_60217d294873",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RefineAnything: Multimodal Region-Specific Refinement for Pe",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.06870"
+    },
+    {
+      "id": "n_4946cfc6580f",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FORGE:Fine-grained Multimodal Evaluation for Manufacturing S",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.07413"
+    },
     {
       "id": "n_825987db84b1",
       "date": "2026-04-11",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.06268"
-    },
-    {
-      "id": "n_6d7ada52bcb5",
-      "date": "2026-04-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Is ACL more about the benchmarks now?",
-      "summary": "I am not a NLP guy, but afaik ACL is one of the premium venues of NLP. And given that the results were announced recently, my LinkedIn and T...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1seqckq/d_is_acl_more_about_the_benchmarks_now/"
-    },
-    {
-      "id": "n_a559f405ed2e",
-      "date": "2026-04-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] thoughts on current community moving away from heavy math?",
-      "summary": "I dont know about how you guys feel but even before LLM started, many papers are already leaning on empirical findings, architecture designs...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sesq0s/d_thoughts_on_current_community_moving_away_from/"
-    },
-    {
-      "id": "n_47b13632176d",
-      "date": "2026-04-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Learning to Retrieve from Agent Trajectories",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.04949"
-    },
-    {
-      "id": "n_46d48ab90c7e",
-      "date": "2026-04-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Int",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.05404"
-    },
-    {
-      "id": "n_ba69239c4fef",
-      "date": "2026-04-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Video-MME-v2: Towards the Next Stage in Benchmarks for Compr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.05015"
     }
   ],
   "ticker": [
+    "Gary Marcus on the Claude Code leak...",
+    "[ICML 2026] Extending the deadline ...",
+    "[论文] Matrix-Game 3.0: Real-Time and...",
+    "[论文] RefineAnything: Multimodal Reg...",
+    "[论文] FORGE:Fine-grained Multimodal ...",
     "Post Rebuttal ICML Average Scores? ...",
     "Is \"live AI video generation\" a mea...",
     "Getting sabotaged by a reviewer at ...",
     "[D] 60% MatMul Performance Bug in c...",
-    "[论文] Rethinking Generalization in R...",
-    "Studying Sutton and Barto's RL book...",
-    "[P] PCA before truncation makes non...",
-    "[论文] When Numbers Speak: Aligning T...",
-    "[论文] HY-Embodied-0.5: Embodied Foun...",
-    "[论文] SkillClaw: Let Skills Evolve C..."
+    "[论文] Rethinking Generalization in R..."
   ],
   "learning": {
     "phases": [
