@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6105f186cf92",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[N] AMA Announcement: Max Welling (VAEs, GNNs, AI4Science & CuspAI)",
+      "summary": "Were thrilled to announce that Max Welling will be joining us for an AMA on Wednesday April 15th from 17:00 to 18:30 CEST (11am - 12:30pm ED...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1skil2g/n_ama_announcement_max_welling_vaes_gnns/"
+    },
+    {
+      "id": "n_14ac2a1cc1c8",
+      "date": "2026-04-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I scaled a pure Spiking Neural Network (SNN) to 1.088B parameters from scratch. ",
+      "summary": "Hey everyone. I’m an 18yo indie dev, and I’ve been experimenting with Spiking Neural Networks (SNNs) for language modeling. A lot of papers ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1skql34/i_scaled_a_pure_spiking_neural_network_snn_to/"
+    },
+    {
+      "id": "n_9232bb82659b",
+      "date": "2026-04-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Strips as Tokens: Artist Mesh Generation with Native UV Segm",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.09132"
+    },
+    {
+      "id": "n_34adb1b25009",
+      "date": "2026-04-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Pseudo-Unification: Entropy Probing Reveals Divergent Inform",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.10949"
+    },
+    {
+      "id": "n_449dcd45c71f",
+      "date": "2026-04-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Attention Sink in Transformers: A Survey on Utilization, Int",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.10098"
+    },
     {
       "id": "n_2cbccf907bc6",
       "date": "2026-04-12",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.08377"
-    },
-    {
-      "id": "n_a684652cbece",
-      "date": "2026-04-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICML 2026 am I cooked? [D]",
-      "summary": "Hi, I am currently making the jump to ML from theoretical physics. I just got done with the review period, went from 4333 to 4433, but the r...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sg188m/icml_2026_am_i_cooked_d/"
-    },
-    {
-      "id": "n_6c5658fe02f9",
-      "date": "2026-04-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Dealing with an unprofessional reviewer using fake references and personal a",
-      "summary": "We are currently facing an ICML 2026 reviewer who lowered the score to a 1 (Confidence 5) while ignoring our rebuttal and relying on fake re...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sg0pk1/d_dealing_with_an_unprofessional_reviewer_using/"
-    },
-    {
-      "id": "n_7d80a6e62ddd",
-      "date": "2026-04-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MARS: Enabling Autoregressive Models Multi-Token Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.07023"
-    },
-    {
-      "id": "n_644bc76cb987",
-      "date": "2026-04-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Think in Strokes, Not Pixels: Process-Driven Image Generatio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.04746"
-    },
-    {
-      "id": "n_8a893d5ea6a7",
-      "date": "2026-04-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RAGEN-2: Reasoning Collapse in Agentic RL",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.06268"
     }
   ],
   "ticker": [
+    "[N] AMA Announcement: Max Welling (...",
+    "I scaled a pure Spiking Neural Netw...",
+    "[论文] Strips as Tokens: Artist Mesh ...",
+    "[论文] Pseudo-Unification: Entropy Pr...",
+    "[论文] Attention Sink in Transformers...",
     "Gary Marcus on the Claude Code leak...",
     "[ICML 2026] Extending the deadline ...",
     "[论文] Matrix-Game 3.0: Real-Time and...",
     "[论文] RefineAnything: Multimodal Reg...",
-    "[论文] FORGE:Fine-grained Multimodal ...",
-    "Post Rebuttal ICML Average Scores? ...",
-    "Is \"live AI video generation\" a mea...",
-    "Getting sabotaged by a reviewer at ...",
-    "[D] 60% MatMul Performance Bug in c...",
-    "[论文] Rethinking Generalization in R..."
+    "[论文] FORGE:Fine-grained Multimodal ..."
   ],
   "learning": {
     "phases": [
