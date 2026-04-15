@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-14",
+    "last_updated": "2026-04-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_66cc16cb9899",
+      "date": "2026-04-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is the AC guidance for ICML? (Or: ICML qq thread) [D]",
+      "summary": "I heard there is more pressure on the ACs to get final justifications and encourage reviewers to converge to a consensus. Is that true? Full...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sl9zza/what_is_the_ac_guidance_for_icml_or_icml_qq/"
+    },
+    {
+      "id": "n_2c208c3d8421",
+      "date": "2026-04-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "You can decompose models into a graph database [N]",
+      "summary": "https://github.com/chrishayuk/larql https://youtu.be/8Ppw8254nLI?si=lo-6PM5pwnpyvwMXh Now you can decompose a static llm model and do a knn ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/"
+    },
+    {
+      "id": "n_f235faba709d",
+      "date": "2026-04-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] KnowRL: Boosting LLM Reasoning via Reinforcement Learning wi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.12627"
+    },
+    {
+      "id": "n_3dfd2d9afea4",
+      "date": "2026-04-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Rethinking On-Policy Distillation of Large Language Models: ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.13016"
+    },
+    {
+      "id": "n_146c0345f6b5",
+      "date": "2026-04-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ClawGUI: A Unified Framework for Training, Evaluating, and D",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.11784"
+    },
     {
       "id": "n_6105f186cf92",
       "date": "2026-04-13",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.06628"
-    },
-    {
-      "id": "n_40d3214be48f",
-      "date": "2026-04-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Studying Sutton and Barto's RL book and its connections to RL for LLMs (e.g., to",
-      "summary": "Hi everyone, I graduated from a Master in Math program last summer. In recent months, I have been trying to understand more about ML/DL and ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/"
-    },
-    {
-      "id": "n_e669d174b6a9",
-      "date": "2026-04-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] PCA before truncation makes non-Matryoshka embeddings compressible: results ",
-      "summary": "Most embedding models are not Matryoshka-trained, so naive dimension truncation tends to destroy them. I tested a simple alternative: fit PC...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/"
-    },
-    {
-      "id": "n_da14e481608b",
-      "date": "2026-04-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] When Numbers Speak: Aligning Textual Numerals and Visual Ins",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.08546"
-    },
-    {
-      "id": "n_095bee4e800e",
-      "date": "2026-04-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HY-Embodied-0.5: Embodied Foundation Models for Real-World A",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.07430"
-    },
-    {
-      "id": "n_e757fdc9a920",
-      "date": "2026-04-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SkillClaw: Let Skills Evolve Collectively with Agentic Evolv",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.08377"
     }
   ],
   "ticker": [
+    "What is the AC guidance for ICML? (...",
+    "You can decompose models into a gra...",
+    "[论文] KnowRL: Boosting LLM Reasoning...",
+    "[论文] Rethinking On-Policy Distillat...",
+    "[论文] ClawGUI: A Unified Framework f...",
     "[N] AMA Announcement: Max Welling (...",
     "I scaled a pure Spiking Neural Netw...",
     "[论文] Strips as Tokens: Artist Mesh ...",
     "[论文] Pseudo-Unification: Entropy Pr...",
-    "[论文] Attention Sink in Transformers...",
-    "Gary Marcus on the Claude Code leak...",
-    "[ICML 2026] Extending the deadline ...",
-    "[论文] Matrix-Game 3.0: Real-Time and...",
-    "[论文] RefineAnything: Multimodal Reg...",
-    "[论文] FORGE:Fine-grained Multimodal ..."
+    "[论文] Attention Sink in Transformers..."
   ],
   "learning": {
     "phases": [
