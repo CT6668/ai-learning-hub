@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-04-15",
+    "last_updated": "2026-04-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ec7e1b2a9e7e",
+      "date": "2026-04-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OccuBench: Evaluating AI Agents on Real-World Professional T",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.10866"
+    },
+    {
+      "id": "n_1bf2d53ec3f3",
+      "date": "2026-04-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GameWorld: Towards Standardized and Verifiable Evaluation of",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.07429"
+    },
+    {
+      "id": "n_3dd96a79844b",
+      "date": "2026-04-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Seedance 2.0: Advancing Video Generation for World Complexit",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.14148"
+    },
     {
       "id": "n_66cc16cb9899",
       "date": "2026-04-14",
@@ -173,49 +203,19 @@
       "summary": "Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-tim...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/"
-    },
-    {
-      "id": "n_949fc096f81c",
-      "date": "2026-04-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Getting sabotaged by a reviewer at IJCAI [D]",
-      "summary": "Recently got the reviews back from ijcai, now all is good except for this one reviewer who has not read the paper in depth, and is making fa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1si2od5/getting_sabotaged_by_a_reviewer_at_ijcai_d/"
-    },
-    {
-      "id": "n_b074502165cb",
-      "date": "2026-04-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] 60% MatMul Performance Bug in cuBLAS on RTX 5090 [D]",
-      "summary": "cuBLAS dispatches an inefficient kernel for every batched FP32 workload, from 256×256 to 8192×8192×8. It only uses ~40% of the available com...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1shtv0r/d_60_matmul_performance_bug_in_cublas_on_rtx_5090/"
-    },
-    {
-      "id": "n_342539036eca",
-      "date": "2026-04-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Rethinking Generalization in Reasoning SFT: A Conditional An",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.06628"
     }
   ],
   "ticker": [
+    "[论文] OccuBench: Evaluating AI Agent...",
+    "[论文] GameWorld: Towards Standardize...",
+    "[论文] Seedance 2.0: Advancing Video ...",
     "What is the AC guidance for ICML? (...",
     "You can decompose models into a gra...",
     "[论文] KnowRL: Boosting LLM Reasoning...",
     "[论文] Rethinking On-Policy Distillat...",
     "[论文] ClawGUI: A Unified Framework f...",
     "[N] AMA Announcement: Max Welling (...",
-    "I scaled a pure Spiking Neural Netw...",
-    "[论文] Strips as Tokens: Artist Mesh ...",
-    "[论文] Pseudo-Unification: Entropy Pr...",
-    "[论文] Attention Sink in Transformers..."
+    "I scaled a pure Spiking Neural Netw..."
   ],
   "learning": {
     "phases": [
