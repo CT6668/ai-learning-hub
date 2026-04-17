@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-16",
+    "last_updated": "2026-04-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_84a836b9aef0",
+      "date": "2026-04-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Failure to Reproduce Modern Paper Claims [D]",
+      "summary": "I have tried to reproduce paper claims that are feasible for me to check. This year, out of 7 checked claims, 4 were irreproducible, with 2 ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sml5fo/failure_to_reproduce_modern_paper_claims_d/"
+    },
+    {
+      "id": "n_f1ad5c8ee4da",
+      "date": "2026-04-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Which computer should I buy: Mac or custom-built 5090? [D]",
+      "summary": "70% of my projects are fine-tuning pretrained models or using them to build custom pipelines; the other 30% are training models from scratch...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1snqzq9/which_computer_should_i_buy_mac_or_custombuilt/"
+    },
+    {
+      "id": "n_0e2608f76ccb",
+      "date": "2026-04-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manip",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.14125"
+    },
+    {
+      "id": "n_dc185d062458",
+      "date": "2026-04-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RAD-2: Scaling Reinforcement Learning in a Generator-Discrim",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.15308"
+    },
+    {
+      "id": "n_980454b3b36a",
+      "date": "2026-04-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HY-World 2.0: A Multi-Modal World Model for Reconstructing, ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.14268"
+    },
     {
       "id": "n_ec7e1b2a9e7e",
       "date": "2026-04-16",
@@ -153,69 +203,19 @@
       "summary": "Just as the title says, I believe the decision to extend the deadline for reviewers to post their final justifications while not allowing au...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1sjzr15/icml_2026_extending_the_deadline_for_reviewer/"
-    },
-    {
-      "id": "n_0046380f04de",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Matrix-Game 3.0: Real-Time and Streaming Interactive World M",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.08995"
-    },
-    {
-      "id": "n_60217d294873",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RefineAnything: Multimodal Region-Specific Refinement for Pe",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.06870"
-    },
-    {
-      "id": "n_4946cfc6580f",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FORGE:Fine-grained Multimodal Evaluation for Manufacturing S",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.07413"
-    },
-    {
-      "id": "n_825987db84b1",
-      "date": "2026-04-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Post Rebuttal ICML Average Scores? [D]",
-      "summary": "I have an average of 3.5. One of the reviewer gave us a 2 by bringing up a new issue he hadnt mentioned in his initial review, taking that f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sitqzu/post_rebuttal_icml_average_scores_d/"
-    },
-    {
-      "id": "n_591c2e97306b",
-      "date": "2026-04-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Is \"live AI video generation\" a meaningful technical category or just a marketin",
-      "summary": "Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-tim...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/"
     }
   ],
   "ticker": [
+    "Failure to Reproduce Modern Paper C...",
+    "Which computer should I buy: Mac or...",
+    "[论文] HiVLA: A Visual-Grounded-Centr...",
+    "[论文] RAD-2: Scaling Reinforcement L...",
+    "[论文] HY-World 2.0: A Multi-Modal Wo...",
     "[论文] OccuBench: Evaluating AI Agent...",
     "[论文] GameWorld: Towards Standardize...",
     "[论文] Seedance 2.0: Advancing Video ...",
     "What is the AC guidance for ICML? (...",
-    "You can decompose models into a gra...",
-    "[论文] KnowRL: Boosting LLM Reasoning...",
-    "[论文] Rethinking On-Policy Distillat...",
-    "[论文] ClawGUI: A Unified Framework f...",
-    "[N] AMA Announcement: Max Welling (...",
-    "I scaled a pure Spiking Neural Netw..."
+    "You can decompose models into a gra..."
   ],
   "learning": {
     "phases": [
