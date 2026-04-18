@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_35f61f40e8f2",
+      "date": "2026-04-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Low accuracy (~50%) with SSL (BYOL/MAE/VICReg) on hyperspectral crop stress data",
+      "summary": "I’m working on a hyperspectral dataset of cabbage crops for nitrogen deficiency detection. The dataset has 3 classes: Healthy Mild nitrogen ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1snxm0t/low_accuracy_50_with_ssl_byolmaevicreg_on/"
+    },
+    {
+      "id": "n_4df9f929eced",
+      "date": "2026-04-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Zero-shot World Models Are Developmentally Efficient Learners [R]",
+      "summary": "Todays best AI needs orders of magnitude more data than a human child to achieve visual competence. The paper introduces the Zero-shot World...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/"
+    },
+    {
+      "id": "n_bb53dcfbc005",
+      "date": "2026-04-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DR^{3}-Eval: Towards Realistic and Reproducible Deep Researc",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.14683"
+    },
     {
       "id": "n_84a836b9aef0",
       "date": "2026-04-15",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.10949"
-    },
-    {
-      "id": "n_449dcd45c71f",
-      "date": "2026-04-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Attention Sink in Transformers: A Survey on Utilization, Int",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.10098"
-    },
-    {
-      "id": "n_2cbccf907bc6",
-      "date": "2026-04-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Gary Marcus on the Claude Code leak [D]",
-      "summary": "Gary Marcus just tweeted: ... the way Anthropic built that kernel is straight out of classical symbolic AI. For example, it is in large part...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/"
-    },
-    {
-      "id": "n_67b5239da44c",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[ICML 2026] Extending the deadline for reviewer final justifications while not e",
-      "summary": "Just as the title says, I believe the decision to extend the deadline for reviewers to post their final justifications while not allowing au...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sjzr15/icml_2026_extending_the_deadline_for_reviewer/"
     }
   ],
   "ticker": [
+    "Low accuracy (~50%) with SSL (BYOL/...",
+    "Zero-shot World Models Are Developm...",
+    "[论文] DR^{3}-Eval: Towards Realistic...",
     "Failure to Reproduce Modern Paper C...",
     "Which computer should I buy: Mac or...",
     "[论文] HiVLA: A Visual-Grounded-Centr...",
     "[论文] RAD-2: Scaling Reinforcement L...",
     "[论文] HY-World 2.0: A Multi-Modal Wo...",
     "[论文] OccuBench: Evaluating AI Agent...",
-    "[论文] GameWorld: Towards Standardize...",
-    "[论文] Seedance 2.0: Advancing Video ...",
-    "What is the AC guidance for ICML? (...",
-    "You can decompose models into a gra..."
+    "[论文] GameWorld: Towards Standardize..."
   ],
   "learning": {
     "phases": [
