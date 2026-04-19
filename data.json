@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-04-18",
+    "last_updated": "2026-04-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_7afbff7401ac",
+      "date": "2026-04-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What are the future prospects of Spiking Neural Networks (and particularly, neur",
+      "summary": "Question to discuss. Im an undergrad and stumbled across these new forms of neural networks but I havent seen mainstream adoption of these a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1spj2w4/what_are_the_future_prospects_of_spiking_neural/"
+    },
+    {
+      "id": "n_b8c05732be11",
+      "date": "2026-04-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Trials and tribulations fine-tuning & deploying Gemma-4 [P]",
+      "summary": "Hey all, Our ML team spent some time this week getting training and deployments working for Gemma-4, and wanted to document all the things w...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/"
+    },
     {
       "id": "n_35f61f40e8f2",
       "date": "2026-04-17",
@@ -183,29 +203,11 @@
       "summary": "Hey everyone. I’m an 18yo indie dev, and I’ve been experimenting with Spiking Neural Networks (SNNs) for language modeling. A lot of papers ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1skql34/i_scaled_a_pure_spiking_neural_network_snn_to/"
-    },
-    {
-      "id": "n_9232bb82659b",
-      "date": "2026-04-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Strips as Tokens: Artist Mesh Generation with Native UV Segm",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.09132"
-    },
-    {
-      "id": "n_34adb1b25009",
-      "date": "2026-04-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Pseudo-Unification: Entropy Probing Reveals Divergent Inform",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.10949"
     }
   ],
   "ticker": [
+    "What are the future prospects of Sp...",
+    "Trials and tribulations fine-tuning...",
     "Low accuracy (~50%) with SSL (BYOL/...",
     "Zero-shot World Models Are Developm...",
     "[论文] DR^{3}-Eval: Towards Realistic...",
@@ -213,9 +215,7 @@
     "Which computer should I buy: Mac or...",
     "[论文] HiVLA: A Visual-Grounded-Centr...",
     "[论文] RAD-2: Scaling Reinforcement L...",
-    "[论文] HY-World 2.0: A Multi-Modal Wo...",
-    "[论文] OccuBench: Evaluating AI Agent...",
-    "[论文] GameWorld: Towards Standardize..."
+    "[论文] HY-World 2.0: A Multi-Modal Wo..."
   ],
   "learning": {
     "phases": [
