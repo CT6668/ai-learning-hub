@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_479b35c04250",
+      "date": "2026-04-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "1,200 ICLR 2026 Papers with Public Code or Data [R]",
+      "summary": "Here is a list of ~1,200 ICLR 2026 accepted papers that have associated public code, data, or a demo link available. The links are directly ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/"
+    },
+    {
+      "id": "n_737e5d9427a3",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "C++ CuTe / CUTLASS vs CuTeDSL (Python) in 2026 — what should new GPU kernel / LL",
+      "summary": "For people just starting out in GPU kernel engineering or LLM inference (FlashAttention / FlashInfer / SGLang / vLLM style work), most job p...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqfgat/c_cute_cutlass_vs_cutedsl_python_in_2026_what/"
+    },
+    {
+      "id": "n_1094ab8b2fa2",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Qwen3.5-Omni Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.15804"
+    },
+    {
+      "id": "n_cfaa3ec26e4d",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Cut Your Losses! Learning to Prune Paths Early for Efficient",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.16029"
+    },
+    {
+      "id": "n_b7083df43c29",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.13074"
+    },
     {
       "id": "n_7afbff7401ac",
       "date": "2026-04-19",
@@ -153,69 +203,19 @@
       "summary": "https://github.com/chrishayuk/larql https://youtu.be/8Ppw8254nLI?si=lo-6PM5pwnpyvwMXh Now you can decompose a static llm model and do a knn ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/"
-    },
-    {
-      "id": "n_f235faba709d",
-      "date": "2026-04-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] KnowRL: Boosting LLM Reasoning via Reinforcement Learning wi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.12627"
-    },
-    {
-      "id": "n_3dfd2d9afea4",
-      "date": "2026-04-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Rethinking On-Policy Distillation of Large Language Models: ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.13016"
-    },
-    {
-      "id": "n_146c0345f6b5",
-      "date": "2026-04-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ClawGUI: A Unified Framework for Training, Evaluating, and D",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.11784"
-    },
-    {
-      "id": "n_6105f186cf92",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[N] AMA Announcement: Max Welling (VAEs, GNNs, AI4Science & CuspAI)",
-      "summary": "Were thrilled to announce that Max Welling will be joining us for an AMA on Wednesday April 15th from 17:00 to 18:30 CEST (11am - 12:30pm ED...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1skil2g/n_ama_announcement_max_welling_vaes_gnns/"
-    },
-    {
-      "id": "n_14ac2a1cc1c8",
-      "date": "2026-04-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I scaled a pure Spiking Neural Network (SNN) to 1.088B parameters from scratch. ",
-      "summary": "Hey everyone. I’m an 18yo indie dev, and I’ve been experimenting with Spiking Neural Networks (SNNs) for language modeling. A lot of papers ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1skql34/i_scaled_a_pure_spiking_neural_network_snn_to/"
     }
   ],
   "ticker": [
+    "1,200 ICLR 2026 Papers with Public ...",
+    "C++ CuTe / CUTLASS vs CuTeDSL (Pyth...",
+    "[论文] Qwen3.5-Omni Technical Report",
+    "[论文] Cut Your Losses! Learning to P...",
+    "[论文] PersonaVLM: Long-Term Personal...",
     "What are the future prospects of Sp...",
     "Trials and tribulations fine-tuning...",
     "Low accuracy (~50%) with SSL (BYOL/...",
     "Zero-shot World Models Are Developm...",
-    "[论文] DR^{3}-Eval: Towards Realistic...",
-    "Failure to Reproduce Modern Paper C...",
-    "Which computer should I buy: Mac or...",
-    "[论文] HiVLA: A Visual-Grounded-Centr...",
-    "[论文] RAD-2: Scaling Reinforcement L...",
-    "[论文] HY-World 2.0: A Multi-Modal Wo..."
+    "[论文] DR^{3}-Eval: Towards Realistic..."
   ],
   "learning": {
     "phases": [
