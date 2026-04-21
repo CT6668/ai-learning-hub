@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-20",
+    "last_updated": "2026-04-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_eb4f1f8f6fe1",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Are we optimizing AI research for acceptance rather than lasting value? [D]",
+      "summary": "The current AI conference acceptance culture feels like it leaves little room for the kind of spark we once cherished in research (at least ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqps89/are_we_optimizing_ai_research_for_acceptance/"
+    },
+    {
+      "id": "n_8a1f3216f669",
+      "date": "2026-04-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How exactly one goes about networking in conferences? [D]",
+      "summary": "So ICLR is coming and apparently the biggest value one can get from these conferences is to network. Lets take my example: Im a PhD student ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqz7nu/how_exactly_one_goes_about_networking_in/"
+    },
+    {
+      "id": "n_3ff6a51e848d",
+      "date": "2026-04-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MultiWorld: Scalable Multi-Agent Multi-View Video World Mode",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.18564"
+    },
+    {
+      "id": "n_037331b84a52",
+      "date": "2026-04-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agent-World: Scaling Real-World Environment Synthesis for Ev",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.18292"
+    },
+    {
+      "id": "n_bb115388cbe9",
+      "date": "2026-04-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OneVL: One-Step Latent Reasoning and Planning with Vision-La",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.18486"
+    },
     {
       "id": "n_479b35c04250",
       "date": "2026-04-19",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.14268"
-    },
-    {
-      "id": "n_ec7e1b2a9e7e",
-      "date": "2026-04-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OccuBench: Evaluating AI Agents on Real-World Professional T",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.10866"
-    },
-    {
-      "id": "n_1bf2d53ec3f3",
-      "date": "2026-04-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GameWorld: Towards Standardized and Verifiable Evaluation of",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.07429"
-    },
-    {
-      "id": "n_3dd96a79844b",
-      "date": "2026-04-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Seedance 2.0: Advancing Video Generation for World Complexit",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.14148"
-    },
-    {
-      "id": "n_66cc16cb9899",
-      "date": "2026-04-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What is the AC guidance for ICML? (Or: ICML qq thread) [D]",
-      "summary": "I heard there is more pressure on the ACs to get final justifications and encourage reviewers to converge to a consensus. Is that true? Full...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sl9zza/what_is_the_ac_guidance_for_icml_or_icml_qq/"
-    },
-    {
-      "id": "n_2c208c3d8421",
-      "date": "2026-04-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "You can decompose models into a graph database [N]",
-      "summary": "https://github.com/chrishayuk/larql https://youtu.be/8Ppw8254nLI?si=lo-6PM5pwnpyvwMXh Now you can decompose a static llm model and do a knn ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/"
     }
   ],
   "ticker": [
+    "Are we optimizing AI research for a...",
+    "How exactly one goes about networki...",
+    "[论文] MultiWorld: Scalable Multi-Age...",
+    "[论文] Agent-World: Scaling Real-Worl...",
+    "[论文] OneVL: One-Step Latent Reasoni...",
     "1,200 ICLR 2026 Papers with Public ...",
     "C++ CuTe / CUTLASS vs CuTeDSL (Pyth...",
     "[论文] Qwen3.5-Omni Technical Report",
     "[论文] Cut Your Losses! Learning to P...",
-    "[论文] PersonaVLM: Long-Term Personal...",
-    "What are the future prospects of Sp...",
-    "Trials and tribulations fine-tuning...",
-    "Low accuracy (~50%) with SSL (BYOL/...",
-    "Zero-shot World Models Are Developm...",
-    "[论文] DR^{3}-Eval: Towards Realistic..."
+    "[论文] PersonaVLM: Long-Term Personal..."
   ],
   "learning": {
     "phases": [
