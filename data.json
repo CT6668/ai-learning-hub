@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1e21fad2f75e",
+      "date": "2026-04-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "CVPR - How to identify if an accepted paper has ethical issues (plagiarism)? [D]",
+      "summary": "I recently found a paper accepted to CVPR 2026 reproduced many technical details from my paper submitted to arXiV on June 2025 (5 months bef...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ss2zjc/cvpr_how_to_identify_if_an_accepted_paper_has/"
+    },
+    {
+      "id": "n_e7690a82cfdd",
+      "date": "2026-04-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Bulding my own Diffusion Language Model from scratch was easier than I thought [",
+      "summary": "Since I felt like I was relying on Claude Code a lot recently, I wanted to see how hard it is to implement a diffusion language model from s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1srufft/bulding_my_own_diffusion_language_model_from/"
+    },
+    {
+      "id": "n_2d83a4cda76a",
+      "date": "2026-04-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] CoInteract: Physically-Consistent Human-Object Interaction V",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.19636"
+    },
+    {
+      "id": "n_50a7661aba98",
+      "date": "2026-04-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Di",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.19748"
+    },
+    {
+      "id": "n_86a810acba4c",
+      "date": "2026-04-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AgentSPEX: An Agent SPecification and EXecution Language",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.13346"
+    },
     {
       "id": "n_eb4f1f8f6fe1",
       "date": "2026-04-20",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.14683"
-    },
-    {
-      "id": "n_84a836b9aef0",
-      "date": "2026-04-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Failure to Reproduce Modern Paper Claims [D]",
-      "summary": "I have tried to reproduce paper claims that are feasible for me to check. This year, out of 7 checked claims, 4 were irreproducible, with 2 ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sml5fo/failure_to_reproduce_modern_paper_claims_d/"
-    },
-    {
-      "id": "n_f1ad5c8ee4da",
-      "date": "2026-04-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Which computer should I buy: Mac or custom-built 5090? [D]",
-      "summary": "70% of my projects are fine-tuning pretrained models or using them to build custom pipelines; the other 30% are training models from scratch...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1snqzq9/which_computer_should_i_buy_mac_or_custombuilt/"
-    },
-    {
-      "id": "n_0e2608f76ccb",
-      "date": "2026-04-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manip",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.14125"
-    },
-    {
-      "id": "n_dc185d062458",
-      "date": "2026-04-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RAD-2: Scaling Reinforcement Learning in a Generator-Discrim",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.15308"
-    },
-    {
-      "id": "n_980454b3b36a",
-      "date": "2026-04-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HY-World 2.0: A Multi-Modal World Model for Reconstructing, ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.14268"
     }
   ],
   "ticker": [
+    "CVPR - How to identify if an accept...",
+    "Bulding my own Diffusion Language M...",
+    "[论文] CoInteract: Physically-Consist...",
+    "[论文] Tstars-Tryon 1.0: Robust and R...",
+    "[论文] AgentSPEX: An Agent SPecificat...",
     "Are we optimizing AI research for a...",
     "How exactly one goes about networki...",
     "[论文] MultiWorld: Scalable Multi-Age...",
     "[论文] Agent-World: Scaling Real-Worl...",
-    "[论文] OneVL: One-Step Latent Reasoni...",
-    "1,200 ICLR 2026 Papers with Public ...",
-    "C++ CuTe / CUTLASS vs CuTeDSL (Pyth...",
-    "[论文] Qwen3.5-Omni Technical Report",
-    "[论文] Cut Your Losses! Learning to P...",
-    "[论文] PersonaVLM: Long-Term Personal..."
+    "[论文] OneVL: One-Step Latent Reasoni..."
   ],
   "learning": {
     "phases": [
