@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-22",
+    "last_updated": "2026-04-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_18d563864809",
+      "date": "2026-04-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "GPU Compass – open-source, real-time GPU pricing across 20+ clouds [P]",
+      "summary": "We maintain an open-source catalog of cloud GPU offerings (skypilot-catalog, Apache 2.0). It auto-fetches pricing from 20+ cloud APIs every ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ssuuum/gpu_compass_opensource_realtime_gpu_pricing/"
+    },
+    {
+      "id": "n_d1a60cdb3c0e",
+      "date": "2026-04-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Isolation Forest + eBPF events to create a Linux based endpoint detection system",
+      "summary": "Hey everyone. I’ve been working on a machine learning project called guardd and wanted to get some feedback on the ML side of it. It’s basic...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1st742w/isolation_forest_ebpf_events_to_create_a_linux/"
+    },
+    {
+      "id": "n_1707e3903b7f",
+      "date": "2026-04-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WavAlign: Enhancing Intelligence and Expressiveness in Spoke",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.14932"
+    },
+    {
+      "id": "n_6561d95cbdbb",
+      "date": "2026-04-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DR-Venus: Towards Frontier Edge-Scale Deep Research Agents w",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.19859"
+    },
+    {
+      "id": "n_e0ca1100019f",
+      "date": "2026-04-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LLaDA2.0-Uni: Unifying Multimodal Understanding and Generati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.20796"
+    },
     {
       "id": "n_1e21fad2f75e",
       "date": "2026-04-21",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.13074"
-    },
-    {
-      "id": "n_7afbff7401ac",
-      "date": "2026-04-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What are the future prospects of Spiking Neural Networks (and particularly, neur",
-      "summary": "Question to discuss. Im an undergrad and stumbled across these new forms of neural networks but I havent seen mainstream adoption of these a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1spj2w4/what_are_the_future_prospects_of_spiking_neural/"
-    },
-    {
-      "id": "n_b8c05732be11",
-      "date": "2026-04-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Trials and tribulations fine-tuning & deploying Gemma-4 [P]",
-      "summary": "Hey all, Our ML team spent some time this week getting training and deployments working for Gemma-4, and wanted to document all the things w...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/"
-    },
-    {
-      "id": "n_35f61f40e8f2",
-      "date": "2026-04-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Low accuracy (~50%) with SSL (BYOL/MAE/VICReg) on hyperspectral crop stress data",
-      "summary": "I’m working on a hyperspectral dataset of cabbage crops for nitrogen deficiency detection. The dataset has 3 classes: Healthy Mild nitrogen ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1snxm0t/low_accuracy_50_with_ssl_byolmaevicreg_on/"
-    },
-    {
-      "id": "n_4df9f929eced",
-      "date": "2026-04-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Zero-shot World Models Are Developmentally Efficient Learners [R]",
-      "summary": "Todays best AI needs orders of magnitude more data than a human child to achieve visual competence. The paper introduces the Zero-shot World...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/"
-    },
-    {
-      "id": "n_bb53dcfbc005",
-      "date": "2026-04-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DR^{3}-Eval: Towards Realistic and Reproducible Deep Researc",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.14683"
     }
   ],
   "ticker": [
+    "GPU Compass – open-source, real-tim...",
+    "Isolation Forest + eBPF events to c...",
+    "[论文] WavAlign: Enhancing Intelligen...",
+    "[论文] DR-Venus: Towards Frontier Edg...",
+    "[论文] LLaDA2.0-Uni: Unifying Multimo...",
     "CVPR - How to identify if an accept...",
     "Bulding my own Diffusion Language M...",
     "[论文] CoInteract: Physically-Consist...",
     "[论文] Tstars-Tryon 1.0: Robust and R...",
-    "[论文] AgentSPEX: An Agent SPecificat...",
-    "Are we optimizing AI research for a...",
-    "How exactly one goes about networki...",
-    "[论文] MultiWorld: Scalable Multi-Age...",
-    "[论文] Agent-World: Scaling Real-Worl...",
-    "[论文] OneVL: One-Step Latent Reasoni..."
+    "[论文] AgentSPEX: An Agent SPecificat..."
   ],
   "learning": {
     "phases": [
