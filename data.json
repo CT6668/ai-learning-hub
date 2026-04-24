@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-23",
+    "last_updated": "2026-04-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e88f05d55dd2",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Nanochat vs Llama for training from scratch? [P]",
+      "summary": "Hey all - Im engaged in a project training a model entirely on historical data, which Ive posted about before on this subreddit. My last tra...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1su5i3z/nanochat_vs_llama_for_training_from_scratch_p/"
+    },
+    {
+      "id": "n_7ed388fc257e",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I tested 14 LLMs from 0.6B to 123B. All of them get worse at following instructi",
+      "summary": "TL;DR. Across 14 instruct-model configurations spanning Llama 3.1, Mistral, and Qwen3 from 0.6B to 123B, hostile user prompts produce a sign...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1su26sw/i_tested_14_llms_from_06b_to_123b_all_of_them_get/"
+    },
+    {
+      "id": "n_5e94e856a52f",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] StyleID: A Perception-Aware Dataset and Metric for Stylizati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.21689"
+    },
+    {
+      "id": "n_49e818ab9b8f",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WorldMark: A Unified Benchmark Suite for Interactive Video W",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.21686"
+    },
+    {
+      "id": "n_9367ae7c6bf5",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] UniT: Toward a Unified Physical Language for Human-to-Humano",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.19734"
+    },
     {
       "id": "n_18d563864809",
       "date": "2026-04-22",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.18486"
-    },
-    {
-      "id": "n_479b35c04250",
-      "date": "2026-04-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "1,200 ICLR 2026 Papers with Public Code or Data [R]",
-      "summary": "Here is a list of ~1,200 ICLR 2026 accepted papers that have associated public code, data, or a demo link available. The links are directly ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/"
-    },
-    {
-      "id": "n_737e5d9427a3",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "C++ CuTe / CUTLASS vs CuTeDSL (Python) in 2026 — what should new GPU kernel / LL",
-      "summary": "For people just starting out in GPU kernel engineering or LLM inference (FlashAttention / FlashInfer / SGLang / vLLM style work), most job p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqfgat/c_cute_cutlass_vs_cutedsl_python_in_2026_what/"
-    },
-    {
-      "id": "n_1094ab8b2fa2",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen3.5-Omni Technical Report",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.15804"
-    },
-    {
-      "id": "n_cfaa3ec26e4d",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Cut Your Losses! Learning to Prune Paths Early for Efficient",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.16029"
-    },
-    {
-      "id": "n_b7083df43c29",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PersonaVLM: Long-Term Personalized Multimodal LLMs",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.13074"
     }
   ],
   "ticker": [
+    "Nanochat vs Llama for training from...",
+    "I tested 14 LLMs from 0.6B to 123B....",
+    "[论文] StyleID: A Perception-Aware Da...",
+    "[论文] WorldMark: A Unified Benchmark...",
+    "[论文] UniT: Toward a Unified Physica...",
     "GPU Compass – open-source, real-tim...",
     "Isolation Forest + eBPF events to c...",
     "[论文] WavAlign: Enhancing Intelligen...",
     "[论文] DR-Venus: Towards Frontier Edg...",
-    "[论文] LLaDA2.0-Uni: Unifying Multimo...",
-    "CVPR - How to identify if an accept...",
-    "Bulding my own Diffusion Language M...",
-    "[论文] CoInteract: Physically-Consist...",
-    "[论文] Tstars-Tryon 1.0: Robust and R...",
-    "[论文] AgentSPEX: An Agent SPecificat..."
+    "[论文] LLaDA2.0-Uni: Unifying Multimo..."
   ],
   "learning": {
     "phases": [
