@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-04-24",
+    "last_updated": "2026-04-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_90555323539d",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Research taste is a skill nobody talks about. How do you develop it without coll",
+      "summary": "if youve ever built an elegant, complex ML pipeline to solve something a 10-line prompt couldve handled... this is for you. ive been thinkin...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1suguuz/research_taste_is_a_skill_nobody_talks_about_how/"
+    },
+    {
+      "id": "n_ad18fbc576d8",
+      "date": "2026-04-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "There Will Be a Scientific Theory of Deep Learning [R]",
+      "summary": "Hi, all! Im the lead author on this ambitious (14-author!) perspective paper on deep learning theory. Weve all been working seriously, and m...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sun588/there_will_be_a_scientific_theory_of_deep/"
+    },
+    {
+      "id": "n_fcb4e974bf85",
+      "date": "2026-04-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.17295"
+    },
     {
       "id": "n_e88f05d55dd2",
       "date": "2026-04-24",
@@ -173,49 +203,19 @@
       "summary": "So ICLR is coming and apparently the biggest value one can get from these conferences is to network. Lets take my example: Im a PhD student ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1sqz7nu/how_exactly_one_goes_about_networking_in/"
-    },
-    {
-      "id": "n_3ff6a51e848d",
-      "date": "2026-04-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MultiWorld: Scalable Multi-Agent Multi-View Video World Mode",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.18564"
-    },
-    {
-      "id": "n_037331b84a52",
-      "date": "2026-04-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agent-World: Scaling Real-World Environment Synthesis for Ev",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.18292"
-    },
-    {
-      "id": "n_bb115388cbe9",
-      "date": "2026-04-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OneVL: One-Step Latent Reasoning and Planning with Vision-La",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.18486"
     }
   ],
   "ticker": [
+    "Research taste is a skill nobody ta...",
+    "There Will Be a Scientific Theory o...",
+    "[论文] LLaTiSA: Towards Difficulty-St...",
     "Nanochat vs Llama for training from...",
     "I tested 14 LLMs from 0.6B to 123B....",
     "[论文] StyleID: A Perception-Aware Da...",
     "[论文] WorldMark: A Unified Benchmark...",
     "[论文] UniT: Toward a Unified Physica...",
     "GPU Compass – open-source, real-tim...",
-    "Isolation Forest + eBPF events to c...",
-    "[论文] WavAlign: Enhancing Intelligen...",
-    "[论文] DR-Venus: Towards Frontier Edg...",
-    "[论文] LLaDA2.0-Uni: Unifying Multimo..."
+    "Isolation Forest + eBPF events to c..."
   ],
   "learning": {
     "phases": [
