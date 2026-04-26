@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-04-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_cb17c079808e",
+      "date": "2026-04-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How Visual-Language-Action (VLA) Models Work [D]",
+      "summary": "VLA models are quickly becoming the dominant paradigm for embodied AI, but a lot of discussion around them stays at the buzzword level. This...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1svhwtz/how_visuallanguageaction_vla_models_work_d/"
+    },
+    {
+      "id": "n_8ce2eb121777",
+      "date": "2026-04-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Introducing AutoMuon, a one line drop in for AdamW [P]",
+      "summary": "Hey everyone, Ive been working on a small Python package called AutoMuon that makes the Muon optimizer usable as a drop-in replacement for A...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/"
+    },
     {
       "id": "n_90555323539d",
       "date": "2026-04-24",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.13346"
-    },
-    {
-      "id": "n_eb4f1f8f6fe1",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Are we optimizing AI research for acceptance rather than lasting value? [D]",
-      "summary": "The current AI conference acceptance culture feels like it leaves little room for the kind of spark we once cherished in research (at least ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqps89/are_we_optimizing_ai_research_for_acceptance/"
-    },
-    {
-      "id": "n_8a1f3216f669",
-      "date": "2026-04-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How exactly one goes about networking in conferences? [D]",
-      "summary": "So ICLR is coming and apparently the biggest value one can get from these conferences is to network. Lets take my example: Im a PhD student ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqz7nu/how_exactly_one_goes_about_networking_in/"
     }
   ],
   "ticker": [
+    "How Visual-Language-Action (VLA) Mo...",
+    "Introducing AutoMuon, a one line dr...",
     "Research taste is a skill nobody ta...",
     "There Will Be a Scientific Theory o...",
     "[论文] LLaTiSA: Towards Difficulty-St...",
@@ -213,9 +215,7 @@
     "I tested 14 LLMs from 0.6B to 123B....",
     "[论文] StyleID: A Perception-Aware Da...",
     "[论文] WorldMark: A Unified Benchmark...",
-    "[论文] UniT: Toward a Unified Physica...",
-    "GPU Compass – open-source, real-tim...",
-    "Isolation Forest + eBPF events to c..."
+    "[论文] UniT: Toward a Unified Physica..."
   ],
   "learning": {
     "phases": [
