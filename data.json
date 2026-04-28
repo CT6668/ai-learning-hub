@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-04-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b5cbf5d2c187",
+      "date": "2026-04-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What do reviewers actually mean when they say the paper sound more like a techni",
+      "summary": "Hello, I recently got my paper rejected from a workshop (big womp :( ) . Both reviewers said the paper sounds more like a technical report t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/"
+    },
+    {
+      "id": "n_2d3e47625bf1",
+      "date": "2026-04-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "PyPI supply chain attack hits data/ML pipelines: elementary-data compromised via",
+      "summary": "elementary-data (used in data pipelines feeding ML systems) was compromised via a GitHub Actions flaw that allowed a forged PyPI release. Th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sxrkog/pypi_supply_chain_attack_hits_dataml_pipelines/"
+    },
+    {
+      "id": "n_8697aeb883bb",
+      "date": "2026-04-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.23781"
+    },
+    {
+      "id": "n_7d3152a7829e",
+      "date": "2026-04-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.24300"
+    },
+    {
+      "id": "n_33a241e97ff8",
+      "date": "2026-04-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] World-R1: Reinforcing 3D Constraints for Text-to-Video Gener",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.24764"
+    },
     {
       "id": "n_cc6658100ad0",
       "date": "2026-04-26",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.19734"
-    },
-    {
-      "id": "n_18d563864809",
-      "date": "2026-04-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "GPU Compass – open-source, real-time GPU pricing across 20+ clouds [P]",
-      "summary": "We maintain an open-source catalog of cloud GPU offerings (skypilot-catalog, Apache 2.0). It auto-fetches pricing from 20+ cloud APIs every ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ssuuum/gpu_compass_opensource_realtime_gpu_pricing/"
-    },
-    {
-      "id": "n_d1a60cdb3c0e",
-      "date": "2026-04-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Isolation Forest + eBPF events to create a Linux based endpoint detection system",
-      "summary": "Hey everyone. I’ve been working on a machine learning project called guardd and wanted to get some feedback on the ML side of it. It’s basic...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1st742w/isolation_forest_ebpf_events_to_create_a_linux/"
-    },
-    {
-      "id": "n_1707e3903b7f",
-      "date": "2026-04-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WavAlign: Enhancing Intelligence and Expressiveness in Spoke",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.14932"
-    },
-    {
-      "id": "n_6561d95cbdbb",
-      "date": "2026-04-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DR-Venus: Towards Frontier Edge-Scale Deep Research Agents w",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.19859"
-    },
-    {
-      "id": "n_e0ca1100019f",
-      "date": "2026-04-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLaDA2.0-Uni: Unifying Multimodal Understanding and Generati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.20796"
     }
   ],
   "ticker": [
+    "What do reviewers actually mean whe...",
+    "PyPI supply chain attack hits data/...",
+    "[论文] ClawMark: A Living-World Bench...",
+    "[论文] ReVSI: Rebuilding Visual Spati...",
+    "[论文] World-R1: Reinforcing 3D Const...",
     "Why do only big ML labs dominate wi...",
     "Can Geometric Deep Learning lead el...",
     "[论文] DiffNR: Diffusion-Enhanced Neu...",
     "[论文] LLM Safety From Within: Detect...",
-    "[论文] Agentic World Modeling: Founda...",
-    "How Visual-Language-Action (VLA) Mo...",
-    "Introducing AutoMuon, a one line dr...",
-    "Research taste is a skill nobody ta...",
-    "There Will Be a Scientific Theory o...",
-    "[论文] LLaTiSA: Towards Difficulty-St..."
+    "[论文] Agentic World Modeling: Founda..."
   ],
   "learning": {
     "phases": [
