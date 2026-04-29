@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-04-29",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_0300a7f2ca13",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "IJCAI-ECAI 2026: Decision Notification and ChairingTool Status Thread [D]",
+      "summary": "Creating a discussion thread for IJCAI-ECAI 2026 final decision notifications. The official paper notification date is April 29, 2026 AoE, s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1syl769/ijcaiecai_2026_decision_notification_and/"
+    },
+    {
+      "id": "n_a4984ad87a5d",
+      "date": "2026-04-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Visualizing Loss Landscapes of Neural Networks [P]",
+      "summary": "Hey r/MachineLearning, Visualizing the loss landscape of a neural network is notoriously tricky since we cant naturally comprehend million-d...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/"
+    },
+    {
+      "id": "n_993230185832",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Meta-CoT: Enhancing Granularity and Generalization in Image ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.24625"
+    },
+    {
+      "id": "n_a77c22c1cce4",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Programming with Data: Test-Driven Data Engineering for Self",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.24819"
+    },
+    {
+      "id": "n_b37e6e747d06",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Recursive Multi-Agent Systems",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.25917"
+    },
     {
       "id": "n_b5cbf5d2c187",
       "date": "2026-04-27",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.17295"
-    },
-    {
-      "id": "n_e88f05d55dd2",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Nanochat vs Llama for training from scratch? [P]",
-      "summary": "Hey all - Im engaged in a project training a model entirely on historical data, which Ive posted about before on this subreddit. My last tra...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1su5i3z/nanochat_vs_llama_for_training_from_scratch_p/"
-    },
-    {
-      "id": "n_7ed388fc257e",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I tested 14 LLMs from 0.6B to 123B. All of them get worse at following instructi",
-      "summary": "TL;DR. Across 14 instruct-model configurations spanning Llama 3.1, Mistral, and Qwen3 from 0.6B to 123B, hostile user prompts produce a sign...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1su26sw/i_tested_14_llms_from_06b_to_123b_all_of_them_get/"
-    },
-    {
-      "id": "n_5e94e856a52f",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] StyleID: A Perception-Aware Dataset and Metric for Stylizati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.21689"
-    },
-    {
-      "id": "n_49e818ab9b8f",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WorldMark: A Unified Benchmark Suite for Interactive Video W",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.21686"
-    },
-    {
-      "id": "n_9367ae7c6bf5",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] UniT: Toward a Unified Physical Language for Human-to-Humano",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.19734"
     }
   ],
   "ticker": [
+    "IJCAI-ECAI 2026: Decision Notificat...",
+    "Visualizing Loss Landscapes of Neur...",
+    "[论文] Meta-CoT: Enhancing Granularit...",
+    "[论文] Programming with Data: Test-Dr...",
+    "[论文] Recursive Multi-Agent Systems",
     "What do reviewers actually mean whe...",
     "PyPI supply chain attack hits data/...",
     "[论文] ClawMark: A Living-World Bench...",
     "[论文] ReVSI: Rebuilding Visual Spati...",
-    "[论文] World-R1: Reinforcing 3D Const...",
-    "Why do only big ML labs dominate wi...",
-    "Can Geometric Deep Learning lead el...",
-    "[论文] DiffNR: Diffusion-Enhanced Neu...",
-    "[论文] LLM Safety From Within: Detect...",
-    "[论文] Agentic World Modeling: Founda..."
+    "[论文] World-R1: Reinforcing 3D Const..."
   ],
   "learning": {
     "phases": [
