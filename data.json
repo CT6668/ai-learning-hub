@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-29",
+    "last_updated": "2026-04-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c400de3f7df7",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AeroJAX: JAX-native CFD, differentiable end-to-end. ~560 FPS at 128x128 on CPU [",
+      "summary": "I have been building a JAX based CFD framework for differentiable Navier Stokes simulation inside ML loops such as inverse design and learne...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sz046n/aerojax_jaxnative_cfd_differentiable_endtoend_560/"
+    },
+    {
+      "id": "n_d63009623526",
+      "date": "2026-04-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why isn’t LLM reasoning done in vector space instead of natural language?[D]",
+      "summary": "Why don’t LLMs use explicit vector-based reasoning instead of language-based chain-of-thought? What would happen if they did? Most LLM reaso...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1syjlc2/why_isnt_llm_reasoning_done_in_vector_space/"
+    },
+    {
+      "id": "n_59fed2f5fa5c",
+      "date": "2026-04-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Turning the TIDE: Cross-Architecture Distillation for Diffus",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.26951"
+    },
+    {
+      "id": "n_f002fef8cd05",
+      "date": "2026-04-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ClawGym: A Scalable Framework for Building Effective Claw Ag",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.26904"
+    },
+    {
+      "id": "n_e2f65483e5c0",
+      "date": "2026-04-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GLM-5V-Turbo: Toward a Native Foundation Model for Multimoda",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.26752"
+    },
     {
       "id": "n_0300a7f2ca13",
       "date": "2026-04-29",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.22748"
-    },
-    {
-      "id": "n_cb17c079808e",
-      "date": "2026-04-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How Visual-Language-Action (VLA) Models Work [D]",
-      "summary": "VLA models are quickly becoming the dominant paradigm for embodied AI, but a lot of discussion around them stays at the buzzword level. This...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1svhwtz/how_visuallanguageaction_vla_models_work_d/"
-    },
-    {
-      "id": "n_8ce2eb121777",
-      "date": "2026-04-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Introducing AutoMuon, a one line drop in for AdamW [P]",
-      "summary": "Hey everyone, Ive been working on a small Python package called AutoMuon that makes the Muon optimizer usable as a drop-in replacement for A...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/"
-    },
-    {
-      "id": "n_90555323539d",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Research taste is a skill nobody talks about. How do you develop it without coll",
-      "summary": "if youve ever built an elegant, complex ML pipeline to solve something a 10-line prompt couldve handled... this is for you. ive been thinkin...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1suguuz/research_taste_is_a_skill_nobody_talks_about_how/"
-    },
-    {
-      "id": "n_ad18fbc576d8",
-      "date": "2026-04-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "There Will Be a Scientific Theory of Deep Learning [R]",
-      "summary": "Hi, all! Im the lead author on this ambitious (14-author!) perspective paper on deep learning theory. Weve all been working seriously, and m...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sun588/there_will_be_a_scientific_theory_of_deep/"
-    },
-    {
-      "id": "n_fcb4e974bf85",
-      "date": "2026-04-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.17295"
     }
   ],
   "ticker": [
+    "AeroJAX: JAX-native CFD, differenti...",
+    "Why isn’t LLM reasoning done in vec...",
+    "[论文] Turning the TIDE: Cross-Archit...",
+    "[论文] ClawGym: A Scalable Framework ...",
+    "[论文] GLM-5V-Turbo: Toward a Native ...",
     "IJCAI-ECAI 2026: Decision Notificat...",
     "Visualizing Loss Landscapes of Neur...",
     "[论文] Meta-CoT: Enhancing Granularit...",
     "[论文] Programming with Data: Test-Dr...",
-    "[论文] Recursive Multi-Agent Systems",
-    "What do reviewers actually mean whe...",
-    "PyPI supply chain attack hits data/...",
-    "[论文] ClawMark: A Living-World Bench...",
-    "[论文] ReVSI: Rebuilding Visual Spati...",
-    "[论文] World-R1: Reinforcing 3D Const..."
+    "[论文] Recursive Multi-Agent Systems"
   ],
   "learning": {
     "phases": [
