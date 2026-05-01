@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-04-30",
+    "last_updated": "2026-05-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a3703d54523a",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AI/ML Conferences [D]",
+      "summary": "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026....",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/"
+    },
+    {
+      "id": "n_5e101eeaf372",
+      "date": "2026-04-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Chinese nexus/network in A* conferences rejecting non chinese papers [D]",
+      "summary": "Recently lot of people are coming forward that chinese have strong network and are doing nepotism and supporting each other through a well k...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t06564/chinese_nexusnetwork_in_a_conferences_rejecting/"
+    },
+    {
+      "id": "n_c7b0a07bdba7",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ExoActor: Exocentric Video Generation as Generalizable Inter",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.27711"
+    },
+    {
+      "id": "n_5931544e6d53",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Visual Generation in the New Era: An Evolution from Atomic M",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.28185"
+    },
+    {
+      "id": "n_1b8877d368d0",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Heterogeneous Scientific Foundation Model Collaboration",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.27351"
+    },
     {
       "id": "n_c400de3f7df7",
       "date": "2026-04-29",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.24764"
-    },
-    {
-      "id": "n_cc6658100ad0",
-      "date": "2026-04-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why do only big ML labs dominate widely-used models despite many open-source pre",
-      "summary": "I’m trying to understand why models from major labs (GPT, Claude, etc.) dominate real-world usage? You might say its due to the expensive pr...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused/"
-    },
-    {
-      "id": "n_5024f8d4681f",
-      "date": "2026-04-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Can Geometric Deep Learning lead eliminate the need of \"Brute Force\" pre-trainin",
-      "summary": "I’ve been reading about Geometric Deep Learning lately (the whole grids, graphs, groups, manifolds idea), and something clicked that i wante...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1swkxx1/can_geometric_deep_learning_lead_eliminate_the/"
-    },
-    {
-      "id": "n_352d1f5d97a2",
-      "date": "2026-04-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DiffNR: Diffusion-Enhanced Neural Representation Optimizatio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.21518"
-    },
-    {
-      "id": "n_33921101666c",
-      "date": "2026-04-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLM Safety From Within: Detecting Harmful Content with Inter",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.18519"
-    },
-    {
-      "id": "n_cc3f681984bc",
-      "date": "2026-04-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic World Modeling: Foundations, Capabilities, Laws, and",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.22748"
     }
   ],
   "ticker": [
+    "AI/ML Conferences [D]",
+    "Chinese nexus/network in A* confere...",
+    "[论文] ExoActor: Exocentric Video Gen...",
+    "[论文] Visual Generation in the New E...",
+    "[论文] Heterogeneous Scientific Found...",
     "AeroJAX: JAX-native CFD, differenti...",
     "Why isn’t LLM reasoning done in vec...",
     "[论文] Turning the TIDE: Cross-Archit...",
     "[论文] ClawGym: A Scalable Framework ...",
-    "[论文] GLM-5V-Turbo: Toward a Native ...",
-    "IJCAI-ECAI 2026: Decision Notificat...",
-    "Visualizing Loss Landscapes of Neur...",
-    "[论文] Meta-CoT: Enhancing Granularit...",
-    "[论文] Programming with Data: Test-Dr...",
-    "[论文] Recursive Multi-Agent Systems"
+    "[论文] GLM-5V-Turbo: Toward a Native ..."
   ],
   "learning": {
     "phases": [
@@ -1107,6 +1107,48 @@
       "github_url": "https://github.com/snakers4/silero-vad",
       "id": "p_856004d4",
       "added_date": "2026-04-01"
+    },
+    {
+      "emoji": "🌐",
+      "title": "AI 网页爬虫 + 智能摘要",
+      "difficulty": "medium",
+      "diff_label": "进阶级",
+      "cat": "medium nlp",
+      "desc": "给 AI 一个网址，自动爬取网页内容，提取关键信息，生成结构化摘要报告。用 Crawl4AI + LLM 实现智能信息提取。",
+      "tags": [
+        "Crawl4AI",
+        "LLM",
+        "网页爬虫",
+        "信息提取"
+      ],
+      "duration": "2-3天",
+      "highlight": "🕷️ 信息收集",
+      "bg": "linear-gradient(135deg,#1e2a3a,#102040)",
+      "tutorial_url": "https://github.com/unclecode/crawl4ai",
+      "github_url": "https://github.com/unclecode/crawl4ai",
+      "id": "p_5b0d3ea6",
+      "added_date": "2026-05-01"
+    },
+    {
+      "emoji": "🎨",
+      "title": "ComfyUI AI 绘画工作流",
+      "difficulty": "medium",
+      "diff_label": "进阶级",
+      "cat": "medium vision",
+      "desc": "用 ComfyUI 构建可视化 Stable Diffusion 工作流，实现文生图、图生图、ControlNet 姿态控制、Inpainting 等高级功能。",
+      "tags": [
+        "ComfyUI",
+        "Stable Diffusion",
+        "ControlNet",
+        "AI绘画"
+      ],
+      "duration": "3-5天",
+      "highlight": "🎨 创意无限",
+      "bg": "linear-gradient(135deg,#2a1e3a,#3a1060)",
+      "tutorial_url": "https://github.com/comfyanonymous/ComfyUI",
+      "github_url": "https://github.com/comfyanonymous/ComfyUI",
+      "id": "p_8d4e1529",
+      "added_date": "2026-05-01"
     }
   ]
 }
