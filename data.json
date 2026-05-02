@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-05-01",
+    "last_updated": "2026-05-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_16200a3b13fd",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why ML conference reviews sometimes feel like a “lottery“ [D]",
+      "summary": "I’ve been trying to make sense of all the “ML conferences are a lottery” takes, and honestly I think it’s both true and not true depending o...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0y5pa/why_ml_conference_reviews_sometimes_feel_like_a/"
+    },
+    {
+      "id": "n_5e616cd70964",
+      "date": "2026-05-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally docume",
+      "summary": "For the past several years Ive been quietly assembling and processing what I believe is one of the larger privately held pretraining corpora...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/"
+    },
+    {
+      "id": "n_eb9b32db7bbc",
+      "date": "2026-05-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Co-Evolving Policy Distillation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.27083"
+    },
     {
       "id": "n_a3703d54523a",
       "date": "2026-05-01",
@@ -173,49 +203,19 @@
       "summary": "elementary-data (used in data pipelines feeding ML systems) was compromised via a GitHub Actions flaw that allowed a forged PyPI release. Th...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1sxrkog/pypi_supply_chain_attack_hits_dataml_pipelines/"
-    },
-    {
-      "id": "n_8697aeb883bb",
-      "date": "2026-04-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.23781"
-    },
-    {
-      "id": "n_7d3152a7829e",
-      "date": "2026-04-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.24300"
-    },
-    {
-      "id": "n_33a241e97ff8",
-      "date": "2026-04-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] World-R1: Reinforcing 3D Constraints for Text-to-Video Gener",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.24764"
     }
   ],
   "ticker": [
+    "Why ML conference reviews sometimes...",
+    "I spent years building a 103B-token...",
+    "[论文] Co-Evolving Policy Distillatio...",
     "AI/ML Conferences [D]",
     "Chinese nexus/network in A* confere...",
     "[论文] ExoActor: Exocentric Video Gen...",
     "[论文] Visual Generation in the New E...",
     "[论文] Heterogeneous Scientific Found...",
     "AeroJAX: JAX-native CFD, differenti...",
-    "Why isn’t LLM reasoning done in vec...",
-    "[论文] Turning the TIDE: Cross-Archit...",
-    "[论文] ClawGym: A Scalable Framework ...",
-    "[论文] GLM-5V-Turbo: Toward a Native ..."
+    "Why isn’t LLM reasoning done in vec..."
   ],
   "learning": {
     "phases": [
