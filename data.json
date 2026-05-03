@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-02",
+    "last_updated": "2026-05-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_31dde0fefe16",
+      "date": "2026-05-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Toy experiment: frozen Pythia-70M can use a forward-derived fast memory for cont",
+      "summary": "Toy Experiment: Frozen Pythia-70M Using Forward-Derived Fast Memory for Contextual One-Shot Recall I have been running a small research/toy ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t23wug/toy_experiment_frozen_pythia70m_can_use_a/"
+    },
+    {
+      "id": "n_1e437f920a0a",
+      "date": "2026-05-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Real World Physics-Informed AI Applications [D]",
+      "summary": "Im curios to find any real-world applications of physics-informed AI. Conventional AI, talking only about Neural Networks, have already beco...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t1lmq0/real_world_physicsinformed_ai_applications_d/"
+    },
     {
       "id": "n_16200a3b13fd",
       "date": "2026-05-01",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.25917"
-    },
-    {
-      "id": "n_b5cbf5d2c187",
-      "date": "2026-04-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What do reviewers actually mean when they say the paper sound more like a techni",
-      "summary": "Hello, I recently got my paper rejected from a workshop (big womp :( ) . Both reviewers said the paper sounds more like a technical report t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/"
-    },
-    {
-      "id": "n_2d3e47625bf1",
-      "date": "2026-04-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "PyPI supply chain attack hits data/ML pipelines: elementary-data compromised via",
-      "summary": "elementary-data (used in data pipelines feeding ML systems) was compromised via a GitHub Actions flaw that allowed a forged PyPI release. Th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sxrkog/pypi_supply_chain_attack_hits_dataml_pipelines/"
     }
   ],
   "ticker": [
+    "Toy experiment: frozen Pythia-70M c...",
+    "Real World Physics-Informed AI Appl...",
     "Why ML conference reviews sometimes...",
     "I spent years building a 103B-token...",
     "[论文] Co-Evolving Policy Distillatio...",
@@ -213,9 +215,7 @@
     "Chinese nexus/network in A* confere...",
     "[论文] ExoActor: Exocentric Video Gen...",
     "[论文] Visual Generation in the New E...",
-    "[论文] Heterogeneous Scientific Found...",
-    "AeroJAX: JAX-native CFD, differenti...",
-    "Why isn’t LLM reasoning done in vec..."
+    "[论文] Heterogeneous Scientific Found..."
   ],
   "learning": {
     "phases": [
