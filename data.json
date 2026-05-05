@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-04",
+    "last_updated": "2026-05-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_51aca636a991",
+      "date": "2026-05-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why SSMs struggle in parameter-constrained training: empirical findings at 25M p",
+      "summary": "After ~3 weeks of experimentation in OpenAIs Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to tran...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/"
+    },
+    {
+      "id": "n_03076d7724e9",
+      "date": "2026-05-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is there a notable increase in demand for privacy-preserving AI/ML with the adve",
+      "summary": "While browsing through this subreddit, I encountered this old discussion post about demand for AI with the rise of privacy regulation. It go...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t3u2jh/is_there_a_notable_increase_in_demand_for/"
+    },
+    {
+      "id": "n_ed98d752efef",
+      "date": "2026-05-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.00877"
+    },
+    {
+      "id": "n_e0d74be24ef5",
+      "date": "2026-05-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.02881"
+    },
+    {
+      "id": "n_64d80a8e99af",
+      "date": "2026-05-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From Context to Skills: Can Language Models Learn from Conte",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.27660"
+    },
     {
       "id": "n_66beaae9bc5f",
       "date": "2026-05-03",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.27351"
-    },
-    {
-      "id": "n_c400de3f7df7",
-      "date": "2026-04-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AeroJAX: JAX-native CFD, differentiable end-to-end. ~560 FPS at 128x128 on CPU [",
-      "summary": "I have been building a JAX based CFD framework for differentiable Navier Stokes simulation inside ML loops such as inverse design and learne...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sz046n/aerojax_jaxnative_cfd_differentiable_endtoend_560/"
-    },
-    {
-      "id": "n_d63009623526",
-      "date": "2026-04-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why isn’t LLM reasoning done in vector space instead of natural language?[D]",
-      "summary": "Why don’t LLMs use explicit vector-based reasoning instead of language-based chain-of-thought? What would happen if they did? Most LLM reaso...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1syjlc2/why_isnt_llm_reasoning_done_in_vector_space/"
-    },
-    {
-      "id": "n_59fed2f5fa5c",
-      "date": "2026-04-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Turning the TIDE: Cross-Architecture Distillation for Diffus",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.26951"
-    },
-    {
-      "id": "n_f002fef8cd05",
-      "date": "2026-04-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ClawGym: A Scalable Framework for Building Effective Claw Ag",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.26904"
-    },
-    {
-      "id": "n_e2f65483e5c0",
-      "date": "2026-04-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GLM-5V-Turbo: Toward a Native Foundation Model for Multimoda",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.26752"
     }
   ],
   "ticker": [
+    "Why SSMs struggle in parameter-cons...",
+    "Is there a notable increase in dema...",
+    "[论文] OceanPile: A Large-Scale Multi...",
+    "[论文] MolmoAct2: Action Reasoning Mo...",
+    "[论文] From Context to Skills: Can La...",
     "torch-nvenc-compress: GPU NVENC sil...",
     "Are modern ML PhDs becoming too inc...",
     "[论文] From Skill Text to Skill Struc...",
     "[论文] Learning while Deploying: Flee...",
-    "[论文] UniVidX: A Unified Multimodal ...",
-    "Toy experiment: frozen Pythia-70M c...",
-    "Real World Physics-Informed AI Appl...",
-    "Why ML conference reviews sometimes...",
-    "I spent years building a 103B-token...",
-    "[论文] Co-Evolving Policy Distillatio..."
+    "[论文] UniVidX: A Unified Multimodal ..."
   ],
   "learning": {
     "phases": [
