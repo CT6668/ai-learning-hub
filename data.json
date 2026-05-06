@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_40f5bcde6a96",
+      "date": "2026-05-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Transformers with Selective Access to Early Representations [R]",
+      "summary": "Hello everyone. I’m excited to share our new paper! Figure 1: Comparison Across Architectures A lot of recent Transformer variants try to im...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t4z3af/transformers_with_selective_access_to_early/"
+    },
+    {
+      "id": "n_5e131ac82e37",
+      "date": "2026-05-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Struggling to reproduce paper results before improving them — stuck below report",
+      "summary": "I’m a PhD student working in AI/computer vision, and I’ve hit a frustrating wall with a project. My supervisor asked me to improve the accur...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/"
+    },
+    {
+      "id": "n_5b36cc223215",
+      "date": "2026-05-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PatRe: A Full-Stage Office Action and Rebuttal Generation Be",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.03571"
+    },
+    {
+      "id": "n_38acc95dc98c",
+      "date": "2026-05-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HeavySkill: Heavy Thinking as the Inner Skill in Agentic Har",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.02396"
+    },
+    {
+      "id": "n_1f442e3692ad",
+      "date": "2026-05-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Dist",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2604.28123"
+    },
     {
       "id": "n_51aca636a991",
       "date": "2026-05-04",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2604.27083"
-    },
-    {
-      "id": "n_a3703d54523a",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AI/ML Conferences [D]",
-      "summary": "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026....",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/"
-    },
-    {
-      "id": "n_5e101eeaf372",
-      "date": "2026-04-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Chinese nexus/network in A* conferences rejecting non chinese papers [D]",
-      "summary": "Recently lot of people are coming forward that chinese have strong network and are doing nepotism and supporting each other through a well k...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t06564/chinese_nexusnetwork_in_a_conferences_rejecting/"
-    },
-    {
-      "id": "n_c7b0a07bdba7",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ExoActor: Exocentric Video Generation as Generalizable Inter",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.27711"
-    },
-    {
-      "id": "n_5931544e6d53",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Visual Generation in the New Era: An Evolution from Atomic M",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.28185"
-    },
-    {
-      "id": "n_1b8877d368d0",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Heterogeneous Scientific Foundation Model Collaboration",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.27351"
     }
   ],
   "ticker": [
+    "Transformers with Selective Access ...",
+    "Struggling to reproduce paper resul...",
+    "[论文] PatRe: A Full-Stage Office Act...",
+    "[论文] HeavySkill: Heavy Thinking as ...",
+    "[论文] Beyond SFT-to-RL: Pre-alignmen...",
     "Why SSMs struggle in parameter-cons...",
     "Is there a notable increase in dema...",
     "[论文] OceanPile: A Large-Scale Multi...",
     "[论文] MolmoAct2: Action Reasoning Mo...",
-    "[论文] From Context to Skills: Can La...",
-    "torch-nvenc-compress: GPU NVENC sil...",
-    "Are modern ML PhDs becoming too inc...",
-    "[论文] From Skill Text to Skill Struc...",
-    "[论文] Learning while Deploying: Flee...",
-    "[论文] UniVidX: A Unified Multimodal ..."
+    "[论文] From Context to Skills: Can La..."
   ],
   "learning": {
     "phases": [
