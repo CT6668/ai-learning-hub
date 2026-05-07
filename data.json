@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_0de614d665ca",
+      "date": "2026-05-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Exe",
+      "summary": "submitted by /u/Benlus [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/"
+    },
+    {
+      "id": "n_16992545248f",
+      "date": "2026-05-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Stop letting LLMs edit your .bib [D]",
+      "summary": "It’s shocking how frequently I notice hallucinated citations. For citations of my own papers, I’ve seen 5 in the past couple of months, wher...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5anla/stop_letting_llms_edit_your_bib_d/"
+    },
+    {
+      "id": "n_eb89b21b75ff",
+      "date": "2026-05-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Stream-T1: Test-Time Scaling for Streaming Video Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.04461"
+    },
+    {
+      "id": "n_242802fff239",
+      "date": "2026-05-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Stream-R1: Reliability-Perplexity Aware Reward Distillation ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.03849"
+    },
+    {
+      "id": "n_a00fc385b728",
+      "date": "2026-05-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RLDX-1 Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.03269"
+    },
     {
       "id": "n_40f5bcde6a96",
       "date": "2026-05-06",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.00658"
-    },
-    {
-      "id": "n_31dde0fefe16",
-      "date": "2026-05-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Toy experiment: frozen Pythia-70M can use a forward-derived fast memory for cont",
-      "summary": "Toy Experiment: Frozen Pythia-70M Using Forward-Derived Fast Memory for Contextual One-Shot Recall I have been running a small research/toy ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t23wug/toy_experiment_frozen_pythia70m_can_use_a/"
-    },
-    {
-      "id": "n_1e437f920a0a",
-      "date": "2026-05-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Real World Physics-Informed AI Applications [D]",
-      "summary": "Im curios to find any real-world applications of physics-informed AI. Conventional AI, talking only about Neural Networks, have already beco...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t1lmq0/real_world_physicsinformed_ai_applications_d/"
-    },
-    {
-      "id": "n_16200a3b13fd",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why ML conference reviews sometimes feel like a “lottery“ [D]",
-      "summary": "I’ve been trying to make sense of all the “ML conferences are a lottery” takes, and honestly I think it’s both true and not true depending o...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0y5pa/why_ml_conference_reviews_sometimes_feel_like_a/"
-    },
-    {
-      "id": "n_5e616cd70964",
-      "date": "2026-05-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally docume",
-      "summary": "For the past several years Ive been quietly assembling and processing what I believe is one of the larger privately held pretraining corpora...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/"
-    },
-    {
-      "id": "n_eb9b32db7bbc",
-      "date": "2026-05-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Co-Evolving Policy Distillation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.27083"
     }
   ],
   "ticker": [
+    "META Superintelligence Lab Presents...",
+    "Stop letting LLMs edit your .bib [D...",
+    "[论文] Stream-T1: Test-Time Scaling f...",
+    "[论文] Stream-R1: Reliability-Perplex...",
+    "[论文] RLDX-1 Technical Report",
     "Transformers with Selective Access ...",
     "Struggling to reproduce paper resul...",
     "[论文] PatRe: A Full-Stage Office Act...",
     "[论文] HeavySkill: Heavy Thinking as ...",
-    "[论文] Beyond SFT-to-RL: Pre-alignmen...",
-    "Why SSMs struggle in parameter-cons...",
-    "Is there a notable increase in dema...",
-    "[论文] OceanPile: A Large-Scale Multi...",
-    "[论文] MolmoAct2: Action Reasoning Mo...",
-    "[论文] From Context to Skills: Can La..."
+    "[论文] Beyond SFT-to-RL: Pre-alignmen..."
   ],
   "learning": {
     "phases": [
