@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-05-08",
+    "last_updated": "2026-05-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1b44183aadbd",
+      "date": "2026-05-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "People Interested in Continual Learning Research[R]",
+      "summary": "Recently, I’ve become fascinated by Continual Learning, especially the idea of AI systems that can continuously adapt and improve from exper...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t72u1r/people_interested_in_continual_learning_researchr/"
+    },
+    {
+      "id": "n_cad9ac942692",
+      "date": "2026-05-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS reviewers, any word after the invite email? [D]",
+      "summary": "I got a NeurIPS reviewer invite last week, and accepted it. It said that bidding for papers will start may 8th (today). But haven’t heard an...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7mfqr/neurips_reviewers_any_word_after_the_invite_email/"
+    },
+    {
+      "id": "n_a38660c3db03",
+      "date": "2026-05-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond Semantic Similarity: Rethinking Retrieval for Agentic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.05242"
+    },
+    {
+      "id": "n_38406d25272b",
+      "date": "2026-05-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Skill1: Unified Evolution of Skill-Augmented Agents via Rein",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.06130"
+    },
     {
       "id": "n_6c2f1733beee",
       "date": "2026-05-07",
@@ -163,59 +203,19 @@
       "summary": "After ~3 weeks of experimentation in OpenAIs Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to tran...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/"
-    },
-    {
-      "id": "n_03076d7724e9",
-      "date": "2026-05-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Is there a notable increase in demand for privacy-preserving AI/ML with the adve",
-      "summary": "While browsing through this subreddit, I encountered this old discussion post about demand for AI with the rise of privacy regulation. It go...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t3u2jh/is_there_a_notable_increase_in_demand_for/"
-    },
-    {
-      "id": "n_ed98d752efef",
-      "date": "2026-05-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundat",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.00877"
-    },
-    {
-      "id": "n_e0d74be24ef5",
-      "date": "2026-05-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MolmoAct2: Action Reasoning Models for Real-world Deployment",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.02881"
-    },
-    {
-      "id": "n_64d80a8e99af",
-      "date": "2026-05-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Context to Skills: Can Language Models Learn from Conte",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.27660"
     }
   ],
   "ticker": [
+    "People Interested in Continual Lear...",
+    "NeurIPS reviewers, any word after t...",
+    "[论文] Beyond Semantic Similarity: Re...",
+    "[论文] Skill1: Unified Evolution of S...",
     "ECCV reviewer wants me to compare a...",
     "Getting harassed by an aggressive “...",
     "[论文] Continuous Latent Diffusion La...",
     "[论文] MARBLE: Multi-Aspect Reward Ba...",
     "[论文] MiA-Signature: Approximating G...",
-    "META Superintelligence Lab Presents...",
-    "Stop letting LLMs edit your .bib [D...",
-    "[论文] Stream-T1: Test-Time Scaling f...",
-    "[论文] Stream-R1: Reliability-Perplex...",
-    "[论文] RLDX-1 Technical Report"
+    "META Superintelligence Lab Presents..."
   ],
   "learning": {
     "phases": [
