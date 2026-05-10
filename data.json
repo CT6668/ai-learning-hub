@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-09",
+    "last_updated": "2026-05-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a096dfadddb4",
+      "date": "2026-05-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "My experience interviewing with Huawei Vancouver for an ML research role: strong",
+      "summary": "I want to share an interview experience anonymously in case it helps others on the job market. I was approached about a Vancouver ML role th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t80awj/my_experience_interviewing_with_huawei_vancouver/"
+    },
+    {
+      "id": "n_3f52b2728879",
+      "date": "2026-05-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is an average publication outcome for an ML PhD? [D]",
+      "summary": "I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. But to make...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/"
+    },
     {
       "id": "n_1b44183aadbd",
       "date": "2026-05-08",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.02396"
-    },
-    {
-      "id": "n_1f442e3692ad",
-      "date": "2026-05-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Dist",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2604.28123"
-    },
-    {
-      "id": "n_51aca636a991",
-      "date": "2026-05-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why SSMs struggle in parameter-constrained training: empirical findings at 25M p",
-      "summary": "After ~3 weeks of experimentation in OpenAIs Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to tran...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/"
     }
   ],
   "ticker": [
+    "My experience interviewing with Hua...",
+    "What is an average publication outc...",
     "People Interested in Continual Lear...",
     "NeurIPS reviewers, any word after t...",
     "[论文] Beyond Semantic Similarity: Re...",
@@ -213,9 +215,7 @@
     "ECCV reviewer wants me to compare a...",
     "Getting harassed by an aggressive “...",
     "[论文] Continuous Latent Diffusion La...",
-    "[论文] MARBLE: Multi-Aspect Reward Ba...",
-    "[论文] MiA-Signature: Approximating G...",
-    "META Superintelligence Lab Presents..."
+    "[论文] MARBLE: Multi-Aspect Reward Ba..."
   ],
   "learning": {
     "phases": [
