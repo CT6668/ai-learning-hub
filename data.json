@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-10",
+    "last_updated": "2026-05-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_533c28d66e91",
+      "date": "2026-05-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Signals: finding the most informative agent traces without LLM judges [R]",
+      "summary": "Hello Peeps Salman, Shuguang and Adil here from Katanemo Labs (a DigitalOcean company). Wanted to introduce our latest research on agentic s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/"
+    },
+    {
+      "id": "n_24f46027c113",
+      "date": "2026-05-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "PhD students in ML, how many hours on average do you work? [D]",
+      "summary": "I generally work around 9–10 hours a day, but not contiguously. I can usually carve out a dedicated chunk of time in the morning, take lab o...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9mwqy/phd_students_in_ml_how_many_hours_on_average_do/"
+    },
+    {
+      "id": "n_c15327285b60",
+      "date": "2026-05-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HumanNet: Scaling Human-centric Video Learning to One Millio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.06747"
+    },
+    {
+      "id": "n_e865d6c7811b",
+      "date": "2026-05-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Listwise Policy Optimization: Group-based RLVR as Target-Pro",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.06139"
+    },
+    {
+      "id": "n_23328587369c",
+      "date": "2026-05-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.08083"
+    },
     {
       "id": "n_a096dfadddb4",
       "date": "2026-05-09",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.03849"
-    },
-    {
-      "id": "n_a00fc385b728",
-      "date": "2026-05-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RLDX-1 Technical Report",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.03269"
-    },
-    {
-      "id": "n_40f5bcde6a96",
-      "date": "2026-05-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Transformers with Selective Access to Early Representations [R]",
-      "summary": "Hello everyone. I’m excited to share our new paper! Figure 1: Comparison Across Architectures A lot of recent Transformer variants try to im...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t4z3af/transformers_with_selective_access_to_early/"
-    },
-    {
-      "id": "n_5e131ac82e37",
-      "date": "2026-05-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Struggling to reproduce paper results before improving them — stuck below report",
-      "summary": "I’m a PhD student working in AI/computer vision, and I’ve hit a frustrating wall with a project. My supervisor asked me to improve the accur...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/"
-    },
-    {
-      "id": "n_5b36cc223215",
-      "date": "2026-05-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PatRe: A Full-Stage Office Action and Rebuttal Generation Be",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.03571"
-    },
-    {
-      "id": "n_38acc95dc98c",
-      "date": "2026-05-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HeavySkill: Heavy Thinking as the Inner Skill in Agentic Har",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.02396"
     }
   ],
   "ticker": [
+    "Signals: finding the most informati...",
+    "PhD students in ML, how many hours ...",
+    "[论文] HumanNet: Scaling Human-centri...",
+    "[论文] Listwise Policy Optimization: ...",
+    "[论文] LLMs Improving LLMs: Agentic D...",
     "My experience interviewing with Hua...",
     "What is an average publication outc...",
     "People Interested in Continual Lear...",
     "NeurIPS reviewers, any word after t...",
-    "[论文] Beyond Semantic Similarity: Re...",
-    "[论文] Skill1: Unified Evolution of S...",
-    "ECCV reviewer wants me to compare a...",
-    "Getting harassed by an aggressive “...",
-    "[论文] Continuous Latent Diffusion La...",
-    "[论文] MARBLE: Multi-Aspect Reward Ba..."
+    "[论文] Beyond Semantic Similarity: Re..."
   ],
   "learning": {
     "phases": [
