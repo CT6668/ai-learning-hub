@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e80f685c0a85",
+      "date": "2026-05-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Where are small Models like Qwen3 0.6B and Qwen3.5 0.8B used ? Huggingface shows",
+      "summary": "I can see 2.88 million downloads per month for small Qwen3.5 model. I tried using earlier model 0.6B in a deep resarch workflow and it was v...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/"
+    },
+    {
+      "id": "n_193634d63fcc",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICML Author Removal [D]",
+      "summary": "PhD student. Need advice. After the ICML abstract deadline, industry coauthors asked to be removed, they missed their employers internal app...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1taqalh/icml_author_removal_d/"
+    },
+    {
+      "id": "n_72c77e00cd0c",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Geometry Conflict: Explaining and Controlling Forgetting in ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.09608"
+    },
+    {
+      "id": "n_e9abbbf3c8c3",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Qwen-Image-2.0 Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.10730"
+    },
+    {
+      "id": "n_b5cae0fa78ee",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Soohak: A Mathematician-Curated Benchmark for Evaluating Res",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.09063"
+    },
     {
       "id": "n_533c28d66e91",
       "date": "2026-05-10",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.06507"
-    },
-    {
-      "id": "n_4324b31fbc3d",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MiA-Signature: Approximating Global Activation for Long-Cont",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06416"
-    },
-    {
-      "id": "n_0de614d665ca",
-      "date": "2026-05-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Exe",
-      "summary": "submitted by /u/Benlus [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/"
-    },
-    {
-      "id": "n_16992545248f",
-      "date": "2026-05-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Stop letting LLMs edit your .bib [D]",
-      "summary": "It’s shocking how frequently I notice hallucinated citations. For citations of my own papers, I’ve seen 5 in the past couple of months, wher...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5anla/stop_letting_llms_edit_your_bib_d/"
-    },
-    {
-      "id": "n_eb89b21b75ff",
-      "date": "2026-05-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Stream-T1: Test-Time Scaling for Streaming Video Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.04461"
-    },
-    {
-      "id": "n_242802fff239",
-      "date": "2026-05-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Stream-R1: Reliability-Perplexity Aware Reward Distillation ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.03849"
     }
   ],
   "ticker": [
+    "Where are small Models like Qwen3 0...",
+    "ICML Author Removal [D]",
+    "[论文] Geometry Conflict: Explaining ...",
+    "[论文] Qwen-Image-2.0 Technical Repor...",
+    "[论文] Soohak: A Mathematician-Curate...",
     "Signals: finding the most informati...",
     "PhD students in ML, how many hours ...",
     "[论文] HumanNet: Scaling Human-centri...",
     "[论文] Listwise Policy Optimization: ...",
-    "[论文] LLMs Improving LLMs: Agentic D...",
-    "My experience interviewing with Hua...",
-    "What is an average publication outc...",
-    "People Interested in Continual Lear...",
-    "NeurIPS reviewers, any word after t...",
-    "[论文] Beyond Semantic Similarity: Re..."
+    "[论文] LLMs Improving LLMs: Agentic D..."
   ],
   "learning": {
     "phases": [
