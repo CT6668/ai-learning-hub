@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-05-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e72c8d83a589",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows",
+      "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/"
+    },
+    {
+      "id": "n_75bd936c9a87",
+      "date": "2026-05-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Steam Recommender using similarity! (Undergraduate Student Project) [P]",
+      "summary": "(DISCLAIMER: I accidentally deleted the last post on this subreddit my apologies if this is your second time seeing it) Last year I made a p...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb8k3n/steam_recommender_using_similarity_undergraduate/"
+    },
+    {
+      "id": "n_a10e47ccccf0",
+      "date": "2026-05-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MemPrivacy: Privacy-Preserving Personalized Memory Managemen",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.09530"
+    },
+    {
+      "id": "n_bd4abad6edce",
+      "date": "2026-05-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SenseNova-U1: Unifying Multimodal Understanding and Generati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.12500"
+    },
+    {
+      "id": "n_08bf62b4a453",
+      "date": "2026-05-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] δ-mem: Efficient Online Memory for Large Language Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.12357"
+    },
     {
       "id": "n_e80f685c0a85",
       "date": "2026-05-11",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.05242"
-    },
-    {
-      "id": "n_38406d25272b",
-      "date": "2026-05-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Skill1: Unified Evolution of Skill-Augmented Agents via Rein",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06130"
-    },
-    {
-      "id": "n_6c2f1733beee",
-      "date": "2026-05-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ECCV reviewer wants me to compare and contrast to my own paper. [D]",
-      "summary": "Bascially title. A reviewer found the arxiv of our paper, which is an older version, before we changed the title and name of the method for ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/"
-    },
-    {
-      "id": "n_df3426589a3e",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Getting harassed by an aggressive “independent researcher” demanding very specif",
-      "summary": "Hey Reddit, I’m a researcher in a niche theoretical CS/ML area. Recently I’ve been dealing with repeated emails from an “independent researc...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/"
-    },
-    {
-      "id": "n_da6fae6eca1a",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Continuous Latent Diffusion Language Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06548"
-    },
-    {
-      "id": "n_3881519174b4",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MARBLE: Multi-Aspect Reward Balance for Diffusion RL",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06507"
     }
   ],
   "ticker": [
+    "TabPFN-3 just released: a pre-train...",
+    "Steam Recommender using similarity!...",
+    "[论文] MemPrivacy: Privacy-Preserving...",
+    "[论文] SenseNova-U1: Unifying Multimo...",
+    "[论文] δ-mem: Efficient Online Memory...",
     "Where are small Models like Qwen3 0...",
     "ICML Author Removal [D]",
     "[论文] Geometry Conflict: Explaining ...",
     "[论文] Qwen-Image-2.0 Technical Repor...",
-    "[论文] Soohak: A Mathematician-Curate...",
-    "Signals: finding the most informati...",
-    "PhD students in ML, how many hours ...",
-    "[论文] HumanNet: Scaling Human-centri...",
-    "[论文] Listwise Policy Optimization: ...",
-    "[论文] LLMs Improving LLMs: Agentic D..."
+    "[论文] Soohak: A Mathematician-Curate..."
   ],
   "learning": {
     "phases": [
