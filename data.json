@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-13",
+    "last_updated": "2026-05-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_77e4f7c8593c",
+      "date": "2026-05-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Trained transformer-based chess models to play like humans (including thinking t",
+      "summary": "I trained a set of deep learning (transformer-based) chess models to play like humans (inspired by MAIA and Grandmaster Chess Without Search...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tcemdg/trained_transformerbased_chess_models_to_play/"
+    },
+    {
+      "id": "n_7613d1601e8a",
+      "date": "2026-05-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Human-level performance via ML was *not* proven impossible with complexity theor",
+      "summary": "Van Rooij, Guest, de Haan, Adolfi, Kolokolova, and Rich claimed to have proven that AGI via ML is impossible in Computational Brain & Behavi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/"
+    },
+    {
+      "id": "n_7a04f34bd2fa",
+      "date": "2026-05-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Edit-Compass & EditReward-Compass: A Unified Benchmark for I",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.13062"
+    },
+    {
+      "id": "n_e6f37dbe8c63",
+      "date": "2026-05-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.13724"
+    },
+    {
+      "id": "n_3c2246da659b",
+      "date": "2026-05-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MinT: Managed Infrastructure for Training and Serving Millio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.13779"
+    },
     {
       "id": "n_e72c8d83a589",
       "date": "2026-05-12",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.08083"
-    },
-    {
-      "id": "n_a096dfadddb4",
-      "date": "2026-05-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "My experience interviewing with Huawei Vancouver for an ML research role: strong",
-      "summary": "I want to share an interview experience anonymously in case it helps others on the job market. I was approached about a Vancouver ML role th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t80awj/my_experience_interviewing_with_huawei_vancouver/"
-    },
-    {
-      "id": "n_3f52b2728879",
-      "date": "2026-05-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What is an average publication outcome for an ML PhD? [D]",
-      "summary": "I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. But to make...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/"
-    },
-    {
-      "id": "n_1b44183aadbd",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "People Interested in Continual Learning Research[R]",
-      "summary": "Recently, I’ve become fascinated by Continual Learning, especially the idea of AI systems that can continuously adapt and improve from exper...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t72u1r/people_interested_in_continual_learning_researchr/"
-    },
-    {
-      "id": "n_cad9ac942692",
-      "date": "2026-05-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS reviewers, any word after the invite email? [D]",
-      "summary": "I got a NeurIPS reviewer invite last week, and accepted it. It said that bidding for papers will start may 8th (today). But haven’t heard an...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7mfqr/neurips_reviewers_any_word_after_the_invite_email/"
-    },
-    {
-      "id": "n_a38660c3db03",
-      "date": "2026-05-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Semantic Similarity: Rethinking Retrieval for Agentic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.05242"
     }
   ],
   "ticker": [
+    "Trained transformer-based chess mod...",
+    "Human-level performance via ML was ...",
+    "[论文] Edit-Compass & EditReward-Comp...",
+    "[论文] AnyFlow: Any-Step Video Diffus...",
+    "[论文] MinT: Managed Infrastructure f...",
     "TabPFN-3 just released: a pre-train...",
     "Steam Recommender using similarity!...",
     "[论文] MemPrivacy: Privacy-Preserving...",
     "[论文] SenseNova-U1: Unifying Multimo...",
-    "[论文] δ-mem: Efficient Online Memory...",
-    "Where are small Models like Qwen3 0...",
-    "ICML Author Removal [D]",
-    "[论文] Geometry Conflict: Explaining ...",
-    "[论文] Qwen-Image-2.0 Technical Repor...",
-    "[论文] Soohak: A Mathematician-Curate..."
+    "[论文] δ-mem: Efficient Online Memory..."
   ],
   "learning": {
     "phases": [
