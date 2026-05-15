@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-14",
+    "last_updated": "2026-05-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a9b5a8c3f502",
+      "date": "2026-05-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Would a 2000-2021 ML paper even get accepted today? [D]",
+      "summary": "I keep hearing some version of this: “A paper that got accepted years ago wouldn’t stand a chance today.” Honestly, for a lot of ML subfield...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/"
+    },
+    {
+      "id": "n_c9da25ce544a",
+      "date": "2026-05-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of u",
+      "summary": "From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread): https://x.com/tdietterich/status/2055000956144935055 https://xcancel.co...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/"
+    },
+    {
+      "id": "n_22923674c332",
+      "date": "2026-05-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Self-Distilled Agentic Reinforcement Learning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.15155"
+    },
+    {
+      "id": "n_35676ddd8582",
+      "date": "2026-05-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MemEye: A Visual-Centric Evaluation Framework for Multimodal",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.15128"
+    },
+    {
+      "id": "n_6d6991d9846f",
+      "date": "2026-05-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Achieving Gold-Medal-Level Olympiad Reasoning via Simple and",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.13301"
+    },
     {
       "id": "n_77e4f7c8593c",
       "date": "2026-05-13",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.09063"
-    },
-    {
-      "id": "n_533c28d66e91",
-      "date": "2026-05-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Signals: finding the most informative agent traces without LLM judges [R]",
-      "summary": "Hello Peeps Salman, Shuguang and Adil here from Katanemo Labs (a DigitalOcean company). Wanted to introduce our latest research on agentic s...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/"
-    },
-    {
-      "id": "n_24f46027c113",
-      "date": "2026-05-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "PhD students in ML, how many hours on average do you work? [D]",
-      "summary": "I generally work around 9–10 hours a day, but not contiguously. I can usually carve out a dedicated chunk of time in the morning, take lab o...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9mwqy/phd_students_in_ml_how_many_hours_on_average_do/"
-    },
-    {
-      "id": "n_c15327285b60",
-      "date": "2026-05-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HumanNet: Scaling Human-centric Video Learning to One Millio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06747"
-    },
-    {
-      "id": "n_e865d6c7811b",
-      "date": "2026-05-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Listwise Policy Optimization: Group-based RLVR as Target-Pro",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.06139"
-    },
-    {
-      "id": "n_23328587369c",
-      "date": "2026-05-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.08083"
     }
   ],
   "ticker": [
+    "Would a 2000-2021 ML paper even get...",
+    "arXiv implements 1-year ban for pap...",
+    "[论文] Self-Distilled Agentic Reinfor...",
+    "[论文] MemEye: A Visual-Centric Evalu...",
+    "[论文] Achieving Gold-Medal-Level Oly...",
     "Trained transformer-based chess mod...",
     "Human-level performance via ML was ...",
     "[论文] Edit-Compass & EditReward-Comp...",
     "[论文] AnyFlow: Any-Step Video Diffus...",
-    "[论文] MinT: Managed Infrastructure f...",
-    "TabPFN-3 just released: a pre-train...",
-    "Steam Recommender using similarity!...",
-    "[论文] MemPrivacy: Privacy-Preserving...",
-    "[论文] SenseNova-U1: Unifying Multimo...",
-    "[论文] δ-mem: Efficient Online Memory..."
+    "[论文] MinT: Managed Infrastructure f..."
   ],
   "learning": {
     "phases": [
