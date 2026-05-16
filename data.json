@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-15",
+    "last_updated": "2026-05-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8bd530e1870f",
+      "date": "2026-05-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ROCm with PyTorch and PyTorch Lightning seems to still suck for research [D]",
+      "summary": "So I asked about peoples experiences with ROCm in a post a few weeks or so ago https://www.reddit.com/r/MachineLearning/comments/1t6cng3/roc...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/"
+    },
+    {
+      "id": "n_ff644152a5d3",
+      "date": "2026-05-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Causal Forcing++: Scalable Few-Step Autoregressive Diffusion",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.15141"
+    },
     {
       "id": "n_a9b5a8c3f502",
       "date": "2026-05-14",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.09608"
-    },
-    {
-      "id": "n_e9abbbf3c8c3",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen-Image-2.0 Technical Report",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.10730"
-    },
-    {
-      "id": "n_b5cae0fa78ee",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Soohak: A Mathematician-Curated Benchmark for Evaluating Res",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.09063"
     }
   ],
   "ticker": [
+    "ROCm with PyTorch and PyTorch Light...",
+    "[论文] Causal Forcing++: Scalable Few...",
     "Would a 2000-2021 ML paper even get...",
     "arXiv implements 1-year ban for pap...",
     "[论文] Self-Distilled Agentic Reinfor...",
@@ -213,9 +215,7 @@
     "[论文] Achieving Gold-Medal-Level Oly...",
     "Trained transformer-based chess mod...",
     "Human-level performance via ML was ...",
-    "[论文] Edit-Compass & EditReward-Comp...",
-    "[论文] AnyFlow: Any-Step Video Diffus...",
-    "[论文] MinT: Managed Infrastructure f..."
+    "[论文] Edit-Compass & EditReward-Comp..."
   ],
   "learning": {
     "phases": [
