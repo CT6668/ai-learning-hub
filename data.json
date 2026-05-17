@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-16",
+    "last_updated": "2026-05-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f308ee3d2265",
+      "date": "2026-05-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Do you agree with Judea that learning from data is not everything? [D]",
+      "summary": "Link: Judea Pearl, 2011 ACM Turing Award Recipient (2:18:05) Quote: There is a limitation to that which people not everybody understand. I a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/"
+    },
+    {
+      "id": "n_ce5601296381",
+      "date": "2026-05-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]",
+      "summary": "Anyone else surprised at the enormous amount of backlash against Arxivs proposed 1 year ban for authors and coauthors publishing papers with...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/"
+    },
     {
       "id": "n_8bd530e1870f",
       "date": "2026-05-16",
@@ -183,29 +203,11 @@
       "summary": "I can see 2.88 million downloads per month for small Qwen3.5 model. I tried using earlier model 0.6B in a deep resarch workflow and it was v...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/"
-    },
-    {
-      "id": "n_193634d63fcc",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICML Author Removal [D]",
-      "summary": "PhD student. Need advice. After the ICML abstract deadline, industry coauthors asked to be removed, they missed their employers internal app...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1taqalh/icml_author_removal_d/"
-    },
-    {
-      "id": "n_72c77e00cd0c",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Geometry Conflict: Explaining and Controlling Forgetting in ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.09608"
     }
   ],
   "ticker": [
+    "Do you agree with Judea that learni...",
+    "Backlash against Arxiv's proposed 1...",
     "ROCm with PyTorch and PyTorch Light...",
     "[论文] Causal Forcing++: Scalable Few...",
     "Would a 2000-2021 ML paper even get...",
@@ -213,9 +215,7 @@
     "[论文] Self-Distilled Agentic Reinfor...",
     "[论文] MemEye: A Visual-Centric Evalu...",
     "[论文] Achieving Gold-Medal-Level Oly...",
-    "Trained transformer-based chess mod...",
-    "Human-level performance via ML was ...",
-    "[论文] Edit-Compass & EditReward-Comp..."
+    "Trained transformer-based chess mod..."
   ],
   "learning": {
     "phases": [
