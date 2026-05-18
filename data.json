@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-05-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2a5bef3e36f5",
+      "date": "2026-05-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Program misleading high school students into paying to perform academic miscondu",
+      "summary": "I was browsing OpenReview and I came accross this person called Kevin Zhu https://openreview.net/profile?id=~Kevin_Zhu3, lets say I was impr...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/"
+    },
+    {
+      "id": "n_b83c85006782",
+      "date": "2026-05-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Slop is making me feel disconnected from AI Research [D]",
+      "summary": "Hello everyone. This is just a small rant on my part. I’m relatively young, a final year undergrad, and I’ve been interested in AI researche...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfv0vh/slop_is_making_me_feel_disconnected_from_ai/"
+    },
+    {
+      "id": "n_5f8f8e778e25",
+      "date": "2026-05-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.16257"
+    },
+    {
+      "id": "n_4d8c2b6b2fee",
+      "date": "2026-05-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FashionChameleon: Towards Real-Time and Interactive Human-Ga",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.15824"
+    },
+    {
+      "id": "n_db0173212726",
+      "date": "2026-05-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MMSkills: Towards Multimodal Skills for General Visual Agent",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.13527"
+    },
     {
       "id": "n_f308ee3d2265",
       "date": "2026-05-16",
@@ -153,69 +203,19 @@
       "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/"
-    },
-    {
-      "id": "n_75bd936c9a87",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Steam Recommender using similarity! (Undergraduate Student Project) [P]",
-      "summary": "(DISCLAIMER: I accidentally deleted the last post on this subreddit my apologies if this is your second time seeing it) Last year I made a p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb8k3n/steam_recommender_using_similarity_undergraduate/"
-    },
-    {
-      "id": "n_a10e47ccccf0",
-      "date": "2026-05-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MemPrivacy: Privacy-Preserving Personalized Memory Managemen",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.09530"
-    },
-    {
-      "id": "n_bd4abad6edce",
-      "date": "2026-05-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SenseNova-U1: Unifying Multimodal Understanding and Generati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.12500"
-    },
-    {
-      "id": "n_08bf62b4a453",
-      "date": "2026-05-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] δ-mem: Efficient Online Memory for Large Language Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.12357"
-    },
-    {
-      "id": "n_e80f685c0a85",
-      "date": "2026-05-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Where are small Models like Qwen3 0.6B and Qwen3.5 0.8B used ? Huggingface shows",
-      "summary": "I can see 2.88 million downloads per month for small Qwen3.5 model. I tried using earlier model 0.6B in a deep resarch workflow and it was v...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/"
     }
   ],
   "ticker": [
+    "Program misleading high school stud...",
+    "Slop is making me feel disconnected...",
+    "[论文] DexJoCo: A Benchmark and Toolk...",
+    "[论文] FashionChameleon: Towards Real...",
+    "[论文] MMSkills: Towards Multimodal S...",
     "Do you agree with Judea that learni...",
     "Backlash against Arxiv's proposed 1...",
     "ROCm with PyTorch and PyTorch Light...",
     "[论文] Causal Forcing++: Scalable Few...",
-    "Would a 2000-2021 ML paper even get...",
-    "arXiv implements 1-year ban for pap...",
-    "[论文] Self-Distilled Agentic Reinfor...",
-    "[论文] MemEye: A Visual-Centric Evalu...",
-    "[论文] Achieving Gold-Medal-Level Oly...",
-    "Trained transformer-based chess mod..."
+    "Would a 2000-2021 ML paper even get..."
   ],
   "learning": {
     "phases": [
