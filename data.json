@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e8e1ccfb9431",
+      "date": "2026-05-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves ",
+      "summary": "World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCuns group at NYU, ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/"
+    },
+    {
+      "id": "n_f7dbca1add3a",
+      "date": "2026-05-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Reviving PapersWithCode (by Hugging Face) [P]",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. Like many others, I was a huge fan of paperswithcode. Sadly, that website is no lo...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/"
+    },
+    {
+      "id": "n_33e900845df5",
+      "date": "2026-05-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AI for Auto-Research: Roadmap & User Guide",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.18661"
+    },
+    {
+      "id": "n_50cd768f9d21",
+      "date": "2026-05-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.18678"
+    },
+    {
+      "id": "n_87e0cddb1032",
+      "date": "2026-05-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Vide",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.18739"
+    },
     {
       "id": "n_2a5bef3e36f5",
       "date": "2026-05-17",
@@ -153,69 +203,19 @@
       "summary": "I trained a set of deep learning (transformer-based) chess models to play like humans (inspired by MAIA and Grandmaster Chess Without Search...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tcemdg/trained_transformerbased_chess_models_to_play/"
-    },
-    {
-      "id": "n_7613d1601e8a",
-      "date": "2026-05-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Human-level performance via ML was *not* proven impossible with complexity theor",
-      "summary": "Van Rooij, Guest, de Haan, Adolfi, Kolokolova, and Rich claimed to have proven that AGI via ML is impossible in Computational Brain & Behavi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/"
-    },
-    {
-      "id": "n_7a04f34bd2fa",
-      "date": "2026-05-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Edit-Compass & EditReward-Compass: A Unified Benchmark for I",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.13062"
-    },
-    {
-      "id": "n_e6f37dbe8c63",
-      "date": "2026-05-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.13724"
-    },
-    {
-      "id": "n_3c2246da659b",
-      "date": "2026-05-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MinT: Managed Infrastructure for Training and Serving Millio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.13779"
-    },
-    {
-      "id": "n_e72c8d83a589",
-      "date": "2026-05-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows",
-      "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/"
     }
   ],
   "ticker": [
+    "Sub-JEPA: a simple fix to LeCun gro...",
+    "Reviving PapersWithCode (by Hugging...",
+    "[论文] AI for Auto-Research: Roadmap ...",
+    "[论文] Lance: Unified Multimodal Mode...",
+    "[论文] LongLive-2.0: An NVFP4 Paralle...",
     "Program misleading high school stud...",
     "Slop is making me feel disconnected...",
     "[论文] DexJoCo: A Benchmark and Toolk...",
     "[论文] FashionChameleon: Towards Real...",
-    "[论文] MMSkills: Towards Multimodal S...",
-    "Do you agree with Judea that learni...",
-    "Backlash against Arxiv's proposed 1...",
-    "ROCm with PyTorch and PyTorch Light...",
-    "[论文] Causal Forcing++: Scalable Few...",
-    "Would a 2000-2021 ML paper even get..."
+    "[论文] MMSkills: Towards Multimodal S..."
   ],
   "learning": {
     "phases": [
