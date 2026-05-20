@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-19",
+    "last_updated": "2026-05-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f47bc3bddbe1",
+      "date": "2026-05-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What do you think about Tabular Foundation Models [D]",
+      "summary": "Ive seen TabPFN-3s recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance tha...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/"
+    },
+    {
+      "id": "n_e6d042f8d4ff",
+      "date": "2026-05-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICML Proceedings-only [D]",
+      "summary": "For proceedings-only papers, do we need to make a poster and submit it to the portal? Has anyone asked this question to ICML Program Chair? ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ti1tgw/icml_proceedingsonly_d/"
+    },
+    {
+      "id": "n_640b6c0332b4",
+      "date": "2026-05-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Process Rewards with Learned Reliability",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.15529"
+    },
+    {
+      "id": "n_780a4637648d",
+      "date": "2026-05-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GoLongRL: Capability-Oriented Long Context Reinforcement Lea",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.19577"
+    },
+    {
+      "id": "n_da2174f3672f",
+      "date": "2026-05-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AutoResearchClaw: Self-Reinforcing Autonomous Research with ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.20025"
+    },
     {
       "id": "n_e8e1ccfb9431",
       "date": "2026-05-18",
@@ -153,69 +203,19 @@
       "summary": "I keep hearing some version of this: “A paper that got accepted years ago wouldn’t stand a chance today.” Honestly, for a lot of ML subfield...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/"
-    },
-    {
-      "id": "n_c9da25ce544a",
-      "date": "2026-05-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of u",
-      "summary": "From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread): https://x.com/tdietterich/status/2055000956144935055 https://xcancel.co...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/"
-    },
-    {
-      "id": "n_22923674c332",
-      "date": "2026-05-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Self-Distilled Agentic Reinforcement Learning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.15155"
-    },
-    {
-      "id": "n_35676ddd8582",
-      "date": "2026-05-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MemEye: A Visual-Centric Evaluation Framework for Multimodal",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.15128"
-    },
-    {
-      "id": "n_6d6991d9846f",
-      "date": "2026-05-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Achieving Gold-Medal-Level Olympiad Reasoning via Simple and",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.13301"
-    },
-    {
-      "id": "n_77e4f7c8593c",
-      "date": "2026-05-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Trained transformer-based chess models to play like humans (including thinking t",
-      "summary": "I trained a set of deep learning (transformer-based) chess models to play like humans (inspired by MAIA and Grandmaster Chess Without Search...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tcemdg/trained_transformerbased_chess_models_to_play/"
     }
   ],
   "ticker": [
+    "What do you think about Tabular Fou...",
+    "ICML Proceedings-only [D]",
+    "[论文] Process Rewards with Learned R...",
+    "[论文] GoLongRL: Capability-Oriented ...",
+    "[论文] AutoResearchClaw: Self-Reinfor...",
     "Sub-JEPA: a simple fix to LeCun gro...",
     "Reviving PapersWithCode (by Hugging...",
     "[论文] AI for Auto-Research: Roadmap ...",
     "[论文] Lance: Unified Multimodal Mode...",
-    "[论文] LongLive-2.0: An NVFP4 Paralle...",
-    "Program misleading high school stud...",
-    "Slop is making me feel disconnected...",
-    "[论文] DexJoCo: A Benchmark and Toolk...",
-    "[论文] FashionChameleon: Towards Real...",
-    "[论文] MMSkills: Towards Multimodal S..."
+    "[论文] LongLive-2.0: An NVFP4 Paralle..."
   ],
   "learning": {
     "phases": [
