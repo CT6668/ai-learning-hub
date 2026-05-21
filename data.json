@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1660ec45feb1",
+      "date": "2026-05-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Model",
+      "summary": "Autoregressive LLM world models factorize next-state generation left-to-right, preventing them from conditioning on globally interdependent ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tj9tna/masked_diffusion_language_models_are_strong_and/"
+    },
+    {
+      "id": "n_0d54eb3d9d92",
+      "date": "2026-05-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How competitive are PhD admissions currently [D]",
+      "summary": "Hi, how hard is it currently to get a PhD position in machine Learning? Like what are the requirements to get to a decent mid tier program (...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tiw739/how_competitive_are_phd_admissions_currently_d/"
+    },
+    {
+      "id": "n_6c59a954392a",
+      "date": "2026-05-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] You Only Need Minimal RLVR Training: Extrapolating LLMs via ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.21468"
+    },
+    {
+      "id": "n_b7cd8828c48a",
+      "date": "2026-05-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] It Takes Two: Complementary Self-Distillation for Contextual",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.20258"
+    },
+    {
+      "id": "n_d1043add5c8b",
+      "date": "2026-05-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OScaR: The Occam's Razor for Extreme KV Cache Quantization i",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.19660"
+    },
     {
       "id": "n_f47bc3bddbe1",
       "date": "2026-05-19",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.13527"
-    },
-    {
-      "id": "n_f308ee3d2265",
-      "date": "2026-05-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Do you agree with Judea that learning from data is not everything? [D]",
-      "summary": "Link: Judea Pearl, 2011 ACM Turing Award Recipient (2:18:05) Quote: There is a limitation to that which people not everybody understand. I a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/"
-    },
-    {
-      "id": "n_ce5601296381",
-      "date": "2026-05-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]",
-      "summary": "Anyone else surprised at the enormous amount of backlash against Arxivs proposed 1 year ban for authors and coauthors publishing papers with...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/"
-    },
-    {
-      "id": "n_8bd530e1870f",
-      "date": "2026-05-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ROCm with PyTorch and PyTorch Lightning seems to still suck for research [D]",
-      "summary": "So I asked about peoples experiences with ROCm in a post a few weeks or so ago https://www.reddit.com/r/MachineLearning/comments/1t6cng3/roc...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/"
-    },
-    {
-      "id": "n_ff644152a5d3",
-      "date": "2026-05-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Causal Forcing++: Scalable Few-Step Autoregressive Diffusion",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.15141"
-    },
-    {
-      "id": "n_a9b5a8c3f502",
-      "date": "2026-05-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Would a 2000-2021 ML paper even get accepted today? [D]",
-      "summary": "I keep hearing some version of this: “A paper that got accepted years ago wouldn’t stand a chance today.” Honestly, for a lot of ML subfield...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/"
     }
   ],
   "ticker": [
+    "Masked Diffusion Language Models ar...",
+    "How competitive are PhD admissions ...",
+    "[论文] You Only Need Minimal RLVR Tra...",
+    "[论文] It Takes Two: Complementary Se...",
+    "[论文] OScaR: The Occam's Razor for E...",
     "What do you think about Tabular Fou...",
     "ICML Proceedings-only [D]",
     "[论文] Process Rewards with Learned R...",
     "[论文] GoLongRL: Capability-Oriented ...",
-    "[论文] AutoResearchClaw: Self-Reinfor...",
-    "Sub-JEPA: a simple fix to LeCun gro...",
-    "Reviving PapersWithCode (by Hugging...",
-    "[论文] AI for Auto-Research: Roadmap ...",
-    "[论文] Lance: Unified Multimodal Mode...",
-    "[论文] LongLive-2.0: An NVFP4 Paralle..."
+    "[论文] AutoResearchClaw: Self-Reinfor..."
   ],
   "learning": {
     "phases": [
