@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-21",
+    "last_updated": "2026-05-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2f436d3c00dc",
+      "date": "2026-05-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Do VLMs in production still use fixed-patch ViTs for their vision capabilities? ",
+      "summary": "The research community has provided (already for some time) seemingly more efficient and effective tokenizations for vision. Do we have any ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tjmrxm/do_vlms_in_production_still_use_fixedpatch_vits/"
+    },
+    {
+      "id": "n_5c22e3f908cf",
+      "date": "2026-05-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Live Human Detector on Outbound Phone Calls [R]",
+      "summary": "Goal To save humans wasting time sitting in Call Centre queues waiting to be answered To have tool listen in on the audio stream of a live c...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tk8ht5/live_human_detector_on_outbound_phone_calls_r/"
+    },
+    {
+      "id": "n_ade8e753426e",
+      "date": "2026-05-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DelTA: Discriminative Token Credit Assignment for Reinforcem",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.21467"
+    },
+    {
+      "id": "n_295bcc579460",
+      "date": "2026-05-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ACC: Compiling Agent Trajectories for Long-Context Training",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.21850"
+    },
+    {
+      "id": "n_8fcb8235158c",
+      "date": "2026-05-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] π-Bench: Evaluating Proactive Personal Assistant Agents in L",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.14678"
+    },
     {
       "id": "n_1660ec45feb1",
       "date": "2026-05-21",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.18739"
-    },
-    {
-      "id": "n_2a5bef3e36f5",
-      "date": "2026-05-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Program misleading high school students into paying to perform academic miscondu",
-      "summary": "I was browsing OpenReview and I came accross this person called Kevin Zhu https://openreview.net/profile?id=~Kevin_Zhu3, lets say I was impr...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/"
-    },
-    {
-      "id": "n_b83c85006782",
-      "date": "2026-05-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Slop is making me feel disconnected from AI Research [D]",
-      "summary": "Hello everyone. This is just a small rant on my part. I’m relatively young, a final year undergrad, and I’ve been interested in AI researche...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfv0vh/slop_is_making_me_feel_disconnected_from_ai/"
-    },
-    {
-      "id": "n_5f8f8e778e25",
-      "date": "2026-05-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.16257"
-    },
-    {
-      "id": "n_4d8c2b6b2fee",
-      "date": "2026-05-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FashionChameleon: Towards Real-Time and Interactive Human-Ga",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.15824"
-    },
-    {
-      "id": "n_db0173212726",
-      "date": "2026-05-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MMSkills: Towards Multimodal Skills for General Visual Agent",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.13527"
     }
   ],
   "ticker": [
+    "Do VLMs in production still use fix...",
+    "Live Human Detector on Outbound Pho...",
+    "[论文] DelTA: Discriminative Token Cr...",
+    "[论文] ACC: Compiling Agent Trajector...",
+    "[论文] π-Bench: Evaluating Proactive ...",
     "Masked Diffusion Language Models ar...",
     "How competitive are PhD admissions ...",
     "[论文] You Only Need Minimal RLVR Tra...",
     "[论文] It Takes Two: Complementary Se...",
-    "[论文] OScaR: The Occam's Razor for E...",
-    "What do you think about Tabular Fou...",
-    "ICML Proceedings-only [D]",
-    "[论文] Process Rewards with Learned R...",
-    "[论文] GoLongRL: Capability-Oriented ...",
-    "[论文] AutoResearchClaw: Self-Reinfor..."
+    "[论文] OScaR: The Occam's Razor for E..."
   ],
   "learning": {
     "phases": [
