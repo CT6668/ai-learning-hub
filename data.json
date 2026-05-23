@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-05-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8f26b64d8e14",
+      "date": "2026-05-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pur",
+      "summary": "On windows mamba-ssm is not easily available and doesnt compile on sm_120. SM1 (Scalar Mamba1) replaces the entire selective scan with two n...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/"
+    },
+    {
+      "id": "n_ee131c15ceb1",
+      "date": "2026-05-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "COLM 2026 ReviewsDiscussion [D]",
+      "summary": "Didnt see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews?...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/"
+    },
+    {
+      "id": "n_3cff8aa402fe",
+      "date": "2026-05-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Perception or Prejudice: Can MLLMs Go Beyond First Impressio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.22109"
+    },
+    {
+      "id": "n_3b63c86c9b50",
+      "date": "2026-05-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TransitLM: A Large-Scale Dataset and Benchmark for Map-Free ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.22355"
+    },
     {
       "id": "n_2f436d3c00dc",
       "date": "2026-05-21",
@@ -163,59 +203,19 @@
       "summary": "World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCuns group at NYU, ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/"
-    },
-    {
-      "id": "n_f7dbca1add3a",
-      "date": "2026-05-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Reviving PapersWithCode (by Hugging Face) [P]",
-      "summary": "Hi, Niels here from the open-source team at Hugging Face. Like many others, I was a huge fan of paperswithcode. Sadly, that website is no lo...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/"
-    },
-    {
-      "id": "n_33e900845df5",
-      "date": "2026-05-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AI for Auto-Research: Roadmap & User Guide",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.18661"
-    },
-    {
-      "id": "n_50cd768f9d21",
-      "date": "2026-05-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Lance: Unified Multimodal Modeling by Multi-Task Synergy",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.18678"
-    },
-    {
-      "id": "n_87e0cddb1032",
-      "date": "2026-05-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Vide",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.18739"
     }
   ],
   "ticker": [
+    "I built a Mamba1 variant I call SM1...",
+    "COLM 2026 ReviewsDiscussion [D]",
+    "[论文] Perception or Prejudice: Can M...",
+    "[论文] TransitLM: A Large-Scale Datas...",
     "Do VLMs in production still use fix...",
     "Live Human Detector on Outbound Pho...",
     "[论文] DelTA: Discriminative Token Cr...",
     "[论文] ACC: Compiling Agent Trajector...",
     "[论文] π-Bench: Evaluating Proactive ...",
-    "Masked Diffusion Language Models ar...",
-    "How competitive are PhD admissions ...",
-    "[论文] You Only Need Minimal RLVR Tra...",
-    "[论文] It Takes Two: Complementary Se...",
-    "[论文] OScaR: The Occam's Razor for E..."
+    "Masked Diffusion Language Models ar..."
   ],
   "learning": {
     "phases": [
