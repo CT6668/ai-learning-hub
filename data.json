@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-23",
+    "last_updated": "2026-05-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c0cbe255cb4a",
+      "date": "2026-05-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "pipeline is really slow - consulting [D]",
+      "summary": "Hi, after a long debugging process and many discussions, I wanted to ask for advice from people who may have encountered similar training bo...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/"
+    },
+    {
+      "id": "n_385e32669bb8",
+      "date": "2026-05-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Vision-capable LLMs vs. OCR for long-document (including charts, images, tables,",
+      "summary": "I benchmarked vision-capable LLMs (the \"just attach the PDF and let the model read it\" pattern) against OCR-based pipelines on 30 long, imag...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tm0cqg/visioncapable_llms_vs_ocr_for_longdocument/"
+    },
     {
       "id": "n_8f26b64d8e14",
       "date": "2026-05-23",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.19577"
-    },
-    {
-      "id": "n_da2174f3672f",
-      "date": "2026-05-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AutoResearchClaw: Self-Reinforcing Autonomous Research with ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.20025"
-    },
-    {
-      "id": "n_e8e1ccfb9431",
-      "date": "2026-05-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves ",
-      "summary": "World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCuns group at NYU, ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/"
     }
   ],
   "ticker": [
+    "pipeline is really slow - consultin...",
+    "Vision-capable LLMs vs. OCR for lon...",
     "I built a Mamba1 variant I call SM1...",
     "COLM 2026 ReviewsDiscussion [D]",
     "[论文] Perception or Prejudice: Can M...",
@@ -213,9 +215,7 @@
     "Do VLMs in production still use fix...",
     "Live Human Detector on Outbound Pho...",
     "[论文] DelTA: Discriminative Token Cr...",
-    "[论文] ACC: Compiling Agent Trajector...",
-    "[论文] π-Bench: Evaluating Proactive ...",
-    "Masked Diffusion Language Models ar..."
+    "[论文] ACC: Compiling Agent Trajector..."
   ],
   "learning": {
     "phases": [
