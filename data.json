@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-24",
+    "last_updated": "2026-05-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_596a37f0390d",
+      "date": "2026-05-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "PapersWithCode new features - week 1 [P]",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. Its been one week since I launched paperswithcode.co, a revival of the website we ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/"
+    },
+    {
+      "id": "n_04c6e2cc11a2",
+      "date": "2026-05-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How do ML practitioners select hyperparameters, architectures, etc for self-supe",
+      "summary": "Non-contrastive SSL methods like BYOL/JEPA/data2vec seem promising, but I have no idea what is being learned, or how well; it’s models all t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/"
+    },
+    {
+      "id": "n_cdd24233f641",
+      "date": "2026-05-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Lens: Rethinking Training Efficiency for Foundational Text-t",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.21573"
+    },
+    {
+      "id": "n_794f845ef067",
+      "date": "2026-05-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Rethinking Cross-Layer Information Routing in Diffusion Tran",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.20708"
+    },
+    {
+      "id": "n_6bd6565c3f44",
+      "date": "2026-05-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.23904"
+    },
     {
       "id": "n_c0cbe255cb4a",
       "date": "2026-05-23",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.20258"
-    },
-    {
-      "id": "n_d1043add5c8b",
-      "date": "2026-05-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OScaR: The Occam's Razor for Extreme KV Cache Quantization i",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.19660"
-    },
-    {
-      "id": "n_f47bc3bddbe1",
-      "date": "2026-05-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What do you think about Tabular Foundation Models [D]",
-      "summary": "Ive seen TabPFN-3s recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance tha...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/"
-    },
-    {
-      "id": "n_e6d042f8d4ff",
-      "date": "2026-05-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICML Proceedings-only [D]",
-      "summary": "For proceedings-only papers, do we need to make a poster and submit it to the portal? Has anyone asked this question to ICML Program Chair? ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ti1tgw/icml_proceedingsonly_d/"
-    },
-    {
-      "id": "n_640b6c0332b4",
-      "date": "2026-05-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Process Rewards with Learned Reliability",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.15529"
-    },
-    {
-      "id": "n_780a4637648d",
-      "date": "2026-05-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GoLongRL: Capability-Oriented Long Context Reinforcement Lea",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.19577"
     }
   ],
   "ticker": [
+    "PapersWithCode new features - week ...",
+    "How do ML practitioners select hype...",
+    "[论文] Lens: Rethinking Training Effi...",
+    "[论文] Rethinking Cross-Layer Informa...",
+    "[论文] SkillOpt: Executive Strategy f...",
     "pipeline is really slow - consultin...",
     "Vision-capable LLMs vs. OCR for lon...",
     "I built a Mamba1 variant I call SM1...",
     "COLM 2026 ReviewsDiscussion [D]",
-    "[论文] Perception or Prejudice: Can M...",
-    "[论文] TransitLM: A Large-Scale Datas...",
-    "Do VLMs in production still use fix...",
-    "Live Human Detector on Outbound Pho...",
-    "[论文] DelTA: Discriminative Token Cr...",
-    "[论文] ACC: Compiling Agent Trajector..."
+    "[论文] Perception or Prejudice: Can M..."
   ],
   "learning": {
     "phases": [
