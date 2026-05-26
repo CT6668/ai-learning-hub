@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-05-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_dc4afac37b6b",
+      "date": "2026-05-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Aiki my local Wikipedia Retrieval-Augmented Generation system [R]",
+      "summary": "Hey i built Aiki a lightweight tool that lets you chat with Wikipedia locally. https://i.redd.it/67mzfsrc6f3h1.gif what it does: Downloads a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented/"
+    },
+    {
+      "id": "n_2c6949878cd8",
+      "date": "2026-05-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "The famous METR AI time horizons graph contains numerous severe errors [D]",
+      "summary": "Nathan Witkin, a research writer at NYU Stern’s Tech and Society Lab, writes damningly about the famous METR AI time horizons graph in the S...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/"
+    },
+    {
+      "id": "n_dd643e0028a2",
+      "date": "2026-05-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Macaron-A2UI: A Model for Generative UI in Personal Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.24830"
+    },
+    {
+      "id": "n_cd9233fed580",
+      "date": "2026-05-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WBench: A Comprehensive Multi-turn Benchmark for Interactive",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.25874"
+    },
+    {
+      "id": "n_1ac5652fd0ae",
+      "date": "2026-05-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DVAO: Dynamic Variance-adaptive Advantage Optimization for M",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.25604"
+    },
     {
       "id": "n_596a37f0390d",
       "date": "2026-05-24",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.21850"
-    },
-    {
-      "id": "n_8fcb8235158c",
-      "date": "2026-05-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] π-Bench: Evaluating Proactive Personal Assistant Agents in L",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.14678"
-    },
-    {
-      "id": "n_1660ec45feb1",
-      "date": "2026-05-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Model",
-      "summary": "Autoregressive LLM world models factorize next-state generation left-to-right, preventing them from conditioning on globally interdependent ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tj9tna/masked_diffusion_language_models_are_strong_and/"
-    },
-    {
-      "id": "n_0d54eb3d9d92",
-      "date": "2026-05-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How competitive are PhD admissions currently [D]",
-      "summary": "Hi, how hard is it currently to get a PhD position in machine Learning? Like what are the requirements to get to a decent mid tier program (...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tiw739/how_competitive_are_phd_admissions_currently_d/"
-    },
-    {
-      "id": "n_6c59a954392a",
-      "date": "2026-05-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] You Only Need Minimal RLVR Training: Extrapolating LLMs via ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.21468"
-    },
-    {
-      "id": "n_b7cd8828c48a",
-      "date": "2026-05-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] It Takes Two: Complementary Self-Distillation for Contextual",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.20258"
     }
   ],
   "ticker": [
+    "Aiki my local Wikipedia Retrieval-A...",
+    "The famous METR AI time horizons gr...",
+    "[论文] Macaron-A2UI: A Model for Gene...",
+    "[论文] WBench: A Comprehensive Multi-...",
+    "[论文] DVAO: Dynamic Variance-adaptiv...",
     "PapersWithCode new features - week ...",
     "How do ML practitioners select hype...",
     "[论文] Lens: Rethinking Training Effi...",
     "[论文] Rethinking Cross-Layer Informa...",
-    "[论文] SkillOpt: Executive Strategy f...",
-    "pipeline is really slow - consultin...",
-    "Vision-capable LLMs vs. OCR for lon...",
-    "I built a Mamba1 variant I call SM1...",
-    "COLM 2026 ReviewsDiscussion [D]",
-    "[论文] Perception or Prejudice: Can M..."
+    "[论文] SkillOpt: Executive Strategy f..."
   ],
   "learning": {
     "phases": [
