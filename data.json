@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-26",
+    "last_updated": "2026-05-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f29b27a24d19",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A Tiny Open-Source Self-Driving AI That Runs on a Phone [P]",
+      "summary": "https://preview.redd.it/ww14mzr2fm3h1.png?width=1890&format=png&auto=webp&s=79873d47ae79c7815ca3e7e91fd43141632174f5 https://www.youtube.com...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1towqqf/a_tiny_opensource_selfdriving_ai_that_runs_on_a/"
+    },
+    {
+      "id": "n_02a724bc766f",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R]GNN Model For Fraud Detection Isn't Performing Well[R]",
+      "summary": "Were writing a research paper on explainable fraud detection GNN model and in the first step were creating a basic Graph Neural Network for ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/"
+    },
+    {
+      "id": "n_d7b7139a4218",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongAV-Compass: Towards Unified Evaluation of Minute-Scale A",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.26244"
+    },
+    {
+      "id": "n_d34fc4f9b525",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MobileGym: A Verifiable and Highly Parallel Simulation Platf",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.26114"
+    },
+    {
+      "id": "n_253a871a26f5",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LocateAnything: Fast and High-Quality Vision-Language Ground",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.27365"
+    },
     {
       "id": "n_dc4afac37b6b",
       "date": "2026-05-25",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.22109"
-    },
-    {
-      "id": "n_3b63c86c9b50",
-      "date": "2026-05-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TransitLM: A Large-Scale Dataset and Benchmark for Map-Free ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.22355"
-    },
-    {
-      "id": "n_2f436d3c00dc",
-      "date": "2026-05-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Do VLMs in production still use fixed-patch ViTs for their vision capabilities? ",
-      "summary": "The research community has provided (already for some time) seemingly more efficient and effective tokenizations for vision. Do we have any ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tjmrxm/do_vlms_in_production_still_use_fixedpatch_vits/"
-    },
-    {
-      "id": "n_5c22e3f908cf",
-      "date": "2026-05-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Live Human Detector on Outbound Phone Calls [R]",
-      "summary": "Goal To save humans wasting time sitting in Call Centre queues waiting to be answered To have tool listen in on the audio stream of a live c...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tk8ht5/live_human_detector_on_outbound_phone_calls_r/"
-    },
-    {
-      "id": "n_ade8e753426e",
-      "date": "2026-05-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DelTA: Discriminative Token Credit Assignment for Reinforcem",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.21467"
-    },
-    {
-      "id": "n_295bcc579460",
-      "date": "2026-05-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ACC: Compiling Agent Trajectories for Long-Context Training",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.21850"
     }
   ],
   "ticker": [
+    "A Tiny Open-Source Self-Driving AI ...",
+    "[R]GNN Model For Fraud Detection Is...",
+    "[论文] LongAV-Compass: Towards Unifie...",
+    "[论文] MobileGym: A Verifiable and Hi...",
+    "[论文] LocateAnything: Fast and High-...",
     "Aiki my local Wikipedia Retrieval-A...",
     "The famous METR AI time horizons gr...",
     "[论文] Macaron-A2UI: A Model for Gene...",
     "[论文] WBench: A Comprehensive Multi-...",
-    "[论文] DVAO: Dynamic Variance-adaptiv...",
-    "PapersWithCode new features - week ...",
-    "How do ML practitioners select hype...",
-    "[论文] Lens: Rethinking Training Effi...",
-    "[论文] Rethinking Cross-Layer Informa...",
-    "[论文] SkillOpt: Executive Strategy f..."
+    "[论文] DVAO: Dynamic Variance-adaptiv..."
   ],
   "learning": {
     "phases": [
