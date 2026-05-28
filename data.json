@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c3eab1770379",
+      "date": "2026-05-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Training GPT-like model on non-language series [R]",
+      "summary": "I am responsible for a research project that is supposed to train a GPT-like model (Transformer-decoder) with 100M, 250M and 500M model vari...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/"
+    },
+    {
+      "id": "n_70cc7b8f35b4",
+      "date": "2026-05-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AI-generated CUDA kernels silently break training and inference [R]",
+      "summary": "Last month NVIDIA released SOL-ExecBench, a new benchmark of 235 production CUDA kernels lifted from DeepSeek, Qwen, Gemma, and Kimi. We too...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/"
+    },
+    {
+      "id": "n_3ad9fc876c10",
+      "date": "2026-05-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Gamma-World: Generative Multi-Agent World Modeling Beyond Tw",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.28816"
+    },
+    {
+      "id": "n_c3ded48fc554",
+      "date": "2026-05-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From Pixels to Words -- Towards Native One-Vision Models at ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.28820"
+    },
+    {
+      "id": "n_15fe0341142b",
+      "date": "2026-05-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agent Explorative Policy Optimization for Multimodal Agentic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.28774"
+    },
     {
       "id": "n_f29b27a24d19",
       "date": "2026-05-27",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.23904"
-    },
-    {
-      "id": "n_c0cbe255cb4a",
-      "date": "2026-05-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "pipeline is really slow - consulting [D]",
-      "summary": "Hi, after a long debugging process and many discussions, I wanted to ask for advice from people who may have encountered similar training bo...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/"
-    },
-    {
-      "id": "n_385e32669bb8",
-      "date": "2026-05-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Vision-capable LLMs vs. OCR for long-document (including charts, images, tables,",
-      "summary": "I benchmarked vision-capable LLMs (the \"just attach the PDF and let the model read it\" pattern) against OCR-based pipelines on 30 long, imag...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tm0cqg/visioncapable_llms_vs_ocr_for_longdocument/"
-    },
-    {
-      "id": "n_8f26b64d8e14",
-      "date": "2026-05-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pur",
-      "summary": "On windows mamba-ssm is not easily available and doesnt compile on sm_120. SM1 (Scalar Mamba1) replaces the entire selective scan with two n...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/"
-    },
-    {
-      "id": "n_ee131c15ceb1",
-      "date": "2026-05-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "COLM 2026 ReviewsDiscussion [D]",
-      "summary": "Didnt see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews?...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/"
-    },
-    {
-      "id": "n_3cff8aa402fe",
-      "date": "2026-05-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Perception or Prejudice: Can MLLMs Go Beyond First Impressio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.22109"
     }
   ],
   "ticker": [
+    "Training GPT-like model on non-lang...",
+    "AI-generated CUDA kernels silently ...",
+    "[论文] Gamma-World: Generative Multi-...",
+    "[论文] From Pixels to Words -- Toward...",
+    "[论文] Agent Explorative Policy Optim...",
     "A Tiny Open-Source Self-Driving AI ...",
     "[R]GNN Model For Fraud Detection Is...",
     "[论文] LongAV-Compass: Towards Unifie...",
     "[论文] MobileGym: A Verifiable and Hi...",
-    "[论文] LocateAnything: Fast and High-...",
-    "Aiki my local Wikipedia Retrieval-A...",
-    "The famous METR AI time horizons gr...",
-    "[论文] Macaron-A2UI: A Model for Gene...",
-    "[论文] WBench: A Comprehensive Multi-...",
-    "[论文] DVAO: Dynamic Variance-adaptiv..."
+    "[论文] LocateAnything: Fast and High-..."
   ],
   "learning": {
     "phases": [
