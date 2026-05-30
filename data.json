@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-05-29",
+    "last_updated": "2026-05-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6a34df699ad0",
+      "date": "2026-05-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Requesting reduction in reviewer load for NeuRIPS? [D]",
+      "summary": "I didnt submit any but did place bids on some papers. I got assigned four papers. I have a bit of travel coming up and I dont think I will b...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1trqnbn/requesting_reduction_in_reviewer_load_for_neurips/"
+    },
+    {
+      "id": "n_cddadbfee98c",
+      "date": "2026-05-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Graduating Without a PhD Internship [D]",
+      "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/"
+    },
+    {
+      "id": "n_891903dec26b",
+      "date": "2026-05-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Qwen-VLA: Unifying Vision-Language-Action Modeling across Ta",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.30280"
+    },
     {
       "id": "n_d853f9ac495c",
       "date": "2026-05-28",
@@ -173,49 +203,19 @@
       "summary": "Nathan Witkin, a research writer at NYU Stern’s Tech and Society Lab, writes damningly about the famous METR AI time horizons graph in the S...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/"
-    },
-    {
-      "id": "n_dd643e0028a2",
-      "date": "2026-05-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Macaron-A2UI: A Model for Generative UI in Personal Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.24830"
-    },
-    {
-      "id": "n_cd9233fed580",
-      "date": "2026-05-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WBench: A Comprehensive Multi-turn Benchmark for Interactive",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.25874"
-    },
-    {
-      "id": "n_1ac5652fd0ae",
-      "date": "2026-05-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DVAO: Dynamic Variance-adaptive Advantage Optimization for M",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.25604"
     }
   ],
   "ticker": [
+    "Requesting reduction in reviewer lo...",
+    "Graduating Without a PhD Internship...",
+    "[论文] Qwen-VLA: Unifying Vision-Lang...",
     "A new dataset with more that 100M h...",
     "Making LLMs tell you how confident ...",
     "[论文] GenClaw: Code-Driven Agentic I...",
     "[论文] OmniRetrieval: Unified Retriev...",
     "[论文] AgentDoG 1.5: A Lightweight an...",
     "Training GPT-like model on non-lang...",
-    "AI-generated CUDA kernels silently ...",
-    "[论文] Gamma-World: Generative Multi-...",
-    "[论文] From Pixels to Words -- Toward...",
-    "[论文] Agent Explorative Policy Optim..."
+    "AI-generated CUDA kernels silently ..."
   ],
   "learning": {
     "phases": [
