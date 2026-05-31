@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_798ffd043865",
+      "date": "2026-05-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why do the output layer weights become word vectors in Word2Vec? [D]",
+      "summary": "Im trying to understand the intuition behind Word2Vec training using a neural network. In Word2Vec (CBOW or Skip-gram), we often hear that t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/"
+    },
+    {
+      "id": "n_984b9769ead6",
+      "date": "2026-05-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Bayesian Opt. GPs vs Linear models and Neural Networks for parameter optimizatio",
+      "summary": "Hi, Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral ana...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/"
+    },
     {
       "id": "n_6a34df699ad0",
       "date": "2026-05-30",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.27365"
-    },
-    {
-      "id": "n_dc4afac37b6b",
-      "date": "2026-05-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Aiki my local Wikipedia Retrieval-Augmented Generation system [R]",
-      "summary": "Hey i built Aiki a lightweight tool that lets you chat with Wikipedia locally. https://i.redd.it/67mzfsrc6f3h1.gif what it does: Downloads a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented/"
-    },
-    {
-      "id": "n_2c6949878cd8",
-      "date": "2026-05-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The famous METR AI time horizons graph contains numerous severe errors [D]",
-      "summary": "Nathan Witkin, a research writer at NYU Stern’s Tech and Society Lab, writes damningly about the famous METR AI time horizons graph in the S...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/"
     }
   ],
   "ticker": [
+    "Why do the output layer weights bec...",
+    "Bayesian Opt. GPs vs Linear models ...",
     "Requesting reduction in reviewer lo...",
     "Graduating Without a PhD Internship...",
     "[论文] Qwen-VLA: Unifying Vision-Lang...",
@@ -213,9 +215,7 @@
     "Making LLMs tell you how confident ...",
     "[论文] GenClaw: Code-Driven Agentic I...",
     "[论文] OmniRetrieval: Unified Retriev...",
-    "[论文] AgentDoG 1.5: A Lightweight an...",
-    "Training GPT-like model on non-lang...",
-    "AI-generated CUDA kernels silently ..."
+    "[论文] AgentDoG 1.5: A Lightweight an..."
   ],
   "learning": {
     "phases": [
