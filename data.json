@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_0f6c3158bc5f",
+      "date": "2026-05-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "UAI Results are out [R]",
+      "summary": "You can’t see AC comments yet, but you can see the Accept/Reject consoles. My paper (with scores of 8,6,3) got rejected. submitted by /u/Gee...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tt9xbt/uai_results_are_out_r/"
+    },
+    {
+      "id": "n_d8931d486cff",
+      "date": "2026-06-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What’s the actual focus in World Models right now? [R]",
+      "summary": "Hey everyone, Im trying to get back into the loop on world models. The last time I followed SSL closely, the buzz was all about Barlow Twins...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ttei2r/whats_the_actual_focus_in_world_models_right_now_r/"
+    },
+    {
+      "id": "n_9bf3d04ea7e3",
+      "date": "2026-06-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongTraceRL: Learning Long-Context Reasoning from Search Age",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.31584"
+    },
+    {
+      "id": "n_db60195d249f",
+      "date": "2026-06-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Representation Forcing for Bottleneck-Free Unified Multimoda",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.31604"
+    },
+    {
+      "id": "n_9a7bc0866dfc",
+      "date": "2026-06-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Kn",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.31264"
+    },
     {
       "id": "n_798ffd043865",
       "date": "2026-05-30",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.28774"
-    },
-    {
-      "id": "n_f29b27a24d19",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A Tiny Open-Source Self-Driving AI That Runs on a Phone [P]",
-      "summary": "https://preview.redd.it/ww14mzr2fm3h1.png?width=1890&format=png&auto=webp&s=79873d47ae79c7815ca3e7e91fd43141632174f5 https://www.youtube.com...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1towqqf/a_tiny_opensource_selfdriving_ai_that_runs_on_a/"
-    },
-    {
-      "id": "n_02a724bc766f",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R]GNN Model For Fraud Detection Isn't Performing Well[R]",
-      "summary": "Were writing a research paper on explainable fraud detection GNN model and in the first step were creating a basic Graph Neural Network for ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/"
-    },
-    {
-      "id": "n_d7b7139a4218",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongAV-Compass: Towards Unified Evaluation of Minute-Scale A",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.26244"
-    },
-    {
-      "id": "n_d34fc4f9b525",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MobileGym: A Verifiable and Highly Parallel Simulation Platf",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.26114"
-    },
-    {
-      "id": "n_253a871a26f5",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LocateAnything: Fast and High-Quality Vision-Language Ground",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.27365"
     }
   ],
   "ticker": [
+    "UAI Results are out [R]",
+    "What’s the actual focus in World Mo...",
+    "[论文] LongTraceRL: Learning Long-Con...",
+    "[论文] Representation Forcing for Bot...",
+    "[论文] COLLEAGUE.SKILL: Automated AI ...",
     "Why do the output layer weights bec...",
     "Bayesian Opt. GPs vs Linear models ...",
     "Requesting reduction in reviewer lo...",
     "Graduating Without a PhD Internship...",
-    "[论文] Qwen-VLA: Unifying Vision-Lang...",
-    "A new dataset with more that 100M h...",
-    "Making LLMs tell you how confident ...",
-    "[论文] GenClaw: Code-Driven Agentic I...",
-    "[论文] OmniRetrieval: Unified Retriev...",
-    "[论文] AgentDoG 1.5: A Lightweight an..."
+    "[论文] Qwen-VLA: Unifying Vision-Lang..."
   ],
   "learning": {
     "phases": [
@@ -1149,6 +1149,27 @@
       "github_url": "https://github.com/comfyanonymous/ComfyUI",
       "id": "p_8d4e1529",
       "added_date": "2026-05-01"
+    },
+    {
+      "emoji": "🤖",
+      "title": "MCP 服务开发 - 给 AI 接工具",
+      "difficulty": "advanced",
+      "diff_label": "挑战级",
+      "cat": "advanced nlp",
+      "desc": "开发 Model Context Protocol (MCP) 服务，让 AI 能调用你的自定义工具（查数据库/调API/操作文件）。MCP 是 2025 年最热门的 AI 工具协议。",
+      "tags": [
+        "MCP",
+        "Tool Use",
+        "Python",
+        "API集成"
+      ],
+      "duration": "1周",
+      "highlight": "🔥 2026最热",
+      "bg": "linear-gradient(135deg,#2a1a1e,#601020)",
+      "tutorial_url": "https://modelcontextprotocol.io/quickstart",
+      "github_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "id": "p_acd7ad71",
+      "added_date": "2026-06-01"
     }
   ]
 }
