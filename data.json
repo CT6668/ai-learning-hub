@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_447ff6cf2683",
+      "date": "2026-06-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Finetuning a Reasoning LLM with Supervised or Reinforcement Learning? [D]",
+      "summary": "Hello, I have a task to fine-tune small LLMs on annotated conversational data. The dataset contains not only the final answers, but also rea...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/"
+    },
+    {
+      "id": "n_fb380376347f",
+      "date": "2026-06-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Crafter: A Multi-Agent Harness for Editable Scientific Figur",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.30611"
+    },
+    {
+      "id": "n_3832936c4b35",
+      "date": "2026-06-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Kor",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.02404"
+    },
+    {
+      "id": "n_13ccf5487ba2",
+      "date": "2026-06-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] On the Scaling of PEFT: Towards Million Personal Models of T",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.02437"
+    },
     {
       "id": "n_0f6c3158bc5f",
       "date": "2026-05-31",
@@ -163,59 +203,19 @@
       "summary": "I am responsible for a research project that is supposed to train a GPT-like model (Transformer-decoder) with 100M, 250M and 500M model vari...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/"
-    },
-    {
-      "id": "n_70cc7b8f35b4",
-      "date": "2026-05-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AI-generated CUDA kernels silently break training and inference [R]",
-      "summary": "Last month NVIDIA released SOL-ExecBench, a new benchmark of 235 production CUDA kernels lifted from DeepSeek, Qwen, Gemma, and Kimi. We too...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/"
-    },
-    {
-      "id": "n_3ad9fc876c10",
-      "date": "2026-05-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Gamma-World: Generative Multi-Agent World Modeling Beyond Tw",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.28816"
-    },
-    {
-      "id": "n_c3ded48fc554",
-      "date": "2026-05-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Pixels to Words -- Towards Native One-Vision Models at ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.28820"
-    },
-    {
-      "id": "n_15fe0341142b",
-      "date": "2026-05-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agent Explorative Policy Optimization for Multimodal Agentic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.28774"
     }
   ],
   "ticker": [
+    "Finetuning a Reasoning LLM with Sup...",
+    "[论文] Crafter: A Multi-Agent Harness...",
+    "[论文] K-BrowseComp: A Web Browsing A...",
+    "[论文] On the Scaling of PEFT: Toward...",
     "UAI Results are out [R]",
     "What’s the actual focus in World Mo...",
     "[论文] LongTraceRL: Learning Long-Con...",
     "[论文] Representation Forcing for Bot...",
     "[论文] COLLEAGUE.SKILL: Automated AI ...",
-    "Why do the output layer weights bec...",
-    "Bayesian Opt. GPs vs Linear models ...",
-    "Requesting reduction in reviewer lo...",
-    "Graduating Without a PhD Internship...",
-    "[论文] Qwen-VLA: Unifying Vision-Lang..."
+    "Why do the output layer weights bec..."
   ],
   "learning": {
     "phases": [
