@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6b346f500ebb",
+      "date": "2026-06-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Browse CVPR 2026 papers on PapersWithCode [P]",
+      "summary": "https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&format=png&auto=webp&s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/"
+    },
+    {
+      "id": "n_218bd6006674",
+      "date": "2026-06-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "MiniMax dropped a new attention architecture. [N]",
+      "summary": "It contains something interesting about context windows. They’re natively scaling to 1M tokens with MiniMax Sparse Attention (MSA), bypassin...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/"
+    },
+    {
+      "id": "n_97f585dcfe7d",
+      "date": "2026-06-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AutoMedBench: Towards Medical AutoResearch with Agentic AI M",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.01961"
+    },
+    {
+      "id": "n_7f7f33dbab32",
+      "date": "2026-06-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.03985"
+    },
+    {
+      "id": "n_a32d18f4717f",
+      "date": "2026-06-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Trust Region On-Policy Distillation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.01249"
+    },
     {
       "id": "n_447ff6cf2683",
       "date": "2026-06-01",
@@ -153,69 +203,19 @@
       "summary": "Hello everyone. The new dataset is named MONET, is Apache 2.0 and available on HF: https://huggingface.co/datasets/jasperai/monet MONET is o...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/"
-    },
-    {
-      "id": "n_65697a14588a",
-      "date": "2026-05-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Making LLMs tell you how confident they really are through probe-targeted fine t",
-      "summary": "Just wanted to share my research regarding probe-targeted fine-tuning (LoRa) for verbal confidence calibration., If you probe the hidden sta...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tqrtkn/making_llms_tell_you_how_confident_they_really/"
-    },
-    {
-      "id": "n_58655915f69a",
-      "date": "2026-05-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GenClaw: Code-Driven Agentic Image Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.30248"
-    },
-    {
-      "id": "n_d6de81a87344",
-      "date": "2026-05-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OmniRetrieval: Unified Retrieval across Heterogeneous Knowle",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.29250"
-    },
-    {
-      "id": "n_6af78f173569",
-      "date": "2026-05-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AgentDoG 1.5: A Lightweight and Scalable Alignment Framework",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.29801"
-    },
-    {
-      "id": "n_c3eab1770379",
-      "date": "2026-05-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Training GPT-like model on non-language series [R]",
-      "summary": "I am responsible for a research project that is supposed to train a GPT-like model (Transformer-decoder) with 100M, 250M and 500M model vari...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/"
     }
   ],
   "ticker": [
+    "Browse CVPR 2026 papers on PapersWi...",
+    "MiniMax dropped a new attention arc...",
+    "[论文] AutoMedBench: Towards Medical ...",
+    "[论文] Humanoid-GPT: Scaling Data and...",
+    "[论文] Trust Region On-Policy Distill...",
     "Finetuning a Reasoning LLM with Sup...",
     "[论文] Crafter: A Multi-Agent Harness...",
     "[论文] K-BrowseComp: A Web Browsing A...",
     "[论文] On the Scaling of PEFT: Toward...",
-    "UAI Results are out [R]",
-    "What’s the actual focus in World Mo...",
-    "[论文] LongTraceRL: Learning Long-Con...",
-    "[论文] Representation Forcing for Bot...",
-    "[论文] COLLEAGUE.SKILL: Automated AI ...",
-    "Why do the output layer weights bec..."
+    "UAI Results are out [R]"
   ],
   "learning": {
     "phases": [
