@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f756e0e9148a",
+      "date": "2026-06-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "In current ML systems, where is the main bottleneck: dataset quality or model ar",
+      "summary": "A lot of recent progress in ML appears to come from scaling existing architectures rather than introducing fundamentally new ones. At the sa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twe6ii/in_current_ml_systems_where_is_the_main/"
+    },
+    {
+      "id": "n_bfbf8aaabc46",
+      "date": "2026-06-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
+      "summary": "I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/"
+    },
     {
       "id": "n_6b346f500ebb",
       "date": "2026-06-02",
@@ -183,29 +203,11 @@
       "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/"
-    },
-    {
-      "id": "n_891903dec26b",
-      "date": "2026-05-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen-VLA: Unifying Vision-Language-Action Modeling across Ta",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.30280"
-    },
-    {
-      "id": "n_d853f9ac495c",
-      "date": "2026-05-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A new dataset with more that 100M hi-quality, curated images, with captions and ",
-      "summary": "Hello everyone. The new dataset is named MONET, is Apache 2.0 and available on HF: https://huggingface.co/datasets/jasperai/monet MONET is o...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/"
     }
   ],
   "ticker": [
+    "In current ML systems, where is the...",
+    "NeurIPS used uncalibrated AI detect...",
     "Browse CVPR 2026 papers on PapersWi...",
     "MiniMax dropped a new attention arc...",
     "[论文] AutoMedBench: Towards Medical ...",
@@ -213,9 +215,7 @@
     "[论文] Trust Region On-Policy Distill...",
     "Finetuning a Reasoning LLM with Sup...",
     "[论文] Crafter: A Multi-Agent Harness...",
-    "[论文] K-BrowseComp: A Web Browsing A...",
-    "[论文] On the Scaling of PEFT: Toward...",
-    "UAI Results are out [R]"
+    "[论文] K-BrowseComp: A Web Browsing A..."
   ],
   "learning": {
     "phases": [
