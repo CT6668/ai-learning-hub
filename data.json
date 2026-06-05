@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-04",
+    "last_updated": "2026-06-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_234b045302b7",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is it allowed to use OpenAI API outputs to create a silver code dataset or bench",
+      "summary": "Hello everyone, Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? I am wor...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/"
+    },
+    {
+      "id": "n_fb8537d9aa79",
+      "date": "2026-06-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "On-policy distillation: one of the hottest terms on PapersWithCode [R]",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. At paperswithcode.co I am trying to make it easier for people to learn about the n...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/"
+    },
+    {
+      "id": "n_1a4a4598dec4",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AdaPlanBench: Evaluating Adaptive Planning in Large Language",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.05622"
+    },
+    {
+      "id": "n_3150747d85bd",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ArcANE: Do Role-Playing Language Agents Stay in Character at",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.05553"
+    },
+    {
+      "id": "n_bc17969edc40",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VideoKR: Towards Knowledge- and Reasoning-Intensive Video Un",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.05259"
+    },
     {
       "id": "n_f756e0e9148a",
       "date": "2026-06-04",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.31604"
-    },
-    {
-      "id": "n_9a7bc0866dfc",
-      "date": "2026-06-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Kn",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.31264"
-    },
-    {
-      "id": "n_798ffd043865",
-      "date": "2026-05-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why do the output layer weights become word vectors in Word2Vec? [D]",
-      "summary": "Im trying to understand the intuition behind Word2Vec training using a neural network. In Word2Vec (CBOW or Skip-gram), we often hear that t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/"
-    },
-    {
-      "id": "n_984b9769ead6",
-      "date": "2026-05-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Bayesian Opt. GPs vs Linear models and Neural Networks for parameter optimizatio",
-      "summary": "Hi, Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral ana...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/"
-    },
-    {
-      "id": "n_6a34df699ad0",
-      "date": "2026-05-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Requesting reduction in reviewer load for NeuRIPS? [D]",
-      "summary": "I didnt submit any but did place bids on some papers. I got assigned four papers. I have a bit of travel coming up and I dont think I will b...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1trqnbn/requesting_reduction_in_reviewer_load_for_neurips/"
-    },
-    {
-      "id": "n_cddadbfee98c",
-      "date": "2026-05-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Graduating Without a PhD Internship [D]",
-      "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/"
     }
   ],
   "ticker": [
+    "Is it allowed to use OpenAI API out...",
+    "On-policy distillation: one of the ...",
+    "[论文] AdaPlanBench: Evaluating Adapt...",
+    "[论文] ArcANE: Do Role-Playing Langua...",
+    "[论文] VideoKR: Towards Knowledge- an...",
     "In current ML systems, where is the...",
     "NeurIPS used uncalibrated AI detect...",
     "Browse CVPR 2026 papers on PapersWi...",
     "MiniMax dropped a new attention arc...",
-    "[论文] AutoMedBench: Towards Medical ...",
-    "[论文] Humanoid-GPT: Scaling Data and...",
-    "[论文] Trust Region On-Policy Distill...",
-    "Finetuning a Reasoning LLM with Sup...",
-    "[论文] Crafter: A Multi-Agent Harness...",
-    "[论文] K-BrowseComp: A Web Browsing A..."
+    "[论文] AutoMedBench: Towards Medical ..."
   ],
   "learning": {
     "phases": [
