@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-06-05",
+    "last_updated": "2026-06-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_69571ce97877",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "TinyTPU: SystemVerilog systolic array compiled to WASM, running live in browser ",
+      "summary": "Most explanations of TPUs and systolic arrays are either hand-wavy diagrams or papers. I wanted to see the thing actually run, so I built it...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/"
+    },
+    {
+      "id": "n_ef181ce9a76f",
+      "date": "2026-06-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How do you identify researchers who are good? [D]",
+      "summary": "About 10 years ago, I got into the basics of ML (like regression, KNNs, LVQs) and read a few papers before taking a break a few years back. ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1txlxm6/how_do_you_identify_researchers_who_are_good_d/"
+    },
+    {
+      "id": "n_b0e90530b27b",
+      "date": "2026-06-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TIDE: Proactive Multi-Problem Discovery via Template-Guided ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.04743"
+    },
+    {
+      "id": "n_ad24ab4480d9",
+      "date": "2026-06-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Code2LoRA: Hypernetwork-Generated Adapters for Code Language",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.06492"
+    },
     {
       "id": "n_234b045302b7",
       "date": "2026-06-05",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.02437"
-    },
-    {
-      "id": "n_0f6c3158bc5f",
-      "date": "2026-05-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "UAI Results are out [R]",
-      "summary": "You can’t see AC comments yet, but you can see the Accept/Reject consoles. My paper (with scores of 8,6,3) got rejected. submitted by /u/Gee...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tt9xbt/uai_results_are_out_r/"
-    },
-    {
-      "id": "n_d8931d486cff",
-      "date": "2026-06-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What’s the actual focus in World Models right now? [R]",
-      "summary": "Hey everyone, Im trying to get back into the loop on world models. The last time I followed SSL closely, the buzz was all about Barlow Twins...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ttei2r/whats_the_actual_focus_in_world_models_right_now_r/"
-    },
-    {
-      "id": "n_9bf3d04ea7e3",
-      "date": "2026-06-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongTraceRL: Learning Long-Context Reasoning from Search Age",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.31584"
-    },
-    {
-      "id": "n_db60195d249f",
-      "date": "2026-06-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Representation Forcing for Bottleneck-Free Unified Multimoda",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.31604"
     }
   ],
   "ticker": [
+    "TinyTPU: SystemVerilog systolic arr...",
+    "How do you identify researchers who...",
+    "[论文] TIDE: Proactive Multi-Problem ...",
+    "[论文] Code2LoRA: Hypernetwork-Genera...",
     "Is it allowed to use OpenAI API out...",
     "On-policy distillation: one of the ...",
     "[论文] AdaPlanBench: Evaluating Adapt...",
     "[论文] ArcANE: Do Role-Playing Langua...",
     "[论文] VideoKR: Towards Knowledge- an...",
-    "In current ML systems, where is the...",
-    "NeurIPS used uncalibrated AI detect...",
-    "Browse CVPR 2026 papers on PapersWi...",
-    "MiniMax dropped a new attention arc...",
-    "[论文] AutoMedBench: Towards Medical ..."
+    "In current ML systems, where is the..."
   ],
   "learning": {
     "phases": [
