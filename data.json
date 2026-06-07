@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4694c8b2c4fb",
+      "date": "2026-06-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Does it make sense to use alternative quantizations of QAT models? [D]",
+      "summary": "From TFs website: Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/"
+    },
+    {
+      "id": "n_307b3374d119",
+      "date": "2026-06-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ML reading group to read recent interesting and trending papers from ICML/ICLR/N",
+      "summary": "Hi, I am a PhD student and trying to run a ML reading group focused on interpretability and robustness every weekend. Its always nice to hea...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyy0vj/ml_reading_group_to_read_recent_interesting_and/"
+    },
     {
       "id": "n_69571ce97877",
       "date": "2026-06-05",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.30611"
-    },
-    {
-      "id": "n_3832936c4b35",
-      "date": "2026-06-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Kor",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.02404"
-    },
-    {
-      "id": "n_13ccf5487ba2",
-      "date": "2026-06-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] On the Scaling of PEFT: Towards Million Personal Models of T",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.02437"
     }
   ],
   "ticker": [
+    "Does it make sense to use alternati...",
+    "ML reading group to read recent int...",
     "TinyTPU: SystemVerilog systolic arr...",
     "How do you identify researchers who...",
     "[论文] TIDE: Proactive Multi-Problem ...",
@@ -213,9 +215,7 @@
     "Is it allowed to use OpenAI API out...",
     "On-policy distillation: one of the ...",
     "[论文] AdaPlanBench: Evaluating Adapt...",
-    "[论文] ArcANE: Do Role-Playing Langua...",
-    "[论文] VideoKR: Towards Knowledge- an...",
-    "In current ML systems, where is the..."
+    "[论文] ArcANE: Do Role-Playing Langua..."
   ],
   "learning": {
     "phases": [
