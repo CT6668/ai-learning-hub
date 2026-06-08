@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-07",
+    "last_updated": "2026-06-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_fec8353cec1d",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How to find research opportunities in area of interest? [D]",
+      "summary": "Im an undergraduate studying CS at a state school in the US. I’m interested in researching a specific style of self supervised learning (JEP...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tzz8ni/how_to_find_research_opportunities_in_area_of/"
+    },
+    {
+      "id": "n_1cd3c50d543e",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Software and ops skills for data scientists[D]",
+      "summary": "With more software engineers entering into data science and AI, I feel its equally important for a person with data and AI background to div...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tzxf3z/software_and_ops_skills_for_data_scientistsd/"
+    },
+    {
+      "id": "n_16e19dc752a6",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Your UnEmbedding Matrix is Secretly a Feature Lens for Text ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.07502"
+    },
+    {
+      "id": "n_237c201fe8d7",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AnchorWorld: Embodied Egocentric World Simulation with View-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.07326"
+    },
+    {
+      "id": "n_9e80381f0e54",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MMAE: A Massive Multitask Audio Editing Benchmark",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.07229"
+    },
     {
       "id": "n_4694c8b2c4fb",
       "date": "2026-06-06",
@@ -153,69 +203,19 @@
       "summary": "It contains something interesting about context windows. They’re natively scaling to 1M tokens with MiniMax Sparse Attention (MSA), bypassin...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/"
-    },
-    {
-      "id": "n_97f585dcfe7d",
-      "date": "2026-06-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AutoMedBench: Towards Medical AutoResearch with Agentic AI M",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.01961"
-    },
-    {
-      "id": "n_7f7f33dbab32",
-      "date": "2026-06-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.03985"
-    },
-    {
-      "id": "n_a32d18f4717f",
-      "date": "2026-06-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Trust Region On-Policy Distillation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.01249"
-    },
-    {
-      "id": "n_447ff6cf2683",
-      "date": "2026-06-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Finetuning a Reasoning LLM with Supervised or Reinforcement Learning? [D]",
-      "summary": "Hello, I have a task to fine-tune small LLMs on annotated conversational data. The dataset contains not only the final answers, but also rea...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/"
-    },
-    {
-      "id": "n_fb380376347f",
-      "date": "2026-06-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Crafter: A Multi-Agent Harness for Editable Scientific Figur",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.30611"
     }
   ],
   "ticker": [
+    "How to find research opportunities ...",
+    "Software and ops skills for data sc...",
+    "[论文] Your UnEmbedding Matrix is Sec...",
+    "[论文] AnchorWorld: Embodied Egocentr...",
+    "[论文] MMAE: A Massive Multitask Audi...",
     "Does it make sense to use alternati...",
     "ML reading group to read recent int...",
     "TinyTPU: SystemVerilog systolic arr...",
     "How do you identify researchers who...",
-    "[论文] TIDE: Proactive Multi-Problem ...",
-    "[论文] Code2LoRA: Hypernetwork-Genera...",
-    "Is it allowed to use OpenAI API out...",
-    "On-policy distillation: one of the ...",
-    "[论文] AdaPlanBench: Evaluating Adapt...",
-    "[论文] ArcANE: Do Role-Playing Langua..."
+    "[论文] TIDE: Proactive Multi-Problem ..."
   ],
   "learning": {
     "phases": [
