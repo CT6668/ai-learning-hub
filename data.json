@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-08",
+    "last_updated": "2026-06-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1b9f1c5abc83",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Should ArXiv backtrack endorsement? [D]",
+      "summary": "ArXiv has an endorsement system for a reason. I would only offer endorsement to whom I have direct academic collaboration or mentorship with...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u03yot/should_arxiv_backtrack_endorsement_d/"
+    },
+    {
+      "id": "n_a08a9221eab9",
+      "date": "2026-06-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "STOP racist posts about Chinese researchers [D]",
+      "summary": "Edit: the original post targeting Chinese researchers is removed by the mods. Sorry for any confusion. Yes, Im calling it out. It IS racism....",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u0fv7u/stop_racist_posts_about_chinese_researchers_d/"
+    },
+    {
+      "id": "n_c9f6d4b7195a",
+      "date": "2026-06-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Latent Spatial Memory for Video World Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.09828"
+    },
+    {
+      "id": "n_229987a7971a",
+      "date": "2026-06-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] On the Geometry of On-Policy Distillation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.07082"
+    },
+    {
+      "id": "n_65004f433aba",
+      "date": "2026-06-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SWE-Explore: Benchmarking How Coding Agents Explore Reposito",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.07297"
+    },
     {
       "id": "n_fec8353cec1d",
       "date": "2026-06-08",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.05553"
-    },
-    {
-      "id": "n_bc17969edc40",
-      "date": "2026-06-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VideoKR: Towards Knowledge- and Reasoning-Intensive Video Un",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.05259"
-    },
-    {
-      "id": "n_f756e0e9148a",
-      "date": "2026-06-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "In current ML systems, where is the main bottleneck: dataset quality or model ar",
-      "summary": "A lot of recent progress in ML appears to come from scaling existing architectures rather than introducing fundamentally new ones. At the sa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1twe6ii/in_current_ml_systems_where_is_the_main/"
-    },
-    {
-      "id": "n_bfbf8aaabc46",
-      "date": "2026-06-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
-      "summary": "I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/"
-    },
-    {
-      "id": "n_6b346f500ebb",
-      "date": "2026-06-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Browse CVPR 2026 papers on PapersWithCode [P]",
-      "summary": "https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&format=png&auto=webp&s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/"
-    },
-    {
-      "id": "n_218bd6006674",
-      "date": "2026-06-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "MiniMax dropped a new attention architecture. [N]",
-      "summary": "It contains something interesting about context windows. They’re natively scaling to 1M tokens with MiniMax Sparse Attention (MSA), bypassin...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/"
     }
   ],
   "ticker": [
+    "Should ArXiv backtrack endorsement?...",
+    "STOP racist posts about Chinese res...",
+    "[论文] Latent Spatial Memory for Vide...",
+    "[论文] On the Geometry of On-Policy D...",
+    "[论文] SWE-Explore: Benchmarking How ...",
     "How to find research opportunities ...",
     "Software and ops skills for data sc...",
     "[论文] Your UnEmbedding Matrix is Sec...",
     "[论文] AnchorWorld: Embodied Egocentr...",
-    "[论文] MMAE: A Massive Multitask Audi...",
-    "Does it make sense to use alternati...",
-    "ML reading group to read recent int...",
-    "TinyTPU: SystemVerilog systolic arr...",
-    "How do you identify researchers who...",
-    "[论文] TIDE: Proactive Multi-Problem ..."
+    "[论文] MMAE: A Massive Multitask Audi..."
   ],
   "learning": {
     "phases": [
