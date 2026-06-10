@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-09",
+    "last_updated": "2026-06-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_dabca6ceeb1c",
+      "date": "2026-06-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I Built Paper Deck: A Better Way to Discover AI/ML Papers [P]",
+      "summary": "I do AI research and keep juggling tabs: new ones on arXiv, trending ones on Hugging Face, famous ones somewhere else again. https://preview...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1rf09/i_built_paper_deck_a_better_way_to_discover_aiml/"
+    },
+    {
+      "id": "n_e063b0600cba",
+      "date": "2026-06-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "iOS 27 Siri is using WaveRNN and FastSpeech2 [D]",
+      "summary": "Found from iOS Simulators files. Both of them are in espresso format Theres also another compiled CoreML for concert ranking and based on th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/"
+    },
+    {
+      "id": "n_9d2ad56d4a70",
+      "date": "2026-06-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SCAIL-2: Unifying Controlled Character Animation with End-to",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.10804"
+    },
+    {
+      "id": "n_069c79604a9b",
+      "date": "2026-06-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SearchSwarm: Towards Delegation Intelligence in Agentic LLMs",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.09730"
+    },
+    {
+      "id": "n_6e332b5083b6",
+      "date": "2026-06-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ABot-Earth 0.5: Generative 3D Earth Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.09967"
+    },
     {
       "id": "n_1b9f1c5abc83",
       "date": "2026-06-08",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.04743"
-    },
-    {
-      "id": "n_ad24ab4480d9",
-      "date": "2026-06-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Code2LoRA: Hypernetwork-Generated Adapters for Code Language",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.06492"
-    },
-    {
-      "id": "n_234b045302b7",
-      "date": "2026-06-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Is it allowed to use OpenAI API outputs to create a silver code dataset or bench",
-      "summary": "Hello everyone, Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? I am wor...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/"
-    },
-    {
-      "id": "n_fb8537d9aa79",
-      "date": "2026-06-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "On-policy distillation: one of the hottest terms on PapersWithCode [R]",
-      "summary": "Hi, Niels here from the open-source team at Hugging Face. At paperswithcode.co I am trying to make it easier for people to learn about the n...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/"
-    },
-    {
-      "id": "n_1a4a4598dec4",
-      "date": "2026-06-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AdaPlanBench: Evaluating Adaptive Planning in Large Language",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.05622"
-    },
-    {
-      "id": "n_3150747d85bd",
-      "date": "2026-06-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ArcANE: Do Role-Playing Language Agents Stay in Character at",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.05553"
     }
   ],
   "ticker": [
+    "I Built Paper Deck: A Better Way to...",
+    "iOS 27 Siri is using WaveRNN and Fa...",
+    "[论文] SCAIL-2: Unifying Controlled C...",
+    "[论文] SearchSwarm: Towards Delegatio...",
+    "[论文] ABot-Earth 0.5: Generative 3D ...",
     "Should ArXiv backtrack endorsement?...",
     "STOP racist posts about Chinese res...",
     "[论文] Latent Spatial Memory for Vide...",
     "[论文] On the Geometry of On-Policy D...",
-    "[论文] SWE-Explore: Benchmarking How ...",
-    "How to find research opportunities ...",
-    "Software and ops skills for data sc...",
-    "[论文] Your UnEmbedding Matrix is Sec...",
-    "[论文] AnchorWorld: Embodied Egocentr...",
-    "[论文] MMAE: A Massive Multitask Audi..."
+    "[论文] SWE-Explore: Benchmarking How ..."
   ],
   "learning": {
     "phases": [
