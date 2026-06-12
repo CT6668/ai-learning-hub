@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_897706dd1e03",
+      "date": "2026-06-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "MICCAI 2026 Results [D]",
+      "summary": "Results are almost here. Good luck to everyone waiting for the final decision 🙂 submitted by /u/Sea_Muscle_4281 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/"
+    },
+    {
+      "id": "n_20e2e60f03be",
+      "date": "2026-06-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
+      "summary": "From Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED....",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/"
+    },
+    {
+      "id": "n_41744abce512",
+      "date": "2026-06-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SpatialClaw: Rethinking Action Interface for Agentic Spatial",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.13673"
+    },
+    {
+      "id": "n_4349d5a7dbe5",
+      "date": "2026-06-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EvoArena: Tracking Memory Evolution for Robust LLM Agents in",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.13681"
+    },
+    {
+      "id": "n_95885b48d86f",
+      "date": "2026-06-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] InterleaveThinker: Reinforcing Agentic Interleaved Generatio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.13679"
+    },
     {
       "id": "n_e8c20ac0f03c",
       "date": "2026-06-10",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.07297"
-    },
-    {
-      "id": "n_fec8353cec1d",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How to find research opportunities in area of interest? [D]",
-      "summary": "Im an undergraduate studying CS at a state school in the US. I’m interested in researching a specific style of self supervised learning (JEP...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tzz8ni/how_to_find_research_opportunities_in_area_of/"
-    },
-    {
-      "id": "n_1cd3c50d543e",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Software and ops skills for data scientists[D]",
-      "summary": "With more software engineers entering into data science and AI, I feel its equally important for a person with data and AI background to div...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tzxf3z/software_and_ops_skills_for_data_scientistsd/"
-    },
-    {
-      "id": "n_16e19dc752a6",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Your UnEmbedding Matrix is Secretly a Feature Lens for Text ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.07502"
-    },
-    {
-      "id": "n_237c201fe8d7",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AnchorWorld: Embodied Egocentric World Simulation with View-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.07326"
-    },
-    {
-      "id": "n_9e80381f0e54",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MMAE: A Massive Multitask Audio Editing Benchmark",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.07229"
     }
   ],
   "ticker": [
+    "MICCAI 2026 Results [D]",
+    "Anthropic walks back policy on sile...",
+    "[论文] SpatialClaw: Rethinking Action...",
+    "[论文] EvoArena: Tracking Memory Evol...",
+    "[论文] InterleaveThinker: Reinforcing...",
     "Introducing Papers Without Code [P]",
     "Anthropic's new model Fable will si...",
     "[论文] Beyond Scalar Rewards by Inter...",
     "[论文] Agentic Environment Engineerin...",
-    "[论文] Redesign Mixture-of-Experts Ro...",
-    "I Built Paper Deck: A Better Way to...",
-    "iOS 27 Siri is using WaveRNN and Fa...",
-    "[论文] SCAIL-2: Unifying Controlled C...",
-    "[论文] SearchSwarm: Towards Delegatio...",
-    "[论文] ABot-Earth 0.5: Generative 3D ..."
+    "[论文] Redesign Mixture-of-Experts Ro..."
   ],
   "learning": {
     "phases": [
