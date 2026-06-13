@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d7666b58e438",
+      "date": "2026-06-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
+      "summary": "Hi, About a year ago I shared my PaddleOCR implementation here. Since then Ive made many improvements, and it now supports PP-OCR v3 through...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/"
+    },
+    {
+      "id": "n_0c45a7cdfd57",
+      "date": "2026-06-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WeaveBench: A Long-Horizon, Real-World Benchmark for Compute",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.09426"
+    },
+    {
+      "id": "n_1a1ca3a5fdfb",
+      "date": "2026-06-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MiniMax Sparse Attention",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.13392"
+    },
     {
       "id": "n_897706dd1e03",
       "date": "2026-06-12",
@@ -173,49 +203,19 @@
       "summary": "Edit: the original post targeting Chinese researchers is removed by the mods. Sorry for any confusion. Yes, Im calling it out. It IS racism....",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u0fv7u/stop_racist_posts_about_chinese_researchers_d/"
-    },
-    {
-      "id": "n_c9f6d4b7195a",
-      "date": "2026-06-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Latent Spatial Memory for Video World Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.09828"
-    },
-    {
-      "id": "n_229987a7971a",
-      "date": "2026-06-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] On the Geometry of On-Policy Distillation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.07082"
-    },
-    {
-      "id": "n_65004f433aba",
-      "date": "2026-06-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SWE-Explore: Benchmarking How Coding Agents Explore Reposito",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.07297"
     }
   ],
   "ticker": [
+    "PaddleOCR (v3/v4/v5/v6) implemented...",
+    "[论文] WeaveBench: A Long-Horizon, Re...",
+    "[论文] MiniMax Sparse Attention",
     "MICCAI 2026 Results [D]",
     "Anthropic walks back policy on sile...",
     "[论文] SpatialClaw: Rethinking Action...",
     "[论文] EvoArena: Tracking Memory Evol...",
     "[论文] InterleaveThinker: Reinforcing...",
     "Introducing Papers Without Code [P]",
-    "Anthropic's new model Fable will si...",
-    "[论文] Beyond Scalar Rewards by Inter...",
-    "[论文] Agentic Environment Engineerin...",
-    "[论文] Redesign Mixture-of-Experts Ro..."
+    "Anthropic's new model Fable will si..."
   ],
   "learning": {
     "phases": [
