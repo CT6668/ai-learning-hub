@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-13",
+    "last_updated": "2026-06-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6815523fa996",
+      "date": "2026-06-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I’m building a free bilingual machine-learning notebook course — looking for fee",
+      "summary": "Hi everyone, I’m building an open-source machine-learning tutorial repository in Jupyter Notebook format: https://github.com/mohammadijoo/Ma...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/"
+    },
+    {
+      "id": "n_87810f582ccf",
+      "date": "2026-06-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Confused, where to start [D]",
+      "summary": "Hello community, I am a backend + big data dev. I want to learn about the llms that generate voices. I also read some articles but almost ev...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5cimu/confused_where_to_start_d/"
+    },
     {
       "id": "n_d7666b58e438",
       "date": "2026-06-13",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.09967"
-    },
-    {
-      "id": "n_1b9f1c5abc83",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Should ArXiv backtrack endorsement? [D]",
-      "summary": "ArXiv has an endorsement system for a reason. I would only offer endorsement to whom I have direct academic collaboration or mentorship with...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u03yot/should_arxiv_backtrack_endorsement_d/"
-    },
-    {
-      "id": "n_a08a9221eab9",
-      "date": "2026-06-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "STOP racist posts about Chinese researchers [D]",
-      "summary": "Edit: the original post targeting Chinese researchers is removed by the mods. Sorry for any confusion. Yes, Im calling it out. It IS racism....",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u0fv7u/stop_racist_posts_about_chinese_researchers_d/"
     }
   ],
   "ticker": [
+    "I’m building a free bilingual machi...",
+    "Confused, where to start [D]",
     "PaddleOCR (v3/v4/v5/v6) implemented...",
     "[论文] WeaveBench: A Long-Horizon, Re...",
     "[论文] MiniMax Sparse Attention",
@@ -213,9 +215,7 @@
     "Anthropic walks back policy on sile...",
     "[论文] SpatialClaw: Rethinking Action...",
     "[论文] EvoArena: Tracking Memory Evol...",
-    "[论文] InterleaveThinker: Reinforcing...",
-    "Introducing Papers Without Code [P]",
-    "Anthropic's new model Fable will si..."
+    "[论文] InterleaveThinker: Reinforcing..."
   ],
   "learning": {
     "phases": [
