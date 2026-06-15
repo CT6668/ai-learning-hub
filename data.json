@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-14",
+    "last_updated": "2026-06-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_3a69f41af58c",
+      "date": "2026-06-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built an open-source Knowledge Graph pipeline with hybrid retrieval to improve",
+      "summary": "Hey everyone, I built an open-source full-stack pipeline (Django + React) that constructs a Knowledge Graph from raw text, detects thematic ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5yyyl/i_built_an_opensource_knowledge_graph_pipeline/"
+    },
+    {
+      "id": "n_eb630942d4ca",
+      "date": "2026-06-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why do frontier AI labs send so many people to conferences? [D]",
+      "summary": "Recent years I see plenty of folks from OpenAI and Anthropic attending conferences like ICML/Neurips, yet obviously few are presenting. Are ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u67koz/why_do_frontier_ai_labs_send_so_many_people_to/"
+    },
+    {
+      "id": "n_1a1fbf850b30",
+      "date": "2026-06-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Memory is Reconstructed, Not Retrieved: Graph Memory for LLM",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.06036"
+    },
+    {
+      "id": "n_0d0bce149420",
+      "date": "2026-06-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OmniDirector: General Multi-Shot Camera Cloning without Cros",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.13432"
+    },
+    {
+      "id": "n_44048f283dad",
+      "date": "2026-06-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] APPO: Agentic Procedural Policy Optimization",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.12384"
+    },
     {
       "id": "n_6815523fa996",
       "date": "2026-06-13",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.12397"
-    },
-    {
-      "id": "n_dabca6ceeb1c",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I Built Paper Deck: A Better Way to Discover AI/ML Papers [P]",
-      "summary": "I do AI research and keep juggling tabs: new ones on arXiv, trending ones on Hugging Face, famous ones somewhere else again. https://preview...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1rf09/i_built_paper_deck_a_better_way_to_discover_aiml/"
-    },
-    {
-      "id": "n_e063b0600cba",
-      "date": "2026-06-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "iOS 27 Siri is using WaveRNN and FastSpeech2 [D]",
-      "summary": "Found from iOS Simulators files. Both of them are in espresso format Theres also another compiled CoreML for concert ranking and based on th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/"
-    },
-    {
-      "id": "n_9d2ad56d4a70",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SCAIL-2: Unifying Controlled Character Animation with End-to",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.10804"
-    },
-    {
-      "id": "n_069c79604a9b",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SearchSwarm: Towards Delegation Intelligence in Agentic LLMs",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.09730"
-    },
-    {
-      "id": "n_6e332b5083b6",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ABot-Earth 0.5: Generative 3D Earth Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.09967"
     }
   ],
   "ticker": [
+    "I built an open-source Knowledge Gr...",
+    "Why do frontier AI labs send so man...",
+    "[论文] Memory is Reconstructed, Not R...",
+    "[论文] OmniDirector: General Multi-Sh...",
+    "[论文] APPO: Agentic Procedural Polic...",
     "I’m building a free bilingual machi...",
     "Confused, where to start [D]",
     "PaddleOCR (v3/v4/v5/v6) implemented...",
     "[论文] WeaveBench: A Long-Horizon, Re...",
-    "[论文] MiniMax Sparse Attention",
-    "MICCAI 2026 Results [D]",
-    "Anthropic walks back policy on sile...",
-    "[论文] SpatialClaw: Rethinking Action...",
-    "[论文] EvoArena: Tracking Memory Evol...",
-    "[论文] InterleaveThinker: Reinforcing..."
+    "[论文] MiniMax Sparse Attention"
   ],
   "learning": {
     "phases": [
