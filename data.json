@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-15",
+    "last_updated": "2026-06-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_03eac9ffe91a",
+      "date": "2026-06-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "quicktok: a faster tokenizer (exact and byte-identical with tiktoken) [P]",
+      "summary": "Been working on this a while! Should be useful for anyone trying to speed up their tokenization workflows. quicktok is a fast/exact BPE toke...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/"
+    },
+    {
+      "id": "n_80a2866d1272",
+      "date": "2026-06-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AI language models have favorite names, and we mapped them [R]",
+      "summary": "It turns out LLMs have strong priors over character names that are model-specific and version-specific. If you find Elena Vasquez and Marcus...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/"
+    },
+    {
+      "id": "n_2aca32c85aee",
+      "date": "2026-06-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DreamX-World 1.0: A General-Purpose Interactive World Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.16993"
+    },
+    {
+      "id": "n_23750ec239d8",
+      "date": "2026-06-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Data Journalist Agent: Transforming Data into Verifiable Mul",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.11176"
+    },
+    {
+      "id": "n_c118af868c00",
+      "date": "2026-06-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] JoyAI-VL-Interaction: Real-Time Vision-Language Interaction ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.14777"
+    },
     {
       "id": "n_3a69f41af58c",
       "date": "2026-06-14",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.13679"
-    },
-    {
-      "id": "n_e8c20ac0f03c",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Introducing Papers Without Code [P]",
-      "summary": "Hi, Niels here from the open-source team at Hugging Face. Ive recently relaunched paperswithcode.co as a source for finding the state of the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/"
-    },
-    {
-      "id": "n_541f29aa37ca",
-      "date": "2026-06-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
-      "summary": "Seems like they have engineered some specific limitations that are widely cited as follows: In light of the ability of recent models to acce...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/"
-    },
-    {
-      "id": "n_cdc6e761459e",
-      "date": "2026-06-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Scalar Rewards by Internalizing Reasoning into Score ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.09076"
-    },
-    {
-      "id": "n_d1c07a4d0d01",
-      "date": "2026-06-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic Environment Engineering for Large Language Models: A",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.12191"
-    },
-    {
-      "id": "n_839adc2816bb",
-      "date": "2026-06-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Redesign Mixture-of-Experts Routers with Manifold Power Iter",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.12397"
     }
   ],
   "ticker": [
+    "quicktok: a faster tokenizer (exact...",
+    "AI language models have favorite na...",
+    "[论文] DreamX-World 1.0: A General-Pu...",
+    "[论文] Data Journalist Agent: Transfo...",
+    "[论文] JoyAI-VL-Interaction: Real-Tim...",
     "I built an open-source Knowledge Gr...",
     "Why do frontier AI labs send so man...",
     "[论文] Memory is Reconstructed, Not R...",
     "[论文] OmniDirector: General Multi-Sh...",
-    "[论文] APPO: Agentic Procedural Polic...",
-    "I’m building a free bilingual machi...",
-    "Confused, where to start [D]",
-    "PaddleOCR (v3/v4/v5/v6) implemented...",
-    "[论文] WeaveBench: A Long-Horizon, Re...",
-    "[论文] MiniMax Sparse Attention"
+    "[论文] APPO: Agentic Procedural Polic..."
   ],
   "learning": {
     "phases": [
