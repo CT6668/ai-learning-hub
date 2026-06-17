@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-06-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9bffb27d2621",
+      "date": "2026-06-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Mel AI just shared a demo of video-native AI characters that can talk, react, an",
+      "summary": "Character AI, founded by former Google/LaMDA developers Noam Shazeer and Daniel De Freitas, proved that text-based character chat can work a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u81afi/mel_ai_just_shared_a_demo_of_videonative_ai/"
+    },
+    {
+      "id": "n_be263820bb94",
+      "date": "2026-06-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Looking for a Quant Research / Development Partner for a Cross-Asset Regime Fram",
+      "summary": "Im working on a side project in systematic investing and market-state modeling. Over the last several months Ive developed: An investment ph...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u82tlx/looking_for_a_quant_research_development_partner/"
+    },
+    {
+      "id": "n_8851e519dea2",
+      "date": "2026-06-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Zone of Proximal Policy Optimization: Teacher in Prompts, No",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.18216"
+    },
+    {
+      "id": "n_7cbff1b4272e",
+      "date": "2026-06-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GameCraft-Bench: Can Agents Build Playable Games End-to-End ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.17861"
+    },
+    {
+      "id": "n_c16b1ff80f3e",
+      "date": "2026-06-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VL",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.17200"
+    },
     {
       "id": "n_03eac9ffe91a",
       "date": "2026-06-16",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.13392"
-    },
-    {
-      "id": "n_897706dd1e03",
-      "date": "2026-06-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "MICCAI 2026 Results [D]",
-      "summary": "Results are almost here. Good luck to everyone waiting for the final decision 🙂 submitted by /u/Sea_Muscle_4281 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/"
-    },
-    {
-      "id": "n_20e2e60f03be",
-      "date": "2026-06-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
-      "summary": "From Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED....",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/"
-    },
-    {
-      "id": "n_41744abce512",
-      "date": "2026-06-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SpatialClaw: Rethinking Action Interface for Agentic Spatial",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.13673"
-    },
-    {
-      "id": "n_4349d5a7dbe5",
-      "date": "2026-06-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EvoArena: Tracking Memory Evolution for Robust LLM Agents in",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.13681"
-    },
-    {
-      "id": "n_95885b48d86f",
-      "date": "2026-06-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] InterleaveThinker: Reinforcing Agentic Interleaved Generatio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.13679"
     }
   ],
   "ticker": [
+    "Mel AI just shared a demo of video-...",
+    "Looking for a Quant Research / Deve...",
+    "[论文] Zone of Proximal Policy Optimi...",
+    "[论文] GameCraft-Bench: Can Agents Bu...",
+    "[论文] ACE-Ego-0: Unifying Egocentric...",
     "quicktok: a faster tokenizer (exact...",
     "AI language models have favorite na...",
     "[论文] DreamX-World 1.0: A General-Pu...",
     "[论文] Data Journalist Agent: Transfo...",
-    "[论文] JoyAI-VL-Interaction: Real-Tim...",
-    "I built an open-source Knowledge Gr...",
-    "Why do frontier AI labs send so man...",
-    "[论文] Memory is Reconstructed, Not R...",
-    "[论文] OmniDirector: General Multi-Sh...",
-    "[论文] APPO: Agentic Procedural Polic..."
+    "[论文] JoyAI-VL-Interaction: Real-Tim..."
   ],
   "learning": {
     "phases": [
