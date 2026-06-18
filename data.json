@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_cee6583a0d3a",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What does provisional paper acceptance mean in ECCV? Is that the default message",
+      "summary": "What does provisional paper acceptance mean in ECCV? Is that the default message everyone gets? submitted by /u/NotGondor [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u8xghq/what_does_provisional_paper_acceptance_mean_in/"
+    },
+    {
+      "id": "n_5e01ec0a1299",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Multivariate Probability Models in Machine Learning [D]",
+      "summary": "Hello Folks, we start our discussion on Lecture 10 of Probabilistic Machine Learning, now starting with Probability Multivariate Models. Uni...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u8xxyh/multivariate_probability_models_in_machine/"
+    },
+    {
+      "id": "n_450b0d808c2d",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Kairos: A Native World Model Stack for Physical AI",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.16533"
+    },
+    {
+      "id": "n_3d4b780540ac",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SAE Interventions are Unreliable: Post-Intervention Recovery",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.18322"
+    },
+    {
+      "id": "n_e31bc1fb4a0d",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Guava: An Effective and Universal Harness for Embodied Manip",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.18363"
+    },
     {
       "id": "n_9bffb27d2621",
       "date": "2026-06-17",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.12384"
-    },
-    {
-      "id": "n_6815523fa996",
-      "date": "2026-06-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I’m building a free bilingual machine-learning notebook course — looking for fee",
-      "summary": "Hi everyone, I’m building an open-source machine-learning tutorial repository in Jupyter Notebook format: https://github.com/mohammadijoo/Ma...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/"
-    },
-    {
-      "id": "n_87810f582ccf",
-      "date": "2026-06-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Confused, where to start [D]",
-      "summary": "Hello community, I am a backend + big data dev. I want to learn about the llms that generate voices. I also read some articles but almost ev...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5cimu/confused_where_to_start_d/"
-    },
-    {
-      "id": "n_d7666b58e438",
-      "date": "2026-06-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
-      "summary": "Hi, About a year ago I shared my PaddleOCR implementation here. Since then Ive made many improvements, and it now supports PP-OCR v3 through...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/"
-    },
-    {
-      "id": "n_0c45a7cdfd57",
-      "date": "2026-06-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WeaveBench: A Long-Horizon, Real-World Benchmark for Compute",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.09426"
-    },
-    {
-      "id": "n_1a1ca3a5fdfb",
-      "date": "2026-06-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MiniMax Sparse Attention",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.13392"
     }
   ],
   "ticker": [
+    "What does provisional paper accepta...",
+    "Multivariate Probability Models in ...",
+    "[论文] Kairos: A Native World Model S...",
+    "[论文] SAE Interventions are Unreliab...",
+    "[论文] Guava: An Effective and Univer...",
     "Mel AI just shared a demo of video-...",
     "Looking for a Quant Research / Deve...",
     "[论文] Zone of Proximal Policy Optimi...",
     "[论文] GameCraft-Bench: Can Agents Bu...",
-    "[论文] ACE-Ego-0: Unifying Egocentric...",
-    "quicktok: a faster tokenizer (exact...",
-    "AI language models have favorite na...",
-    "[论文] DreamX-World 1.0: A General-Pu...",
-    "[论文] Data Journalist Agent: Transfo...",
-    "[论文] JoyAI-VL-Interaction: Real-Tim..."
+    "[论文] ACE-Ego-0: Unifying Egocentric..."
   ],
   "learning": {
     "phases": [
