@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_59e1432ed888",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Latent space interpretation [R]",
+      "summary": "Hi all, I have trained a convolutional autoencoder on a set of medical images. Further classified latent feature maps using random forest to...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/"
+    },
+    {
+      "id": "n_e3ca749a7529",
+      "date": "2026-06-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vL",
+      "summary": "I maintain cuTile Rust and just posted the paper \"Fearless Concurrency on the GPU.\" As more GPU code gets AI-generated, the bottleneck moves...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/"
+    },
+    {
+      "id": "n_5b35b18c5860",
+      "date": "2026-06-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Inte",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.20515"
+    },
+    {
+      "id": "n_fdd3cb8edfbe",
+      "date": "2026-06-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Playful Agentic Robot Learning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.19419"
+    },
+    {
+      "id": "n_0cd23776d20f",
+      "date": "2026-06-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Moebius: 0.2B Lightweight Image Inpainting Framework with 10",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.19195"
+    },
     {
       "id": "n_cee6583a0d3a",
       "date": "2026-06-18",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.14777"
-    },
-    {
-      "id": "n_3a69f41af58c",
-      "date": "2026-06-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built an open-source Knowledge Graph pipeline with hybrid retrieval to improve",
-      "summary": "Hey everyone, I built an open-source full-stack pipeline (Django + React) that constructs a Knowledge Graph from raw text, detects thematic ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5yyyl/i_built_an_opensource_knowledge_graph_pipeline/"
-    },
-    {
-      "id": "n_eb630942d4ca",
-      "date": "2026-06-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why do frontier AI labs send so many people to conferences? [D]",
-      "summary": "Recent years I see plenty of folks from OpenAI and Anthropic attending conferences like ICML/Neurips, yet obviously few are presenting. Are ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u67koz/why_do_frontier_ai_labs_send_so_many_people_to/"
-    },
-    {
-      "id": "n_1a1fbf850b30",
-      "date": "2026-06-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Memory is Reconstructed, Not Retrieved: Graph Memory for LLM",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.06036"
-    },
-    {
-      "id": "n_0d0bce149420",
-      "date": "2026-06-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OmniDirector: General Multi-Shot Camera Cloning without Cros",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.13432"
-    },
-    {
-      "id": "n_44048f283dad",
-      "date": "2026-06-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] APPO: Agentic Procedural Policy Optimization",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.12384"
     }
   ],
   "ticker": [
+    "Latent space interpretation [R]",
+    "Fearless Concurrency on the GPU: Sa...",
+    "[论文] S-Agent: Spatial Tool-Use Elic...",
+    "[论文] Playful Agentic Robot Learning",
+    "[论文] Moebius: 0.2B Lightweight Imag...",
     "What does provisional paper accepta...",
     "Multivariate Probability Models in ...",
     "[论文] Kairos: A Native World Model S...",
     "[论文] SAE Interventions are Unreliab...",
-    "[论文] Guava: An Effective and Univer...",
-    "Mel AI just shared a demo of video-...",
-    "Looking for a Quant Research / Deve...",
-    "[论文] Zone of Proximal Policy Optimi...",
-    "[论文] GameCraft-Bench: Can Agents Bu...",
-    "[论文] ACE-Ego-0: Unifying Egocentric..."
+    "[论文] Guava: An Effective and Univer..."
   ],
   "learning": {
     "phases": [
