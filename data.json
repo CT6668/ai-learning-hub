@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-20",
+    "last_updated": "2026-06-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_bafa95dd7b41",
+      "date": "2026-06-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
+      "summary": "A paper currently trending on paperswithcode.co in the \"Anomaly Detection\" category is DVD-JEPA. https://i.redd.it/r6fd8n3d4f8h1.gif Here is...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/"
+    },
+    {
+      "id": "n_d0d020b61925",
+      "date": "2026-06-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube teaching ML, LLM a",
+      "summary": "Hi internet friends, I recorded a workshop about building your own LLM without any math / ML prerequisites. It covers everything from machin...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/"
+    },
     {
       "id": "n_f2dbfaf3a5cd",
       "date": "2026-06-19",
@@ -183,29 +203,11 @@
       "summary": "Been working on this a while! Should be useful for anyone trying to speed up their tokenization workflows. quicktok is a fast/exact BPE toke...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/"
-    },
-    {
-      "id": "n_80a2866d1272",
-      "date": "2026-06-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AI language models have favorite names, and we mapped them [R]",
-      "summary": "It turns out LLMs have strong priors over character names that are model-specific and version-specific. If you find Elena Vasquez and Marcus...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/"
-    },
-    {
-      "id": "n_2aca32c85aee",
-      "date": "2026-06-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DreamX-World 1.0: A General-Purpose Interactive World Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.16993"
     }
   ],
   "ticker": [
+    "DVD-JEPA: an open-source, fully-rep...",
+    "Hi Reddit, I posted my Build Your O...",
     "Dealing with a messy prescriptive m...",
     "[论文] DragMesh-2: Physically Plausib...",
     "Latent space interpretation [R]",
@@ -213,9 +215,7 @@
     "[论文] S-Agent: Spatial Tool-Use Elic...",
     "[论文] Playful Agentic Robot Learning",
     "[论文] Moebius: 0.2B Lightweight Imag...",
-    "What does provisional paper accepta...",
-    "Multivariate Probability Models in ...",
-    "[论文] Kairos: A Native World Model S..."
+    "What does provisional paper accepta..."
   ],
   "learning": {
     "phases": [
