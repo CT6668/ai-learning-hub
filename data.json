@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-06-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_23f99ccb5d90",
+      "date": "2026-06-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A slightly improved DVD-JEPA demo [P]",
+      "summary": "Hey! I came across this post, which I found quite neat as a minimal demonstration of JEPA. However, as the comments pointed out, there was s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/"
+    },
+    {
+      "id": "n_44cf7ae3b601",
+      "date": "2026-06-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
+      "summary": "With the release of meta-reviews, ECCV sent out a google form for dissatisfied authors to submit an appeal for the following reasons: Policy...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/"
+    },
+    {
+      "id": "n_9b104d5dd701",
+      "date": "2026-06-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GateMem: Benchmarking Memory Governance in Multi-Principal S",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.18829"
+    },
+    {
+      "id": "n_1791881d9057",
+      "date": "2026-06-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.19651"
+    },
+    {
+      "id": "n_2d854d470c84",
+      "date": "2026-06-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PerceptionDLM: Parallel Region Perception with Multimodal Di",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.19534"
+    },
     {
       "id": "n_bafa95dd7b41",
       "date": "2026-06-20",
@@ -153,69 +203,19 @@
       "summary": "Character AI, founded by former Google/LaMDA developers Noam Shazeer and Daniel De Freitas, proved that text-based character chat can work a...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u81afi/mel_ai_just_shared_a_demo_of_videonative_ai/"
-    },
-    {
-      "id": "n_be263820bb94",
-      "date": "2026-06-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Looking for a Quant Research / Development Partner for a Cross-Asset Regime Fram",
-      "summary": "Im working on a side project in systematic investing and market-state modeling. Over the last several months Ive developed: An investment ph...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u82tlx/looking_for_a_quant_research_development_partner/"
-    },
-    {
-      "id": "n_8851e519dea2",
-      "date": "2026-06-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Zone of Proximal Policy Optimization: Teacher in Prompts, No",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.18216"
-    },
-    {
-      "id": "n_7cbff1b4272e",
-      "date": "2026-06-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GameCraft-Bench: Can Agents Build Playable Games End-to-End ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.17861"
-    },
-    {
-      "id": "n_c16b1ff80f3e",
-      "date": "2026-06-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VL",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.17200"
-    },
-    {
-      "id": "n_03eac9ffe91a",
-      "date": "2026-06-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "quicktok: a faster tokenizer (exact and byte-identical with tiktoken) [P]",
-      "summary": "Been working on this a while! Should be useful for anyone trying to speed up their tokenization workflows. quicktok is a fast/exact BPE toke...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/"
     }
   ],
   "ticker": [
+    "A slightly improved DVD-JEPA demo [...",
+    "[ECCV 2026] Paper Decision Appeals ...",
+    "[论文] GateMem: Benchmarking Memory G...",
+    "[论文] BrainG3N: A Dual-Purpose Token...",
+    "[论文] PerceptionDLM: Parallel Region...",
     "DVD-JEPA: an open-source, fully-rep...",
     "Hi Reddit, I posted my Build Your O...",
     "Dealing with a messy prescriptive m...",
     "[论文] DragMesh-2: Physically Plausib...",
-    "Latent space interpretation [R]",
-    "Fearless Concurrency on the GPU: Sa...",
-    "[论文] S-Agent: Spatial Tool-Use Elic...",
-    "[论文] Playful Agentic Robot Learning",
-    "[论文] Moebius: 0.2B Lightweight Imag...",
-    "What does provisional paper accepta..."
+    "Latent space interpretation [R]"
   ],
   "learning": {
     "phases": [
