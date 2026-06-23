@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6063cecbbab8",
+      "date": "2026-06-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
+      "summary": "Hey everyone, I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/"
+    },
+    {
+      "id": "n_de442f45ef04",
+      "date": "2026-06-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Some new updates to Papers with Code [P]",
+      "summary": "Hi folks, Niels here from the open-source team at Hugging Face. I continue working on a revival of paperswithcode.co as were back to the \"ag...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/"
+    },
+    {
+      "id": "n_2eee0e019889",
+      "date": "2026-06-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] KaLM-Reranker-V1: Fast but Not Late Interaction for Compress",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.22807"
+    },
+    {
+      "id": "n_9173669ad065",
+      "date": "2026-06-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-U",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.22388"
+    },
+    {
+      "id": "n_2d50d187514c",
+      "date": "2026-06-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EnterpriseClawBench: Benchmarking Agents from Real Workplace",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.23654"
+    },
     {
       "id": "n_23f99ccb5d90",
       "date": "2026-06-21",
@@ -153,69 +203,19 @@
       "summary": "What does provisional paper acceptance mean in ECCV? Is that the default message everyone gets? submitted by /u/NotGondor [link] [comments]",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u8xghq/what_does_provisional_paper_acceptance_mean_in/"
-    },
-    {
-      "id": "n_5e01ec0a1299",
-      "date": "2026-06-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Multivariate Probability Models in Machine Learning [D]",
-      "summary": "Hello Folks, we start our discussion on Lecture 10 of Probabilistic Machine Learning, now starting with Probability Multivariate Models. Uni...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u8xxyh/multivariate_probability_models_in_machine/"
-    },
-    {
-      "id": "n_450b0d808c2d",
-      "date": "2026-06-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Kairos: A Native World Model Stack for Physical AI",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.16533"
-    },
-    {
-      "id": "n_3d4b780540ac",
-      "date": "2026-06-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SAE Interventions are Unreliable: Post-Intervention Recovery",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.18322"
-    },
-    {
-      "id": "n_e31bc1fb4a0d",
-      "date": "2026-06-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Guava: An Effective and Universal Harness for Embodied Manip",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.18363"
-    },
-    {
-      "id": "n_9bffb27d2621",
-      "date": "2026-06-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Mel AI just shared a demo of video-native AI characters that can talk, react, an",
-      "summary": "Character AI, founded by former Google/LaMDA developers Noam Shazeer and Daniel De Freitas, proved that text-based character chat can work a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u81afi/mel_ai_just_shared_a_demo_of_videonative_ai/"
     }
   ],
   "ticker": [
+    "Just landed a Computer Vision inter...",
+    "Some new updates to Papers with Cod...",
+    "[论文] KaLM-Reranker-V1: Fast but Not...",
+    "[论文] PlanBench-XL: Evaluating Long-...",
+    "[论文] EnterpriseClawBench: Benchmark...",
     "A slightly improved DVD-JEPA demo [...",
     "[ECCV 2026] Paper Decision Appeals ...",
     "[论文] GateMem: Benchmarking Memory G...",
     "[论文] BrainG3N: A Dual-Purpose Token...",
-    "[论文] PerceptionDLM: Parallel Region...",
-    "DVD-JEPA: an open-source, fully-rep...",
-    "Hi Reddit, I posted my Build Your O...",
-    "Dealing with a messy prescriptive m...",
-    "[论文] DragMesh-2: Physically Plausib...",
-    "Latent space interpretation [R]"
+    "[论文] PerceptionDLM: Parallel Region..."
   ],
   "learning": {
     "phases": [
