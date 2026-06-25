@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f1a692c8d619",
+      "date": "2026-06-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "MuJoCo derived Simulator for High Fidelity Vision RL training natively on GPU [D",
+      "summary": "Hi everyone, For the past couple of weeks I have been working on a simulator project considering the shortcomings of MuJoCo. There are thing...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uemrch/mujoco_derived_simulator_for_high_fidelity_vision/"
+    },
+    {
+      "id": "n_d6844446d43e",
+      "date": "2026-06-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Find the best open-source OCR models in one place at Papers with Code [P]",
+      "summary": "Hi, Ive created an overview of the most important OCR benchmarks, along with the top open models, and links to their paper and code: https:/...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ueiam6/find_the_best_opensource_ocr_models_in_one_place/"
+    },
+    {
+      "id": "n_d9a6588e7d4a",
+      "date": "2026-06-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Wan-Streamer v0.1: End-to-end Real-time Interactive Foundati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.25041"
+    },
+    {
+      "id": "n_cbd6bd695c16",
+      "date": "2026-06-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DomainShuttle: Freeform Open Domain Subject-driven Text-to-v",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.26058"
+    },
+    {
+      "id": "n_f8e550b94d35",
+      "date": "2026-06-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Are We Ready For An Agent-Native Memory System?",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.24775"
+    },
     {
       "id": "n_c519897d07bb",
       "date": "2026-06-23",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.19534"
-    },
-    {
-      "id": "n_bafa95dd7b41",
-      "date": "2026-06-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
-      "summary": "A paper currently trending on paperswithcode.co in the \"Anomaly Detection\" category is DVD-JEPA. https://i.redd.it/r6fd8n3d4f8h1.gif Here is...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/"
-    },
-    {
-      "id": "n_d0d020b61925",
-      "date": "2026-06-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube teaching ML, LLM a",
-      "summary": "Hi internet friends, I recorded a workshop about building your own LLM without any math / ML prerequisites. It covers everything from machin...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/"
-    },
-    {
-      "id": "n_f2dbfaf3a5cd",
-      "date": "2026-06-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Dealing with a messy prescriptive monolith. How do you survive this? [D]",
-      "summary": "Months ago, I got my first maintenance project. Before this, I had only built new solutions from scratch and maintained my own code. But mai...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ua5xfg/dealing_with_a_messy_prescriptive_monolith_how_do/"
-    },
-    {
-      "id": "n_e14a7f47a73b",
-      "date": "2026-06-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DragMesh-2: Physically Plausible Dexterous Hand-Object Inter",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.15133"
-    },
-    {
-      "id": "n_59e1432ed888",
-      "date": "2026-06-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Latent space interpretation [R]",
-      "summary": "Hi all, I have trained a convolutional autoencoder on a set of medical images. Further classified latent feature maps using random forest to...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/"
     }
   ],
   "ticker": [
+    "MuJoCo derived Simulator for High F...",
+    "Find the best open-source OCR model...",
+    "[论文] Wan-Streamer v0.1: End-to-end ...",
+    "[论文] DomainShuttle: Freeform Open D...",
+    "[论文] Are We Ready For An Agent-Nati...",
     "Are model security risks (extractio...",
     "DeepSWE: new benchmark looking at h...",
     "[论文] MobileForge: Annotation-Free A...",
     "[论文] NatureBench: Can Coding Agents...",
-    "[论文] Qwen-AgentWorld: Language Worl...",
-    "Just landed a Computer Vision inter...",
-    "Some new updates to Papers with Cod...",
-    "[论文] KaLM-Reranker-V1: Fast but Not...",
-    "[论文] PlanBench-XL: Evaluating Long-...",
-    "[论文] EnterpriseClawBench: Benchmark..."
+    "[论文] Qwen-AgentWorld: Language Worl..."
   ],
   "learning": {
     "phases": [
