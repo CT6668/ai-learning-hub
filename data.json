@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-26",
+    "last_updated": "2026-06-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1c2797543b3a",
+      "date": "2026-06-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Showcase: geolocating a dashcam video without GPS, only from the footage [P]",
+      "summary": "Sharing a project I have been working on called Third Eye. It does visual geolocation. Given a video, it figures out where it was filmed usi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/"
+    },
+    {
+      "id": "n_8224f05e62f7",
+      "date": "2026-06-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A debugger for RL reward functions that detects reward hacking during training [",
+      "summary": "While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/"
+    },
     {
       "id": "n_4509f899699b",
       "date": "2026-06-25",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.22807"
-    },
-    {
-      "id": "n_9173669ad065",
-      "date": "2026-06-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-U",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.22388"
-    },
-    {
-      "id": "n_2d50d187514c",
-      "date": "2026-06-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EnterpriseClawBench: Benchmarking Agents from Real Workplace",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.23654"
     }
   ],
   "ticker": [
+    "Showcase: geolocating a dashcam vid...",
+    "A debugger for RL reward functions ...",
     "Dev Log on Steam Recommender[P]",
     "For ECCV, Springer Metor. How are w...",
     "[论文] OPID: On-Policy Skill Distilla...",
@@ -213,9 +215,7 @@
     "[论文] DanceOPD: On-Policy Generative...",
     "MuJoCo derived Simulator for High F...",
     "Find the best open-source OCR model...",
-    "[论文] Wan-Streamer v0.1: End-to-end ...",
-    "[论文] DomainShuttle: Freeform Open D...",
-    "[论文] Are We Ready For An Agent-Nati..."
+    "[论文] Wan-Streamer v0.1: End-to-end ..."
   ],
   "learning": {
     "phases": [
