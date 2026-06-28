@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-06-27",
+    "last_updated": "2026-06-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f3a332c0cc94",
+      "date": "2026-06-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NagaTranslate: Building a translation and voice pipeline for low-resource Nagala",
+      "summary": "Hello r/MachineLearning , I wanted to share the architecture and challenges behind a project I’ve been building called NagaTranslate. The go...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/"
+    },
+    {
+      "id": "n_62acbcbb9cfb",
+      "date": "2026-06-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "MathFormer: Testing whether symbolic math is pattern matching or reasoning [D]",
+      "summary": "Repo link and results - https://github.com/Abhinand20/MathFormer Task: Given a factorized expression like (7-3*z)*(-5*z-9), predict the expa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/"
+    },
     {
       "id": "n_1c2797543b3a",
       "date": "2026-06-26",
@@ -183,29 +203,11 @@
       "summary": "Hey everyone, I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/"
-    },
-    {
-      "id": "n_de442f45ef04",
-      "date": "2026-06-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Some new updates to Papers with Code [P]",
-      "summary": "Hi folks, Niels here from the open-source team at Hugging Face. I continue working on a revival of paperswithcode.co as were back to the \"ag...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/"
-    },
-    {
-      "id": "n_2eee0e019889",
-      "date": "2026-06-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] KaLM-Reranker-V1: Fast but Not Late Interaction for Compress",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.22807"
     }
   ],
   "ticker": [
+    "NagaTranslate: Building a translati...",
+    "MathFormer: Testing whether symboli...",
     "Showcase: geolocating a dashcam vid...",
     "A debugger for RL reward functions ...",
     "Dev Log on Steam Recommender[P]",
@@ -213,9 +215,7 @@
     "[论文] OPID: On-Policy Skill Distilla...",
     "[论文] ViQ: Text-Aligned Visual Quant...",
     "[论文] DanceOPD: On-Policy Generative...",
-    "MuJoCo derived Simulator for High F...",
-    "Find the best open-source OCR model...",
-    "[论文] Wan-Streamer v0.1: End-to-end ..."
+    "MuJoCo derived Simulator for High F..."
   ],
   "learning": {
     "phases": [
