@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-28",
+    "last_updated": "2026-06-29",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_92b0d33a59be",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ECCV 2026 Final Decisions after Provisional Acceptance [D]",
+      "summary": "Has anyone actually received final acceptance following their provisional acceptance email from ECCV 2026? I am very confused. Thank you so ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uiilvs/eccv_2026_final_decisions_after_provisional/"
+    },
+    {
+      "id": "n_b499f1a934be",
+      "date": "2026-06-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I shrank a transformer until every number fitted on the screen and made the weig",
+      "summary": "Ive been teaching myself how LLMs actually work, not at the API level, but down to the matrix multiplications. To force myself to really und...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/"
+    },
+    {
+      "id": "n_a5504200b8b6",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Qwen-Image-2.0-RL Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.27608"
+    },
+    {
+      "id": "n_090c93052063",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Translation as a Bridging Action: Transferring Manipulation ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.28133"
+    },
+    {
+      "id": "n_149affb13e73",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PhysisForcing: Physics Reinforced World Simulator for Roboti",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.28128"
+    },
     {
       "id": "n_f3a332c0cc94",
       "date": "2026-06-28",
@@ -153,69 +203,19 @@
       "summary": "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way b...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/"
-    },
-    {
-      "id": "n_bd30228d21c4",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually ",
-      "summary": "DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existin...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/"
-    },
-    {
-      "id": "n_bf3fb6b914ad",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MobileForge: Annotation-Free Adaptation for Mobile GUI Agent",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.19930"
-    },
-    {
-      "id": "n_49727c5c79e6",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] NatureBench: Can Coding Agents Match the Published SOTA of N",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.24530"
-    },
-    {
-      "id": "n_74466b3e9713",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen-AgentWorld: Language World Models for General Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.24597"
-    },
-    {
-      "id": "n_6063cecbbab8",
-      "date": "2026-06-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
-      "summary": "Hey everyone, I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/"
     }
   ],
   "ticker": [
+    "ECCV 2026 Final Decisions after Pro...",
+    "I shrank a transformer until every ...",
+    "[论文] Qwen-Image-2.0-RL Technical Re...",
+    "[论文] Translation as a Bridging Acti...",
+    "[论文] PhysisForcing: Physics Reinfor...",
     "NagaTranslate: Building a translati...",
     "MathFormer: Testing whether symboli...",
     "Showcase: geolocating a dashcam vid...",
     "A debugger for RL reward functions ...",
-    "Dev Log on Steam Recommender[P]",
-    "For ECCV, Springer Metor. How are w...",
-    "[论文] OPID: On-Policy Skill Distilla...",
-    "[论文] ViQ: Text-Aligned Visual Quant...",
-    "[论文] DanceOPD: On-Policy Generative...",
-    "MuJoCo derived Simulator for High F..."
+    "Dev Log on Steam Recommender[P]"
   ],
   "learning": {
     "phases": [
