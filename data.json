@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-29",
+    "last_updated": "2026-06-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6f1d8677f8c8",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Google's Agentic Peer-Reviewer Handled ~10K Papers at ICML/STOC — Formal Researc",
+      "summary": "Google deployed an agentic AI peer-reviewer at two top CS conferences — reviewing ~10,000 papers with 30-minute turnaround — and the new for...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/"
+    },
+    {
+      "id": "n_a9b385718762",
+      "date": "2026-06-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Cerebras OpenAI deal capacity has effectively killed the waitlist for everyone e",
+      "summary": "I’m pretty annoyed. We’re a small AI startup building a real-time coding agent. Our p95 latency requirements are tight (and self imposed, bu...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/"
+    },
+    {
+      "id": "n_77eea732a6f5",
+      "date": "2026-06-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LiveEdit: Towards Real-Time Diffusion-Based Streaming Video ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.26740"
+    },
+    {
+      "id": "n_fecdbe6f0245",
+      "date": "2026-06-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Trimming the Long-Tail of Visual World Modeling Evaluation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.24256"
+    },
+    {
+      "id": "n_5de554e21962",
+      "date": "2026-06-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scaling the Horizon, Not the Parameters: Reaching Trillion-P",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.30616"
+    },
     {
       "id": "n_92b0d33a59be",
       "date": "2026-06-29",
@@ -153,69 +203,19 @@
       "summary": "Hi everyone, For the past couple of weeks I have been working on a simulator project considering the shortcomings of MuJoCo. There are thing...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uemrch/mujoco_derived_simulator_for_high_fidelity_vision/"
-    },
-    {
-      "id": "n_d6844446d43e",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Find the best open-source OCR models in one place at Papers with Code [P]",
-      "summary": "Hi, Ive created an overview of the most important OCR benchmarks, along with the top open models, and links to their paper and code: https:/...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ueiam6/find_the_best_opensource_ocr_models_in_one_place/"
-    },
-    {
-      "id": "n_d9a6588e7d4a",
-      "date": "2026-06-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Wan-Streamer v0.1: End-to-end Real-time Interactive Foundati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.25041"
-    },
-    {
-      "id": "n_cbd6bd695c16",
-      "date": "2026-06-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DomainShuttle: Freeform Open Domain Subject-driven Text-to-v",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.26058"
-    },
-    {
-      "id": "n_f8e550b94d35",
-      "date": "2026-06-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Are We Ready For An Agent-Native Memory System?",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.24775"
-    },
-    {
-      "id": "n_c519897d07bb",
-      "date": "2026-06-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Are model security risks (extraction, poisoning) actually being tested in produc",
-      "summary": "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way b...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/"
     }
   ],
   "ticker": [
+    "Google's Agentic Peer-Reviewer Hand...",
+    "Cerebras OpenAI deal capacity has e...",
+    "[论文] LiveEdit: Towards Real-Time Di...",
+    "[论文] Trimming the Long-Tail of Visu...",
+    "[论文] Scaling the Horizon, Not the P...",
     "ECCV 2026 Final Decisions after Pro...",
     "I shrank a transformer until every ...",
     "[论文] Qwen-Image-2.0-RL Technical Re...",
     "[论文] Translation as a Bridging Acti...",
-    "[论文] PhysisForcing: Physics Reinfor...",
-    "NagaTranslate: Building a translati...",
-    "MathFormer: Testing whether symboli...",
-    "Showcase: geolocating a dashcam vid...",
-    "A debugger for RL reward functions ...",
-    "Dev Log on Steam Recommender[P]"
+    "[论文] PhysisForcing: Physics Reinfor..."
   ],
   "learning": {
     "phases": [
