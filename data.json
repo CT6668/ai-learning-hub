@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-07-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e7383e7ab820",
+      "date": "2026-07-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Anyone looking into the new MARS2 Workshop/Competition @ ECCV 2026? I saw Tec-do",
+      "summary": "I recently came across the announcement for the MARS2 Workshop (Multimodal Reasoning Competition) at ECCV 2026. From what I understand, it f...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uka1r6/anyone_looking_into_the_new_mars2/"
+    },
+    {
+      "id": "n_da88d4229b37",
+      "date": "2026-06-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A map of the latest 11 million papers split by semantic similarity and time slic",
+      "summary": "I am building alternative ways explore scientifc literature. The goal was to make the large number of papers published daily easier to keep ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ujn3u5/a_map_of_the_latest_11_million_papers_split_by/"
+    },
+    {
+      "id": "n_904f05a472b2",
+      "date": "2026-07-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] BlockPilot: Instance-Adaptive Policy Learning for Diffusion-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.31315"
+    },
+    {
+      "id": "n_602f8ced421d",
+      "date": "2026-07-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Dockerless: Environment-Free Program Verifier for Coding Age",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.28436"
+    },
+    {
+      "id": "n_19801ca96319",
+      "date": "2026-07-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Orca: The World is in Your Mind",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.30534"
+    },
     {
       "id": "n_6f1d8677f8c8",
       "date": "2026-06-29",
@@ -153,69 +203,19 @@
       "summary": "Since the steam sale is live I wanted to post a Dev log on my personal project https://nextsteamgame.com/ sharing some outcomes from the web...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ufi0gj/dev_log_on_steam_recommenderp/"
-    },
-    {
-      "id": "n_7371b21b1763",
-      "date": "2026-06-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "For ECCV, Springer Metor. How are we supposed to upload the files? [D]",
-      "summary": "source files + final paper pdf. ZIP containing the source files and final paper.pdf. Where does the supplemental materiel get uploaded? Beca...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/"
-    },
-    {
-      "id": "n_c24b6008b2a6",
-      "date": "2026-06-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OPID: On-Policy Skill Distillation for Agentic Reinforcement",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.26790"
-    },
-    {
-      "id": "n_3fd286d271d9",
-      "date": "2026-06-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ViQ: Text-Aligned Visual Quantized Representations at Any Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.27313"
-    },
-    {
-      "id": "n_da29a765ca7a",
-      "date": "2026-06-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DanceOPD: On-Policy Generative Field Distillation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.27377"
-    },
-    {
-      "id": "n_f1a692c8d619",
-      "date": "2026-06-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "MuJoCo derived Simulator for High Fidelity Vision RL training natively on GPU [D",
-      "summary": "Hi everyone, For the past couple of weeks I have been working on a simulator project considering the shortcomings of MuJoCo. There are thing...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uemrch/mujoco_derived_simulator_for_high_fidelity_vision/"
     }
   ],
   "ticker": [
+    "Anyone looking into the new MARS2 W...",
+    "A map of the latest 11 million pape...",
+    "[论文] BlockPilot: Instance-Adaptive ...",
+    "[论文] Dockerless: Environment-Free P...",
+    "[论文] Orca: The World is in Your Min...",
     "Google's Agentic Peer-Reviewer Hand...",
     "Cerebras OpenAI deal capacity has e...",
     "[论文] LiveEdit: Towards Real-Time Di...",
     "[论文] Trimming the Long-Tail of Visu...",
-    "[论文] Scaling the Horizon, Not the P...",
-    "ECCV 2026 Final Decisions after Pro...",
-    "I shrank a transformer until every ...",
-    "[论文] Qwen-Image-2.0-RL Technical Re...",
-    "[论文] Translation as a Bridging Acti...",
-    "[论文] PhysisForcing: Physics Reinfor..."
+    "[论文] Scaling the Horizon, Not the P..."
   ],
   "learning": {
     "phases": [
