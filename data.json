@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_08602af77eac",
+      "date": "2026-07-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "P Moth-Retrieval: Graph-Free Multi-Hop Retrieval via Query-Time Orchestration (B",
+      "summary": "We just open-sourced MOTHRAG, a multi-hop RAG framework that skips the knowledge graph entirely. We kept hitting the same wall building mult...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/"
+    },
+    {
+      "id": "n_1c187e63c2f9",
+      "date": "2026-07-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
+      "summary": "In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerp...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/"
+    },
+    {
+      "id": "n_81b3ff3aabcb",
+      "date": "2026-07-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] CausalMix: Data Mixture as Causal Inference for Language Mod",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.01104"
+    },
+    {
+      "id": "n_a09d456eeca4",
+      "date": "2026-07-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Domain Arithmetic: One-Shot VLA Adaptation under Environment",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.00666"
+    },
+    {
+      "id": "n_2ead13884ac9",
+      "date": "2026-07-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TurboServe: Serving Streaming Video Generation Efficiently a",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.19271"
+    },
     {
       "id": "n_e7383e7ab820",
       "date": "2026-07-01",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.28128"
-    },
-    {
-      "id": "n_f3a332c0cc94",
-      "date": "2026-06-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NagaTranslate: Building a translation and voice pipeline for low-resource Nagala",
-      "summary": "Hello r/MachineLearning , I wanted to share the architecture and challenges behind a project I’ve been building called NagaTranslate. The go...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/"
-    },
-    {
-      "id": "n_62acbcbb9cfb",
-      "date": "2026-06-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "MathFormer: Testing whether symbolic math is pattern matching or reasoning [D]",
-      "summary": "Repo link and results - https://github.com/Abhinand20/MathFormer Task: Given a factorized expression like (7-3*z)*(-5*z-9), predict the expa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/"
-    },
-    {
-      "id": "n_1c2797543b3a",
-      "date": "2026-06-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Showcase: geolocating a dashcam video without GPS, only from the footage [P]",
-      "summary": "Sharing a project I have been working on called Third Eye. It does visual geolocation. Given a video, it figures out where it was filmed usi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/"
-    },
-    {
-      "id": "n_8224f05e62f7",
-      "date": "2026-06-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A debugger for RL reward functions that detects reward hacking during training [",
-      "summary": "While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/"
-    },
-    {
-      "id": "n_4509f899699b",
-      "date": "2026-06-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Dev Log on Steam Recommender[P]",
-      "summary": "Since the steam sale is live I wanted to post a Dev log on my personal project https://nextsteamgame.com/ sharing some outcomes from the web...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufi0gj/dev_log_on_steam_recommenderp/"
     }
   ],
   "ticker": [
+    "P Moth-Retrieval: Graph-Free Multi-...",
+    "SentryCode: Real-time Auditor + Hon...",
+    "[论文] CausalMix: Data Mixture as Cau...",
+    "[论文] Domain Arithmetic: One-Shot VL...",
+    "[论文] TurboServe: Serving Streaming ...",
     "Anyone looking into the new MARS2 W...",
     "A map of the latest 11 million pape...",
     "[论文] BlockPilot: Instance-Adaptive ...",
     "[论文] Dockerless: Environment-Free P...",
-    "[论文] Orca: The World is in Your Min...",
-    "Google's Agentic Peer-Reviewer Hand...",
-    "Cerebras OpenAI deal capacity has e...",
-    "[论文] LiveEdit: Towards Real-Time Di...",
-    "[论文] Trimming the Long-Tail of Visu...",
-    "[论文] Scaling the Horizon, Not the P..."
+    "[论文] Orca: The World is in Your Min..."
   ],
   "learning": {
     "phases": [
