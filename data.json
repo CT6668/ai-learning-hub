@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_fca0ed94fdd7",
+      "date": "2026-07-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How papers are selected for Best Paper, Oral, or Highlight presentation at major",
+      "summary": "From what I understand, reviewers usually do not directly vote for these categories or nominate papers themselves. So how does the selection...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ulnstb/how_papers_are_selected_for_best_paper_oral_or/"
+    },
+    {
+      "id": "n_67b03d98bb76",
+      "date": "2026-07-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Hierarchos: Preliminary Findings From a 232M Recurrent Memory-Augmented Assistan",
+      "summary": "Project Release / Research Draft] Hierarchos at 232M Parameters: Preliminary Findings From a Recurrent Memory-Augmented Assistant Model Tech...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1um123n/hierarchos_preliminary_findings_from_a_232m/"
+    },
+    {
+      "id": "n_ad82c2046ad9",
+      "date": "2026-07-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Ag",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.02255"
+    },
+    {
+      "id": "n_46cef1c25088",
+      "date": "2026-07-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Morphing into Hybrid Attention Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.30562"
+    },
+    {
+      "id": "n_4e8e20147e74",
+      "date": "2026-07-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Program-as-Weights: A Programming Paradigm for Fuzzy Functio",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.02512"
+    },
     {
       "id": "n_08602af77eac",
       "date": "2026-07-01",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.30616"
-    },
-    {
-      "id": "n_92b0d33a59be",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ECCV 2026 Final Decisions after Provisional Acceptance [D]",
-      "summary": "Has anyone actually received final acceptance following their provisional acceptance email from ECCV 2026? I am very confused. Thank you so ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uiilvs/eccv_2026_final_decisions_after_provisional/"
-    },
-    {
-      "id": "n_b499f1a934be",
-      "date": "2026-06-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I shrank a transformer until every number fitted on the screen and made the weig",
-      "summary": "Ive been teaching myself how LLMs actually work, not at the API level, but down to the matrix multiplications. To force myself to really und...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/"
-    },
-    {
-      "id": "n_a5504200b8b6",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen-Image-2.0-RL Technical Report",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.27608"
-    },
-    {
-      "id": "n_090c93052063",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Translation as a Bridging Action: Transferring Manipulation ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.28133"
-    },
-    {
-      "id": "n_149affb13e73",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PhysisForcing: Physics Reinforced World Simulator for Roboti",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.28128"
     }
   ],
   "ticker": [
+    "How papers are selected for Best Pa...",
+    "Hierarchos: Preliminary Findings Fr...",
+    "[论文] AgenticSTS: A Bounded-Memory T...",
+    "[论文] Morphing into Hybrid Attention...",
+    "[论文] Program-as-Weights: A Programm...",
     "P Moth-Retrieval: Graph-Free Multi-...",
     "SentryCode: Real-time Auditor + Hon...",
     "[论文] CausalMix: Data Mixture as Cau...",
     "[论文] Domain Arithmetic: One-Shot VL...",
-    "[论文] TurboServe: Serving Streaming ...",
-    "Anyone looking into the new MARS2 W...",
-    "A map of the latest 11 million pape...",
-    "[论文] BlockPilot: Instance-Adaptive ...",
-    "[论文] Dockerless: Environment-Free P...",
-    "[论文] Orca: The World is in Your Min..."
+    "[论文] TurboServe: Serving Streaming ..."
   ],
   "learning": {
     "phases": [
