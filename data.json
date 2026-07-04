@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-07-03",
+    "last_updated": "2026-07-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_eb1a5a4d3f11",
+      "date": "2026-07-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built my 'first' flow matching image generator, here's what I learned [P]",
+      "summary": "Today I put out my first flow matching image generation model! This is a toy example trained on a 2024 MPS Macbook Pro using a small sample ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1un0v49/i_built_my_first_flow_matching_image_generator/"
+    },
+    {
+      "id": "n_1035e6f53907",
+      "date": "2026-07-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from log",
+      "summary": "We built a model diffing method that recovers verbatim content from narrowly finetuned LLMs using only grey-box logit access (no weights, no...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/"
+    },
+    {
+      "id": "n_1f5ecd95adba",
+      "date": "2026-07-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EvoPolicyGym: Evaluating Autonomous Policy Evolution in Inte",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.02440"
+    },
     {
       "id": "n_fca0ed94fdd7",
       "date": "2026-07-02",
@@ -173,49 +203,19 @@
       "summary": "I’m pretty annoyed. We’re a small AI startup building a real-time coding agent. Our p95 latency requirements are tight (and self imposed, bu...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/"
-    },
-    {
-      "id": "n_77eea732a6f5",
-      "date": "2026-06-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LiveEdit: Towards Real-Time Diffusion-Based Streaming Video ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.26740"
-    },
-    {
-      "id": "n_fecdbe6f0245",
-      "date": "2026-06-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Trimming the Long-Tail of Visual World Modeling Evaluation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.24256"
-    },
-    {
-      "id": "n_5de554e21962",
-      "date": "2026-06-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scaling the Horizon, Not the Parameters: Reaching Trillion-P",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.30616"
     }
   ],
   "ticker": [
+    "I built my 'first' flow matching im...",
+    "Contrastive Decoding Diffing (CDD):...",
+    "[论文] EvoPolicyGym: Evaluating Auton...",
     "How papers are selected for Best Pa...",
     "Hierarchos: Preliminary Findings Fr...",
     "[论文] AgenticSTS: A Bounded-Memory T...",
     "[论文] Morphing into Hybrid Attention...",
     "[论文] Program-as-Weights: A Programm...",
     "P Moth-Retrieval: Graph-Free Multi-...",
-    "SentryCode: Real-time Auditor + Hon...",
-    "[论文] CausalMix: Data Mixture as Cau...",
-    "[论文] Domain Arithmetic: One-Shot VL...",
-    "[论文] TurboServe: Serving Streaming ..."
+    "SentryCode: Real-time Auditor + Hon..."
   ],
   "learning": {
     "phases": [
