@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f92eedb6567f",
+      "date": "2026-07-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "If your GPU can run inference, it should be able to fine-tune too. [P]",
+      "summary": "I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can ru...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/"
+    },
+    {
+      "id": "n_fd783070f85d",
+      "date": "2026-07-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "If DeepMind or Anthropic is doing your exact research topic, do you still contin",
+      "summary": "As someone who is not affiliated with any of the big tech companies, I find it particularly difficult to have the confidence or enthusiasm t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unt64q/if_deepmind_or_anthropic_is_doing_your_exact/"
+    },
     {
       "id": "n_eb1a5a4d3f11",
       "date": "2026-07-04",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2606.30534"
-    },
-    {
-      "id": "n_6f1d8677f8c8",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Google's Agentic Peer-Reviewer Handled ~10K Papers at ICML/STOC — Formal Researc",
-      "summary": "Google deployed an agentic AI peer-reviewer at two top CS conferences — reviewing ~10,000 papers with 30-minute turnaround — and the new for...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/"
-    },
-    {
-      "id": "n_a9b385718762",
-      "date": "2026-06-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Cerebras OpenAI deal capacity has effectively killed the waitlist for everyone e",
-      "summary": "I’m pretty annoyed. We’re a small AI startup building a real-time coding agent. Our p95 latency requirements are tight (and self imposed, bu...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/"
     }
   ],
   "ticker": [
+    "If your GPU can run inference, it s...",
+    "If DeepMind or Anthropic is doing y...",
     "I built my 'first' flow matching im...",
     "Contrastive Decoding Diffing (CDD):...",
     "[论文] EvoPolicyGym: Evaluating Auton...",
@@ -213,9 +215,7 @@
     "Hierarchos: Preliminary Findings Fr...",
     "[论文] AgenticSTS: A Bounded-Memory T...",
     "[论文] Morphing into Hybrid Attention...",
-    "[论文] Program-as-Weights: A Programm...",
-    "P Moth-Retrieval: Graph-Free Multi-...",
-    "SentryCode: Real-time Auditor + Hon..."
+    "[论文] Program-as-Weights: A Programm..."
   ],
   "learning": {
     "phases": [
