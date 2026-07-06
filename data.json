@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2c08cfa3c653",
+      "date": "2026-07-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is Intrinsic Motivation a Viable PhD Topic in 2026? [D]",
+      "summary": "I started a PhD in CS about a year an a half ago. Generally speaking my topic is on intrinsic motivation (more commonly people refer to it a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/"
+    },
+    {
+      "id": "n_5d7c11713f3b",
+      "date": "2026-07-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Embodied.cpp: A Portable Inference Runtime of Embodied AI Mo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.02501"
+    },
+    {
+      "id": "n_5066ac832ec3",
+      "date": "2026-07-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] The Mirage of Optimizing Training Policies: Monotonic Infere",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2606.29526"
+    },
+    {
+      "id": "n_7f68d19ac012",
+      "date": "2026-07-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VLA-Corrector: Lightweight Detect-and-Correct Inference for ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.01804"
+    },
     {
       "id": "n_f92eedb6567f",
       "date": "2026-07-04",
@@ -163,59 +203,19 @@
       "summary": "I recently came across the announcement for the MARS2 Workshop (Multimodal Reasoning Competition) at ECCV 2026. From what I understand, it f...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uka1r6/anyone_looking_into_the_new_mars2/"
-    },
-    {
-      "id": "n_da88d4229b37",
-      "date": "2026-06-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A map of the latest 11 million papers split by semantic similarity and time slic",
-      "summary": "I am building alternative ways explore scientifc literature. The goal was to make the large number of papers published daily easier to keep ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ujn3u5/a_map_of_the_latest_11_million_papers_split_by/"
-    },
-    {
-      "id": "n_904f05a472b2",
-      "date": "2026-07-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] BlockPilot: Instance-Adaptive Policy Learning for Diffusion-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.31315"
-    },
-    {
-      "id": "n_602f8ced421d",
-      "date": "2026-07-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Dockerless: Environment-Free Program Verifier for Coding Age",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.28436"
-    },
-    {
-      "id": "n_19801ca96319",
-      "date": "2026-07-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Orca: The World is in Your Mind",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.30534"
     }
   ],
   "ticker": [
+    "Is Intrinsic Motivation a Viable Ph...",
+    "[论文] Embodied.cpp: A Portable Infer...",
+    "[论文] The Mirage of Optimizing Train...",
+    "[论文] VLA-Corrector: Lightweight Det...",
     "If your GPU can run inference, it s...",
     "If DeepMind or Anthropic is doing y...",
     "I built my 'first' flow matching im...",
     "Contrastive Decoding Diffing (CDD):...",
     "[论文] EvoPolicyGym: Evaluating Auton...",
-    "How papers are selected for Best Pa...",
-    "Hierarchos: Preliminary Findings Fr...",
-    "[论文] AgenticSTS: A Bounded-Memory T...",
-    "[论文] Morphing into Hybrid Attention...",
-    "[论文] Program-as-Weights: A Programm..."
+    "How papers are selected for Best Pa..."
   ],
   "learning": {
     "phases": [
