@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_01052a7cd39a",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "does quantising a model reduce its performance ?[R]",
+      "summary": "If I were to quantise a fp32 model to fp8(or any other), would the information loss be drastic ? submitted by /u/Cultural-Lobster7795 [link]...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upk28e/does_quantising_a_model_reduce_its_performance_r/"
+    },
+    {
+      "id": "n_ecf6dc85c5c9",
+      "date": "2026-07-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "LingBot-Vision: masked boundary modeling for self-supervised pretraining (0.296 ",
+      "summary": "The idea: instead of masking random patches and hoping boundary structure emerges, the teacher predicts a dense boundary field online and th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1up4cjh/lingbotvision_masked_boundary_modeling_for/"
+    },
+    {
+      "id": "n_2ec804fcf717",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GigaWorld-1: A Roadmap to Build World Models for Robot Polic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.02642"
+    },
+    {
+      "id": "n_1e8830c6770b",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ResearchStudio-Idea: An Evidence-Grounded Research-Ideation ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.04439"
+    },
+    {
+      "id": "n_a9f088ca45a6",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ResearchStudio-Reel: Automate the Last Mile of Research from",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.04438"
+    },
     {
       "id": "n_2c08cfa3c653",
       "date": "2026-07-05",
@@ -153,69 +203,19 @@
       "summary": "We just open-sourced MOTHRAG, a multi-hop RAG framework that skips the knowledge graph entirely. We kept hitting the same wall building mult...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/"
-    },
-    {
-      "id": "n_1c187e63c2f9",
-      "date": "2026-07-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
-      "summary": "In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerp...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/"
-    },
-    {
-      "id": "n_81b3ff3aabcb",
-      "date": "2026-07-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] CausalMix: Data Mixture as Causal Inference for Language Mod",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.01104"
-    },
-    {
-      "id": "n_a09d456eeca4",
-      "date": "2026-07-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Domain Arithmetic: One-Shot VLA Adaptation under Environment",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.00666"
-    },
-    {
-      "id": "n_2ead13884ac9",
-      "date": "2026-07-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TurboServe: Serving Streaming Video Generation Efficiently a",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.19271"
-    },
-    {
-      "id": "n_e7383e7ab820",
-      "date": "2026-07-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Anyone looking into the new MARS2 Workshop/Competition @ ECCV 2026? I saw Tec-do",
-      "summary": "I recently came across the announcement for the MARS2 Workshop (Multimodal Reasoning Competition) at ECCV 2026. From what I understand, it f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uka1r6/anyone_looking_into_the_new_mars2/"
     }
   ],
   "ticker": [
+    "does quantising a model reduce its ...",
+    "LingBot-Vision: masked boundary mod...",
+    "[论文] GigaWorld-1: A Roadmap to Buil...",
+    "[论文] ResearchStudio-Idea: An Eviden...",
+    "[论文] ResearchStudio-Reel: Automate ...",
     "Is Intrinsic Motivation a Viable Ph...",
     "[论文] Embodied.cpp: A Portable Infer...",
     "[论文] The Mirage of Optimizing Train...",
     "[论文] VLA-Corrector: Lightweight Det...",
-    "If your GPU can run inference, it s...",
-    "If DeepMind or Anthropic is doing y...",
-    "I built my 'first' flow matching im...",
-    "Contrastive Decoding Diffing (CDD):...",
-    "[论文] EvoPolicyGym: Evaluating Auton...",
-    "How papers are selected for Best Pa..."
+    "If your GPU can run inference, it s..."
   ],
   "learning": {
     "phases": [
