@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1f5248c559f6",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling [R]",
+      "summary": "Hi everyone, I recently finished my Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling. Instead of just compiling my ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/"
+    },
+    {
+      "id": "n_d45943d3a891",
+      "date": "2026-07-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "TorchJD: Training with multiple losses in PyTorch [P]",
+      "summary": "Hi everyone! I wanted to share some recent progress on TorchJD that might be useful to the machine learning community. When training models ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upzxk2/torchjd_training_with_multiple_losses_in_pytorch_p/"
+    },
+    {
+      "id": "n_10cff36c8d9c",
+      "date": "2026-07-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Vision as Unified Multimodal Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.06560"
+    },
+    {
+      "id": "n_9d4e218088f9",
+      "date": "2026-07-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Light-Omni: Reflex over Reasoning in Agentic Video Understan",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.05511"
+    },
+    {
+      "id": "n_e2601fe44935",
+      "date": "2026-07-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AlayaWorld: Long-Horizon and Playable Video World Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.06291"
+    },
     {
       "id": "n_01052a7cd39a",
       "date": "2026-07-07",
@@ -153,69 +203,19 @@
       "summary": "From what I understand, reviewers usually do not directly vote for these categories or nominate papers themselves. So how does the selection...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ulnstb/how_papers_are_selected_for_best_paper_oral_or/"
-    },
-    {
-      "id": "n_67b03d98bb76",
-      "date": "2026-07-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Hierarchos: Preliminary Findings From a 232M Recurrent Memory-Augmented Assistan",
-      "summary": "Project Release / Research Draft] Hierarchos at 232M Parameters: Preliminary Findings From a Recurrent Memory-Augmented Assistant Model Tech...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1um123n/hierarchos_preliminary_findings_from_a_232m/"
-    },
-    {
-      "id": "n_ad82c2046ad9",
-      "date": "2026-07-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Ag",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.02255"
-    },
-    {
-      "id": "n_46cef1c25088",
-      "date": "2026-07-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Morphing into Hybrid Attention Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.30562"
-    },
-    {
-      "id": "n_4e8e20147e74",
-      "date": "2026-07-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Program-as-Weights: A Programming Paradigm for Fuzzy Functio",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.02512"
-    },
-    {
-      "id": "n_08602af77eac",
-      "date": "2026-07-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "P Moth-Retrieval: Graph-Free Multi-Hop Retrieval via Query-Time Orchestration (B",
-      "summary": "We just open-sourced MOTHRAG, a multi-hop RAG framework that skips the knowledge graph entirely. We kept hitting the same wall building mult...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/"
     }
   ],
   "ticker": [
+    "Ph.D. thesis on Differentiable Ray ...",
+    "TorchJD: Training with multiple los...",
+    "[论文] Vision as Unified Multimodal G...",
+    "[论文] Light-Omni: Reflex over Reason...",
+    "[论文] AlayaWorld: Long-Horizon and P...",
     "does quantising a model reduce its ...",
     "LingBot-Vision: masked boundary mod...",
     "[论文] GigaWorld-1: A Roadmap to Buil...",
     "[论文] ResearchStudio-Idea: An Eviden...",
-    "[论文] ResearchStudio-Reel: Automate ...",
-    "Is Intrinsic Motivation a Viable Ph...",
-    "[论文] Embodied.cpp: A Portable Infer...",
-    "[论文] The Mirage of Optimizing Train...",
-    "[论文] VLA-Corrector: Lightweight Det...",
-    "If your GPU can run inference, it s..."
+    "[论文] ResearchStudio-Reel: Automate ..."
   ],
   "learning": {
     "phases": [
