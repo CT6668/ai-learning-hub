@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5fef5e6e426a",
+      "date": "2026-07-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "LingBot-Video: sparse-MoE video diffusion transformer (13B total, 1.4B active) p",
+      "summary": "Single-stream diffusion transformer with a DeepSeek-V3-style sparse MoE (128 experts, top-8 routing, 1.4B active of 13B total). Six-reward R...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/"
+    },
+    {
+      "id": "n_9a6df68e6310",
+      "date": "2026-07-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "DINOv2 way worse than SigLIP in k-NN. Is this expected? [R]",
+      "summary": "Doing a bachelor thesis on fine-grained car classification (telling apart VW Golf generations from listing photos). Simple setup: frozen enc...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uqtamz/dinov2_way_worse_than_siglip_in_knn_is_this/"
+    },
+    {
+      "id": "n_b270ac8451c9",
+      "date": "2026-07-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Infinite Worlds with Versatile Interactions",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.07534"
+    },
+    {
+      "id": "n_47c92539cdd5",
+      "date": "2026-07-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Dual Latent Memory in Vision-Language-Action Models for Robo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.07608"
+    },
+    {
+      "id": "n_8121e48f757a",
+      "date": "2026-07-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scaling Mixture-of-Experts Video Pretraining for Embodied In",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.07675"
+    },
     {
       "id": "n_1f5248c559f6",
       "date": "2026-07-07",
@@ -153,69 +203,19 @@
       "summary": "I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can ru...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/"
-    },
-    {
-      "id": "n_fd783070f85d",
-      "date": "2026-07-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "If DeepMind or Anthropic is doing your exact research topic, do you still contin",
-      "summary": "As someone who is not affiliated with any of the big tech companies, I find it particularly difficult to have the confidence or enthusiasm t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1unt64q/if_deepmind_or_anthropic_is_doing_your_exact/"
-    },
-    {
-      "id": "n_eb1a5a4d3f11",
-      "date": "2026-07-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built my 'first' flow matching image generator, here's what I learned [P]",
-      "summary": "Today I put out my first flow matching image generation model! This is a toy example trained on a 2024 MPS Macbook Pro using a small sample ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1un0v49/i_built_my_first_flow_matching_image_generator/"
-    },
-    {
-      "id": "n_1035e6f53907",
-      "date": "2026-07-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from log",
-      "summary": "We built a model diffing method that recovers verbatim content from narrowly finetuned LLMs using only grey-box logit access (no weights, no...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/"
-    },
-    {
-      "id": "n_1f5ecd95adba",
-      "date": "2026-07-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EvoPolicyGym: Evaluating Autonomous Policy Evolution in Inte",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.02440"
-    },
-    {
-      "id": "n_fca0ed94fdd7",
-      "date": "2026-07-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How papers are selected for Best Paper, Oral, or Highlight presentation at major",
-      "summary": "From what I understand, reviewers usually do not directly vote for these categories or nominate papers themselves. So how does the selection...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ulnstb/how_papers_are_selected_for_best_paper_oral_or/"
     }
   ],
   "ticker": [
+    "LingBot-Video: sparse-MoE video dif...",
+    "DINOv2 way worse than SigLIP in k-N...",
+    "[论文] Infinite Worlds with Versatile...",
+    "[论文] Dual Latent Memory in Vision-L...",
+    "[论文] Scaling Mixture-of-Experts Vid...",
     "Ph.D. thesis on Differentiable Ray ...",
     "TorchJD: Training with multiple los...",
     "[论文] Vision as Unified Multimodal G...",
     "[论文] Light-Omni: Reflex over Reason...",
-    "[论文] AlayaWorld: Long-Horizon and P...",
-    "does quantising a model reduce its ...",
-    "LingBot-Vision: masked boundary mod...",
-    "[论文] GigaWorld-1: A Roadmap to Buil...",
-    "[论文] ResearchStudio-Idea: An Eviden...",
-    "[论文] ResearchStudio-Reel: Automate ..."
+    "[论文] AlayaWorld: Long-Horizon and P..."
   ],
   "learning": {
     "phases": [
