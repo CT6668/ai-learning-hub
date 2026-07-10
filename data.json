@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-09",
+    "last_updated": "2026-07-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c0f955dcc749",
+      "date": "2026-07-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Journals vs Conferences ML Research [R]",
+      "summary": "Lately in the last two/three years, I have noticed ICML, Neurips becoming more prestigious than the actual journals. What is the actual reas...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1urqqk6/journals_vs_conferences_ml_research_r/"
+    },
+    {
+      "id": "n_85c38ed351ff",
+      "date": "2026-07-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Hyperparameter tuning approach question [R]",
+      "summary": "I am doing some work with cell type classification, where I have 4.3 million cells and 512 features (condensed embeddings from the encoder o...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1usa46w/hyperparameter_tuning_approach_question_r/"
+    },
+    {
+      "id": "n_844b789311df",
+      "date": "2026-07-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Why Can't I Open My Drawer? Mitigating Object-Driven Shortcu",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2601.16211"
+    },
+    {
+      "id": "n_63de70bf3af7",
+      "date": "2026-07-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Video-Oasis: Rethinking Evaluation of Video Understanding",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2603.29616"
+    },
+    {
+      "id": "n_608b2bb01f6a",
+      "date": "2026-07-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Vidu S1: A Real-Time Interactive Video Generation Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.03118"
+    },
     {
       "id": "n_5fef5e6e426a",
       "date": "2026-07-08",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.04438"
-    },
-    {
-      "id": "n_2c08cfa3c653",
-      "date": "2026-07-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Is Intrinsic Motivation a Viable PhD Topic in 2026? [D]",
-      "summary": "I started a PhD in CS about a year an a half ago. Generally speaking my topic is on intrinsic motivation (more commonly people refer to it a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/"
-    },
-    {
-      "id": "n_5d7c11713f3b",
-      "date": "2026-07-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Embodied.cpp: A Portable Inference Runtime of Embodied AI Mo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.02501"
-    },
-    {
-      "id": "n_5066ac832ec3",
-      "date": "2026-07-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] The Mirage of Optimizing Training Policies: Monotonic Infere",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2606.29526"
-    },
-    {
-      "id": "n_7f68d19ac012",
-      "date": "2026-07-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VLA-Corrector: Lightweight Detect-and-Correct Inference for ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.01804"
-    },
-    {
-      "id": "n_f92eedb6567f",
-      "date": "2026-07-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "If your GPU can run inference, it should be able to fine-tune too. [P]",
-      "summary": "I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can ru...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/"
     }
   ],
   "ticker": [
+    "Journals vs Conferences ML Research...",
+    "Hyperparameter tuning approach ques...",
+    "[论文] Why Can't I Open My Drawer? Mi...",
+    "[论文] Video-Oasis: Rethinking Evalua...",
+    "[论文] Vidu S1: A Real-Time Interacti...",
     "LingBot-Video: sparse-MoE video dif...",
     "DINOv2 way worse than SigLIP in k-N...",
     "[论文] Infinite Worlds with Versatile...",
     "[论文] Dual Latent Memory in Vision-L...",
-    "[论文] Scaling Mixture-of-Experts Vid...",
-    "Ph.D. thesis on Differentiable Ray ...",
-    "TorchJD: Training with multiple los...",
-    "[论文] Vision as Unified Multimodal G...",
-    "[论文] Light-Omni: Reflex over Reason...",
-    "[论文] AlayaWorld: Long-Horizon and P..."
+    "[论文] Scaling Mixture-of-Experts Vid..."
   ],
   "learning": {
     "phases": [
