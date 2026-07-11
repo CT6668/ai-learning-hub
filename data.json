@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-07-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f255b0c0243e",
+      "date": "2026-07-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How does *ACL conferences acceptance work [D]",
+      "summary": "Even after getting ARR reviews and a meta review, how is the acceptance decided at the *ACL venues, because I have seen meta review 3.5 gett...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ut5krb/how_does_acl_conferences_acceptance_work_d/"
+    },
+    {
+      "id": "n_b83f7a56b5e3",
+      "date": "2026-07-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Please help me understand figure on subspace similarity in LoRA paper. [D]",
+      "summary": "I am studying the LoRA paper and have trouble understanding this figure. The function essentially measures how much of the subspace spanned ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uso667/please_help_me_understand_figure_on_subspace/"
+    },
     {
       "id": "n_c0f955dcc749",
       "date": "2026-07-09",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.02642"
-    },
-    {
-      "id": "n_1e8830c6770b",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ResearchStudio-Idea: An Evidence-Grounded Research-Ideation ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.04439"
-    },
-    {
-      "id": "n_a9f088ca45a6",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ResearchStudio-Reel: Automate the Last Mile of Research from",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.04438"
     }
   ],
   "ticker": [
+    "How does *ACL conferences acceptanc...",
+    "Please help me understand figure on...",
     "Journals vs Conferences ML Research...",
     "Hyperparameter tuning approach ques...",
     "[论文] Why Can't I Open My Drawer? Mi...",
@@ -213,9 +215,7 @@
     "[论文] Vidu S1: A Real-Time Interacti...",
     "LingBot-Video: sparse-MoE video dif...",
     "DINOv2 way worse than SigLIP in k-N...",
-    "[论文] Infinite Worlds with Versatile...",
-    "[论文] Dual Latent Memory in Vision-L...",
-    "[论文] Scaling Mixture-of-Experts Vid..."
+    "[论文] Infinite Worlds with Versatile..."
   ],
   "learning": {
     "phases": [
