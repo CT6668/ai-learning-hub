@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-07-11",
+    "last_updated": "2026-07-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_353f5e08b0d1",
+      "date": "2026-07-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Context and average best linear mappings [D]",
+      "summary": "The context (in a border sense) viewpoint of neural networks is not thought about too much but it leads to a simple best average linear mapp...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uu2p63/context_and_average_best_linear_mappings_d/"
+    },
+    {
+      "id": "n_5e12b0fe5a3e",
+      "date": "2026-07-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Public Library Find [D]",
+      "summary": "Pleasantly surprised to find O’Reilly books on ML at a public library submitted by /u/ai_hedge_fund [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1utplzc/public_library_find_d/"
+    },
     {
       "id": "n_f255b0c0243e",
       "date": "2026-07-11",
@@ -183,29 +203,11 @@
       "summary": "If I were to quantise a fp32 model to fp8(or any other), would the information loss be drastic ? submitted by /u/Cultural-Lobster7795 [link]...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1upk28e/does_quantising_a_model_reduce_its_performance_r/"
-    },
-    {
-      "id": "n_ecf6dc85c5c9",
-      "date": "2026-07-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "LingBot-Vision: masked boundary modeling for self-supervised pretraining (0.296 ",
-      "summary": "The idea: instead of masking random patches and hoping boundary structure emerges, the teacher predicts a dense boundary field online and th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1up4cjh/lingbotvision_masked_boundary_modeling_for/"
-    },
-    {
-      "id": "n_2ec804fcf717",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GigaWorld-1: A Roadmap to Build World Models for Robot Polic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.02642"
     }
   ],
   "ticker": [
+    "Context and average best linear map...",
+    "Public Library Find [D]",
     "How does *ACL conferences acceptanc...",
     "Please help me understand figure on...",
     "Journals vs Conferences ML Research...",
@@ -213,9 +215,7 @@
     "[论文] Why Can't I Open My Drawer? Mi...",
     "[论文] Video-Oasis: Rethinking Evalua...",
     "[论文] Vidu S1: A Real-Time Interacti...",
-    "LingBot-Video: sparse-MoE video dif...",
-    "DINOv2 way worse than SigLIP in k-N...",
-    "[论文] Infinite Worlds with Versatile..."
+    "LingBot-Video: sparse-MoE video dif..."
   ],
   "learning": {
     "phases": [
