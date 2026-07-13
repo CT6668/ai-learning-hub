@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-12",
+    "last_updated": "2026-07-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d44bd67b9371",
+      "date": "2026-07-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them ",
+      "summary": "TL:DR: I’m a grad student in AI, I saw that Google released TabFM and TimesFM last week, I built an MCP wrapper to serve both transformer mo...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/"
+    },
+    {
+      "id": "n_7538a1e27447",
+      "date": "2026-07-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Prompt-engineering paper accepted to ICML [R]",
+      "summary": "\"Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity\" This paper was accepted to ICML this year. Its main idea is a ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/"
+    },
+    {
+      "id": "n_4423e4c98817",
+      "date": "2026-07-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Video Generation Models are General-Purpose Vision Learners",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.09024"
+    },
+    {
+      "id": "n_7a8f389cf803",
+      "date": "2026-07-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scalable Visual Pretraining for Language Intelligence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.09657"
+    },
+    {
+      "id": "n_1de473f93ac9",
+      "date": "2026-07-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Long-Horizon-Terminal-Bench: Testing the Limits of Agents on",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.08964"
+    },
     {
       "id": "n_353f5e08b0d1",
       "date": "2026-07-12",
@@ -153,69 +203,19 @@
       "summary": "Hi everyone, I recently finished my Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling. Instead of just compiling my ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/"
-    },
-    {
-      "id": "n_d45943d3a891",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "TorchJD: Training with multiple losses in PyTorch [P]",
-      "summary": "Hi everyone! I wanted to share some recent progress on TorchJD that might be useful to the machine learning community. When training models ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1upzxk2/torchjd_training_with_multiple_losses_in_pytorch_p/"
-    },
-    {
-      "id": "n_10cff36c8d9c",
-      "date": "2026-07-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Vision as Unified Multimodal Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.06560"
-    },
-    {
-      "id": "n_9d4e218088f9",
-      "date": "2026-07-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Light-Omni: Reflex over Reasoning in Agentic Video Understan",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.05511"
-    },
-    {
-      "id": "n_e2601fe44935",
-      "date": "2026-07-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AlayaWorld: Long-Horizon and Playable Video World Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.06291"
-    },
-    {
-      "id": "n_01052a7cd39a",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "does quantising a model reduce its performance ?[R]",
-      "summary": "If I were to quantise a fp32 model to fp8(or any other), would the information loss be drastic ? submitted by /u/Cultural-Lobster7795 [link]...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1upk28e/does_quantising_a_model_reduce_its_performance_r/"
     }
   ],
   "ticker": [
+    "Zer0Fit: I took Google's new TabFM ...",
+    "Prompt-engineering paper accepted t...",
+    "[论文] Video Generation Models are Ge...",
+    "[论文] Scalable Visual Pretraining fo...",
+    "[论文] Long-Horizon-Terminal-Bench: T...",
     "Context and average best linear map...",
     "Public Library Find [D]",
     "How does *ACL conferences acceptanc...",
     "Please help me understand figure on...",
-    "Journals vs Conferences ML Research...",
-    "Hyperparameter tuning approach ques...",
-    "[论文] Why Can't I Open My Drawer? Mi...",
-    "[论文] Video-Oasis: Rethinking Evalua...",
-    "[论文] Vidu S1: A Real-Time Interacti...",
-    "LingBot-Video: sparse-MoE video dif..."
+    "Journals vs Conferences ML Research..."
   ],
   "learning": {
     "phases": [
