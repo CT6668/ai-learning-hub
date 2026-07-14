@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-07-13",
+    "last_updated": "2026-07-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4155314aa6a3",
+      "date": "2026-07-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Chain of Thought is a scaling trap. the next wave is latent reasoning (Coconut /",
+      "summary": "Read a long piece on the future of LLM reasoning that makes a provocative claim: Chain of Thought is a useful hack but weve started to confu...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/"
+    },
+    {
+      "id": "n_a5a70697d042",
+      "date": "2026-07-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LightMem-Ego: Your AI Memory for Everyday Life",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.11487"
+    },
+    {
+      "id": "n_a66d50206d13",
+      "date": "2026-07-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ABot-N1: Toward a General Visual Language Navigation Foundat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.10383"
+    },
+    {
+      "id": "n_50e58364a7c3",
+      "date": "2026-07-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.10350"
+    },
     {
       "id": "n_d44bd67b9371",
       "date": "2026-07-12",
@@ -163,59 +203,19 @@
       "summary": "Doing a bachelor thesis on fine-grained car classification (telling apart VW Golf generations from listing photos). Simple setup: frozen enc...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uqtamz/dinov2_way_worse_than_siglip_in_knn_is_this/"
-    },
-    {
-      "id": "n_b270ac8451c9",
-      "date": "2026-07-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Infinite Worlds with Versatile Interactions",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.07534"
-    },
-    {
-      "id": "n_47c92539cdd5",
-      "date": "2026-07-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Dual Latent Memory in Vision-Language-Action Models for Robo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.07608"
-    },
-    {
-      "id": "n_8121e48f757a",
-      "date": "2026-07-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scaling Mixture-of-Experts Video Pretraining for Embodied In",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.07675"
-    },
-    {
-      "id": "n_1f5248c559f6",
-      "date": "2026-07-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling [R]",
-      "summary": "Hi everyone, I recently finished my Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling. Instead of just compiling my ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/"
     }
   ],
   "ticker": [
+    "Chain of Thought is a scaling trap....",
+    "[论文] LightMem-Ego: Your AI Memory f...",
+    "[论文] ABot-N1: Toward a General Visu...",
+    "[论文] ABot-AgentOS: A General Roboti...",
     "Zer0Fit: I took Google's new TabFM ...",
     "Prompt-engineering paper accepted t...",
     "[论文] Video Generation Models are Ge...",
     "[论文] Scalable Visual Pretraining fo...",
     "[论文] Long-Horizon-Terminal-Bench: T...",
-    "Context and average best linear map...",
-    "Public Library Find [D]",
-    "How does *ACL conferences acceptanc...",
-    "Please help me understand figure on...",
-    "Journals vs Conferences ML Research..."
+    "Context and average best linear map..."
   ],
   "learning": {
     "phases": [
