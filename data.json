@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-07-14",
+    "last_updated": "2026-07-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b1314e493abc",
+      "date": "2026-07-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordinatio",
+      "summary": "Can LLM agents coordinate in long-horizon, open-ended worlds? We evaluate 13 modern LLMs in a new benchmark where agents must work together ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/"
+    },
+    {
+      "id": "n_63d6c7349b1c",
+      "date": "2026-07-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "LLM hallucination paper(using math) accepted to ICML workshop[R]",
+      "summary": "Hello guys. I want to introduce my recent research presented at ICML workshop. github link : genji970/SRM-LoRA: official implementation of \"...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uw4j6a/llm_hallucination_paperusing_math_accepted_to/"
+    },
+    {
+      "id": "n_23c1a99f10c6",
+      "date": "2026-07-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Know Before Fix: QA-Driven Repository Knowledge Acquisition ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.11111"
+    },
+    {
+      "id": "n_711ff35648b0",
+      "date": "2026-07-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.11886"
+    },
     {
       "id": "n_4155314aa6a3",
       "date": "2026-07-13",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2601.16211"
-    },
-    {
-      "id": "n_63de70bf3af7",
-      "date": "2026-07-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Video-Oasis: Rethinking Evaluation of Video Understanding",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2603.29616"
-    },
-    {
-      "id": "n_608b2bb01f6a",
-      "date": "2026-07-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Vidu S1: A Real-Time Interactive Video Generation Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.03118"
-    },
-    {
-      "id": "n_5fef5e6e426a",
-      "date": "2026-07-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "LingBot-Video: sparse-MoE video diffusion transformer (13B total, 1.4B active) p",
-      "summary": "Single-stream diffusion transformer with a DeepSeek-V3-style sparse MoE (128 experts, top-8 routing, 1.4B active of 13B total). Six-reward R...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/"
-    },
-    {
-      "id": "n_9a6df68e6310",
-      "date": "2026-07-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "DINOv2 way worse than SigLIP in k-NN. Is this expected? [R]",
-      "summary": "Doing a bachelor thesis on fine-grained car classification (telling apart VW Golf generations from listing photos). Simple setup: frozen enc...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uqtamz/dinov2_way_worse_than_siglip_in_knn_is_this/"
     }
   ],
   "ticker": [
+    "New LLM Coordination Benchmark - Be...",
+    "LLM hallucination paper(using math)...",
+    "[论文] Know Before Fix: QA-Driven Rep...",
+    "[论文] Read It Back: Pretrained MLLMs...",
     "Chain of Thought is a scaling trap....",
     "[论文] LightMem-Ego: Your AI Memory f...",
     "[论文] ABot-N1: Toward a General Visu...",
     "[论文] ABot-AgentOS: A General Roboti...",
     "Zer0Fit: I took Google's new TabFM ...",
-    "Prompt-engineering paper accepted t...",
-    "[论文] Video Generation Models are Ge...",
-    "[论文] Scalable Visual Pretraining fo...",
-    "[论文] Long-Horizon-Terminal-Bench: T...",
-    "Context and average best linear map..."
+    "Prompt-engineering paper accepted t..."
   ],
   "learning": {
     "phases": [
