@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b0eabc6dd793",
+      "date": "2026-07-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Seeking collaborators for scaling and independent evaluation of a new recurrent ",
+      "summary": "Hi everyone, Ive been working independently on a recurrent architecture called **DABSN (Dynamic Adaptive Bias State Network)** for the past ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent/"
+    },
+    {
+      "id": "n_2985e8586d88",
+      "date": "2026-07-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "whats the best and complete way to keep up with ai/ml news? [D]",
+      "summary": "im subscribed to a ai/ml newsletter but i feel like its not enough. i need a complete and not too time consuming way to keep up with ai/ml n...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/"
+    },
+    {
+      "id": "n_fadee30d9274",
+      "date": "2026-07-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.15207"
+    },
+    {
+      "id": "n_e4e4253364e9",
+      "date": "2026-07-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SearchOS-V1: Towards Robust Open-Domain Information-Seeking ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.15257"
+    },
+    {
+      "id": "n_5b2c6e674b08",
+      "date": "2026-07-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SEED: Self-Evolving On-Policy Distillation for Agentic Reinf",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.14777"
+    },
     {
       "id": "n_ae3bcbd25b61",
       "date": "2026-07-15",
@@ -153,69 +203,19 @@
       "summary": "\"Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity\" This paper was accepted to ICML this year. Its main idea is a ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/"
-    },
-    {
-      "id": "n_4423e4c98817",
-      "date": "2026-07-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Video Generation Models are General-Purpose Vision Learners",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.09024"
-    },
-    {
-      "id": "n_7a8f389cf803",
-      "date": "2026-07-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scalable Visual Pretraining for Language Intelligence",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.09657"
-    },
-    {
-      "id": "n_1de473f93ac9",
-      "date": "2026-07-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Long-Horizon-Terminal-Bench: Testing the Limits of Agents on",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.08964"
-    },
-    {
-      "id": "n_353f5e08b0d1",
-      "date": "2026-07-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Context and average best linear mappings [D]",
-      "summary": "The context (in a border sense) viewpoint of neural networks is not thought about too much but it leads to a simple best average linear mapp...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uu2p63/context_and_average_best_linear_mappings_d/"
-    },
-    {
-      "id": "n_5e12b0fe5a3e",
-      "date": "2026-07-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Public Library Find [D]",
-      "summary": "Pleasantly surprised to find O’Reilly books on ML at a public library submitted by /u/ai_hedge_fund [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1utplzc/public_library_find_d/"
     }
   ],
   "ticker": [
+    "Seeking collaborators for scaling a...",
+    "whats the best and complete way to ...",
+    "[论文] BadWAM: When World-Action Mode...",
+    "[论文] SearchOS-V1: Towards Robust Op...",
+    "[论文] SEED: Self-Evolving On-Policy ...",
     "Mechanistic interpretability: a fir...",
     "Looking for JEPA devil advocates [R...",
     "[论文] PolicyShiftGuard: Benchmarking...",
     "[论文] KnowAct-GUIClaw: Know Deeply, ...",
-    "[论文] Ring-Zero: Scaling Zero RL to ...",
-    "New LLM Coordination Benchmark - Be...",
-    "LLM hallucination paper(using math)...",
-    "[论文] Know Before Fix: QA-Driven Rep...",
-    "[论文] Read It Back: Pretrained MLLMs...",
-    "Chain of Thought is a scaling trap...."
+    "[论文] Ring-Zero: Scaling Zero RL to ..."
   ],
   "learning": {
     "phases": [
