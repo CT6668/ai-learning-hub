@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-07-17",
+    "last_updated": "2026-07-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b7668dfb44b0",
+      "date": "2026-07-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precisio",
+      "summary": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/"
+    },
+    {
+      "id": "n_d98c9d4f570c",
+      "date": "2026-07-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]",
+      "summary": "I have released a model that I have been working on for ~6 months off and on. Ive been enjoying listening to spatial music, but there is a l...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/"
+    },
+    {
+      "id": "n_c2a95f7d8dda",
+      "date": "2026-07-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GP",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.14952"
+    },
+    {
+      "id": "n_0289a1d10f58",
+      "date": "2026-07-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VideoChat3: Fully Open Video MLLM for Efficient and Generali",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.14935"
+    },
     {
       "id": "n_b0eabc6dd793",
       "date": "2026-07-16",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.11487"
-    },
-    {
-      "id": "n_a66d50206d13",
-      "date": "2026-07-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ABot-N1: Toward a General Visual Language Navigation Foundat",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.10383"
-    },
-    {
-      "id": "n_50e58364a7c3",
-      "date": "2026-07-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.10350"
-    },
-    {
-      "id": "n_d44bd67b9371",
-      "date": "2026-07-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them ",
-      "summary": "TL:DR: I’m a grad student in AI, I saw that Google released TabFM and TimesFM last week, I built an MCP wrapper to serve both transformer mo...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/"
-    },
-    {
-      "id": "n_7538a1e27447",
-      "date": "2026-07-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Prompt-engineering paper accepted to ICML [R]",
-      "summary": "\"Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity\" This paper was accepted to ICML this year. Its main idea is a ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/"
     }
   ],
   "ticker": [
+    "Tried testing qwen 35b moe model on...",
+    "Stereo2Spatial: Convert Stereo Musi...",
+    "[论文] LongStraw: Long-Context RL Bey...",
+    "[论文] VideoChat3: Fully Open Video M...",
     "Seeking collaborators for scaling a...",
     "whats the best and complete way to ...",
     "[论文] BadWAM: When World-Action Mode...",
     "[论文] SearchOS-V1: Towards Robust Op...",
     "[论文] SEED: Self-Evolving On-Policy ...",
-    "Mechanistic interpretability: a fir...",
-    "Looking for JEPA devil advocates [R...",
-    "[论文] PolicyShiftGuard: Benchmarking...",
-    "[论文] KnowAct-GUIClaw: Know Deeply, ...",
-    "[论文] Ring-Zero: Scaling Zero RL to ..."
+    "Mechanistic interpretability: a fir..."
   ],
   "learning": {
     "phases": [
