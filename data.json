@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-07-18",
+    "last_updated": "2026-07-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_00c6ee902dd6",
+      "date": "2026-07-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous near",
+      "summary": "This visualization looks at the token “Trump” in GPT-2 Small’s static embedding table, before attention or context is applied. The top plot ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/"
+    },
+    {
+      "id": "n_9d55422b5410",
+      "date": "2026-07-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+      "summary": "The Google DeepMind-sponsored Kaggle challenge \"Measuring Progress Toward AGI - Cognitive Abilities\" asked participants to design new cognit...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/"
+    },
     {
       "id": "n_b7668dfb44b0",
       "date": "2026-07-18",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.11886"
-    },
-    {
-      "id": "n_4155314aa6a3",
-      "date": "2026-07-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Chain of Thought is a scaling trap. the next wave is latent reasoning (Coconut /",
-      "summary": "Read a long piece on the future of LLM reasoning that makes a provocative claim: Chain of Thought is a useful hack but weve started to confu...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/"
-    },
-    {
-      "id": "n_a5a70697d042",
-      "date": "2026-07-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LightMem-Ego: Your AI Memory for Everyday Life",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.11487"
     }
   ],
   "ticker": [
+    "GPT-2 Small’s embedding geometry ar...",
+    "Did blatant AI Slop just win a 25K ...",
     "Tried testing qwen 35b moe model on...",
     "Stereo2Spatial: Convert Stereo Musi...",
     "[论文] LongStraw: Long-Context RL Bey...",
@@ -213,9 +215,7 @@
     "Seeking collaborators for scaling a...",
     "whats the best and complete way to ...",
     "[论文] BadWAM: When World-Action Mode...",
-    "[论文] SearchOS-V1: Towards Robust Op...",
-    "[论文] SEED: Self-Evolving On-Policy ...",
-    "Mechanistic interpretability: a fir..."
+    "[论文] SearchOS-V1: Towards Robust Op..."
   ],
   "learning": {
     "phases": [
