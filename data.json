@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-20",
+    "last_updated": "2026-07-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d15e5745368e",
+      "date": "2026-07-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path ",
+      "summary": "So, I just read LeCuns interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literal...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/"
+    },
+    {
+      "id": "n_47af15197048",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Tri-Net v2: Open-source implementation of our Scientific Reports paper on unifie",
+      "summary": "Hi everyone, Weve open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfo...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/"
+    },
+    {
+      "id": "n_b0ab6466c8d4",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HOMIE: Human-object Centric Video Personalization via Multim",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.18217"
+    },
+    {
+      "id": "n_04ea3db6078e",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Group Entropy-Controlled Policy Optimization",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.16850"
+    },
+    {
+      "id": "n_d694f1678247",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ReflectWorld-MM: An Entity-Oriented Multimodal Memory System",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.09759"
+    },
     {
       "id": "n_8f53c6218714",
       "date": "2026-07-19",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.15257"
-    },
-    {
-      "id": "n_5b2c6e674b08",
-      "date": "2026-07-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SEED: Self-Evolving On-Policy Distillation for Agentic Reinf",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.14777"
-    },
-    {
-      "id": "n_ae3bcbd25b61",
-      "date": "2026-07-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Mechanistic interpretability: a first paper on disentangling a convolutional neu",
-      "summary": "I have recently started working in mechanistic interpretability independently, starting with distill circuits thread My work is on disentang...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/"
-    },
-    {
-      "id": "n_74e414938bed",
-      "date": "2026-07-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Looking for JEPA devil advocates [R]",
-      "summary": "I am currently doing research on world models, specially in tje field of robot learning, and, as probably most of you alredy know, JEPA-like...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/"
-    },
-    {
-      "id": "n_3c7e7644ece9",
-      "date": "2026-07-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PolicyShiftGuard: Benchmarking and Improving Policy-Adaptive",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.05910"
-    },
-    {
-      "id": "n_b3289469e6ac",
-      "date": "2026-07-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI As",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.12625"
     }
   ],
   "ticker": [
+    "I just read LeCun’s recent thoughts...",
+    "Tri-Net v2: Open-source implementat...",
+    "[论文] HOMIE: Human-object Centric Vi...",
+    "[论文] Group Entropy-Controlled Polic...",
+    "[论文] ReflectWorld-MM: An Entity-Ori...",
     "Am I focusing on the wrong skills a...",
     "Are there some textbooks that take ...",
     "[论文] Xiaomi-Robotics-1: Scaling Vis...",
     "[论文] xHC: Expanded Hyper-Connection...",
-    "[论文] Cura 1T: Specialized Model for...",
-    "GPT-2 Small’s embedding geometry ar...",
-    "Did blatant AI Slop just win a 25K ...",
-    "Tried testing qwen 35b moe model on...",
-    "Stereo2Spatial: Convert Stereo Musi...",
-    "[论文] LongStraw: Long-Context RL Bey..."
+    "[论文] Cura 1T: Specialized Model for..."
   ],
   "learning": {
     "phases": [
