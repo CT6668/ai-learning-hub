@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-21",
+    "last_updated": "2026-07-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2bf1d1998e52",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Number of Submissions @ AAAI [D]",
+      "summary": "Recently submitted my abstract and the submission number is 32xxx. With still a day to go, I just wonder where are we heading. Hope these co...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v2ef98/number_of_submissions_aaai_d/"
+    },
+    {
+      "id": "n_7fd2bf493fbd",
+      "date": "2026-07-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Looking for feedback on my GPU-accelerated Snake AI project [P]",
+      "summary": "Ive been building an AI that learns to play the classic Snake game through reinforcement learning. The goal is to reach high scores while ke...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v2xktw/looking_for_feedback_on_my_gpuaccelerated_snake/"
+    },
+    {
+      "id": "n_7af4b58d95f9",
+      "date": "2026-07-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Stale but Stable: Staleness-Adaptive Trust Regions for Stabi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.18722"
+    },
+    {
+      "id": "n_f2d5257b24fa",
+      "date": "2026-07-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AlayaWorld: Interactive Long-Horizon World Modeling -- Full ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.18367"
+    },
+    {
+      "id": "n_39944a4d4735",
+      "date": "2026-07-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Mage-Flow: An Efficient Native-Resolution Foundation Model f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.19064"
+    },
     {
       "id": "n_d15e5745368e",
       "date": "2026-07-20",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.14952"
-    },
-    {
-      "id": "n_0289a1d10f58",
-      "date": "2026-07-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VideoChat3: Fully Open Video MLLM for Efficient and Generali",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.14935"
-    },
-    {
-      "id": "n_b0eabc6dd793",
-      "date": "2026-07-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Seeking collaborators for scaling and independent evaluation of a new recurrent ",
-      "summary": "Hi everyone, Ive been working independently on a recurrent architecture called **DABSN (Dynamic Adaptive Bias State Network)** for the past ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent/"
-    },
-    {
-      "id": "n_2985e8586d88",
-      "date": "2026-07-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "whats the best and complete way to keep up with ai/ml news? [D]",
-      "summary": "im subscribed to a ai/ml newsletter but i feel like its not enough. i need a complete and not too time consuming way to keep up with ai/ml n...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/"
-    },
-    {
-      "id": "n_fadee30d9274",
-      "date": "2026-07-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.15207"
-    },
-    {
-      "id": "n_e4e4253364e9",
-      "date": "2026-07-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SearchOS-V1: Towards Robust Open-Domain Information-Seeking ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.15257"
     }
   ],
   "ticker": [
+    "Number of Submissions @ AAAI [D]",
+    "Looking for feedback on my GPU-acce...",
+    "[论文] Stale but Stable: Staleness-Ad...",
+    "[论文] AlayaWorld: Interactive Long-H...",
+    "[论文] Mage-Flow: An Efficient Native...",
     "I just read LeCun’s recent thoughts...",
     "Tri-Net v2: Open-source implementat...",
     "[论文] HOMIE: Human-object Centric Vi...",
     "[论文] Group Entropy-Controlled Polic...",
-    "[论文] ReflectWorld-MM: An Entity-Ori...",
-    "Am I focusing on the wrong skills a...",
-    "Are there some textbooks that take ...",
-    "[论文] Xiaomi-Robotics-1: Scaling Vis...",
-    "[论文] xHC: Expanded Hyper-Connection...",
-    "[论文] Cura 1T: Specialized Model for..."
+    "[论文] ReflectWorld-MM: An Entity-Ori..."
   ],
   "learning": {
     "phases": [
