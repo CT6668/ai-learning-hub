@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-22",
+    "last_updated": "2026-07-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e0c9af363d3e",
+      "date": "2026-07-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE ",
+      "summary": "Paper:https://arxiv.org/abs/2607.19058 Code (GitHub):https://github.com/nuemaan/skewadam Hi everyone, I just published a preprint on a new o...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/"
+    },
+    {
+      "id": "n_59ceb553dcc5",
+      "date": "2026-07-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Happy openreview refresh day to all those who celebrate [D]",
+      "summary": "...may the odds be in your favor. On a more serious note, as an Area Chair for Neurips, I can tell the incentives that they placed this year...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v3enzq/happy_openreview_refresh_day_to_all_those_who/"
+    },
+    {
+      "id": "n_d60950b8aea8",
+      "date": "2026-07-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond Relevance-Centric Retrieval: Rubric-Oriented Document",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.19747"
+    },
+    {
+      "id": "n_5149da56e858",
+      "date": "2026-07-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Self Gradient Forcing: Native Long Video Extrapolation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.20368"
+    },
+    {
+      "id": "n_52cd6c7407bc",
+      "date": "2026-07-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.20145"
+    },
     {
       "id": "n_2bf1d1998e52",
       "date": "2026-07-21",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.15314"
-    },
-    {
-      "id": "n_00c6ee902dd6",
-      "date": "2026-07-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous near",
-      "summary": "This visualization looks at the token “Trump” in GPT-2 Small’s static embedding table, before attention or context is applied. The top plot ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/"
-    },
-    {
-      "id": "n_9d55422b5410",
-      "date": "2026-07-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
-      "summary": "The Google DeepMind-sponsored Kaggle challenge \"Measuring Progress Toward AGI - Cognitive Abilities\" asked participants to design new cognit...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/"
-    },
-    {
-      "id": "n_b7668dfb44b0",
-      "date": "2026-07-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precisio",
-      "summary": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/"
-    },
-    {
-      "id": "n_d98c9d4f570c",
-      "date": "2026-07-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]",
-      "summary": "I have released a model that I have been working on for ~6 months off and on. Ive been enjoying listening to spatial music, but there is a l...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/"
-    },
-    {
-      "id": "n_c2a95f7d8dda",
-      "date": "2026-07-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GP",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.14952"
     }
   ],
   "ticker": [
+    "SkewAdam: A tiered optimizer that c...",
+    "Happy openreview refresh day to all...",
+    "[论文] Beyond Relevance-Centric Retri...",
+    "[论文] Self Gradient Forcing: Native ...",
+    "[论文] SLAI T-Rex: Full-Parameter Pos...",
     "Number of Submissions @ AAAI [D]",
     "Looking for feedback on my GPU-acce...",
     "[论文] Stale but Stable: Staleness-Ad...",
     "[论文] AlayaWorld: Interactive Long-H...",
-    "[论文] Mage-Flow: An Efficient Native...",
-    "I just read LeCun’s recent thoughts...",
-    "Tri-Net v2: Open-source implementat...",
-    "[论文] HOMIE: Human-object Centric Vi...",
-    "[论文] Group Entropy-Controlled Polic...",
-    "[论文] ReflectWorld-MM: An Entity-Ori..."
+    "[论文] Mage-Flow: An Efficient Native..."
   ],
   "learning": {
     "phases": [
