@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-07-24",
+    "last_updated": "2026-07-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c19335335aca",
+      "date": "2026-07-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Neurips Position Track Rebuttal and Reviews [R]",
+      "summary": "Hello! This is my first time submitting an actual conference paper (only done workshops so far). Got a 3/3/5/7 for the Position Paper Track....",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/"
+    },
+    {
+      "id": "n_246bc13d6138",
+      "date": "2026-07-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built a compiler that turns computation graphs into the weights of a vanilla t",
+      "summary": "Ive been chasing the question of what algorithms a transformer can actually express -- separate from what it can learn. So I built a compile...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/"
+    },
+    {
+      "id": "n_0bc4ec40a663",
+      "date": "2026-07-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchma",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2605.09635"
+    },
     {
       "id": "n_4b2b1e1db293",
       "date": "2026-07-23",
@@ -173,49 +203,19 @@
       "summary": "Hi everyone, Weve open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfo...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/"
-    },
-    {
-      "id": "n_b0ab6466c8d4",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HOMIE: Human-object Centric Video Personalization via Multim",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.18217"
-    },
-    {
-      "id": "n_04ea3db6078e",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Group Entropy-Controlled Policy Optimization",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.16850"
-    },
-    {
-      "id": "n_d694f1678247",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ReflectWorld-MM: An Entity-Oriented Multimodal Memory System",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.09759"
     }
   ],
   "ticker": [
+    "Neurips Position Track Rebuttal and...",
+    "I built a compiler that turns compu...",
+    "[论文] K12-KGraph: A Curriculum-Align...",
     "Prompt Injection in NeurIPS 2026? [...",
     "GPT-5.5 Scores 10.6% on ActiveVisio...",
     "[论文] ReferTrack: Referring Then Tra...",
     "[论文] Visual Contrastive Self-Distil...",
     "[论文] AREX: Towards a Recursively Se...",
     "SkewAdam: A tiered optimizer that c...",
-    "Happy openreview refresh day to all...",
-    "[论文] Beyond Relevance-Centric Retri...",
-    "[论文] Self Gradient Forcing: Native ...",
-    "[论文] SLAI T-Rex: Full-Parameter Pos..."
+    "Happy openreview refresh day to all..."
   ],
   "learning": {
     "phases": [
