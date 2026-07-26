@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-07-25",
+    "last_updated": "2026-07-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_6c947f483273",
+      "date": "2026-07-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Understanding GPU Inference Workloads [D]",
+      "summary": "Hey everyone, I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/"
+    },
+    {
+      "id": "n_781b667a7570",
+      "date": "2026-07-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
+      "summary": "Ive usually been commenting on threads on conference reviews. Im now expressing my observations here. To the best of my knowledge, paper len...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/"
+    },
     {
       "id": "n_c19335335aca",
       "date": "2026-07-25",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.19064"
-    },
-    {
-      "id": "n_d15e5745368e",
-      "date": "2026-07-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path ",
-      "summary": "So, I just read LeCuns interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literal...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/"
-    },
-    {
-      "id": "n_47af15197048",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Tri-Net v2: Open-source implementation of our Scientific Reports paper on unifie",
-      "summary": "Hi everyone, Weve open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfo...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/"
     }
   ],
   "ticker": [
+    "Understanding GPU Inference Workloa...",
+    "Paper lengths, and reasonable assum...",
     "Neurips Position Track Rebuttal and...",
     "I built a compiler that turns compu...",
     "[论文] K12-KGraph: A Curriculum-Align...",
@@ -213,9 +215,7 @@
     "GPT-5.5 Scores 10.6% on ActiveVisio...",
     "[论文] ReferTrack: Referring Then Tra...",
     "[论文] Visual Contrastive Self-Distil...",
-    "[论文] AREX: Towards a Recursively Se...",
-    "SkewAdam: A tiered optimizer that c...",
-    "Happy openreview refresh day to all..."
+    "[论文] AREX: Towards a Recursively Se..."
   ],
   "learning": {
     "phases": [
