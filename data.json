@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-26",
+    "last_updated": "2026-07-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_84407c16ee83",
+      "date": "2026-07-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Recent project I worked on: End to End Edge ML platform [D]",
+      "summary": "Hi all, I recently made an end to end ML platform that eases the pain of going from raw sensor data to a deployed model on an MCU. I wanted ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/"
+    },
+    {
+      "id": "n_9b1bb8042b7e",
+      "date": "2026-07-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I implemented the YOLO26n model inference from scratch using ARM64 Assembly Lang",
+      "summary": "This was my Bachelors Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without rel...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/"
+    },
+    {
+      "id": "n_cc917007dfa2",
+      "date": "2026-07-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scaling Native Multimodal Pre-Training From Scratch",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.22043"
+    },
+    {
+      "id": "n_e65d733619bb",
+      "date": "2026-07-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Skill Self-Play: Pushing the Frontier of LLM Capability with",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.22529"
+    },
+    {
+      "id": "n_72f7c8009b05",
+      "date": "2026-07-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Molt: A Scalable PyTorch-Native Training Framework for Agent",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.21653"
+    },
     {
       "id": "n_6c947f483273",
       "date": "2026-07-26",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.20145"
-    },
-    {
-      "id": "n_2bf1d1998e52",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Number of Submissions @ AAAI [D]",
-      "summary": "Recently submitted my abstract and the submission number is 32xxx. With still a day to go, I just wonder where are we heading. Hope these co...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v2ef98/number_of_submissions_aaai_d/"
-    },
-    {
-      "id": "n_7fd2bf493fbd",
-      "date": "2026-07-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Looking for feedback on my GPU-accelerated Snake AI project [P]",
-      "summary": "Ive been building an AI that learns to play the classic Snake game through reinforcement learning. The goal is to reach high scores while ke...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v2xktw/looking_for_feedback_on_my_gpuaccelerated_snake/"
-    },
-    {
-      "id": "n_7af4b58d95f9",
-      "date": "2026-07-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Stale but Stable: Staleness-Adaptive Trust Regions for Stabi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.18722"
-    },
-    {
-      "id": "n_f2d5257b24fa",
-      "date": "2026-07-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AlayaWorld: Interactive Long-Horizon World Modeling -- Full ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.18367"
-    },
-    {
-      "id": "n_39944a4d4735",
-      "date": "2026-07-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Mage-Flow: An Efficient Native-Resolution Foundation Model f",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.19064"
     }
   ],
   "ticker": [
+    "Recent project I worked on: End to ...",
+    "I implemented the YOLO26n model inf...",
+    "[论文] Scaling Native Multimodal Pre-...",
+    "[论文] Skill Self-Play: Pushing the F...",
+    "[论文] Molt: A Scalable PyTorch-Nativ...",
     "Understanding GPU Inference Workloa...",
     "Paper lengths, and reasonable assum...",
     "Neurips Position Track Rebuttal and...",
     "I built a compiler that turns compu...",
-    "[论文] K12-KGraph: A Curriculum-Align...",
-    "Prompt Injection in NeurIPS 2026? [...",
-    "GPT-5.5 Scores 10.6% on ActiveVisio...",
-    "[论文] ReferTrack: Referring Then Tra...",
-    "[论文] Visual Contrastive Self-Distil...",
-    "[论文] AREX: Towards a Recursively Se..."
+    "[论文] K12-KGraph: A Curriculum-Align..."
   ],
   "learning": {
     "phases": [
