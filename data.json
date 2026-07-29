@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-28",
+    "last_updated": "2026-07-29",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_41a47014dd15",
+      "date": "2026-07-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "EMNLP 2026 AI Reviewing Experiment [D]",
+      "summary": "Hey, can anyone see the AI review result in ARR May 2026 submission? submitted by /u/Historical_Pause247 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/"
+    },
+    {
+      "id": "n_cdcc3b47ae39",
+      "date": "2026-07-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+      "summary": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, wi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/"
+    },
+    {
+      "id": "n_37da7bcd6cb4",
+      "date": "2026-07-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ReDesign: Recovering Editable Design Structures from Images ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.25565"
+    },
+    {
+      "id": "n_7abb9191fb1c",
+      "date": "2026-07-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HiFi-UMI: Learning Deployable Manipulation Policies from Hig",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.25895"
+    },
+    {
+      "id": "n_6a08aa303bff",
+      "date": "2026-07-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] A New Role for Relevance: Guiding Corpus Interaction in Agen",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.24223"
+    },
     {
       "id": "n_a98813d9bc56",
       "date": "2026-07-28",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2605.09635"
-    },
-    {
-      "id": "n_4b2b1e1db293",
-      "date": "2026-07-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Prompt Injection in NeurIPS 2026? [D]",
-      "summary": "The reviews were just released, and I downloaded my paper from OpenReview to identify areas that needed improvement. However, GPT warned me ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/"
-    },
-    {
-      "id": "n_8c7e5b7e76e6",
-      "date": "2026-07-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "GPT-5.5 Scores 10.6% on ActiveVision, Humans Hit 96.1% [R]",
-      "summary": "The interesting finding from a new [arXiv paper](https://arxiv.org/abs/2607.16165) isnt that a frontier vision model failed a new benchmark,...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/"
-    },
-    {
-      "id": "n_27d4a3e08b44",
-      "date": "2026-07-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ReferTrack: Referring Then Tracking for Embodied Visual Trac",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.20061"
-    },
-    {
-      "id": "n_45b3c51cb288",
-      "date": "2026-07-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Visual Contrastive Self-Distillation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.21556"
-    },
-    {
-      "id": "n_f5019cecfd5e",
-      "date": "2026-07-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AREX: Towards a Recursively Self-Improving Agent for Deep Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.21461"
     }
   ],
   "ticker": [
+    "EMNLP 2026 AI Reviewing Experiment ...",
+    "NeurIPS 2026 Reviewer: AI-Generated...",
+    "[论文] ReDesign: Recovering Editable ...",
+    "[论文] HiFi-UMI: Learning Deployable ...",
+    "[论文] A New Role for Relevance: Guid...",
     "Mix local LLMs, Claude Code, Codex,...",
     "Built & Trained a Transformer from ...",
     "[论文] From Proprietary to Open-Sourc...",
     "[论文] StateAct: Program State, befor...",
-    "[论文] Progress Reward Modeling for R...",
-    "Recent project I worked on: End to ...",
-    "I implemented the YOLO26n model inf...",
-    "[论文] Scaling Native Multimodal Pre-...",
-    "[论文] Skill Self-Play: Pushing the F...",
-    "[论文] Molt: A Scalable PyTorch-Nativ..."
+    "[论文] Progress Reward Modeling for R..."
   ],
   "learning": {
     "phases": [
