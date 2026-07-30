@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-29",
+    "last_updated": "2026-07-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_bcc0bf5ab16e",
+      "date": "2026-07-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built ganfs: A Python package that uses GANs to automate feature selection for",
+      "summary": "Hey everyone, I recently open-sourced a new Python package called ganfs (Generative Adversarial Network Feature Selection), and I wanted to ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/"
+    },
+    {
+      "id": "n_5f1eedcfeab3",
+      "date": "2026-07-29",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICLR 2027 Deadline is before NeurIPS 2026 Decisions [D]",
+      "summary": "Title says it all really... ICLR 2027 decided to have the full paper deadline on Sep 16, 8 days before the NeurIPS decisions come out. Dont ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v9v4e7/iclr_2027_deadline_is_before_neurips_2026/"
+    },
+    {
+      "id": "n_cdd74ea0775a",
+      "date": "2026-07-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-G",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.25675"
+    },
+    {
+      "id": "n_43443c438683",
+      "date": "2026-07-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.27180"
+    },
+    {
+      "id": "n_920f89ee117b",
+      "date": "2026-07-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.27205"
+    },
     {
       "id": "n_41a47014dd15",
       "date": "2026-07-29",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.21653"
-    },
-    {
-      "id": "n_6c947f483273",
-      "date": "2026-07-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Understanding GPU Inference Workloads [D]",
-      "summary": "Hey everyone, I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/"
-    },
-    {
-      "id": "n_781b667a7570",
-      "date": "2026-07-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
-      "summary": "Ive usually been commenting on threads on conference reviews. Im now expressing my observations here. To the best of my knowledge, paper len...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/"
-    },
-    {
-      "id": "n_c19335335aca",
-      "date": "2026-07-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Neurips Position Track Rebuttal and Reviews [R]",
-      "summary": "Hello! This is my first time submitting an actual conference paper (only done workshops so far). Got a 3/3/5/7 for the Position Paper Track....",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/"
-    },
-    {
-      "id": "n_246bc13d6138",
-      "date": "2026-07-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built a compiler that turns computation graphs into the weights of a vanilla t",
-      "summary": "Ive been chasing the question of what algorithms a transformer can actually express -- separate from what it can learn. So I built a compile...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/"
-    },
-    {
-      "id": "n_0bc4ec40a663",
-      "date": "2026-07-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchma",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2605.09635"
     }
   ],
   "ticker": [
+    "I built ganfs: A Python package tha...",
+    "ICLR 2027 Deadline is before NeurIP...",
+    "[论文] DecoEvo: Score-Decoupled Co-Ev...",
+    "[论文] HumanCLAW: Can Vision-Language...",
+    "[论文] TurboVLA: Real-Time Vision-Lan...",
     "EMNLP 2026 AI Reviewing Experiment ...",
     "NeurIPS 2026 Reviewer: AI-Generated...",
     "[论文] ReDesign: Recovering Editable ...",
     "[论文] HiFi-UMI: Learning Deployable ...",
-    "[论文] A New Role for Relevance: Guid...",
-    "Mix local LLMs, Claude Code, Codex,...",
-    "Built & Trained a Transformer from ...",
-    "[论文] From Proprietary to Open-Sourc...",
-    "[论文] StateAct: Program State, befor...",
-    "[论文] Progress Reward Modeling for R..."
+    "[论文] A New Role for Relevance: Guid..."
   ],
   "learning": {
     "phases": [
