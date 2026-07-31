@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-07-30",
+    "last_updated": "2026-07-31",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8fda0d0ba5ad",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "If reviewing is mandatory for paper submissions, low-quality reviews can no long",
+      "summary": "Several artificial intelligence conferences have recently introduced systems that require authors who submit papers to complete a certain nu...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/"
+    },
+    {
+      "id": "n_e3145a78bc4a",
+      "date": "2026-07-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I have lost three and a half potential PhD students due to the conference review",
+      "summary": "Early-career Assistant Professor here. I identified some talented undergraduate students and worked with them on research problems, trying t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vawwb8/i_have_lost_three_and_a_half_potential_phd/"
+    },
+    {
+      "id": "n_afffee3878dd",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AskChem: Claim-Centered Infrastructure for Chemistry Literat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28618"
+    },
+    {
+      "id": "n_3c4a27d31ff9",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PhiZero: A World Model Built Around Physical Language",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28624"
+    },
+    {
+      "id": "n_bc7d88c04183",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Metis: Memory Foundation Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.26760"
+    },
     {
       "id": "n_bcc0bf5ab16e",
       "date": "2026-07-30",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.21655"
-    },
-    {
-      "id": "n_84407c16ee83",
-      "date": "2026-07-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Recent project I worked on: End to End Edge ML platform [D]",
-      "summary": "Hi all, I recently made an end to end ML platform that eases the pain of going from raw sensor data to a deployed model on an MCU. I wanted ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/"
-    },
-    {
-      "id": "n_9b1bb8042b7e",
-      "date": "2026-07-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I implemented the YOLO26n model inference from scratch using ARM64 Assembly Lang",
-      "summary": "This was my Bachelors Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without rel...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/"
-    },
-    {
-      "id": "n_cc917007dfa2",
-      "date": "2026-07-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scaling Native Multimodal Pre-Training From Scratch",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.22043"
-    },
-    {
-      "id": "n_e65d733619bb",
-      "date": "2026-07-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Skill Self-Play: Pushing the Frontier of LLM Capability with",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.22529"
-    },
-    {
-      "id": "n_72f7c8009b05",
-      "date": "2026-07-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Molt: A Scalable PyTorch-Native Training Framework for Agent",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.21653"
     }
   ],
   "ticker": [
+    "If reviewing is mandatory for paper...",
+    "I have lost three and a half potent...",
+    "[论文] AskChem: Claim-Centered Infras...",
+    "[论文] PhiZero: A World Model Built A...",
+    "[论文] Metis: Memory Foundation Model",
     "I built ganfs: A Python package tha...",
     "ICLR 2027 Deadline is before NeurIP...",
     "[论文] DecoEvo: Score-Decoupled Co-Ev...",
     "[论文] HumanCLAW: Can Vision-Language...",
-    "[论文] TurboVLA: Real-Time Vision-Lan...",
-    "EMNLP 2026 AI Reviewing Experiment ...",
-    "NeurIPS 2026 Reviewer: AI-Generated...",
-    "[论文] ReDesign: Recovering Editable ...",
-    "[论文] HiFi-UMI: Learning Deployable ...",
-    "[论文] A New Role for Relevance: Guid..."
+    "[论文] TurboVLA: Real-Time Vision-Lan..."
   ],
   "learning": {
     "phases": [
