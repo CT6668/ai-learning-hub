@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b72cae38921c",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Learning path to fully understand the Kimi K3 technical report?[D]",
+      "summary": "Hi everyone, Can anyone suggest a learning path to fully understand the technical report for Kimi K3? My background: - Ive taken a graduate-...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbvlft/learning_path_to_fully_understand_the_kimi_k3/"
+    },
+    {
+      "id": "n_1e2bbb512f89",
+      "date": "2026-07-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I have trained a model to predict my blood sugar [P]",
+      "summary": "Its an encoder-only transformer that consumes past(blood glucose + carbs + insulin) and future(carbs + insulin) and predicts future blood gl...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc1txc/i_have_trained_a_model_to_predict_my_blood_sugar_p/"
+    },
+    {
+      "id": "n_2d1738cd1266",
+      "date": "2026-08-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Qwen-UI-Agent Technical Report: Toward Next-Generation Real-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28227"
+    },
     {
       "id": "n_8fda0d0ba5ad",
       "date": "2026-07-31",
@@ -173,49 +203,19 @@
       "summary": "Hi everyone! 👋 I built and trained the complete Transformer architecture from scratch using pure PyTorch (`torch.nn` primitives) based on th...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/"
-    },
-    {
-      "id": "n_e2e47f3ae898",
-      "date": "2026-07-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Proprietary to Open-Source: Bridging the Distribution G",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.24280"
-    },
-    {
-      "id": "n_126bb11d2802",
-      "date": "2026-07-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] StateAct: Program State, before Pixels, for Long-Horizon Com",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.22798"
-    },
-    {
-      "id": "n_0a83adff8e57",
-      "date": "2026-07-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Progress Reward Modeling for Robotic Learning: A Comprehensi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.21655"
     }
   ],
   "ticker": [
+    "Learning path to fully understand t...",
+    "I have trained a model to predict m...",
+    "[论文] Qwen-UI-Agent Technical Report...",
     "If reviewing is mandatory for paper...",
     "I have lost three and a half potent...",
     "[论文] AskChem: Claim-Centered Infras...",
     "[论文] PhiZero: A World Model Built A...",
     "[论文] Metis: Memory Foundation Model",
     "I built ganfs: A Python package tha...",
-    "ICLR 2027 Deadline is before NeurIP...",
-    "[论文] DecoEvo: Score-Decoupled Co-Ev...",
-    "[论文] HumanCLAW: Can Vision-Language...",
-    "[论文] TurboVLA: Real-Time Vision-Lan..."
+    "ICLR 2027 Deadline is before NeurIP..."
   ],
   "learning": {
     "phases": [
