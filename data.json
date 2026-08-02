@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b35173f29e4c",
+      "date": "2026-08-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Bytedance is using seedance 2.5 to automatically generate animated study guides ",
+      "summary": "bytedance is using seedance 2.5 to automatically generate animated study guides in gauth. interesting use case for ai video saw this busines...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vd8ezp/bytedance_is_using_seedance_25_to_automatically/"
+    },
+    {
+      "id": "n_5d233cba9590",
+      "date": "2026-08-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Question about NeurIPS discussion phase [D]",
+      "summary": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In p...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/"
+    },
     {
       "id": "n_b72cae38921c",
       "date": "2026-07-31",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.24223"
-    },
-    {
-      "id": "n_a98813d9bc56",
-      "date": "2026-07-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Mix local LLMs, Claude Code, Codex, Gemini and more in one SDLC pipeline (open s",
-      "summary": "A lot of AI coding tools assume one model should do everything: understand the task, write the code, review it, and decide whether it is cor...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8nuwc/mix_local_llms_claude_code_codex_gemini_and_more/"
-    },
-    {
-      "id": "n_8cee4e34def3",
-      "date": "2026-07-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Built & Trained a Transformer from Scratch in Pure PyTorch for English-to-Tamil ",
-      "summary": "Hi everyone! 👋 I built and trained the complete Transformer architecture from scratch using pure PyTorch (`torch.nn` primitives) based on th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/"
     }
   ],
   "ticker": [
+    "Bytedance is using seedance 2.5 to ...",
+    "Question about NeurIPS discussion p...",
     "Learning path to fully understand t...",
     "I have trained a model to predict m...",
     "[论文] Qwen-UI-Agent Technical Report...",
@@ -213,9 +215,7 @@
     "I have lost three and a half potent...",
     "[论文] AskChem: Claim-Centered Infras...",
     "[论文] PhiZero: A World Model Built A...",
-    "[论文] Metis: Memory Foundation Model",
-    "I built ganfs: A Python package tha...",
-    "ICLR 2027 Deadline is before NeurIP..."
+    "[论文] Metis: Memory Foundation Model"
   ],
   "learning": {
     "phases": [
