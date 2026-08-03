@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-02",
+    "last_updated": "2026-08-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_797e03ac8a78",
+      "date": "2026-08-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Neurips 2026: does every metareview recommend accept/reject? [D]",
+      "summary": "I see some people say their metareview already contains a decision/recommendation (all of them were rejections). Ours doesn’t. Even though o...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/"
+    },
+    {
+      "id": "n_5c62a6147b4e",
+      "date": "2026-08-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "neurips 2026: ACs and reviewers have disappeared [D]",
+      "summary": "we submitted our rebuttal via the \"Rebuttal\" button before the author/reviewer/AC discussion period officially opened (Jul 27 AoE). since th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/"
+    },
+    {
+      "id": "n_439393f566a3",
+      "date": "2026-08-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] QQWorld: Quantile-Quantile Matching for World Model Regulari",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28415"
+    },
+    {
+      "id": "n_9737bfcc278c",
+      "date": "2026-08-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AISPA: User-Centric System Prompt Auditing for Large Languag",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28617"
+    },
+    {
+      "id": "n_e61a1d5114d9",
+      "date": "2026-08-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From RLVR to RLSVR: Task Transformation Induces Self-Verifia",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.23802"
+    },
     {
       "id": "n_b35173f29e4c",
       "date": "2026-08-02",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.27205"
-    },
-    {
-      "id": "n_41a47014dd15",
-      "date": "2026-07-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "EMNLP 2026 AI Reviewing Experiment [D]",
-      "summary": "Hey, can anyone see the AI review result in ARR May 2026 submission? submitted by /u/Historical_Pause247 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/"
-    },
-    {
-      "id": "n_cdcc3b47ae39",
-      "date": "2026-07-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
-      "summary": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, wi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/"
-    },
-    {
-      "id": "n_37da7bcd6cb4",
-      "date": "2026-07-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ReDesign: Recovering Editable Design Structures from Images ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.25565"
-    },
-    {
-      "id": "n_7abb9191fb1c",
-      "date": "2026-07-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HiFi-UMI: Learning Deployable Manipulation Policies from Hig",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.25895"
-    },
-    {
-      "id": "n_6a08aa303bff",
-      "date": "2026-07-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] A New Role for Relevance: Guiding Corpus Interaction in Agen",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.24223"
     }
   ],
   "ticker": [
+    "Neurips 2026: does every metareview...",
+    "neurips 2026: ACs and reviewers hav...",
+    "[论文] QQWorld: Quantile-Quantile Mat...",
+    "[论文] AISPA: User-Centric System Pro...",
+    "[论文] From RLVR to RLSVR: Task Trans...",
     "Bytedance is using seedance 2.5 to ...",
     "Question about NeurIPS discussion p...",
     "Learning path to fully understand t...",
     "I have trained a model to predict m...",
-    "[论文] Qwen-UI-Agent Technical Report...",
-    "If reviewing is mandatory for paper...",
-    "I have lost three and a half potent...",
-    "[论文] AskChem: Claim-Centered Infras...",
-    "[论文] PhiZero: A World Model Built A...",
-    "[论文] Metis: Memory Foundation Model"
+    "[论文] Qwen-UI-Agent Technical Report..."
   ],
   "learning": {
     "phases": [
