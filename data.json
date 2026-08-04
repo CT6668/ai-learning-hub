@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-03",
+    "last_updated": "2026-08-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2fc327d98e49",
+      "date": "2026-08-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026: If the rebuttal addresses your concern, please raise your score [D",
+      "summary": "Potentially a hot take? I am not sure why our community is plagued with reviewers who, after acknowledging that their concerns were addresse...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vefwvh/neurips_2026_if_the_rebuttal_addresses_your/"
+    },
+    {
+      "id": "n_2241f8bc0a9e",
+      "date": "2026-08-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "It's time to desk reject papers that don't include code that can reproduce the r",
+      "summary": "As review season for NeurIPS wraps up, I have now reviewed for 3 major conferences this year. And Im noticing a worrying trend: Out of the 1...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vei12v/its_time_to_desk_reject_papers_that_dont_include/"
+    },
+    {
+      "id": "n_43c24591fe28",
+      "date": "2026-08-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SWE-Touch: Benchmarking Coding Agents When Users Touch the C",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.02499"
+    },
+    {
+      "id": "n_eb5412e672a9",
+      "date": "2026-08-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VAD: Attributing Visual Evidence for Target Reconstruction i",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28590"
+    },
+    {
+      "id": "n_c5edb1ec91ef",
+      "date": "2026-08-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SwanTale: Unified Multi-Speaker Speech and Audio Generation ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.02023"
+    },
     {
       "id": "n_797e03ac8a78",
       "date": "2026-08-02",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.26760"
-    },
-    {
-      "id": "n_bcc0bf5ab16e",
-      "date": "2026-07-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built ganfs: A Python package that uses GANs to automate feature selection for",
-      "summary": "Hey everyone, I recently open-sourced a new Python package called ganfs (Generative Adversarial Network Feature Selection), and I wanted to ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/"
-    },
-    {
-      "id": "n_5f1eedcfeab3",
-      "date": "2026-07-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICLR 2027 Deadline is before NeurIPS 2026 Decisions [D]",
-      "summary": "Title says it all really... ICLR 2027 decided to have the full paper deadline on Sep 16, 8 days before the NeurIPS decisions come out. Dont ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v9v4e7/iclr_2027_deadline_is_before_neurips_2026/"
-    },
-    {
-      "id": "n_cdd74ea0775a",
-      "date": "2026-07-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-G",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.25675"
-    },
-    {
-      "id": "n_43443c438683",
-      "date": "2026-07-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HumanCLAW: Can Vision-Language Models Act Through a Body?",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.27180"
-    },
-    {
-      "id": "n_920f89ee117b",
-      "date": "2026-07-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.27205"
     }
   ],
   "ticker": [
+    "NeurIPS 2026: If the rebuttal addre...",
+    "It's time to desk reject papers tha...",
+    "[论文] SWE-Touch: Benchmarking Coding...",
+    "[论文] VAD: Attributing Visual Eviden...",
+    "[论文] SwanTale: Unified Multi-Speake...",
     "Neurips 2026: does every metareview...",
     "neurips 2026: ACs and reviewers hav...",
     "[论文] QQWorld: Quantile-Quantile Mat...",
     "[论文] AISPA: User-Centric System Pro...",
-    "[论文] From RLVR to RLSVR: Task Trans...",
-    "Bytedance is using seedance 2.5 to ...",
-    "Question about NeurIPS discussion p...",
-    "Learning path to fully understand t...",
-    "I have trained a model to predict m...",
-    "[论文] Qwen-UI-Agent Technical Report..."
+    "[论文] From RLVR to RLSVR: Task Trans..."
   ],
   "learning": {
     "phases": [
