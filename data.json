@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-04",
+    "last_updated": "2026-08-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8e8f3f4dc746",
+      "date": "2026-08-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026 post-rebuttal score distribution poll [D]",
+      "summary": "As the title suggests, because theres no data on Papercopilot yet, and people have been talking about the scores being lower in general than...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfi23r/neurips_2026_postrebuttal_score_distribution_poll/"
+    },
+    {
+      "id": "n_b87c9eff1927",
+      "date": "2026-08-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026 Main Track — Theory papers score tracking post Rebuttal [D]",
+      "summary": "&#x200B; Now that the rebuttal period is over, I’m curious about the score distribution specifically for theory papers this year. If you’re ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/"
+    },
+    {
+      "id": "n_8243a96c1862",
+      "date": "2026-08-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalab",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.02711"
+    },
+    {
+      "id": "n_dee89a58fee1",
+      "date": "2026-08-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AURORA-LM: Autoencoding Unified Representation for Continuou",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.02602"
+    },
+    {
+      "id": "n_9304967a1ded",
+      "date": "2026-08-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Au",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.03974"
+    },
     {
       "id": "n_2fc327d98e49",
       "date": "2026-08-03",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.28227"
-    },
-    {
-      "id": "n_8fda0d0ba5ad",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "If reviewing is mandatory for paper submissions, low-quality reviews can no long",
-      "summary": "Several artificial intelligence conferences have recently introduced systems that require authors who submit papers to complete a certain nu...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/"
-    },
-    {
-      "id": "n_e3145a78bc4a",
-      "date": "2026-07-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I have lost three and a half potential PhD students due to the conference review",
-      "summary": "Early-career Assistant Professor here. I identified some talented undergraduate students and worked with them on research problems, trying t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vawwb8/i_have_lost_three_and_a_half_potential_phd/"
-    },
-    {
-      "id": "n_afffee3878dd",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AskChem: Claim-Centered Infrastructure for Chemistry Literat",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28618"
-    },
-    {
-      "id": "n_3c4a27d31ff9",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PhiZero: A World Model Built Around Physical Language",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28624"
-    },
-    {
-      "id": "n_bc7d88c04183",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Metis: Memory Foundation Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.26760"
     }
   ],
   "ticker": [
+    "NeurIPS 2026 post-rebuttal score di...",
+    "NeurIPS 2026 Main Track — Theory pa...",
+    "[论文] Hunyuan3D-Buffalo 1.0: A Unifi...",
+    "[论文] AURORA-LM: Autoencoding Unifie...",
+    "[论文] JoyAI-Video-Edit: Real-Time Op...",
     "NeurIPS 2026: If the rebuttal addre...",
     "It's time to desk reject papers tha...",
     "[论文] SWE-Touch: Benchmarking Coding...",
     "[论文] VAD: Attributing Visual Eviden...",
-    "[论文] SwanTale: Unified Multi-Speake...",
-    "Neurips 2026: does every metareview...",
-    "neurips 2026: ACs and reviewers hav...",
-    "[论文] QQWorld: Quantile-Quantile Mat...",
-    "[论文] AISPA: User-Centric System Pro...",
-    "[论文] From RLVR to RLSVR: Task Trans..."
+    "[论文] SwanTale: Unified Multi-Speake..."
   ],
   "learning": {
     "phases": [
