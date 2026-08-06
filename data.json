@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ddcb2b2be666",
+      "date": "2026-08-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I Compressed Bad Apple into a 3MB Neural Network [P]",
+      "summary": "I trained a small MLP to memorize the classic Bad Apple animation, ~2.7 billion pixels of video compressed into 790k parameters (3.2 MB floa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfrco1/i_compressed_bad_apple_into_a_3mb_neural_network_p/"
+    },
+    {
+      "id": "n_f40180b30583",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Observations: non-instructional text prefix may bypass RLHF constraints without ",
+      "summary": "Ive been running informal experiments on RLHF-aligned LLMs and consistently observing something I cant fully explain. Posting here to get fe...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgty78/observations_noninstructional_text_prefix_may/"
+    },
+    {
+      "id": "n_316f8c1bcc03",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Towards Physics of Multimodal Pretraining: Knowledge Flow, M",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.05000"
+    },
+    {
+      "id": "n_c4d41b1bf8f5",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] The Personalization Mirage: How LLMs Fabricate User Profiles",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.04570"
+    },
+    {
+      "id": "n_3d4becbd885e",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ToolArtist: Tool-Using Unified Multimodal Models for Agentic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.04436"
+    },
     {
       "id": "n_8e8f3f4dc746",
       "date": "2026-08-04",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2607.23802"
-    },
-    {
-      "id": "n_b35173f29e4c",
-      "date": "2026-08-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Bytedance is using seedance 2.5 to automatically generate animated study guides ",
-      "summary": "bytedance is using seedance 2.5 to automatically generate animated study guides in gauth. interesting use case for ai video saw this busines...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vd8ezp/bytedance_is_using_seedance_25_to_automatically/"
-    },
-    {
-      "id": "n_5d233cba9590",
-      "date": "2026-08-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Question about NeurIPS discussion phase [D]",
-      "summary": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/"
-    },
-    {
-      "id": "n_b72cae38921c",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Learning path to fully understand the Kimi K3 technical report?[D]",
-      "summary": "Hi everyone, Can anyone suggest a learning path to fully understand the technical report for Kimi K3? My background: - Ive taken a graduate-...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbvlft/learning_path_to_fully_understand_the_kimi_k3/"
-    },
-    {
-      "id": "n_1e2bbb512f89",
-      "date": "2026-07-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I have trained a model to predict my blood sugar [P]",
-      "summary": "Its an encoder-only transformer that consumes past(blood glucose + carbs + insulin) and future(carbs + insulin) and predicts future blood gl...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc1txc/i_have_trained_a_model_to_predict_my_blood_sugar_p/"
-    },
-    {
-      "id": "n_2d1738cd1266",
-      "date": "2026-08-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Qwen-UI-Agent Technical Report: Toward Next-Generation Real-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28227"
     }
   ],
   "ticker": [
+    "I Compressed Bad Apple into a 3MB N...",
+    "Observations: non-instructional tex...",
+    "[论文] Towards Physics of Multimodal ...",
+    "[论文] The Personalization Mirage: Ho...",
+    "[论文] ToolArtist: Tool-Using Unified...",
     "NeurIPS 2026 post-rebuttal score di...",
     "NeurIPS 2026 Main Track — Theory pa...",
     "[论文] Hunyuan3D-Buffalo 1.0: A Unifi...",
     "[论文] AURORA-LM: Autoencoding Unifie...",
-    "[论文] JoyAI-Video-Edit: Real-Time Op...",
-    "NeurIPS 2026: If the rebuttal addre...",
-    "It's time to desk reject papers tha...",
-    "[论文] SWE-Touch: Benchmarking Coding...",
-    "[论文] VAD: Attributing Visual Eviden...",
-    "[论文] SwanTale: Unified Multi-Speake..."
+    "[论文] JoyAI-Video-Edit: Real-Time Op..."
   ],
   "learning": {
     "phases": [
