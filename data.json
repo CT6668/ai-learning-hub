@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_caa4cf73f4af",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Can recurring LLM traces be synthesized into deterministic pipelines of typed ML",
+      "summary": "We are investigating whether recurring LLM workloads can be replaced, where appropriate, by automatically constructed pipelines of regexes, ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhapso/can_recurring_llm_traces_be_synthesized_into/"
+    },
+    {
+      "id": "n_1429cb4be2de",
+      "date": "2026-08-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rol",
+      "summary": "Whether generating CELEBV-HQ videos or turbulent plasma fields (digital twins), autoregressive models (such as latent diffusion or flow mode...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/"
+    },
+    {
+      "id": "n_b3da6784704c",
+      "date": "2026-08-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Learning from Failures: Retrieval-Centric CoT via Hard Negat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.06060"
+    },
+    {
+      "id": "n_26701d572a0b",
+      "date": "2026-08-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.05248"
+    },
+    {
+      "id": "n_d76dc6f4c1f5",
+      "date": "2026-08-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AgentOPSD: Recursive Self-Distillation for Agentic Reinforce",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.05987"
+    },
     {
       "id": "n_ddcb2b2be666",
       "date": "2026-08-05",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.02023"
-    },
-    {
-      "id": "n_797e03ac8a78",
-      "date": "2026-08-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Neurips 2026: does every metareview recommend accept/reject? [D]",
-      "summary": "I see some people say their metareview already contains a decision/recommendation (all of them were rejections). Ours doesn’t. Even though o...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/"
-    },
-    {
-      "id": "n_5c62a6147b4e",
-      "date": "2026-08-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "neurips 2026: ACs and reviewers have disappeared [D]",
-      "summary": "we submitted our rebuttal via the \"Rebuttal\" button before the author/reviewer/AC discussion period officially opened (Jul 27 AoE). since th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/"
-    },
-    {
-      "id": "n_439393f566a3",
-      "date": "2026-08-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] QQWorld: Quantile-Quantile Matching for World Model Regulari",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28415"
-    },
-    {
-      "id": "n_9737bfcc278c",
-      "date": "2026-08-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AISPA: User-Centric System Prompt Auditing for Large Languag",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28617"
-    },
-    {
-      "id": "n_e61a1d5114d9",
-      "date": "2026-08-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From RLVR to RLSVR: Task Transformation Induces Self-Verifia",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.23802"
     }
   ],
   "ticker": [
+    "Can recurring LLM traces be synthes...",
+    "Round-Trip Consistency: Bidirection...",
+    "[论文] Learning from Failures: Retrie...",
+    "[论文] WorldClaw: Agentic 3D Open-Wor...",
+    "[论文] AgentOPSD: Recursive Self-Dist...",
     "I Compressed Bad Apple into a 3MB N...",
     "Observations: non-instructional tex...",
     "[论文] Towards Physics of Multimodal ...",
     "[论文] The Personalization Mirage: Ho...",
-    "[论文] ToolArtist: Tool-Using Unified...",
-    "NeurIPS 2026 post-rebuttal score di...",
-    "NeurIPS 2026 Main Track — Theory pa...",
-    "[论文] Hunyuan3D-Buffalo 1.0: A Unifi...",
-    "[论文] AURORA-LM: Autoencoding Unifie...",
-    "[论文] JoyAI-Video-Edit: Real-Time Op..."
+    "[论文] ToolArtist: Tool-Using Unified..."
   ],
   "learning": {
     "phases": [
