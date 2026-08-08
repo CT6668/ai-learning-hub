@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-08-07",
+    "last_updated": "2026-08-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_eb24ecced986",
+      "date": "2026-08-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is currently considered the theoretically optimal quantization bit-width fo",
+      "summary": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source fo...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/"
+    },
+    {
+      "id": "n_daf7b27b47db",
+      "date": "2026-08-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Imagenet-1k Classifier trained entirely on an Android [P]",
+      "summary": "Its an MLP architecture with around 500K total parameters. Top1 Training accuracy: 5.11% Validation accuracy 4.59% Detailed Validation accur...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhwwfr/imagenet1k_classifier_trained_entirely_on_an/"
+    },
+    {
+      "id": "n_ec05b207fee6",
+      "date": "2026-08-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Interpretable MEG Decoding of Perceived Speech: Cortical Sou",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.01481"
+    },
+    {
+      "id": "n_78f9116d9be5",
+      "date": "2026-08-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OSReward: Instituting Standardized Evaluation for Cross-Plat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2607.28609"
+    },
     {
       "id": "n_caa4cf73f4af",
       "date": "2026-08-06",
@@ -163,59 +203,19 @@
       "summary": "Potentially a hot take? I am not sure why our community is plagued with reviewers who, after acknowledging that their concerns were addresse...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vefwvh/neurips_2026_if_the_rebuttal_addresses_your/"
-    },
-    {
-      "id": "n_2241f8bc0a9e",
-      "date": "2026-08-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "It's time to desk reject papers that don't include code that can reproduce the r",
-      "summary": "As review season for NeurIPS wraps up, I have now reviewed for 3 major conferences this year. And Im noticing a worrying trend: Out of the 1...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vei12v/its_time_to_desk_reject_papers_that_dont_include/"
-    },
-    {
-      "id": "n_43c24591fe28",
-      "date": "2026-08-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SWE-Touch: Benchmarking Coding Agents When Users Touch the C",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.02499"
-    },
-    {
-      "id": "n_eb5412e672a9",
-      "date": "2026-08-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VAD: Attributing Visual Evidence for Target Reconstruction i",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2607.28590"
-    },
-    {
-      "id": "n_c5edb1ec91ef",
-      "date": "2026-08-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SwanTale: Unified Multi-Speaker Speech and Audio Generation ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.02023"
     }
   ],
   "ticker": [
+    "What is currently considered the th...",
+    "Imagenet-1k Classifier trained enti...",
+    "[论文] Interpretable MEG Decoding of ...",
+    "[论文] OSReward: Instituting Standard...",
     "Can recurring LLM traces be synthes...",
     "Round-Trip Consistency: Bidirection...",
     "[论文] Learning from Failures: Retrie...",
     "[论文] WorldClaw: Agentic 3D Open-Wor...",
     "[论文] AgentOPSD: Recursive Self-Dist...",
-    "I Compressed Bad Apple into a 3MB N...",
-    "Observations: non-instructional tex...",
-    "[论文] Towards Physics of Multimodal ...",
-    "[论文] The Personalization Mirage: Ho...",
-    "[论文] ToolArtist: Tool-Using Unified..."
+    "I Compressed Bad Apple into a 3MB N..."
   ],
   "learning": {
     "phases": [
