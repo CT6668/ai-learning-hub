@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_46a368c8bdcc",
+      "date": "2026-08-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS AI Assisted Review authors/reviewers? [D]",
+      "summary": "Out of curiosity, if you were a reviewer or author, how did the review period go? For me, it was weird, because I gave reviews with specific...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/"
+    },
+    {
+      "id": "n_299c1e9c13da",
+      "date": "2026-08-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "73 NeurIPS workshops, and not a single one on Causality [R]",
+      "summary": "Is this it for Causal Inference? Looks like the field continues to be of interest only at UAI/AISTATS/CLeaR. All good venues, but LLMs/Agent...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj8lag/73_neurips_workshops_and_not_a_single_one_on/"
+    },
     {
       "id": "n_eb24ecced986",
       "date": "2026-08-07",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.02602"
-    },
-    {
-      "id": "n_9304967a1ded",
-      "date": "2026-08-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Au",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.03974"
-    },
-    {
-      "id": "n_2fc327d98e49",
-      "date": "2026-08-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026: If the rebuttal addresses your concern, please raise your score [D",
-      "summary": "Potentially a hot take? I am not sure why our community is plagued with reviewers who, after acknowledging that their concerns were addresse...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vefwvh/neurips_2026_if_the_rebuttal_addresses_your/"
     }
   ],
   "ticker": [
+    "NeurIPS AI Assisted Review authors/...",
+    "73 NeurIPS workshops, and not a sin...",
     "What is currently considered the th...",
     "Imagenet-1k Classifier trained enti...",
     "[论文] Interpretable MEG Decoding of ...",
@@ -213,9 +215,7 @@
     "Can recurring LLM traces be synthes...",
     "Round-Trip Consistency: Bidirection...",
     "[论文] Learning from Failures: Retrie...",
-    "[论文] WorldClaw: Agentic 3D Open-Wor...",
-    "[论文] AgentOPSD: Recursive Self-Dist...",
-    "I Compressed Bad Apple into a 3MB N..."
+    "[论文] WorldClaw: Agentic 3D Open-Wor..."
   ],
   "learning": {
     "phases": [
