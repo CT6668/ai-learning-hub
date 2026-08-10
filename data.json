@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-08-09",
+    "last_updated": "2026-08-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4263e142645d",
+      "date": "2026-08-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Noise-aware training for analog hardware: accuracy collapses at a threshold rath",
+      "summary": "Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurr...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/"
+    },
+    {
+      "id": "n_23a48a9bf469",
+      "date": "2026-08-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] When Privileged Guidance Misaligns: State-Matched Routing an",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.05219"
+    },
+    {
+      "id": "n_f6384b34c88b",
+      "date": "2026-08-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] StreamArena: Toward Continuous, Interactive, and Long-Horizo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.05703"
+    },
+    {
+      "id": "n_01369840be9c",
+      "date": "2026-08-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SimWAM: A Simple World Action Model for End-to-End Autonomou",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.07468"
+    },
     {
       "id": "n_46a368c8bdcc",
       "date": "2026-08-08",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.04436"
-    },
-    {
-      "id": "n_8e8f3f4dc746",
-      "date": "2026-08-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026 post-rebuttal score distribution poll [D]",
-      "summary": "As the title suggests, because theres no data on Papercopilot yet, and people have been talking about the scores being lower in general than...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfi23r/neurips_2026_postrebuttal_score_distribution_poll/"
-    },
-    {
-      "id": "n_b87c9eff1927",
-      "date": "2026-08-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026 Main Track — Theory papers score tracking post Rebuttal [D]",
-      "summary": "&#x200B; Now that the rebuttal period is over, I’m curious about the score distribution specifically for theory papers this year. If you’re ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/"
-    },
-    {
-      "id": "n_8243a96c1862",
-      "date": "2026-08-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalab",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.02711"
-    },
-    {
-      "id": "n_dee89a58fee1",
-      "date": "2026-08-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AURORA-LM: Autoencoding Unified Representation for Continuou",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.02602"
     }
   ],
   "ticker": [
+    "Noise-aware training for analog har...",
+    "[论文] When Privileged Guidance Misal...",
+    "[论文] StreamArena: Toward Continuous...",
+    "[论文] SimWAM: A Simple World Action ...",
     "NeurIPS AI Assisted Review authors/...",
     "73 NeurIPS workshops, and not a sin...",
     "What is currently considered the th...",
     "Imagenet-1k Classifier trained enti...",
     "[论文] Interpretable MEG Decoding of ...",
-    "[论文] OSReward: Instituting Standard...",
-    "Can recurring LLM traces be synthes...",
-    "Round-Trip Consistency: Bidirection...",
-    "[论文] Learning from Failures: Retrie...",
-    "[论文] WorldClaw: Agentic 3D Open-Wor..."
+    "[论文] OSReward: Instituting Standard..."
   ],
   "learning": {
     "phases": [
