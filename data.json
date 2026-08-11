@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-08-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_371fbfde792a",
+      "date": "2026-08-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How to file a complaint about a published CVPR paper? [R]",
+      "summary": "Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was neve...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/"
+    },
+    {
+      "id": "n_bcdcc1627128",
+      "date": "2026-08-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no ",
+      "summary": "Obviously nobody needs a transformer thats good at multiplication. I wanted to know whether a stock transformer could do exact arithmetic if...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/"
+    },
+    {
+      "id": "n_f88b0ef7a40d",
+      "date": "2026-08-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Vi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.09873"
+    },
+    {
+      "id": "n_3d816a1da39f",
+      "date": "2026-08-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Macaron-V1: Towards Open Continual Learning with Self-Improv",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.09819"
+    },
+    {
+      "id": "n_eb5fcae5c089",
+      "date": "2026-08-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multili",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.09802"
+    },
     {
       "id": "n_4263e142645d",
       "date": "2026-08-09",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.05987"
-    },
-    {
-      "id": "n_ddcb2b2be666",
-      "date": "2026-08-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I Compressed Bad Apple into a 3MB Neural Network [P]",
-      "summary": "I trained a small MLP to memorize the classic Bad Apple animation, ~2.7 billion pixels of video compressed into 790k parameters (3.2 MB floa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfrco1/i_compressed_bad_apple_into_a_3mb_neural_network_p/"
-    },
-    {
-      "id": "n_f40180b30583",
-      "date": "2026-08-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Observations: non-instructional text prefix may bypass RLHF constraints without ",
-      "summary": "Ive been running informal experiments on RLHF-aligned LLMs and consistently observing something I cant fully explain. Posting here to get fe...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgty78/observations_noninstructional_text_prefix_may/"
-    },
-    {
-      "id": "n_316f8c1bcc03",
-      "date": "2026-08-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Towards Physics of Multimodal Pretraining: Knowledge Flow, M",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.05000"
-    },
-    {
-      "id": "n_c4d41b1bf8f5",
-      "date": "2026-08-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] The Personalization Mirage: How LLMs Fabricate User Profiles",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.04570"
-    },
-    {
-      "id": "n_3d4becbd885e",
-      "date": "2026-08-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ToolArtist: Tool-Using Unified Multimodal Models for Agentic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.04436"
     }
   ],
   "ticker": [
+    "How to file a complaint about a pub...",
+    "Transformers are famously bad at ar...",
+    "[论文] Sci-VBench: Evaluating Knowled...",
+    "[论文] Macaron-V1: Towards Open Conti...",
+    "[论文] SWE-Bench ProMax: Benchmarking...",
     "Noise-aware training for analog har...",
     "[论文] When Privileged Guidance Misal...",
     "[论文] StreamArena: Toward Continuous...",
     "[论文] SimWAM: A Simple World Action ...",
-    "NeurIPS AI Assisted Review authors/...",
-    "73 NeurIPS workshops, and not a sin...",
-    "What is currently considered the th...",
-    "Imagenet-1k Classifier trained enti...",
-    "[论文] Interpretable MEG Decoding of ...",
-    "[论文] OSReward: Instituting Standard..."
+    "NeurIPS AI Assisted Review authors/..."
   ],
   "learning": {
     "phases": [
