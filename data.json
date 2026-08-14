@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9fc97fcc0173",
+      "date": "2026-08-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Neurips 2026: Modified date on reviews [D]",
+      "summary": "Reviews modified dates are public, and some are recent. I’m a bit confused as to how to interpret this. In other conferences, reviewers were...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vnb89z/neurips_2026_modified_date_on_reviews_d/"
+    },
+    {
+      "id": "n_2ac6dd8193c3",
+      "date": "2026-08-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial",
+      "summary": "City2Graph is a Python library I built that turns geospatial data into analysis-ready graphs (for spatial analysis, network analysis, and Gr...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vn8oya/city2graph_a_python_library_for_heterogeneous/"
+    },
+    {
+      "id": "n_3ef86ca5538b",
+      "date": "2026-08-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.13505"
+    },
+    {
+      "id": "n_b2ac7e638953",
+      "date": "2026-08-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LLMRouter: Unified Infrastructure for Developing, Evaluating",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.06867"
+    },
+    {
+      "id": "n_585ca5eeebb5",
+      "date": "2026-08-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DreamX-Phi 1.0: Action-Conditioned Video World Model for Rob",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.13489"
+    },
     {
       "id": "n_c43b12c96a0b",
       "date": "2026-08-12",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.09802"
-    },
-    {
-      "id": "n_4263e142645d",
-      "date": "2026-08-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Noise-aware training for analog hardware: accuracy collapses at a threshold rath",
-      "summary": "Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurr...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/"
-    },
-    {
-      "id": "n_23a48a9bf469",
-      "date": "2026-08-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] When Privileged Guidance Misaligns: State-Matched Routing an",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.05219"
-    },
-    {
-      "id": "n_f6384b34c88b",
-      "date": "2026-08-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] StreamArena: Toward Continuous, Interactive, and Long-Horizo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.05703"
-    },
-    {
-      "id": "n_01369840be9c",
-      "date": "2026-08-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SimWAM: A Simple World Action Model for End-to-End Autonomou",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.07468"
-    },
-    {
-      "id": "n_46a368c8bdcc",
-      "date": "2026-08-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS AI Assisted Review authors/reviewers? [D]",
-      "summary": "Out of curiosity, if you were a reviewer or author, how did the review period go? For me, it was weird, because I gave reviews with specific...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/"
     }
   ],
   "ticker": [
+    "Neurips 2026: Modified date on revi...",
+    "City2Graph: A Python library for He...",
+    "[论文] Intern-S2-Preview: Scientific ...",
+    "[论文] LLMRouter: Unified Infrastruct...",
+    "[论文] DreamX-Phi 1.0: Action-Conditi...",
     "The Loss Does Not See the Basis, Bu...",
     "I built an \"honest\" CS conference r...",
     "[论文] Spark-to-Paper: End-to-End Res...",
     "[论文] Can LLM Agents Stick to the Sc...",
-    "[论文] AI4AI at Test-Time: Strong-to-...",
-    "AAAI 2027 Review: No code submissio...",
-    "Decoupled Descent: Enforcing Exact ...",
-    "[论文] Mendel Gödel Machine: Recursiv...",
-    "[论文] Ex-Omni-2D: Expressive Omni-Mo...",
-    "[论文] Co-Evolution in Agentic System..."
+    "[论文] AI4AI at Test-Time: Strong-to-..."
   ],
   "learning": {
     "phases": [
