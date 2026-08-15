@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-08-14",
+    "last_updated": "2026-08-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_19e51bb2d067",
+      "date": "2026-08-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How much does adding an honest limitations section hurt the paper? [D]",
+      "summary": "Hi, How much does adding an honest limitations section hurt the paper (apart from making it better)? Does it bias the reviewers? Will they w...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/"
+    },
+    {
+      "id": "n_20e51876ed56",
+      "date": "2026-08-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywh",
+      "summary": "This is the project my last two posts were building towards (this is the last of this silliness). I ported the Doom rendering algorithm to r...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1voazhm/i_compiled_dooms_renderer_into_a_21bparameter/"
+    },
+    {
+      "id": "n_4d1c18c89c8d",
+      "date": "2026-08-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Alaya-EVOKE: From Linear-Scaling Supervision to Endless Worl",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.13546"
+    },
     {
       "id": "n_9fc97fcc0173",
       "date": "2026-08-13",
@@ -173,49 +203,19 @@
       "summary": "Obviously nobody needs a transformer thats good at multiplication. I wanted to know whether a stock transformer could do exact arithmetic if...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/"
-    },
-    {
-      "id": "n_f88b0ef7a40d",
-      "date": "2026-08-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Vi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.09873"
-    },
-    {
-      "id": "n_3d816a1da39f",
-      "date": "2026-08-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Macaron-V1: Towards Open Continual Learning with Self-Improv",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.09819"
-    },
-    {
-      "id": "n_eb5fcae5c089",
-      "date": "2026-08-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multili",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.09802"
     }
   ],
   "ticker": [
+    "How much does adding an honest limi...",
+    "I compiled Doom's renderer into a 2...",
+    "[论文] Alaya-EVOKE: From Linear-Scali...",
     "Neurips 2026: Modified date on revi...",
     "City2Graph: A Python library for He...",
     "[论文] Intern-S2-Preview: Scientific ...",
     "[论文] LLMRouter: Unified Infrastruct...",
     "[论文] DreamX-Phi 1.0: Action-Conditi...",
     "The Loss Does Not See the Basis, Bu...",
-    "I built an \"honest\" CS conference r...",
-    "[论文] Spark-to-Paper: End-to-End Res...",
-    "[论文] Can LLM Agents Stick to the Sc...",
-    "[论文] AI4AI at Test-Time: Strong-to-..."
+    "I built an \"honest\" CS conference r..."
   ],
   "learning": {
     "phases": [
