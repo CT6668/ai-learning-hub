@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-08-15",
+    "last_updated": "2026-08-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_de8acc61b561",
+      "date": "2026-08-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "If you had a bunch of GPUs lying around, what would you actually build with them",
+      "summary": "Be honest if someone dropped a stack of high-end GPUs on your desk tomorrow, what would you actually do with them? And before the usual answ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/"
+    },
+    {
+      "id": "n_11326c79bb48",
+      "date": "2026-08-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]",
+      "summary": "Repo with dataset links: https://github.com/tesselwait/Starfield_Fauna Image classification dataset: 20,000 images from 50 fauna species in ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/"
+    },
     {
       "id": "n_19e51bb2d067",
       "date": "2026-08-14",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.10299"
-    },
-    {
-      "id": "n_371fbfde792a",
-      "date": "2026-08-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How to file a complaint about a published CVPR paper? [R]",
-      "summary": "Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was neve...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/"
-    },
-    {
-      "id": "n_bcdcc1627128",
-      "date": "2026-08-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no ",
-      "summary": "Obviously nobody needs a transformer thats good at multiplication. I wanted to know whether a stock transformer could do exact arithmetic if...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/"
     }
   ],
   "ticker": [
+    "If you had a bunch of GPUs lying ar...",
+    "Dataset: Starfield Fauna - 20,000 i...",
     "How much does adding an honest limi...",
     "I compiled Doom's renderer into a 2...",
     "[论文] Alaya-EVOKE: From Linear-Scali...",
@@ -213,9 +215,7 @@
     "City2Graph: A Python library for He...",
     "[论文] Intern-S2-Preview: Scientific ...",
     "[论文] LLMRouter: Unified Infrastruct...",
-    "[论文] DreamX-Phi 1.0: Action-Conditi...",
-    "The Loss Does Not See the Basis, Bu...",
-    "I built an \"honest\" CS conference r..."
+    "[论文] DreamX-Phi 1.0: Action-Conditi..."
   ],
   "learning": {
     "phases": [
