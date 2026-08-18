@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-17",
+    "last_updated": "2026-08-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c9c1aafe126e",
+      "date": "2026-08-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How to make any Sparse Attention / KV Compression look good? [D] [R]",
+      "summary": "Original Article - https://x.com/p_nawrot/status/2089315591010079034 Ive spent the last few years working on efficient attention and KV Cach...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqqqcs/how_to_make_any_sparse_attention_kv_compression/"
+    },
+    {
+      "id": "n_5404e7c1efc2",
+      "date": "2026-08-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "trying to build a solid math library for stats/ML/DL, need a sanity check on my ",
+      "summary": "engineering student here, decent calc and linear algebra background from continuum mechanics coursework, already comfortable with ML basics ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vr76lf/trying_to_build_a_solid_math_library_for/"
+    },
+    {
+      "id": "n_51a2111e0343",
+      "date": "2026-08-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] R^3-Bench: LLMs Struggle with Resource-Rational Reasoning un",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.16033"
+    },
+    {
+      "id": "n_f76881db0300",
+      "date": "2026-08-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agentic Transaction: Towards ACID-Compliant Agent Systems",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.13900"
+    },
+    {
+      "id": "n_3d27f2ddd66a",
+      "date": "2026-08-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.15265"
+    },
     {
       "id": "n_2c34bb516974",
       "date": "2026-08-16",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.13489"
-    },
-    {
-      "id": "n_c43b12c96a0b",
-      "date": "2026-08-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The Loss Does Not See the Basis, But Adam Does [R]",
-      "summary": "In a factored model W = UV^T, the loss is invariant to rotations (U,V) → (UQ, VQ). GD respects that. Adams per-coordinate second moment does...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vmjb3p/the_loss_does_not_see_the_basis_but_adam_does_r/"
-    },
-    {
-      "id": "n_c1048dad931c",
-      "date": "2026-08-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built an \"honest\" CS conference ranking: sorted by how good the trip is, not t",
-      "summary": "Once the paper is ready, everyone checks the venue location before the acceptance rate anyway. So I built:https://honestcsrankings.org It ma...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vmbdk6/i_built_an_honest_cs_conference_ranking_sorted_by/"
-    },
-    {
-      "id": "n_ea35efc63e41",
-      "date": "2026-08-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Spark-to-Paper: End-to-End Research Paper Generation as a Co",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.11924"
-    },
-    {
-      "id": "n_af0cf0a87f79",
-      "date": "2026-08-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Can LLM Agents Stick to the Script? A Benchmark for Long-Hor",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.08160"
-    },
-    {
-      "id": "n_54ca26057ca5",
-      "date": "2026-08-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AI4AI at Test-Time: Strong-to-Weak Capability Transfer via H",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.12307"
     }
   ],
   "ticker": [
+    "How to make any Sparse Attention / ...",
+    "trying to build a solid math librar...",
+    "[论文] R^3-Bench: LLMs Struggle with ...",
+    "[论文] Agentic Transaction: Towards A...",
+    "[论文] VibeWorlding: Can Multimodal A...",
     "How can we solve long-range recall ...",
     "SSOG-Attention: Sum Of Separable Ga...",
     "[论文] Claim-Level Reliability Assess...",
     "[论文] Can We Defend Against AI-Gener...",
-    "[论文] Beyond Final Scores: A Systema...",
-    "If you had a bunch of GPUs lying ar...",
-    "Dataset: Starfield Fauna - 20,000 i...",
-    "How much does adding an honest limi...",
-    "I compiled Doom's renderer into a 2...",
-    "[论文] Alaya-EVOKE: From Linear-Scali..."
+    "[论文] Beyond Final Scores: A Systema..."
   ],
   "learning": {
     "phases": [
