@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-18",
+    "last_updated": "2026-08-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_287c7965b805",
+      "date": "2026-08-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICONIP 2026 — what happens if the sole author cannot attend in person? [D]",
+      "summary": "Hi everyone 👋 My paper was recently accepted to ICONIP 2026, but I’m the sole author and most likely won’t be able to attend the conference ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vs96rm/iconip_2026_what_happens_if_the_sole_author/"
+    },
+    {
+      "id": "n_6fc731d96531",
+      "date": "2026-08-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Trained an diffusion model that runs on 264KB of RAM [P]",
+      "summary": "I recently bought a Shrike lite which has got 264KB of SRAM. I decided to train an image generation model that generates 32*32 pixel images....",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vrk7t5/trained_an_diffusion_model_that_runs_on_264kb_of/"
+    },
+    {
+      "id": "n_f8aceb0428f4",
+      "date": "2026-08-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From Sequence to Structure: Relational Uncertainty Propagati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.16002"
+    },
+    {
+      "id": "n_0e0f2c19c2b5",
+      "date": "2026-08-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Mini",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.17310"
+    },
+    {
+      "id": "n_54965f4f6893",
+      "date": "2026-08-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AVA-Encoder: Towards Agent-Native Video Representation Learn",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.12313"
+    },
     {
       "id": "n_c9c1aafe126e",
       "date": "2026-08-17",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.13546"
-    },
-    {
-      "id": "n_9fc97fcc0173",
-      "date": "2026-08-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Neurips 2026: Modified date on reviews [D]",
-      "summary": "Reviews modified dates are public, and some are recent. I’m a bit confused as to how to interpret this. In other conferences, reviewers were...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vnb89z/neurips_2026_modified_date_on_reviews_d/"
-    },
-    {
-      "id": "n_2ac6dd8193c3",
-      "date": "2026-08-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial",
-      "summary": "City2Graph is a Python library I built that turns geospatial data into analysis-ready graphs (for spatial analysis, network analysis, and Gr...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vn8oya/city2graph_a_python_library_for_heterogeneous/"
-    },
-    {
-      "id": "n_3ef86ca5538b",
-      "date": "2026-08-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Intern-S2-Preview: Scientific Agentic Foundation Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.13505"
-    },
-    {
-      "id": "n_b2ac7e638953",
-      "date": "2026-08-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLMRouter: Unified Infrastructure for Developing, Evaluating",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.06867"
-    },
-    {
-      "id": "n_585ca5eeebb5",
-      "date": "2026-08-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DreamX-Phi 1.0: Action-Conditioned Video World Model for Rob",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.13489"
     }
   ],
   "ticker": [
+    "ICONIP 2026 — what happens if the s...",
+    "Trained an diffusion model that run...",
+    "[论文] From Sequence to Structure: Re...",
+    "[论文] Agentic ESOpt: Fine-Tuning Lon...",
+    "[论文] AVA-Encoder: Towards Agent-Nat...",
     "How to make any Sparse Attention / ...",
     "trying to build a solid math librar...",
     "[论文] R^3-Bench: LLMs Struggle with ...",
     "[论文] Agentic Transaction: Towards A...",
-    "[论文] VibeWorlding: Can Multimodal A...",
-    "How can we solve long-range recall ...",
-    "SSOG-Attention: Sum Of Separable Ga...",
-    "[论文] Claim-Level Reliability Assess...",
-    "[论文] Can We Defend Against AI-Gener...",
-    "[论文] Beyond Final Scores: A Systema..."
+    "[论文] VibeWorlding: Can Multimodal A..."
   ],
   "learning": {
     "phases": [
