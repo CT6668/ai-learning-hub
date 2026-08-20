@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-19",
+    "last_updated": "2026-08-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8d937a9f7477",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is it possible to fine-tune gemma4 A4B to generate complex legal principles of c",
+      "summary": "I have a big database of local court decisions with a legal sentence which is like a paragraph summary of the doc. Ive been tinkering with F...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vt53dp/is_it_possible_to_finetune_gemma4_a4b_to_generate/"
+    },
+    {
+      "id": "n_1eebb6ed97be",
+      "date": "2026-08-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Same GRPO recipe on three from-scratch LLMs (353M/316M/672M) gave three differen",
+      "summary": "I trained three LLMs from scratch in raw PyTorch then post-trained each one with SFT and then GRPO. Same process every time: same synthetic ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vszsit/same_grpo_recipe_on_three_fromscratch_llms/"
+    },
+    {
+      "id": "n_9f87fa871d71",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FM-Bench: A Benchmark for Long-Horizon Management with Compe",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.18423"
+    },
+    {
+      "id": "n_da9c389d6f41",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SPADE: Self-Play in Adaptive Synthetic Executable Environmen",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.19197"
+    },
+    {
+      "id": "n_72338f7356f7",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SemaPLC: A Project-Grounded, Verification-Gated Agent Harnes",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.18565"
+    },
     {
       "id": "n_287c7965b805",
       "date": "2026-08-19",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.13417"
-    },
-    {
-      "id": "n_de8acc61b561",
-      "date": "2026-08-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "If you had a bunch of GPUs lying around, what would you actually build with them",
-      "summary": "Be honest if someone dropped a stack of high-end GPUs on your desk tomorrow, what would you actually do with them? And before the usual answ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/"
-    },
-    {
-      "id": "n_11326c79bb48",
-      "date": "2026-08-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]",
-      "summary": "Repo with dataset links: https://github.com/tesselwait/Starfield_Fauna Image classification dataset: 20,000 images from 50 fauna species in ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/"
-    },
-    {
-      "id": "n_19e51bb2d067",
-      "date": "2026-08-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How much does adding an honest limitations section hurt the paper? [D]",
-      "summary": "Hi, How much does adding an honest limitations section hurt the paper (apart from making it better)? Does it bias the reviewers? Will they w...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/"
-    },
-    {
-      "id": "n_20e51876ed56",
-      "date": "2026-08-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywh",
-      "summary": "This is the project my last two posts were building towards (this is the last of this silliness). I ported the Doom rendering algorithm to r...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1voazhm/i_compiled_dooms_renderer_into_a_21bparameter/"
-    },
-    {
-      "id": "n_4d1c18c89c8d",
-      "date": "2026-08-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Alaya-EVOKE: From Linear-Scaling Supervision to Endless Worl",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.13546"
     }
   ],
   "ticker": [
+    "Is it possible to fine-tune gemma4 ...",
+    "Same GRPO recipe on three from-scra...",
+    "[论文] FM-Bench: A Benchmark for Long...",
+    "[论文] SPADE: Self-Play in Adaptive S...",
+    "[论文] SemaPLC: A Project-Grounded, V...",
     "ICONIP 2026 — what happens if the s...",
     "Trained an diffusion model that run...",
     "[论文] From Sequence to Structure: Re...",
     "[论文] Agentic ESOpt: Fine-Tuning Lon...",
-    "[论文] AVA-Encoder: Towards Agent-Nat...",
-    "How to make any Sparse Attention / ...",
-    "trying to build a solid math librar...",
-    "[论文] R^3-Bench: LLMs Struggle with ...",
-    "[论文] Agentic Transaction: Towards A...",
-    "[论文] VibeWorlding: Can Multimodal A..."
+    "[论文] AVA-Encoder: Towards Agent-Nat..."
   ],
   "learning": {
     "phases": [
