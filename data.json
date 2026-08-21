@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-20",
+    "last_updated": "2026-08-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_0faf0a9421ca",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "About the impact of grouping classes in multiclass classification [D]",
+      "summary": "A premise: I hope this question is \"worth\" of this subreddit, I did a decent amount of research before posting, I thought it was potentially...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/"
+    },
+    {
+      "id": "n_14bd99fa5461",
+      "date": "2026-08-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "The spectral neuron - an ML primitive for scalable and interpretable models [R]",
+      "summary": "Worked some time ago on one of the ad teams at Yahoo, and this grew out of a question I kept returning to while there are there \"simple\" mod...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/"
+    },
+    {
+      "id": "n_b5725ebff593",
+      "date": "2026-08-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WithEveryone: Unified Planning and Identity Grounding for Gr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.20336"
+    },
+    {
+      "id": "n_edbb32a16d71",
+      "date": "2026-08-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.20335"
+    },
+    {
+      "id": "n_7c06c35545b2",
+      "date": "2026-08-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EnvHarness: Awakening Static Worlds for Agent Learning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.19880"
+    },
     {
       "id": "n_8d937a9f7477",
       "date": "2026-08-20",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.15265"
-    },
-    {
-      "id": "n_2c34bb516974",
-      "date": "2026-08-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How can we solve long-range recall in linear attention? [D]",
-      "summary": "Recently, I started working on DNA sequence modeling and decided to explore linear attention, mainly because DNA sequences can easily reach ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpqwdc/how_can_we_solve_longrange_recall_in_linear/"
-    },
-    {
-      "id": "n_0dfd47458065",
-      "date": "2026-08-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "SSOG-Attention: Sum Of Separable Gaussians as a sub-quadratic and scalable alter",
-      "summary": "&#x200B; Scaled dot-product attention (SDPA) computes its Attention by computing the similarity-scores of all image-tokens with all query to...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/"
-    },
-    {
-      "id": "n_b73e3708419c",
-      "date": "2026-08-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Claim-Level Reliability Assessment for Efficient Test-Time R",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.11994"
-    },
-    {
-      "id": "n_394841aca9e5",
-      "date": "2026-08-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Can We Defend Against AI-Generated Video Attacks on Real-Wor",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.14391"
-    },
-    {
-      "id": "n_3772e4420245",
-      "date": "2026-08-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Final Scores: A Systematic Evaluation of Agents for L",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.13417"
     }
   ],
   "ticker": [
+    "About the impact of grouping classe...",
+    "The spectral neuron - an ML primiti...",
+    "[论文] WithEveryone: Unified Planning...",
+    "[论文] 4DAnyone: Create Anyone in 4D ...",
+    "[论文] EnvHarness: Awakening Static W...",
     "Is it possible to fine-tune gemma4 ...",
     "Same GRPO recipe on three from-scra...",
     "[论文] FM-Bench: A Benchmark for Long...",
     "[论文] SPADE: Self-Play in Adaptive S...",
-    "[论文] SemaPLC: A Project-Grounded, V...",
-    "ICONIP 2026 — what happens if the s...",
-    "Trained an diffusion model that run...",
-    "[论文] From Sequence to Structure: Re...",
-    "[论文] Agentic ESOpt: Fine-Tuning Lon...",
-    "[论文] AVA-Encoder: Towards Agent-Nat..."
+    "[论文] SemaPLC: A Project-Grounded, V..."
   ],
   "learning": {
     "phases": [
