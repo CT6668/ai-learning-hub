@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-08-21",
+    "last_updated": "2026-08-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5d94916819c2",
+      "date": "2026-08-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I have a mid-sized GPU cluster and was thinking about giving free compute [D]",
+      "summary": "I have built an on-prem GPU cluster, 8 nvidia 16GB GPUs and 256GB CPU RAM, 50TB HDD and several TBs of SSDs. I have used it, and currently u...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/"
+    },
+    {
+      "id": "n_382d35acbe99",
+      "date": "2026-08-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Does telling an LLM to \"be concise\" actually save you money? We measured it acro",
+      "summary": "LLMs are too verbose and with a black box model the only things you control are what goes in and how you tell it to write back. Yesterday Cl...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vulfei/does_telling_an_llm_to_be_concise_actually_save/"
+    },
+    {
+      "id": "n_b75dfb171e33",
+      "date": "2026-08-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FACET: Preserving Source Intent and Executable State in Term",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.18580"
+    },
     {
       "id": "n_0faf0a9421ca",
       "date": "2026-08-20",
@@ -173,49 +203,19 @@
       "summary": "engineering student here, decent calc and linear algebra background from continuum mechanics coursework, already comfortable with ML basics ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vr76lf/trying_to_build_a_solid_math_library_for/"
-    },
-    {
-      "id": "n_51a2111e0343",
-      "date": "2026-08-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] R^3-Bench: LLMs Struggle with Resource-Rational Reasoning un",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.16033"
-    },
-    {
-      "id": "n_f76881db0300",
-      "date": "2026-08-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic Transaction: Towards ACID-Compliant Agent Systems",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.13900"
-    },
-    {
-      "id": "n_3d27f2ddd66a",
-      "date": "2026-08-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.15265"
     }
   ],
   "ticker": [
+    "I have a mid-sized GPU cluster and ...",
+    "Does telling an LLM to \"be concise\"...",
+    "[论文] FACET: Preserving Source Inten...",
     "About the impact of grouping classe...",
     "The spectral neuron - an ML primiti...",
     "[论文] WithEveryone: Unified Planning...",
     "[论文] 4DAnyone: Create Anyone in 4D ...",
     "[论文] EnvHarness: Awakening Static W...",
     "Is it possible to fine-tune gemma4 ...",
-    "Same GRPO recipe on three from-scra...",
-    "[论文] FM-Bench: A Benchmark for Long...",
-    "[论文] SPADE: Self-Play in Adaptive S...",
-    "[论文] SemaPLC: A Project-Grounded, V..."
+    "Same GRPO recipe on three from-scra..."
   ],
   "learning": {
     "phases": [
