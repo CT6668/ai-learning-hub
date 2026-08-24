@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-23",
+    "last_updated": "2026-08-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_bf0586ae4376",
+      "date": "2026-08-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Implementing Watermarking for Language Models [P]",
+      "summary": "I recently implemented a minimal, educational version of SynthID-Text-style watermarking for language models. I saw anthropic post about how...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vw18ys/implementing_watermarking_for_language_models_p/"
+    },
+    {
+      "id": "n_928234df0e12",
+      "date": "2026-08-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "COLM 2026 registration sold out as an author [D]",
+      "summary": "Never attended a conference before, so apologies if these are dumb questions. I’m an author of an accepted paper at COLM 2026. One of my coa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/"
+    },
+    {
+      "id": "n_92104cfd0612",
+      "date": "2026-08-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] CLEAR: Continuous Latent Adapter Routing for Utility-Preserv",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.21278"
+    },
+    {
+      "id": "n_80ec1b085460",
+      "date": "2026-08-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond Correctness: Benchmarking and Aligning Response Behav",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.12781"
+    },
+    {
+      "id": "n_f2e24a929422",
+      "date": "2026-08-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Graph Engineering in the Era of LLM Agents: From Individual ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.21156"
+    },
     {
       "id": "n_ffc346ecd521",
       "date": "2026-08-23",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.18565"
-    },
-    {
-      "id": "n_287c7965b805",
-      "date": "2026-08-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICONIP 2026 — what happens if the sole author cannot attend in person? [D]",
-      "summary": "Hi everyone 👋 My paper was recently accepted to ICONIP 2026, but I’m the sole author and most likely won’t be able to attend the conference ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vs96rm/iconip_2026_what_happens_if_the_sole_author/"
-    },
-    {
-      "id": "n_6fc731d96531",
-      "date": "2026-08-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Trained an diffusion model that runs on 264KB of RAM [P]",
-      "summary": "I recently bought a Shrike lite which has got 264KB of SRAM. I decided to train an image generation model that generates 32*32 pixel images....",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vrk7t5/trained_an_diffusion_model_that_runs_on_264kb_of/"
-    },
-    {
-      "id": "n_f8aceb0428f4",
-      "date": "2026-08-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Sequence to Structure: Relational Uncertainty Propagati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.16002"
-    },
-    {
-      "id": "n_0e0f2c19c2b5",
-      "date": "2026-08-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Mini",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.17310"
-    },
-    {
-      "id": "n_54965f4f6893",
-      "date": "2026-08-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AVA-Encoder: Towards Agent-Native Video Representation Learn",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.12313"
     }
   ],
   "ticker": [
+    "Implementing Watermarking for Langu...",
+    "COLM 2026 registration sold out as ...",
+    "[论文] CLEAR: Continuous Latent Adapt...",
+    "[论文] Beyond Correctness: Benchmarki...",
+    "[论文] Graph Engineering in the Era o...",
     "Ablating 1 of a chess transformer's...",
     "I developed my own quantized LLM fr...",
     "I have a mid-sized GPU cluster and ...",
     "Does telling an LLM to \"be concise\"...",
-    "[论文] FACET: Preserving Source Inten...",
-    "About the impact of grouping classe...",
-    "The spectral neuron - an ML primiti...",
-    "[论文] WithEveryone: Unified Planning...",
-    "[论文] 4DAnyone: Create Anyone in 4D ...",
-    "[论文] EnvHarness: Awakening Static W..."
+    "[论文] FACET: Preserving Source Inten..."
   ],
   "learning": {
     "phases": [
