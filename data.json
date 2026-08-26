@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-25",
+    "last_updated": "2026-08-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_87f90223b56f",
+      "date": "2026-08-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weight",
+      "summary": "Paper: https://huggingface.co/spaces/tri-fair-lab/publications/blob/main/Thomson_1_0_Technical_Report.pdf The development of frontier models...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/"
+    },
+    {
+      "id": "n_81be816e7c97",
+      "date": "2026-08-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Reviewing 4 papers for AAAI 2027 and none have code, Reject? [D]",
+      "summary": "I got my batch of four papers for AAAI 2027. All four papers make empirical claims, none include code, data, or anything I can actually chec...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/"
+    },
+    {
+      "id": "n_356dac69a8d4",
+      "date": "2026-08-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] On-Policy Self-Distillation in Diffusion Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.24646"
+    },
+    {
+      "id": "n_d2a9c8a9c3d1",
+      "date": "2026-08-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Recursive Experiential-Working Memory Evolution for Long-Hor",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.24876"
+    },
+    {
+      "id": "n_4859a47f4c44",
+      "date": "2026-08-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AutoSaddler: Automatic Harness Optimization with Durable Upd",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.23041"
+    },
     {
       "id": "n_414205e448fb",
       "date": "2026-08-24",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.18580"
-    },
-    {
-      "id": "n_0faf0a9421ca",
-      "date": "2026-08-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "About the impact of grouping classes in multiclass classification [D]",
-      "summary": "A premise: I hope this question is \"worth\" of this subreddit, I did a decent amount of research before posting, I thought it was potentially...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/"
-    },
-    {
-      "id": "n_14bd99fa5461",
-      "date": "2026-08-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The spectral neuron - an ML primitive for scalable and interpretable models [R]",
-      "summary": "Worked some time ago on one of the ad teams at Yahoo, and this grew out of a question I kept returning to while there are there \"simple\" mod...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/"
-    },
-    {
-      "id": "n_b5725ebff593",
-      "date": "2026-08-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WithEveryone: Unified Planning and Identity Grounding for Gr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.20336"
-    },
-    {
-      "id": "n_edbb32a16d71",
-      "date": "2026-08-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.20335"
-    },
-    {
-      "id": "n_7c06c35545b2",
-      "date": "2026-08-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EnvHarness: Awakening Static Worlds for Agent Learning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.19880"
     }
   ],
   "ticker": [
+    "Continual Learning of Frontier Mode...",
+    "Reviewing 4 papers for AAAI 2027 an...",
+    "[论文] On-Policy Self-Distillation in...",
+    "[论文] Recursive Experiential-Working...",
+    "[论文] AutoSaddler: Automatic Harness...",
     "[R] Using AI as a spatial software ...",
     "Bart- A vintage llm [R]",
     "[论文] RISE: Adaptive Imagination for...",
     "[论文] TLive-Omni: An Omni-Modal Unde...",
-    "[论文] Apodex 1.1: Scaling Agentic In...",
-    "Implementing Watermarking for Langu...",
-    "COLM 2026 registration sold out as ...",
-    "[论文] CLEAR: Continuous Latent Adapt...",
-    "[论文] Beyond Correctness: Benchmarki...",
-    "[论文] Graph Engineering in the Era o..."
+    "[论文] Apodex 1.1: Scaling Agentic In..."
   ],
   "learning": {
     "phases": [
