@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-26",
+    "last_updated": "2026-08-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a37dd558ce27",
+      "date": "2026-08-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A dataset with 52 Text to image model evaluation [P]",
+      "summary": "I created a simple text to image benchmark. I curated 192 prompts that are difficult for T2I models in various ways: text rendering, spatial...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vz9x9c/a_dataset_with_52_text_to_image_model_evaluation_p/"
+    },
+    {
+      "id": "n_a51ed73e04d0",
+      "date": "2026-08-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "We recovered 575k crop labels from a decade of manual Photoshop work to automate",
+      "summary": "Author here. Ibteda Digital Library is a private community archive in Pakistan — for ten years we digitized rare Urdu books (lithographs, di...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vz2ojw/we_recovered_575k_crop_labels_from_a_decade_of/"
+    },
+    {
+      "id": "n_8d6eef201036",
+      "date": "2026-08-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by R",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.24479"
+    },
+    {
+      "id": "n_6efd9e7681a7",
+      "date": "2026-08-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FrontierChallenge: Evaluating Scientific Workflow Completion",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.24979"
+    },
+    {
+      "id": "n_5f62b713af03",
+      "date": "2026-08-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VoiceMem: Streaming Dual-Brain Memory for Real-Time Interact",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.26005"
+    },
     {
       "id": "n_87f90223b56f",
       "date": "2026-08-25",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.21156"
-    },
-    {
-      "id": "n_ffc346ecd521",
-      "date": "2026-08-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Ablating 1 of a chess transformer's 128 attention heads causes the model to stop",
-      "summary": "Hooks and reads out Maia-3 23m model with chessformer_lens library: github.com/chessformer-lens/chessformer_lens DOI: 10.5281/zenodo.2198698...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsf5b/ablating_1_of_a_chess_transformers_128_attention/"
-    },
-    {
-      "id": "n_2868f2221499",
-      "date": "2026-08-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in",
-      "summary": "I trained a 250M parameter model from scratch on 30B tokens of fineweb. It’s quantized to under 2 bits so the whole deployment is 60 MB and ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/"
-    },
-    {
-      "id": "n_5d94916819c2",
-      "date": "2026-08-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I have a mid-sized GPU cluster and was thinking about giving free compute [D]",
-      "summary": "I have built an on-prem GPU cluster, 8 nvidia 16GB GPUs and 256GB CPU RAM, 50TB HDD and several TBs of SSDs. I have used it, and currently u...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/"
-    },
-    {
-      "id": "n_382d35acbe99",
-      "date": "2026-08-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Does telling an LLM to \"be concise\" actually save you money? We measured it acro",
-      "summary": "LLMs are too verbose and with a black box model the only things you control are what goes in and how you tell it to write back. Yesterday Cl...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vulfei/does_telling_an_llm_to_be_concise_actually_save/"
-    },
-    {
-      "id": "n_b75dfb171e33",
-      "date": "2026-08-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FACET: Preserving Source Intent and Executable State in Term",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.18580"
     }
   ],
   "ticker": [
+    "A dataset with 52 Text to image mod...",
+    "We recovered 575k crop labels from ...",
+    "[论文] WarpSAC: Towards the Pinnacle ...",
+    "[论文] FrontierChallenge: Evaluating ...",
+    "[论文] VoiceMem: Streaming Dual-Brain...",
     "Continual Learning of Frontier Mode...",
     "Reviewing 4 papers for AAAI 2027 an...",
     "[论文] On-Policy Self-Distillation in...",
     "[论文] Recursive Experiential-Working...",
-    "[论文] AutoSaddler: Automatic Harness...",
-    "[R] Using AI as a spatial software ...",
-    "Bart- A vintage llm [R]",
-    "[论文] RISE: Adaptive Imagination for...",
-    "[论文] TLive-Omni: An Omni-Modal Unde...",
-    "[论文] Apodex 1.1: Scaling Agentic In..."
+    "[论文] AutoSaddler: Automatic Harness..."
   ],
   "learning": {
     "phases": [
