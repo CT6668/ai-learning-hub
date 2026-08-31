@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-08-31",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9f4e99396e90",
+      "date": "2026-08-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS accepted papers leaked? [D]",
+      "summary": "I found this GitHub link, and the HTML file contains ~7k papers. Some are anonymized, and the details seem pretty accurate. It looks like th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/"
+    },
+    {
+      "id": "n_944e23744b7a",
+      "date": "2026-08-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Claude Code for Research Papers [R]",
+      "summary": "Third-year PhD student, NLP / interpretability. I want a reality check from people doing similar work. I started using Claude Code for the b...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/"
+    },
+    {
+      "id": "n_0b651b763734",
+      "date": "2026-08-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Revisiting Local Context for Long-Horizon Streaming 3D Recon",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.27529"
+    },
+    {
+      "id": "n_0b71b7031fee",
+      "date": "2026-08-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] J-Zero: Unified Challenger--Solver--Judge Co-Evolution from ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.26582"
+    },
+    {
+      "id": "n_fa8f6dc65fb3",
+      "date": "2026-08-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Code as Worlds: Agentic Discovery of Executable World Repres",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.27549"
+    },
     {
       "id": "n_3c5cc7fb5d6f",
       "date": "2026-08-30",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.26005"
-    },
-    {
-      "id": "n_87f90223b56f",
-      "date": "2026-08-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weight",
-      "summary": "Paper: https://huggingface.co/spaces/tri-fair-lab/publications/blob/main/Thomson_1_0_Technical_Report.pdf The development of frontier models...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/"
-    },
-    {
-      "id": "n_81be816e7c97",
-      "date": "2026-08-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Reviewing 4 papers for AAAI 2027 and none have code, Reject? [D]",
-      "summary": "I got my batch of four papers for AAAI 2027. All four papers make empirical claims, none include code, data, or anything I can actually chec...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/"
-    },
-    {
-      "id": "n_356dac69a8d4",
-      "date": "2026-08-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] On-Policy Self-Distillation in Diffusion Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.24646"
-    },
-    {
-      "id": "n_d2a9c8a9c3d1",
-      "date": "2026-08-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Recursive Experiential-Working Memory Evolution for Long-Hor",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.24876"
-    },
-    {
-      "id": "n_4859a47f4c44",
-      "date": "2026-08-26",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AutoSaddler: Automatic Harness Optimization with Durable Upd",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.23041"
     }
   ],
   "ticker": [
+    "NeurIPS accepted papers leaked? [D]",
+    "Claude Code for Research Papers [R]",
+    "[论文] Revisiting Local Context for L...",
+    "[论文] J-Zero: Unified Challenger--So...",
+    "[论文] Code as Worlds: Agentic Discov...",
     "*ACL Findings or TMLR? [D]",
     "You can beat SOTA Time Series Anoma...",
     "WTF is a World Model? [D]",
     "I implemented a very tiny image gen...",
-    "[论文] UrbanGround: From Local Percep...",
-    "Where to submit stat/prob ML [D]",
-    "Google CS PhD Fellowship 2026 [R]",
-    "[论文] What Makes Good Agentic Data? ...",
-    "[论文] PAWBench: How Far Are We from ...",
-    "[论文] Agentic Game Development as a ..."
+    "[论文] UrbanGround: From Local Percep..."
   ],
   "learning": {
     "phases": [
