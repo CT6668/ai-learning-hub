@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-08-31",
+    "last_updated": "2026-09-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c45b537a4ee4",
+      "date": "2026-08-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Sliding-window attention beats linear on long-context reasoning [R]",
+      "summary": "Sliding Window Attention with sinks, one of the simplest existing fixes for the quadratic-cost problem in LLMs, holds up as well or better t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/"
+    },
+    {
+      "id": "n_c99d627412af",
+      "date": "2026-08-31",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Cold emailing profs about PhD positions? Read this [D]",
+      "summary": "This is the time of year when the number of cold emails I receive about PhD positions tends to ramp up quite a bit. In many countries, this ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/"
+    },
+    {
+      "id": "n_0e57173b4785",
+      "date": "2026-09-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Lucida: Parse, Generate, and Place for Composable Real-to-Si",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.30821"
+    },
+    {
+      "id": "n_028139c5b31b",
+      "date": "2026-09-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GenFirst: Generation Before Reconstruction for Stable End-to",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.29335"
+    },
+    {
+      "id": "n_84245161c751",
+      "date": "2026-09-01",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DreamX-Creator: Democratizing Native Audio-Video Generation ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2608.31106"
+    },
     {
       "id": "n_9f4e99396e90",
       "date": "2026-08-30",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.25518"
-    },
-    {
-      "id": "n_a37dd558ce27",
-      "date": "2026-08-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A dataset with 52 Text to image model evaluation [P]",
-      "summary": "I created a simple text to image benchmark. I curated 192 prompts that are difficult for T2I models in various ways: text rendering, spatial...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vz9x9c/a_dataset_with_52_text_to_image_model_evaluation_p/"
-    },
-    {
-      "id": "n_a51ed73e04d0",
-      "date": "2026-08-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "We recovered 575k crop labels from a decade of manual Photoshop work to automate",
-      "summary": "Author here. Ibteda Digital Library is a private community archive in Pakistan — for ten years we digitized rare Urdu books (lithographs, di...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vz2ojw/we_recovered_575k_crop_labels_from_a_decade_of/"
-    },
-    {
-      "id": "n_8d6eef201036",
-      "date": "2026-08-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by R",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.24479"
-    },
-    {
-      "id": "n_6efd9e7681a7",
-      "date": "2026-08-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FrontierChallenge: Evaluating Scientific Workflow Completion",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.24979"
-    },
-    {
-      "id": "n_5f62b713af03",
-      "date": "2026-08-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VoiceMem: Streaming Dual-Brain Memory for Real-Time Interact",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.26005"
     }
   ],
   "ticker": [
+    "Sliding-window attention beats line...",
+    "Cold emailing profs about PhD posit...",
+    "[论文] Lucida: Parse, Generate, and P...",
+    "[论文] GenFirst: Generation Before Re...",
+    "[论文] DreamX-Creator: Democratizing ...",
     "NeurIPS accepted papers leaked? [D]",
     "Claude Code for Research Papers [R]",
     "[论文] Revisiting Local Context for L...",
     "[论文] J-Zero: Unified Challenger--So...",
-    "[论文] Code as Worlds: Agentic Discov...",
-    "*ACL Findings or TMLR? [D]",
-    "You can beat SOTA Time Series Anoma...",
-    "WTF is a World Model? [D]",
-    "I implemented a very tiny image gen...",
-    "[论文] UrbanGround: From Local Percep..."
+    "[论文] Code as Worlds: Agentic Discov..."
   ],
   "learning": {
     "phases": [
