@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-01",
+    "last_updated": "2026-09-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e20f78792bc2",
+      "date": "2026-09-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "YOLO26-RGB: repurposing YOLO26's depth-trained backbone for image deraining [P]",
+      "summary": "YOLO26 ships a depth-estimation model — dense, full-resolution, per-pixel regression, a task architecturally much closer to image restoratio...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4fxln/yolo26rgb_repurposing_yolo26s_depthtrained/"
+    },
+    {
+      "id": "n_2bd38468080a",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I regret reviewing for AAAI [D]",
+      "summary": "Why did I sign up to review when it’s not reciprocal? Am I an idiot? Am I dumb to sacrifice some of my precious time outside of work to revi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4z75i/i_regret_reviewing_for_aaai_d/"
+    },
+    {
+      "id": "n_0ce390ef5bdb",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] UI-Venus-2 Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.00028"
+    },
+    {
+      "id": "n_97c75b2d8189",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SMELT: Scaling Laws for Compute-Matched MoE Looped Transform",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.01343"
+    },
+    {
+      "id": "n_f1befc45fb82",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] StudentSim: Training LLM-based Student Simulators",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.01591"
+    },
     {
       "id": "n_c45b537a4ee4",
       "date": "2026-08-31",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.27456"
-    },
-    {
-      "id": "n_1d4aca2ad62c",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Where to submit stat/prob ML [D]",
-      "summary": "Im a researcher in statistical and probabilistic ML, I have a steady record of top ML publications and really used to enjoy going to confere...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/"
-    },
-    {
-      "id": "n_4bebcc913b92",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Google CS PhD Fellowship 2026 [R]",
-      "summary": "Has anyone got the decision notification yet? Please mention decision (e.g., approved/rejected) and geographical area (e.g., North America) ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w0qv95/google_cs_phd_fellowship_2026_r/"
-    },
-    {
-      "id": "n_66d4f7e4839b",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] What Makes Good Agentic Data? An ACE Lens on Data Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.27260"
-    },
-    {
-      "id": "n_a830ea0d7e6c",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PAWBench: How Far Are We from Probabilistically Aligned Worl",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.27345"
-    },
-    {
-      "id": "n_3c354471a364",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agentic Game Development as a Verifiable Trajectory Data Eng",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.25518"
     }
   ],
   "ticker": [
+    "YOLO26-RGB: repurposing YOLO26's de...",
+    "I regret reviewing for AAAI [D]",
+    "[论文] UI-Venus-2 Technical Report",
+    "[论文] SMELT: Scaling Laws for Comput...",
+    "[论文] StudentSim: Training LLM-based...",
     "Sliding-window attention beats line...",
     "Cold emailing profs about PhD posit...",
     "[论文] Lucida: Parse, Generate, and P...",
     "[论文] GenFirst: Generation Before Re...",
-    "[论文] DreamX-Creator: Democratizing ...",
-    "NeurIPS accepted papers leaked? [D]",
-    "Claude Code for Research Papers [R]",
-    "[论文] Revisiting Local Context for L...",
-    "[论文] J-Zero: Unified Challenger--So...",
-    "[论文] Code as Worlds: Agentic Discov..."
+    "[论文] DreamX-Creator: Democratizing ..."
   ],
   "learning": {
     "phases": [
