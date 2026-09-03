@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-09-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b9a67d4afdaa",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Deepity: A C++ library showing Predictive Coding Networks can match Backprop (97",
+      "summary": "Ive spent the last month building a local C++ machine learning library called Deepity to test alternative credit assignment algorithms; spec...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/"
+    },
+    {
+      "id": "n_632f15ad464c",
+      "date": "2026-09-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. Uploa",
+      "summary": "Just uploaded the full 5.94 billion TikTok video dataset to Hugging Face. It’s fully open source: https://huggingface.co/datasets/kuben-deve...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/"
+    },
+    {
+      "id": "n_45660b0024df",
+      "date": "2026-09-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EarlyEval: Cheaper Agent Evaluation via Early Outcome Predic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.02783"
+    },
+    {
+      "id": "n_c09c5483ca53",
+      "date": "2026-09-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SolarWM: Open Data and Scalable Training for Long-Horizon Vi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.02886"
+    },
+    {
+      "id": "n_2d8b76ad5f82",
+      "date": "2026-09-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Ski",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.02749"
+    },
     {
       "id": "n_e20f78792bc2",
       "date": "2026-09-01",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.27549"
-    },
-    {
-      "id": "n_3c5cc7fb5d6f",
-      "date": "2026-08-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "*ACL Findings or TMLR? [D]",
-      "summary": "Expecting a rejection from NeurIPS given our scores of 5/2/2. Trying to decide between ARR vs. TMLR, but thinking NAACL findings are more li...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w23w2l/acl_findings_or_tmlr_d/"
-    },
-    {
-      "id": "n_74c45cf28421",
-      "date": "2026-08-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algo",
-      "summary": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm Time Series Anomaly Detection (TSAD) seems to be one o...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/"
-    },
-    {
-      "id": "n_98012e2452d1",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "WTF is a World Model? [D]",
-      "summary": "Im trying to understand what a world model is. I understand it has cognitive science and reinforcement learning. I understand at least at th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/"
-    },
-    {
-      "id": "n_1dc01503910a",
-      "date": "2026-08-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I implemented a very tiny image generation model (latent flow transformer) on a ",
-      "summary": "Its a 2.4-4 million parameter model, quantized to int8, that can be fully executed on the microcontroller in ~20s with the longest generatio...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/"
-    },
-    {
-      "id": "n_c26162e6f1f4",
-      "date": "2026-08-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] UrbanGround: From Local Perception to Spatial Agency in a Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.27456"
     }
   ],
   "ticker": [
+    "Deepity: A C++ library showing Pred...",
+    "I scraped 5.94 billion TikTok video...",
+    "[论文] EarlyEval: Cheaper Agent Evalu...",
+    "[论文] SolarWM: Open Data and Scalabl...",
+    "[论文] Repo-To-Skill: Distilling GitH...",
     "YOLO26-RGB: repurposing YOLO26's de...",
     "I regret reviewing for AAAI [D]",
     "[论文] UI-Venus-2 Technical Report",
     "[论文] SMELT: Scaling Laws for Comput...",
-    "[论文] StudentSim: Training LLM-based...",
-    "Sliding-window attention beats line...",
-    "Cold emailing profs about PhD posit...",
-    "[论文] Lucida: Parse, Generate, and P...",
-    "[论文] GenFirst: Generation Before Re...",
-    "[论文] DreamX-Creator: Democratizing ..."
+    "[论文] StudentSim: Training LLM-based..."
   ],
   "learning": {
     "phases": [
