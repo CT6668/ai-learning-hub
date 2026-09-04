@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-03",
+    "last_updated": "2026-09-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_93a8d0fd70f0",
+      "date": "2026-09-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS Sydney SOLD OUT in minutes [N]",
+      "summary": "Three weeks from decisions even. I wonder what percentage is industry and VC funded AI labs looking to mingle and recruit. submitted by /u/a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/"
+    },
+    {
+      "id": "n_0eee4f86add6",
+      "date": "2026-09-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "GPT-6 is released [N]",
+      "summary": "Benchmark scores (GPT-6 uses a harness for ARC-AGI-3, and is at about 60% without one): https://preview.redd.it/v7nik4nbtfnh1.png?width=1378...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/"
+    },
+    {
+      "id": "n_d4e584da8f4b",
+      "date": "2026-09-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.04098"
+    },
+    {
+      "id": "n_c6d07aa26c04",
+      "date": "2026-09-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LatentPress: Context Compression Beyond Text and Vision",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.01507"
+    },
+    {
+      "id": "n_49e3f350c816",
+      "date": "2026-09-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LLaDA-Image: Building Strong Image Generators with Fully Ope",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.03796"
+    },
     {
       "id": "n_b9a67d4afdaa",
       "date": "2026-09-02",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2608.31106"
-    },
-    {
-      "id": "n_9f4e99396e90",
-      "date": "2026-08-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS accepted papers leaked? [D]",
-      "summary": "I found this GitHub link, and the HTML file contains ~7k papers. Some are anonymized, and the details seem pretty accurate. It looks like th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/"
-    },
-    {
-      "id": "n_944e23744b7a",
-      "date": "2026-08-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Claude Code for Research Papers [R]",
-      "summary": "Third-year PhD student, NLP / interpretability. I want a reality check from people doing similar work. I started using Claude Code for the b...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/"
-    },
-    {
-      "id": "n_0b651b763734",
-      "date": "2026-08-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Revisiting Local Context for Long-Horizon Streaming 3D Recon",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.27529"
-    },
-    {
-      "id": "n_0b71b7031fee",
-      "date": "2026-08-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] J-Zero: Unified Challenger--Solver--Judge Co-Evolution from ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.26582"
-    },
-    {
-      "id": "n_fa8f6dc65fb3",
-      "date": "2026-08-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Code as Worlds: Agentic Discovery of Executable World Repres",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.27549"
     }
   ],
   "ticker": [
+    "NeurIPS Sydney SOLD OUT in minutes ...",
+    "GPT-6 is released [N]",
+    "[论文] Why Gated DeltaNet Survives 4-...",
+    "[论文] LatentPress: Context Compressi...",
+    "[论文] LLaDA-Image: Building Strong I...",
     "Deepity: A C++ library showing Pred...",
     "I scraped 5.94 billion TikTok video...",
     "[论文] EarlyEval: Cheaper Agent Evalu...",
     "[论文] SolarWM: Open Data and Scalabl...",
-    "[论文] Repo-To-Skill: Distilling GitH...",
-    "YOLO26-RGB: repurposing YOLO26's de...",
-    "I regret reviewing for AAAI [D]",
-    "[论文] UI-Venus-2 Technical Report",
-    "[论文] SMELT: Scaling Laws for Comput...",
-    "[论文] StudentSim: Training LLM-based..."
+    "[论文] Repo-To-Skill: Distilling GitH..."
   ],
   "learning": {
     "phases": [
