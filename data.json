@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-04",
+    "last_updated": "2026-09-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4a03b4738995",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026 Automatic Reference Checker [R]",
+      "summary": "Just received an email about the automatic reference/citation checker. Did anyone receive a follow up email about whether the checker was in...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/"
+    },
+    {
+      "id": "n_994d100164ae",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Language Models Can Control Their Own Attention [R]",
+      "summary": "Abstract Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tok...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/"
+    },
+    {
+      "id": "n_bb4dcadfc16e",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Terminal-Universe: Turning Agent Trajectories into Scalable ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.04148"
+    },
+    {
+      "id": "n_e5b4e1f8ca9b",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Compile by Training: Turning Natural-Language Specifications",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.04199"
+    },
     {
       "id": "n_93a8d0fd70f0",
       "date": "2026-09-03",
@@ -163,59 +203,19 @@
       "summary": "Sliding Window Attention with sinks, one of the simplest existing fixes for the quadratic-cost problem in LLMs, holds up as well or better t...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/"
-    },
-    {
-      "id": "n_c99d627412af",
-      "date": "2026-08-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Cold emailing profs about PhD positions? Read this [D]",
-      "summary": "This is the time of year when the number of cold emails I receive about PhD positions tends to ramp up quite a bit. In many countries, this ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/"
-    },
-    {
-      "id": "n_0e57173b4785",
-      "date": "2026-09-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Lucida: Parse, Generate, and Place for Composable Real-to-Si",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.30821"
-    },
-    {
-      "id": "n_028139c5b31b",
-      "date": "2026-09-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GenFirst: Generation Before Reconstruction for Stable End-to",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.29335"
-    },
-    {
-      "id": "n_84245161c751",
-      "date": "2026-09-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DreamX-Creator: Democratizing Native Audio-Video Generation ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2608.31106"
     }
   ],
   "ticker": [
+    "NeurIPS 2026 Automatic Reference Ch...",
+    "Language Models Can Control Their O...",
+    "[论文] Terminal-Universe: Turning Age...",
+    "[论文] Compile by Training: Turning N...",
     "NeurIPS Sydney SOLD OUT in minutes ...",
     "GPT-6 is released [N]",
     "[论文] Why Gated DeltaNet Survives 4-...",
     "[论文] LatentPress: Context Compressi...",
     "[论文] LLaDA-Image: Building Strong I...",
-    "Deepity: A C++ library showing Pred...",
-    "I scraped 5.94 billion TikTok video...",
-    "[论文] EarlyEval: Cheaper Agent Evalu...",
-    "[论文] SolarWM: Open Data and Scalabl...",
-    "[论文] Repo-To-Skill: Distilling GitH..."
+    "Deepity: A C++ library showing Pred..."
   ],
   "learning": {
     "phases": [
