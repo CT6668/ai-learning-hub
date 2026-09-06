@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-09-05",
+    "last_updated": "2026-09-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_313e858eef6e",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Astra vs. Fable 5.1 on real ML tasks -- tradeoffs, strengths, shortcomings [P]",
+      "summary": "I ran a side-by-side ML text-processing and model-training workflow using Fable 5.1 vs. Astra (both on xhigh), and the results could not hav...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w8g1gk/astra_vs_fable_51_on_real_ml_tasks_tradeoffs/"
+    },
+    {
+      "id": "n_4d44a98da4c5",
+      "date": "2026-09-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TI",
+      "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prom...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/"
+    },
     {
       "id": "n_4a03b4738995",
       "date": "2026-09-05",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.01343"
-    },
-    {
-      "id": "n_f1befc45fb82",
-      "date": "2026-09-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] StudentSim: Training LLM-based Student Simulators",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.01591"
-    },
-    {
-      "id": "n_c45b537a4ee4",
-      "date": "2026-08-31",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Sliding-window attention beats linear on long-context reasoning [R]",
-      "summary": "Sliding Window Attention with sinks, one of the simplest existing fixes for the quadratic-cost problem in LLMs, holds up as well or better t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/"
     }
   ],
   "ticker": [
+    "Astra vs. Fable 5.1 on real ML task...",
+    "GPT-6 reportedly jailbroken within ...",
     "NeurIPS 2026 Automatic Reference Ch...",
     "Language Models Can Control Their O...",
     "[论文] Terminal-Universe: Turning Age...",
@@ -213,9 +215,7 @@
     "NeurIPS Sydney SOLD OUT in minutes ...",
     "GPT-6 is released [N]",
     "[论文] Why Gated DeltaNet Survives 4-...",
-    "[论文] LatentPress: Context Compressi...",
-    "[论文] LLaDA-Image: Building Strong I...",
-    "Deepity: A C++ library showing Pred..."
+    "[论文] LatentPress: Context Compressi..."
   ],
   "learning": {
     "phases": [
