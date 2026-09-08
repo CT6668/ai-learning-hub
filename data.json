@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-07",
+    "last_updated": "2026-09-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b5cc9e40725d",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "My lab found a way to migrate between embedding models with zero downtime. [R]",
+      "summary": "So Ive been messinga round with embedding models for a bit, and I think they are interesting enough to experiment with. They are useful for ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wabmm7/my_lab_found_a_way_to_migrate_between_embedding/"
+    },
+    {
+      "id": "n_2d9d1d5d8f4a",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Generating Bad Apple autonomously from a single initial state using a tiny recur",
+      "summary": "A few weeks ago, I saw this post where the author trained a SIREN MLP to implicitly memorize Bad Apple as a coordinate function: (t, y, x) t...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wa8rub/generating_bad_apple_autonomously_from_a_single/"
+    },
+    {
+      "id": "n_1ffaebb416eb",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] What Else Needs Fixing? Exploring Cost-Effective Test-Time C",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.03254"
+    },
+    {
+      "id": "n_5156eb89c0c7",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FlowBalance: Verifier-Grounded Self-Improvement from On-Poli",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.03241"
+    },
+    {
+      "id": "n_18c669cc5147",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Verify Before You Distill: Prompt-Level Teacher Gating for O",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.02998"
+    },
     {
       "id": "n_6af2aa83ecae",
       "date": "2026-09-07",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.01507"
-    },
-    {
-      "id": "n_49e3f350c816",
-      "date": "2026-09-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LLaDA-Image: Building Strong Image Generators with Fully Ope",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.03796"
-    },
-    {
-      "id": "n_b9a67d4afdaa",
-      "date": "2026-09-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Deepity: A C++ library showing Predictive Coding Networks can match Backprop (97",
-      "summary": "Ive spent the last month building a local C++ machine learning library called Deepity to test alternative credit assignment algorithms; spec...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/"
-    },
-    {
-      "id": "n_632f15ad464c",
-      "date": "2026-09-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. Uploa",
-      "summary": "Just uploaded the full 5.94 billion TikTok video dataset to Hugging Face. It’s fully open source: https://huggingface.co/datasets/kuben-deve...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/"
-    },
-    {
-      "id": "n_45660b0024df",
-      "date": "2026-09-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EarlyEval: Cheaper Agent Evaluation via Early Outcome Predic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.02783"
-    },
-    {
-      "id": "n_c09c5483ca53",
-      "date": "2026-09-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SolarWM: Open Data and Scalable Training for Long-Horizon Vi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.02886"
     }
   ],
   "ticker": [
+    "My lab found a way to migrate betwe...",
+    "Generating Bad Apple autonomously f...",
+    "[论文] What Else Needs Fixing? Explor...",
+    "[论文] FlowBalance: Verifier-Grounded...",
+    "[论文] Verify Before You Distill: Pro...",
     "Built a from-scratch TTS pipeline (...",
     "Reproducibility seems to be headed ...",
     "[论文] WorldSculpt: Generating Compos...",
     "[论文] Motion-Omni: End-to-End Joint ...",
-    "[论文] Iris: Climbing to the Search F...",
-    "Astra vs. Fable 5.1 on real ML task...",
-    "GPT-6 reportedly jailbroken within ...",
-    "NeurIPS 2026 Automatic Reference Ch...",
-    "Language Models Can Control Their O...",
-    "[论文] Terminal-Universe: Turning Age..."
+    "[论文] Iris: Climbing to the Search F..."
   ],
   "learning": {
     "phases": [
