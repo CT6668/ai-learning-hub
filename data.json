@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-08",
+    "last_updated": "2026-09-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_3da432e9578f",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS desk-rejected 178 papers for being \"AI-generated\". The detector flagged ",
+      "summary": "hey all. the NeurIPS Position Paper Track just used a proprietary AI detector (Pangram) to desk-reject 18.4% of all submissions. no human re...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/"
+    },
+    {
+      "id": "n_f18e6fb6f750",
+      "date": "2026-09-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "OpenAl Says It Has Cracked One of Math's “Millennium Problems” (Navier-Stokes) [",
+      "summary": "As reported by the New York Times: https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html?smid=nytcore-ios-share Op...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wavdi7/openal_says_it_has_cracked_one_of_maths/"
+    },
+    {
+      "id": "n_e97ddbbf3f89",
+      "date": "2026-09-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Omni Interaction Agent Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.08977"
+    },
+    {
+      "id": "n_c5fe54dc7a11",
+      "date": "2026-09-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Eliciting Weak-to-Strong Generalization with On-Policy Rever",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.08798"
+    },
+    {
+      "id": "n_f3144978c58e",
+      "date": "2026-09-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] NeoHorse-1: Towards Recursive Self-Improvement via Agentic P",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.08183"
+    },
     {
       "id": "n_b5cc9e40725d",
       "date": "2026-09-08",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.04148"
-    },
-    {
-      "id": "n_e5b4e1f8ca9b",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Compile by Training: Turning Natural-Language Specifications",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.04199"
-    },
-    {
-      "id": "n_93a8d0fd70f0",
-      "date": "2026-09-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS Sydney SOLD OUT in minutes [N]",
-      "summary": "Three weeks from decisions even. I wonder what percentage is industry and VC funded AI labs looking to mingle and recruit. submitted by /u/a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/"
-    },
-    {
-      "id": "n_0eee4f86add6",
-      "date": "2026-09-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "GPT-6 is released [N]",
-      "summary": "Benchmark scores (GPT-6 uses a harness for ARC-AGI-3, and is at about 60% without one): https://preview.redd.it/v7nik4nbtfnh1.png?width=1378...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/"
-    },
-    {
-      "id": "n_d4e584da8f4b",
-      "date": "2026-09-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 f",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.04098"
-    },
-    {
-      "id": "n_c6d07aa26c04",
-      "date": "2026-09-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LatentPress: Context Compression Beyond Text and Vision",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.01507"
     }
   ],
   "ticker": [
+    "NeurIPS desk-rejected 178 papers fo...",
+    "OpenAl Says It Has Cracked One of M...",
+    "[论文] Omni Interaction Agent Technic...",
+    "[论文] Eliciting Weak-to-Strong Gener...",
+    "[论文] NeoHorse-1: Towards Recursive ...",
     "My lab found a way to migrate betwe...",
     "Generating Bad Apple autonomously f...",
     "[论文] What Else Needs Fixing? Explor...",
     "[论文] FlowBalance: Verifier-Grounded...",
-    "[论文] Verify Before You Distill: Pro...",
-    "Built a from-scratch TTS pipeline (...",
-    "Reproducibility seems to be headed ...",
-    "[论文] WorldSculpt: Generating Compos...",
-    "[论文] Motion-Omni: End-to-End Joint ...",
-    "[论文] Iris: Climbing to the Search F..."
+    "[论文] Verify Before You Distill: Pro..."
   ],
   "learning": {
     "phases": [
