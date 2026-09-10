@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-09",
+    "last_updated": "2026-09-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_82b0356be675",
+      "date": "2026-09-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Teach ML! Community service project from Stanford [N]",
+      "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
+    },
+    {
+      "id": "n_700a6fad44eb",
+      "date": "2026-09-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WearableQA: A Benchmark for Health Reasoning over Real-World",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.05405"
+    },
+    {
+      "id": "n_ac3073a7e339",
+      "date": "2026-09-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Programmable World Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.10540"
+    },
+    {
+      "id": "n_a5d8b2a8f9a2",
+      "date": "2026-09-10",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Show-Harness: Just a VLM Agent Can Play Robots",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.10522"
+    },
     {
       "id": "n_3da432e9578f",
       "date": "2026-09-08",
@@ -163,59 +203,19 @@
       "summary": "I ran a side-by-side ML text-processing and model-training workflow using Fable 5.1 vs. Astra (both on xhigh), and the results could not hav...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w8g1gk/astra_vs_fable_51_on_real_ml_tasks_tradeoffs/"
-    },
-    {
-      "id": "n_4d44a98da4c5",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TI",
-      "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prom...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/"
-    },
-    {
-      "id": "n_4a03b4738995",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026 Automatic Reference Checker [R]",
-      "summary": "Just received an email about the automatic reference/citation checker. Did anyone receive a follow up email about whether the checker was in...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/"
-    },
-    {
-      "id": "n_994d100164ae",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Language Models Can Control Their Own Attention [R]",
-      "summary": "Abstract Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tok...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/"
-    },
-    {
-      "id": "n_bb4dcadfc16e",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Terminal-Universe: Turning Agent Trajectories into Scalable ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.04148"
     }
   ],
   "ticker": [
+    "Teach ML! Community service project...",
+    "[论文] WearableQA: A Benchmark for He...",
+    "[论文] Programmable World Model",
+    "[论文] Show-Harness: Just a VLM Agent...",
     "NeurIPS desk-rejected 178 papers fo...",
     "OpenAl Says It Has Cracked One of M...",
     "[论文] Omni Interaction Agent Technic...",
     "[论文] Eliciting Weak-to-Strong Gener...",
     "[论文] NeoHorse-1: Towards Recursive ...",
-    "My lab found a way to migrate betwe...",
-    "Generating Bad Apple autonomously f...",
-    "[论文] What Else Needs Fixing? Explor...",
-    "[论文] FlowBalance: Verifier-Grounded...",
-    "[论文] Verify Before You Distill: Pro..."
+    "My lab found a way to migrate betwe..."
   ],
   "learning": {
     "phases": [
