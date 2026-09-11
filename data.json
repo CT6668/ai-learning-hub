@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-10",
+    "last_updated": "2026-09-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_4285d8c3ff4f",
+      "date": "2026-09-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why is TMLR so slow in recent times [D]",
+      "summary": "A final-year PhD student here. A few months back, I submitted a solo-authored paper to TMLR. The reviewers were on time and extremely positi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/"
+    },
+    {
+      "id": "n_de02c1dacfbb",
+      "date": "2026-09-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EvoSafeHarness: Evolving Model- and Domain-Specific Harnesse",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.05903"
+    },
+    {
+      "id": "n_cd8078fa73f5",
+      "date": "2026-09-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.11929"
+    },
+    {
+      "id": "n_4a538f007594",
+      "date": "2026-09-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] NCP-ArchPreview Technical Report: Moving towards Latent Spac",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.10715"
+    },
     {
       "id": "n_82b0356be675",
       "date": "2026-09-09",
@@ -163,59 +203,19 @@
       "summary": "I feel that reproducibility is now a lost cause in machine learning research for three reasons: Many research is moving towards the physical...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/"
-    },
-    {
-      "id": "n_8651b1e0621f",
-      "date": "2026-09-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WorldSculpt: Generating Compositional Worlds from Grounded V",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.05416"
-    },
-    {
-      "id": "n_cf6ffadac348",
-      "date": "2026-09-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Motion-Omni: End-to-End Joint Speech and Full-Body Motion fo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.04250"
-    },
-    {
-      "id": "n_a1f255d7c098",
-      "date": "2026-09-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Iris: Climbing to the Search Frontier",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.04304"
-    },
-    {
-      "id": "n_313e858eef6e",
-      "date": "2026-09-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Astra vs. Fable 5.1 on real ML tasks -- tradeoffs, strengths, shortcomings [P]",
-      "summary": "I ran a side-by-side ML text-processing and model-training workflow using Fable 5.1 vs. Astra (both on xhigh), and the results could not hav...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w8g1gk/astra_vs_fable_51_on_real_ml_tasks_tradeoffs/"
     }
   ],
   "ticker": [
+    "Why is TMLR so slow in recent times...",
+    "[论文] EvoSafeHarness: Evolving Model...",
+    "[论文] SenseNova-U1.5: Towards Native...",
+    "[论文] NCP-ArchPreview Technical Repo...",
     "Teach ML! Community service project...",
     "[论文] WearableQA: A Benchmark for He...",
     "[论文] Programmable World Model",
     "[论文] Show-Harness: Just a VLM Agent...",
     "NeurIPS desk-rejected 178 papers fo...",
-    "OpenAl Says It Has Cracked One of M...",
-    "[论文] Omni Interaction Agent Technic...",
-    "[论文] Eliciting Weak-to-Strong Gener...",
-    "[论文] NeoHorse-1: Towards Recursive ...",
-    "My lab found a way to migrate betwe..."
+    "OpenAl Says It Has Cracked One of M..."
   ],
   "learning": {
     "phases": [
