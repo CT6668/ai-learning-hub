@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-09-11",
+    "last_updated": "2026-09-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_73ad32e982ba",
+      "date": "2026-09-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
+      "summary": "I trained a 210M-parameter text-to-image diffusion transformer from scratch (3.5 days, one RTX PRO 6000, 4.2M images at 256²) mainly to unde...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/"
+    },
+    {
+      "id": "n_796f0075f8e3",
+      "date": "2026-09-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Sy",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.07064"
+    },
     {
       "id": "n_4285d8c3ff4f",
       "date": "2026-09-11",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.02998"
-    },
-    {
-      "id": "n_6af2aa83ecae",
-      "date": "2026-09-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Built a from-scratch TTS pipeline (FastSpeech2 + HiFi-GAN) on LJSpeech [P]",
-      "summary": "Two years as a data scientist, wanted to actually understand TTS internals instead of the whiteboard version, so I built one from scratch: f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9knaw/built_a_fromscratch_tts_pipeline_fastspeech2/"
-    },
-    {
-      "id": "n_c37f3e29dc14",
-      "date": "2026-09-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Reproducibility seems to be headed towards irrelevance in ML research. Is it too",
-      "summary": "I feel that reproducibility is now a lost cause in machine learning research for three reasons: Many research is moving towards the physical...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/"
     }
   ],
   "ticker": [
+    "Training a 210M text-to-image DiT f...",
+    "[论文] SpatialBlock: Enhancing Spatia...",
     "Why is TMLR so slow in recent times...",
     "[论文] EvoSafeHarness: Evolving Model...",
     "[论文] SenseNova-U1.5: Towards Native...",
@@ -213,9 +215,7 @@
     "Teach ML! Community service project...",
     "[论文] WearableQA: A Benchmark for He...",
     "[论文] Programmable World Model",
-    "[论文] Show-Harness: Just a VLM Agent...",
-    "NeurIPS desk-rejected 178 papers fo...",
-    "OpenAl Says It Has Cracked One of M..."
+    "[论文] Show-Harness: Just a VLM Agent..."
   ],
   "learning": {
     "phases": [
