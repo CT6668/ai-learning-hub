@@ -1,9 +1,19 @@
 {
   "meta": {
-    "last_updated": "2026-09-12",
+    "last_updated": "2026-09-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e0d5db5e39a3",
+      "date": "2026-09-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) ",
+      "summary": "Note: this declaration was drafted by Mathematicians, and is mostly addressed to the mathematical community. Itd be interesting to discuss, ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/"
+    },
     {
       "id": "n_73ad32e982ba",
       "date": "2026-09-11",
@@ -193,19 +203,10 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.03241"
-    },
-    {
-      "id": "n_18c669cc5147",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Verify Before You Distill: Prompt-Level Teacher Gating for O",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.02998"
     }
   ],
   "ticker": [
+    "A Severe Misalignment of AI in Math...",
     "Training a 210M text-to-image DiT f...",
     "[论文] SpatialBlock: Enhancing Spatia...",
     "Why is TMLR so slow in recent times...",
@@ -214,8 +215,7 @@
     "[论文] NCP-ArchPreview Technical Repo...",
     "Teach ML! Community service project...",
     "[论文] WearableQA: A Benchmark for He...",
-    "[论文] Programmable World Model",
-    "[论文] Show-Harness: Just a VLM Agent..."
+    "[论文] Programmable World Model"
   ],
   "learning": {
     "phases": [
