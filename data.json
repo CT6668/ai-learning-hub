@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-13",
+    "last_updated": "2026-09-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1804b824cf35",
+      "date": "2026-09-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[Upcoming AMA] Waymo AI Team AMA – Drop Your Questions Early! [D]",
+      "summary": "Hi r/MachineLearning, Join our AI leads as they answer your questions on foundation models, simulation, and scaling the Waymo Driver. Our AM...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/"
+    },
+    {
+      "id": "n_1a5746187cf5",
+      "date": "2026-09-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Breaking the Vision-Action Shortcut: Latent Interface Traini",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.12641"
+    },
+    {
+      "id": "n_16761e91653b",
+      "date": "2026-09-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SAS: Simple Attention Sparsification via End-to-End Optimiza",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.13141"
+    },
+    {
+      "id": "n_2f854c8fd424",
+      "date": "2026-09-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Benchmark Radar: A Living Database and Search Engine for AI ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.11115"
+    },
     {
       "id": "n_e0d5db5e39a3",
       "date": "2026-09-12",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.08183"
-    },
-    {
-      "id": "n_b5cc9e40725d",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "My lab found a way to migrate between embedding models with zero downtime. [R]",
-      "summary": "So Ive been messinga round with embedding models for a bit, and I think they are interesting enough to experiment with. They are useful for ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wabmm7/my_lab_found_a_way_to_migrate_between_embedding/"
-    },
-    {
-      "id": "n_2d9d1d5d8f4a",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Generating Bad Apple autonomously from a single initial state using a tiny recur",
-      "summary": "A few weeks ago, I saw this post where the author trained a SIREN MLP to implicitly memorize Bad Apple as a coordinate function: (t, y, x) t...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wa8rub/generating_bad_apple_autonomously_from_a_single/"
-    },
-    {
-      "id": "n_1ffaebb416eb",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] What Else Needs Fixing? Exploring Cost-Effective Test-Time C",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.03254"
-    },
-    {
-      "id": "n_5156eb89c0c7",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FlowBalance: Verifier-Grounded Self-Improvement from On-Poli",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.03241"
     }
   ],
   "ticker": [
+    "[Upcoming AMA] Waymo AI Team AMA – ...",
+    "[论文] Breaking the Vision-Action Sho...",
+    "[论文] SAS: Simple Attention Sparsifi...",
+    "[论文] Benchmark Radar: A Living Data...",
     "A Severe Misalignment of AI in Math...",
     "Training a 210M text-to-image DiT f...",
     "[论文] SpatialBlock: Enhancing Spatia...",
     "Why is TMLR so slow in recent times...",
     "[论文] EvoSafeHarness: Evolving Model...",
-    "[论文] SenseNova-U1.5: Towards Native...",
-    "[论文] NCP-ArchPreview Technical Repo...",
-    "Teach ML! Community service project...",
-    "[论文] WearableQA: A Benchmark for He...",
-    "[论文] Programmable World Model"
+    "[论文] SenseNova-U1.5: Towards Native..."
   ],
   "learning": {
     "phases": [
