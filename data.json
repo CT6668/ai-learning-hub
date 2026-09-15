@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-14",
+    "last_updated": "2026-09-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5a66a7dc85b0",
+      "date": "2026-09-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "RSI is not happening [R]",
+      "summary": "A new paper (Im not a coauthor BTW -- I just found it interesting) argues, basically, that RSI is not on the horizon, because current (at th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/"
+    },
+    {
+      "id": "n_a11230c268f2",
+      "date": "2026-09-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Vidu S2: Real-Time Interactive, Editable, and Spatial Video ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.11638"
+    },
+    {
+      "id": "n_c0ccfda9db58",
+      "date": "2026-09-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Atria Dawn: The Dawn of Agentic Superintelligence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.15818"
+    },
+    {
+      "id": "n_a749a9d1055f",
+      "date": "2026-09-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Dream-RSI: Recursive Self-Improvement through Evolving World",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.14858"
+    },
     {
       "id": "n_1804b824cf35",
       "date": "2026-09-13",
@@ -163,59 +203,19 @@
       "summary": "hey all. the NeurIPS Position Paper Track just used a proprietary AI detector (Pangram) to desk-reject 18.4% of all submissions. no human re...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/"
-    },
-    {
-      "id": "n_f18e6fb6f750",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "OpenAl Says It Has Cracked One of Math's “Millennium Problems” (Navier-Stokes) [",
-      "summary": "As reported by the New York Times: https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html?smid=nytcore-ios-share Op...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wavdi7/openal_says_it_has_cracked_one_of_maths/"
-    },
-    {
-      "id": "n_e97ddbbf3f89",
-      "date": "2026-09-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Omni Interaction Agent Technical Report",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.08977"
-    },
-    {
-      "id": "n_c5fe54dc7a11",
-      "date": "2026-09-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Eliciting Weak-to-Strong Generalization with On-Policy Rever",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.08798"
-    },
-    {
-      "id": "n_f3144978c58e",
-      "date": "2026-09-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] NeoHorse-1: Towards Recursive Self-Improvement via Agentic P",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.08183"
     }
   ],
   "ticker": [
+    "RSI is not happening [R]",
+    "[论文] Vidu S2: Real-Time Interactive...",
+    "[论文] Atria Dawn: The Dawn of Agenti...",
+    "[论文] Dream-RSI: Recursive Self-Impr...",
     "[Upcoming AMA] Waymo AI Team AMA – ...",
     "[论文] Breaking the Vision-Action Sho...",
     "[论文] SAS: Simple Attention Sparsifi...",
     "[论文] Benchmark Radar: A Living Data...",
     "A Severe Misalignment of AI in Math...",
-    "Training a 210M text-to-image DiT f...",
-    "[论文] SpatialBlock: Enhancing Spatia...",
-    "Why is TMLR so slow in recent times...",
-    "[论文] EvoSafeHarness: Evolving Model...",
-    "[论文] SenseNova-U1.5: Towards Native..."
+    "Training a 210M text-to-image DiT f..."
   ],
   "learning": {
     "phases": [
