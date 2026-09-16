@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-15",
+    "last_updated": "2026-09-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b51ed9ceeb23",
+      "date": "2026-09-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I trained a 44M parameter quantized LLM from scratch on 45B tokens. It ships in ",
+      "summary": "Three weeks back , i posted SHADOW-250M here. It got 360 upvotes, 293 on r/LocalLLaMA and 94 GitHub stars. Thank you. That model was 60 MB, ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wgzpli/i_trained_a_44m_parameter_quantized_llm_from/"
+    },
+    {
+      "id": "n_98e10442843e",
+      "date": "2026-09-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AI for Games in the Foundation Model Era",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.16679"
+    },
+    {
+      "id": "n_7071068ff36a",
+      "date": "2026-09-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] The Last AI Built by Humans: Toward Genuine Recursive Self-I",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.11873"
+    },
+    {
+      "id": "n_2c629906d841",
+      "date": "2026-09-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Continual Learning Mechanisms Compose for Long-Horizon Memor",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.06986"
+    },
     {
       "id": "n_5a66a7dc85b0",
       "date": "2026-09-14",
@@ -163,59 +203,19 @@
       "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
-    },
-    {
-      "id": "n_700a6fad44eb",
-      "date": "2026-09-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WearableQA: A Benchmark for Health Reasoning over Real-World",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.05405"
-    },
-    {
-      "id": "n_ac3073a7e339",
-      "date": "2026-09-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Programmable World Model",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.10540"
-    },
-    {
-      "id": "n_a5d8b2a8f9a2",
-      "date": "2026-09-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Show-Harness: Just a VLM Agent Can Play Robots",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.10522"
-    },
-    {
-      "id": "n_3da432e9578f",
-      "date": "2026-09-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS desk-rejected 178 papers for being \"AI-generated\". The detector flagged ",
-      "summary": "hey all. the NeurIPS Position Paper Track just used a proprietary AI detector (Pangram) to desk-reject 18.4% of all submissions. no human re...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/"
     }
   ],
   "ticker": [
+    "I trained a 44M parameter quantized...",
+    "[论文] AI for Games in the Foundation...",
+    "[论文] The Last AI Built by Humans: T...",
+    "[论文] Continual Learning Mechanisms ...",
     "RSI is not happening [R]",
     "[论文] Vidu S2: Real-Time Interactive...",
     "[论文] Atria Dawn: The Dawn of Agenti...",
     "[论文] Dream-RSI: Recursive Self-Impr...",
     "[Upcoming AMA] Waymo AI Team AMA – ...",
-    "[论文] Breaking the Vision-Action Sho...",
-    "[论文] SAS: Simple Attention Sparsifi...",
-    "[论文] Benchmark Radar: A Living Data...",
-    "A Severe Misalignment of AI in Math...",
-    "Training a 210M text-to-image DiT f..."
+    "[论文] Breaking the Vision-Action Sho..."
   ],
   "learning": {
     "phases": [
