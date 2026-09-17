@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-16",
+    "last_updated": "2026-09-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e1bc0abda7df",
+      "date": "2026-09-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "TMLR reached out to the authors of 10 papers slated for desk rejection, in an at",
+      "summary": "You can read more here: https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0 The results are (imho) concerning. Ta...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wid67h/tmlr_reached_out_to_the_authors_of_10_papers/"
+    },
+    {
+      "id": "n_dadfef0bcc7b",
+      "date": "2026-09-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Confidence Comes from Experience: Experiential Confidence Es",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.17708"
+    },
+    {
+      "id": "n_62c8f5bc2a85",
+      "date": "2026-09-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ProgramDistill: From Interactive Web Apps to Verifiable Refe",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.18805"
+    },
+    {
+      "id": "n_1cfea716c13e",
+      "date": "2026-09-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ScienceIDE: Turning World's Scientific Codebase into Agent L",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.19134"
+    },
     {
       "id": "n_b51ed9ceeb23",
       "date": "2026-09-15",
@@ -163,59 +203,19 @@
       "summary": "A final-year PhD student here. A few months back, I submitted a solo-authored paper to TMLR. The reviewers were on time and extremely positi...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/"
-    },
-    {
-      "id": "n_de02c1dacfbb",
-      "date": "2026-09-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EvoSafeHarness: Evolving Model- and Domain-Specific Harnesse",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.05903"
-    },
-    {
-      "id": "n_cd8078fa73f5",
-      "date": "2026-09-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SenseNova-U1.5: Towards Native Unified Visual Intelligence",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.11929"
-    },
-    {
-      "id": "n_4a538f007594",
-      "date": "2026-09-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] NCP-ArchPreview Technical Report: Moving towards Latent Spac",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.10715"
-    },
-    {
-      "id": "n_82b0356be675",
-      "date": "2026-09-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Teach ML! Community service project from Stanford [N]",
-      "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
     }
   ],
   "ticker": [
+    "TMLR reached out to the authors of ...",
+    "[论文] Confidence Comes from Experien...",
+    "[论文] ProgramDistill: From Interacti...",
+    "[论文] ScienceIDE: Turning World's Sc...",
     "I trained a 44M parameter quantized...",
     "[论文] AI for Games in the Foundation...",
     "[论文] The Last AI Built by Humans: T...",
     "[论文] Continual Learning Mechanisms ...",
     "RSI is not happening [R]",
-    "[论文] Vidu S2: Real-Time Interactive...",
-    "[论文] Atria Dawn: The Dawn of Agenti...",
-    "[论文] Dream-RSI: Recursive Self-Impr...",
-    "[Upcoming AMA] Waymo AI Team AMA – ...",
-    "[论文] Breaking the Vision-Action Sho..."
+    "[论文] Vidu S2: Real-Time Interactive..."
   ],
   "learning": {
     "phases": [
