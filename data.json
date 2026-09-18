@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-09-17",
+    "last_updated": "2026-09-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5a714c63577b",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AAAI-27 Phase 1 Results [D]",
+      "summary": "AAAI-27 Phase 1 results are expected on September 24. Anyone else waiting for the decision? Would be useful to keep this thread for updates ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/"
+    },
+    {
+      "id": "n_82b0356be675",
+      "date": "2026-09-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Teach ML! Community service project from Stanford [N]",
+      "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
+    },
+    {
+      "id": "n_e6d03e3e6fc8",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compress",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.19969"
+    },
+    {
+      "id": "n_89c357479a40",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] An Empirical Study of Harness Design for Coding Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.20804"
+    },
+    {
+      "id": "n_8d1a756de85c",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SoL-Pi: Recursively Scaling Auto-Research Loops for Efficien",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.20519"
+    },
     {
       "id": "n_e1bc0abda7df",
       "date": "2026-09-16",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.13141"
-    },
-    {
-      "id": "n_2f854c8fd424",
-      "date": "2026-09-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Benchmark Radar: A Living Database and Search Engine for AI ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.11115"
-    },
-    {
-      "id": "n_e0d5db5e39a3",
-      "date": "2026-09-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) ",
-      "summary": "Note: this declaration was drafted by Mathematicians, and is mostly addressed to the mathematical community. Itd be interesting to discuss, ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/"
-    },
-    {
-      "id": "n_73ad32e982ba",
-      "date": "2026-09-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
-      "summary": "I trained a 210M-parameter text-to-image diffusion transformer from scratch (3.5 days, one RTX PRO 6000, 4.2M images at 256²) mainly to unde...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/"
-    },
-    {
-      "id": "n_796f0075f8e3",
-      "date": "2026-09-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Sy",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.07064"
-    },
-    {
-      "id": "n_4285d8c3ff4f",
-      "date": "2026-09-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why is TMLR so slow in recent times [D]",
-      "summary": "A final-year PhD student here. A few months back, I submitted a solo-authored paper to TMLR. The reviewers were on time and extremely positi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/"
     }
   ],
   "ticker": [
+    "AAAI-27 Phase 1 Results [D]",
+    "Teach ML! Community service project...",
+    "[论文] DeepSeek-V4.1-Flash: Pushing t...",
+    "[论文] An Empirical Study of Harness ...",
+    "[论文] SoL-Pi: Recursively Scaling Au...",
     "TMLR reached out to the authors of ...",
     "[论文] Confidence Comes from Experien...",
     "[论文] ProgramDistill: From Interacti...",
     "[论文] ScienceIDE: Turning World's Sc...",
-    "I trained a 44M parameter quantized...",
-    "[论文] AI for Games in the Foundation...",
-    "[论文] The Last AI Built by Humans: T...",
-    "[论文] Continual Learning Mechanisms ...",
-    "RSI is not happening [R]",
-    "[论文] Vidu S2: Real-Time Interactive..."
+    "I trained a 44M parameter quantized..."
   ],
   "learning": {
     "phases": [
