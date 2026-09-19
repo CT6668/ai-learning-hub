@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-09-18",
+    "last_updated": "2026-09-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5bad4bc4aeda",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I'm a Principal Applied Scientist at AWS who builds AI services like Amazon Bedr",
+      "summary": "Hi r/MachineLearning! Im James Gung, a principal applied scientist at AWS. I joined Amazon in 2021 and have since worked on AI services like...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjuki0/im_a_principal_applied_scientist_at_aws_who/"
+    },
+    {
+      "id": "n_203edb12f76f",
+      "date": "2026-09-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] When EOS Tokens Disagree: Understanding Length Inflation in ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.20511"
+    },
     {
       "id": "n_5a714c63577b",
       "date": "2026-09-18",
@@ -183,29 +203,11 @@
       "summary": "Hi r/MachineLearning, Join our AI leads as they answer your questions on foundation models, simulation, and scaling the Waymo Driver. Our AM...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/"
-    },
-    {
-      "id": "n_1a5746187cf5",
-      "date": "2026-09-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Breaking the Vision-Action Shortcut: Latent Interface Traini",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.12641"
-    },
-    {
-      "id": "n_16761e91653b",
-      "date": "2026-09-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SAS: Simple Attention Sparsification via End-to-End Optimiza",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.13141"
     }
   ],
   "ticker": [
+    "I'm a Principal Applied Scientist a...",
+    "[论文] When EOS Tokens Disagree: Unde...",
     "AAAI-27 Phase 1 Results [D]",
     "Teach ML! Community service project...",
     "[论文] DeepSeek-V4.1-Flash: Pushing t...",
@@ -213,9 +215,7 @@
     "[论文] SoL-Pi: Recursively Scaling Au...",
     "TMLR reached out to the authors of ...",
     "[论文] Confidence Comes from Experien...",
-    "[论文] ProgramDistill: From Interacti...",
-    "[论文] ScienceIDE: Turning World's Sc...",
-    "I trained a 44M parameter quantized..."
+    "[论文] ProgramDistill: From Interacti..."
   ],
   "learning": {
     "phases": [
