@@ -1,9 +1,19 @@
 {
   "meta": {
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-09-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b3a07ec002ea",
+      "date": "2026-09-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I wanted to watch a neural network learn [P]",
+      "summary": "I wanted to really see how a neural network learns different functions, so built an interactive demo. You can change the architecture of the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wl0l7j/i_wanted_to_watch_a_neural_network_learn_p/"
+    },
     {
       "id": "n_5bad4bc4aeda",
       "date": "2026-09-18",
@@ -193,19 +203,10 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.14858"
-    },
-    {
-      "id": "n_1804b824cf35",
-      "date": "2026-09-13",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[Upcoming AMA] Waymo AI Team AMA – Drop Your Questions Early! [D]",
-      "summary": "Hi r/MachineLearning, Join our AI leads as they answer your questions on foundation models, simulation, and scaling the Waymo Driver. Our AM...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/"
     }
   ],
   "ticker": [
+    "I wanted to watch a neural network ...",
     "I'm a Principal Applied Scientist a...",
     "[论文] When EOS Tokens Disagree: Unde...",
     "AAAI-27 Phase 1 Results [D]",
@@ -214,8 +215,7 @@
     "[论文] An Empirical Study of Harness ...",
     "[论文] SoL-Pi: Recursively Scaling Au...",
     "TMLR reached out to the authors of ...",
-    "[论文] Confidence Comes from Experien...",
-    "[论文] ProgramDistill: From Interacti..."
+    "[论文] Confidence Comes from Experien..."
   ],
   "learning": {
     "phases": [
