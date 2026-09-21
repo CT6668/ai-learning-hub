@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-09-20",
+    "last_updated": "2026-09-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_de15ce3eac3d",
+      "date": "2026-09-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RecreationWorld: Scalable and Verifiable Environments for Hy",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.22000"
+    },
+    {
+      "id": "n_c38a3c3c0bb0",
+      "date": "2026-09-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Grounded Skill Synthesis from Code at Scale for Agentic Inte",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.05571"
+    },
+    {
+      "id": "n_958fcf2ec640",
+      "date": "2026-09-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.15779"
+    },
     {
       "id": "n_b3a07ec002ea",
       "date": "2026-09-19",
@@ -173,49 +203,19 @@
       "summary": "A new paper (Im not a coauthor BTW -- I just found it interesting) argues, basically, that RSI is not on the horizon, because current (at th...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/"
-    },
-    {
-      "id": "n_a11230c268f2",
-      "date": "2026-09-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Vidu S2: Real-Time Interactive, Editable, and Spatial Video ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.11638"
-    },
-    {
-      "id": "n_c0ccfda9db58",
-      "date": "2026-09-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Atria Dawn: The Dawn of Agentic Superintelligence",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.15818"
-    },
-    {
-      "id": "n_a749a9d1055f",
-      "date": "2026-09-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Dream-RSI: Recursive Self-Improvement through Evolving World",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.14858"
     }
   ],
   "ticker": [
+    "[论文] RecreationWorld: Scalable and ...",
+    "[论文] Grounded Skill Synthesis from ...",
+    "[论文] EvoOntology: A Self-Evolving O...",
     "I wanted to watch a neural network ...",
     "I'm a Principal Applied Scientist a...",
     "[论文] When EOS Tokens Disagree: Unde...",
     "AAAI-27 Phase 1 Results [D]",
     "Teach ML! Community service project...",
     "[论文] DeepSeek-V4.1-Flash: Pushing t...",
-    "[论文] An Empirical Study of Harness ...",
-    "[论文] SoL-Pi: Recursively Scaling Au...",
-    "TMLR reached out to the authors of ...",
-    "[论文] Confidence Comes from Experien..."
+    "[论文] An Empirical Study of Harness ..."
   ],
   "learning": {
     "phases": [
