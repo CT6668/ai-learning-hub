@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-21",
+    "last_updated": "2026-09-22",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_fa0d912314b5",
+      "date": "2026-09-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "These Were NOT Rogue AI Escapes. Just SLOPPY Firewall Failures. [N]",
+      "summary": "The headlines right now are full of stories about AI models \"escaping their sandboxes\" and literally killing all humans, lol. Ive even heard...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wm9hgn/these_were_not_rogue_ai_escapes_just_sloppy/"
+    },
+    {
+      "id": "n_4dd0e46f6dcc",
+      "date": "2026-09-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GameHorizon Suite: Multi-Horizon Data and Evaluation in Game",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.25001"
+    },
+    {
+      "id": "n_c722819db24d",
+      "date": "2026-09-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WorldCrafter: Consistent Video World Model with Implicit 3D-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.24984"
+    },
+    {
+      "id": "n_964e1e70e834",
+      "date": "2026-09-22",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RRSI: Regularized Recursive Self-Improvement of Agent Harnes",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.24972"
+    },
     {
       "id": "n_de15ce3eac3d",
       "date": "2026-09-21",
@@ -163,59 +203,19 @@
       "summary": "Three weeks back , i posted SHADOW-250M here. It got 360 upvotes, 293 on r/LocalLLaMA and 94 GitHub stars. Thank you. That model was 60 MB, ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wgzpli/i_trained_a_44m_parameter_quantized_llm_from/"
-    },
-    {
-      "id": "n_98e10442843e",
-      "date": "2026-09-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AI for Games in the Foundation Model Era",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.16679"
-    },
-    {
-      "id": "n_7071068ff36a",
-      "date": "2026-09-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] The Last AI Built by Humans: Toward Genuine Recursive Self-I",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.11873"
-    },
-    {
-      "id": "n_2c629906d841",
-      "date": "2026-09-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Continual Learning Mechanisms Compose for Long-Horizon Memor",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.06986"
-    },
-    {
-      "id": "n_5a66a7dc85b0",
-      "date": "2026-09-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "RSI is not happening [R]",
-      "summary": "A new paper (Im not a coauthor BTW -- I just found it interesting) argues, basically, that RSI is not on the horizon, because current (at th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/"
     }
   ],
   "ticker": [
+    "These Were NOT Rogue AI Escapes. Ju...",
+    "[论文] GameHorizon Suite: Multi-Horiz...",
+    "[论文] WorldCrafter: Consistent Video...",
+    "[论文] RRSI: Regularized Recursive Se...",
     "[论文] RecreationWorld: Scalable and ...",
     "[论文] Grounded Skill Synthesis from ...",
     "[论文] EvoOntology: A Self-Evolving O...",
     "I wanted to watch a neural network ...",
     "I'm a Principal Applied Scientist a...",
-    "[论文] When EOS Tokens Disagree: Unde...",
-    "AAAI-27 Phase 1 Results [D]",
-    "Teach ML! Community service project...",
-    "[论文] DeepSeek-V4.1-Flash: Pushing t...",
-    "[论文] An Empirical Study of Harness ..."
+    "[论文] When EOS Tokens Disagree: Unde..."
   ],
   "learning": {
     "phases": [
