@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-09-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f396b2640c9f",
+      "date": "2026-09-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Xiaomi releases MiMo-V2.6: \"Frontier intelligence, all the modalities, built in ",
+      "summary": "The total RL training cost was $3.5M. The model comes with a live benchmaxxing dashboard. https://preview.redd.it/89uurv5r21rh1.png?width=15...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/"
+    },
+    {
+      "id": "n_6131d3a9152e",
+      "date": "2026-09-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] All-in-One Multilingual Scene Text Recognition with Script-a",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.24058"
+    },
+    {
+      "id": "n_73be28b4d82b",
+      "date": "2026-09-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GAE: Learning a Geometry-Native Latent Space for 3D-Consiste",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.24981"
+    },
+    {
+      "id": "n_b6e7da27b02a",
+      "date": "2026-09-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RULER: Instance-aware Rubric Rewards for SVG Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.25270"
+    },
     {
       "id": "n_fa0d912314b5",
       "date": "2026-09-21",
@@ -163,59 +203,19 @@
       "summary": "You can read more here: https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0 The results are (imho) concerning. Ta...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wid67h/tmlr_reached_out_to_the_authors_of_10_papers/"
-    },
-    {
-      "id": "n_dadfef0bcc7b",
-      "date": "2026-09-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Confidence Comes from Experience: Experiential Confidence Es",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.17708"
-    },
-    {
-      "id": "n_62c8f5bc2a85",
-      "date": "2026-09-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ProgramDistill: From Interactive Web Apps to Verifiable Refe",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.18805"
-    },
-    {
-      "id": "n_1cfea716c13e",
-      "date": "2026-09-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ScienceIDE: Turning World's Scientific Codebase into Agent L",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.19134"
-    },
-    {
-      "id": "n_b51ed9ceeb23",
-      "date": "2026-09-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I trained a 44M parameter quantized LLM from scratch on 45B tokens. It ships in ",
-      "summary": "Three weeks back , i posted SHADOW-250M here. It got 360 upvotes, 293 on r/LocalLLaMA and 94 GitHub stars. Thank you. That model was 60 MB, ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wgzpli/i_trained_a_44m_parameter_quantized_llm_from/"
     }
   ],
   "ticker": [
+    "Xiaomi releases MiMo-V2.6: \"Frontie...",
+    "[论文] All-in-One Multilingual Scene ...",
+    "[论文] GAE: Learning a Geometry-Nativ...",
+    "[论文] RULER: Instance-aware Rubric R...",
     "These Were NOT Rogue AI Escapes. Ju...",
     "[论文] GameHorizon Suite: Multi-Horiz...",
     "[论文] WorldCrafter: Consistent Video...",
     "[论文] RRSI: Regularized Recursive Se...",
     "[论文] RecreationWorld: Scalable and ...",
-    "[论文] Grounded Skill Synthesis from ...",
-    "[论文] EvoOntology: A Self-Evolving O...",
-    "I wanted to watch a neural network ...",
-    "I'm a Principal Applied Scientist a...",
-    "[论文] When EOS Tokens Disagree: Unde..."
+    "[论文] Grounded Skill Synthesis from ..."
   ],
   "learning": {
     "phases": [
