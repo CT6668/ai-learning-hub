@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-23",
+    "last_updated": "2026-09-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_106c4cec8e97",
+      "date": "2026-09-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS Author Notifications Tomorrow [D]",
+      "summary": "With NeurIPS author notifications coming up, I’m realizing that I’m way more stressed than I expected to be. I know the usual advice: review...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wo3kr4/neurips_author_notifications_tomorrow_d/"
+    },
+    {
+      "id": "n_fc9b869b224c",
+      "date": "2026-09-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Spatial-Interactor: Learning Spatial Reasoning through Inter",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.23038"
+    },
+    {
+      "id": "n_347f3fe84574",
+      "date": "2026-09-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] The Past Frames the Future: Memory for Autoregressive Video ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.28466"
+    },
+    {
+      "id": "n_9ae8c0ed2216",
+      "date": "2026-09-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HappyWorld-Bench",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.24308"
+    },
     {
       "id": "n_f396b2640c9f",
       "date": "2026-09-22",
@@ -163,59 +203,19 @@
       "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
-    },
-    {
-      "id": "n_e6d03e3e6fc8",
-      "date": "2026-09-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compress",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.19969"
-    },
-    {
-      "id": "n_89c357479a40",
-      "date": "2026-09-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] An Empirical Study of Harness Design for Coding Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.20804"
-    },
-    {
-      "id": "n_8d1a756de85c",
-      "date": "2026-09-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SoL-Pi: Recursively Scaling Auto-Research Loops for Efficien",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.20519"
-    },
-    {
-      "id": "n_e1bc0abda7df",
-      "date": "2026-09-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "TMLR reached out to the authors of 10 papers slated for desk rejection, in an at",
-      "summary": "You can read more here: https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0 The results are (imho) concerning. Ta...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wid67h/tmlr_reached_out_to_the_authors_of_10_papers/"
     }
   ],
   "ticker": [
+    "NeurIPS Author Notifications Tomorr...",
+    "[论文] Spatial-Interactor: Learning S...",
+    "[论文] The Past Frames the Future: Me...",
+    "[论文] HappyWorld-Bench",
     "Xiaomi releases MiMo-V2.6: \"Frontie...",
     "[论文] All-in-One Multilingual Scene ...",
     "[论文] GAE: Learning a Geometry-Nativ...",
     "[论文] RULER: Instance-aware Rubric R...",
     "These Were NOT Rogue AI Escapes. Ju...",
-    "[论文] GameHorizon Suite: Multi-Horiz...",
-    "[论文] WorldCrafter: Consistent Video...",
-    "[论文] RRSI: Regularized Recursive Se...",
-    "[论文] RecreationWorld: Scalable and ...",
-    "[论文] Grounded Skill Synthesis from ..."
+    "[论文] GameHorizon Suite: Multi-Horiz..."
   ],
   "learning": {
     "phases": [
