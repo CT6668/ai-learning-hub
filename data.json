@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-24",
+    "last_updated": "2026-09-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_03f27b7084ff",
+      "date": "2026-09-24",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS Accepted Papers are now visible [R]",
+      "summary": "I havent received a notification about this -- but my paper just became visible as \"accepted\". I expect an email to come some time soon! Sco...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/"
+    },
+    {
+      "id": "n_eacc5421b9cc",
+      "date": "2026-09-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Agent-Editing World Model: Rethinking World Modeling for LLM",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.28416"
+    },
+    {
+      "id": "n_e7f53b7f1edb",
+      "date": "2026-09-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.23407"
+    },
+    {
+      "id": "n_eabbba8a99d0",
+      "date": "2026-09-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Training Object Permanence in World Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.28654"
+    },
     {
       "id": "n_106c4cec8e97",
       "date": "2026-09-23",
@@ -163,59 +203,19 @@
       "summary": "I wanted to really see how a neural network learns different functions, so built an interactive demo. You can change the architecture of the...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wl0l7j/i_wanted_to_watch_a_neural_network_learn_p/"
-    },
-    {
-      "id": "n_5bad4bc4aeda",
-      "date": "2026-09-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I'm a Principal Applied Scientist at AWS who builds AI services like Amazon Bedr",
-      "summary": "Hi r/MachineLearning! Im James Gung, a principal applied scientist at AWS. I joined Amazon in 2021 and have since worked on AI services like...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjuki0/im_a_principal_applied_scientist_at_aws_who/"
-    },
-    {
-      "id": "n_203edb12f76f",
-      "date": "2026-09-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] When EOS Tokens Disagree: Understanding Length Inflation in ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.20511"
-    },
-    {
-      "id": "n_5a714c63577b",
-      "date": "2026-09-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AAAI-27 Phase 1 Results [D]",
-      "summary": "AAAI-27 Phase 1 results are expected on September 24. Anyone else waiting for the decision? Would be useful to keep this thread for updates ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/"
-    },
-    {
-      "id": "n_82b0356be675",
-      "date": "2026-09-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Teach ML! Community service project from Stanford [N]",
-      "summary": "Hi r/machinelearning. Nice to meet you! My name is Chris Piech and Im a professor at Stanford University in the AI lab. I built a class call...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/"
     }
   ],
   "ticker": [
+    "NeurIPS Accepted Papers are now vis...",
+    "[论文] Agent-Editing World Model: Ret...",
+    "[论文] OmniEcho: Spatial Audio Unders...",
+    "[论文] Training Object Permanence in ...",
     "NeurIPS Author Notifications Tomorr...",
     "[论文] Spatial-Interactor: Learning S...",
     "[论文] The Past Frames the Future: Me...",
     "[论文] HappyWorld-Bench",
     "Xiaomi releases MiMo-V2.6: \"Frontie...",
-    "[论文] All-in-One Multilingual Scene ...",
-    "[论文] GAE: Learning a Geometry-Nativ...",
-    "[论文] RULER: Instance-aware Rubric R...",
-    "These Were NOT Rogue AI Escapes. Ju...",
-    "[论文] GameHorizon Suite: Multi-Horiz..."
+    "[论文] All-in-One Multilingual Scene ..."
   ],
   "learning": {
     "phases": [
