@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-09-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ba831e5453e2",
+      "date": "2026-09-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inferenc",
+      "summary": "Distributed Training and Inference both involves having a fundamental understanding of how distributed systems work in general Distributed P...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/"
+    },
+    {
+      "id": "n_5bad4bc4aeda",
+      "date": "2026-09-18",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I'm a Principal Applied Scientist at AWS who builds AI services like Amazon Bedr",
+      "summary": "Hi r/MachineLearning! Im James Gung, a principal applied scientist at AWS. I joined Amazon in 2021 and have since worked on AI services like...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjuki0/im_a_principal_applied_scientist_at_aws_who/"
+    },
+    {
+      "id": "n_60be23fa4056",
+      "date": "2026-09-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WanPE: Towards Cinematic Prompt Enhancement for Modern Text-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.30221"
+    },
+    {
+      "id": "n_770c49f80bfc",
+      "date": "2026-09-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Your Transformer Can Hold Two Thoughts at Once: Evidence of ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.29845"
+    },
     {
       "id": "n_03f27b7084ff",
       "date": "2026-09-24",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.24972"
-    },
-    {
-      "id": "n_de15ce3eac3d",
-      "date": "2026-09-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RecreationWorld: Scalable and Verifiable Environments for Hy",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.22000"
-    },
-    {
-      "id": "n_c38a3c3c0bb0",
-      "date": "2026-09-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Grounded Skill Synthesis from Code at Scale for Agentic Inte",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.05571"
-    },
-    {
-      "id": "n_958fcf2ec640",
-      "date": "2026-09-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.15779"
-    },
-    {
-      "id": "n_b3a07ec002ea",
-      "date": "2026-09-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I wanted to watch a neural network learn [P]",
-      "summary": "I wanted to really see how a neural network learns different functions, so built an interactive demo. You can change the architecture of the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wl0l7j/i_wanted_to_watch_a_neural_network_learn_p/"
     }
   ],
   "ticker": [
+    "A Little Guide to Learning Distribu...",
+    "I'm a Principal Applied Scientist a...",
+    "[论文] WanPE: Towards Cinematic Promp...",
+    "[论文] Your Transformer Can Hold Two ...",
     "NeurIPS Accepted Papers are now vis...",
     "[论文] Agent-Editing World Model: Ret...",
     "[论文] OmniEcho: Spatial Audio Unders...",
     "[论文] Training Object Permanence in ...",
     "NeurIPS Author Notifications Tomorr...",
-    "[论文] Spatial-Interactor: Learning S...",
-    "[论文] The Past Frames the Future: Me...",
-    "[论文] HappyWorld-Bench",
-    "Xiaomi releases MiMo-V2.6: \"Frontie...",
-    "[论文] All-in-One Multilingual Scene ..."
+    "[论文] Spatial-Interactor: Learning S..."
   ],
   "learning": {
     "phases": [
