@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-09-26",
+    "last_updated": "2026-09-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_341499af2641",
+      "date": "2026-09-26",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trai",
+      "summary": "Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and Id like some feedback from people w...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/"
+    },
+    {
+      "id": "n_27b181097655",
+      "date": "2026-09-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Teaching Neural Nets to Fight with RL [P]",
+      "summary": "In this project I wanted to see if we could discover any interesting emergent behaviors if we trained two agents to play a streetfighter-lik...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr99bn/teaching_neural_nets_to_fight_with_rl_p/"
+    },
     {
       "id": "n_ba831e5453e2",
       "date": "2026-09-26",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.25001"
-    },
-    {
-      "id": "n_c722819db24d",
-      "date": "2026-09-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WorldCrafter: Consistent Video World Model with Implicit 3D-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.24984"
-    },
-    {
-      "id": "n_964e1e70e834",
-      "date": "2026-09-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RRSI: Regularized Recursive Self-Improvement of Agent Harnes",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.24972"
     }
   ],
   "ticker": [
+    "[P] A small MLP from scratch in Num...",
+    "Teaching Neural Nets to Fight with ...",
     "A Little Guide to Learning Distribu...",
     "I'm a Principal Applied Scientist a...",
     "[论文] WanPE: Towards Cinematic Promp...",
@@ -213,9 +215,7 @@
     "NeurIPS Accepted Papers are now vis...",
     "[论文] Agent-Editing World Model: Ret...",
     "[论文] OmniEcho: Spatial Audio Unders...",
-    "[论文] Training Object Permanence in ...",
-    "NeurIPS Author Notifications Tomorr...",
-    "[论文] Spatial-Interactor: Learning S..."
+    "[论文] Training Object Permanence in ..."
   ],
   "learning": {
     "phases": [
