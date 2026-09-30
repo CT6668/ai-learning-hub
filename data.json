@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-09-30",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_7e2ddc5729cc",
+      "date": "2026-09-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "LessThink-Qwen3-4B: the same model, with far less thinking [P]",
+      "summary": "I post-trained Qwen3-4B to spend 44% fewer tokens on reasoning, keeping its knowledge and answer style. The whole pipeline ran on one GPU. f...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtygav/lessthinkqwen34b_the_same_model_with_far_less/"
+    },
+    {
+      "id": "n_79e9c2f4c9e6",
+      "date": "2026-09-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PanoVLN: Towards Effective Panoramic Vision-and-Language Nav",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.34759"
+    },
+    {
+      "id": "n_8dddb3afaedc",
+      "date": "2026-09-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MaLiang-Harness: A Programmable Path to Image and Video Gene",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.34309"
+    },
+    {
+      "id": "n_895125016c74",
+      "date": "2026-09-30",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Raven: The Harness of Harnesses for Composable Agentic Intel",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.33439"
+    },
     {
       "id": "n_e12a63c48a81",
       "date": "2026-09-28",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.29845"
-    },
-    {
-      "id": "n_03f27b7084ff",
-      "date": "2026-09-24",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS Accepted Papers are now visible [R]",
-      "summary": "I havent received a notification about this -- but my paper just became visible as \"accepted\". I expect an email to come some time soon! Sco...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/"
-    },
-    {
-      "id": "n_eacc5421b9cc",
-      "date": "2026-09-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agent-Editing World Model: Rethinking World Modeling for LLM",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.28416"
-    },
-    {
-      "id": "n_e7f53b7f1edb",
-      "date": "2026-09-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OmniEcho: Spatial Audio Understanding for Embodied Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.23407"
-    },
-    {
-      "id": "n_eabbba8a99d0",
-      "date": "2026-09-25",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Training Object Permanence in World Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.28654"
     }
   ],
   "ticker": [
+    "LessThink-Qwen3-4B: the same model,...",
+    "[论文] PanoVLN: Towards Effective Pan...",
+    "[论文] MaLiang-Harness: A Programmabl...",
+    "[论文] Raven: The Harness of Harnesse...",
     "Functional Gradient Descent with Ad...",
     "BA Computer Science, but fell in lo...",
     "[论文] Beyond Teacher Assignment: Dom...",
     "[论文] TraceDance: An Automated Syste...",
     "[论文] YuE2: Unifying Symbolic and Au...",
-    "Free, open-source AI engineering co...",
-    "Are there machine learning subfield...",
-    "[论文] InternW0-Δ: A World Action Mod...",
-    "[论文] RayOrch: Programming and Execu...",
-    "[论文] FuseReg: Regularizing Layer Fu..."
+    "Free, open-source AI engineering co..."
   ],
   "learning": {
     "phases": [
