@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-01",
+    "last_updated": "2026-10-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1974ce72a7d4",
+      "date": "2026-10-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"v",
+      "summary": "Im one of the authors. We kept seeing models that hold their ground when the user insists on a wrong answer, yet change their answer when th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/"
+    },
+    {
+      "id": "n_715203b469a4",
+      "date": "2026-10-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Rec",
+      "summary": "Can training of nonlinear RNNs be efficiently parallelized, ensuring fast convergence even on very long time series from chaotic systems? In...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/"
+    },
+    {
+      "id": "n_11d486af1aa1",
+      "date": "2026-10-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beyond Memory: Harnessing Long-Horizon Agents with Explicit ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.01415"
+    },
+    {
+      "id": "n_bf0ddd17fc7e",
+      "date": "2026-10-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Hierarchical Continuous Diffusion Language Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.02193"
+    },
+    {
+      "id": "n_ef93fa52627e",
+      "date": "2026-10-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Adaptive Reward Routing: Dynamic Multi-Reward Optimization f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.37200"
+    },
     {
       "id": "n_37cadeea8f43",
       "date": "2026-09-30",
@@ -153,69 +203,19 @@
       "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, L...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/"
-    },
-    {
-      "id": "n_7a9a9b4a4b95",
-      "date": "2026-09-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Are there machine learning subfields that are becoming irrelevant (or is irrelev",
-      "summary": "I was reading a paper that surveyed the field of neural architecture search, where it said within 5 years, around 3000+ new models were prop...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/"
-    },
-    {
-      "id": "n_9d30a2b1072d",
-      "date": "2026-09-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] InternW0-Δ: A World Action Model Bridging Predictive Dynamic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.31394"
-    },
-    {
-      "id": "n_c13359bbd7b8",
-      "date": "2026-09-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] RayOrch: Programming and Executing Lineage-Controlled Multi-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.18703"
-    },
-    {
-      "id": "n_1b090383ef66",
-      "date": "2026-09-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FuseReg: Regularizing Layer Fusion Mitigates the Reconstruct",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.31620"
-    },
-    {
-      "id": "n_341499af2641",
-      "date": "2026-09-26",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trai",
-      "summary": "Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and Id like some feedback from people w...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/"
     }
   ],
   "ticker": [
+    "LLMs that push back on a wrong user...",
+    "Parallel-in-Time Training of Recurr...",
+    "[论文] Beyond Memory: Harnessing Long...",
+    "[论文] Hierarchical Continuous Diffus...",
+    "[论文] Adaptive Reward Routing: Dynam...",
     "For those who just submit to worksh...",
     "How to address novelty concerns in ...",
     "[论文] False Frontiers: Diagnosing an...",
     "[论文] UniEvo-VL: An On-policy Self-D...",
-    "[论文] The Teacher Is a Direction, No...",
-    "LessThink-Qwen3-4B: the same model,...",
-    "[论文] PanoVLN: Towards Effective Pan...",
-    "[论文] MaLiang-Harness: A Programmabl...",
-    "[论文] Raven: The Harness of Harnesse...",
-    "Functional Gradient Descent with Ad..."
+    "[论文] The Teacher Is a Direction, No..."
   ],
   "learning": {
     "phases": [
