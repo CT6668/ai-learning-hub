@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-10-02",
+    "last_updated": "2026-10-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c42b38214ee2",
+      "date": "2026-10-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Adding memory to search instead of sampling in reward maximization tasks [R]",
+      "summary": "I am one of the authors of FLEET - an algorithm that enhances Best-of-N generation by attributing external rewards to particular tokens and ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvs12j/adding_memory_to_search_instead_of_sampling_in/"
+    },
+    {
+      "id": "n_f5dcbfe40236",
+      "date": "2026-10-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction [R]",
+      "summary": "In our #NeurIPS2026 paper “Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction” (preprint: https://arxiv.org/abs/26...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/"
+    },
+    {
+      "id": "n_65d389c64edd",
+      "date": "2026-10-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] On-Policy or Off-Policy Learning? A Systematic Study of Dist",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.35259"
+    },
+    {
+      "id": "n_8cfdeaa134ba",
+      "date": "2026-10-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OneStreamer: Unifying Perception, Memory, and Proactive Resp",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.01762"
+    },
     {
       "id": "n_1974ce72a7d4",
       "date": "2026-10-01",
@@ -163,59 +203,19 @@
       "summary": "I want to attend and present my findings in Atlanta. How is the vibe there? Are people overly critical or are people generally open-minded? ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wsyu8m/ba_computer_science_but_fell_in_love_with_machine/"
-    },
-    {
-      "id": "n_a91f81125d7a",
-      "date": "2026-09-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Teacher Assignment: Domain-Normalized Multi-Teacher O",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.35347"
-    },
-    {
-      "id": "n_76071bb49dd9",
-      "date": "2026-09-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TraceDance: An Automated System for Building Agent Behavior ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.33295"
-    },
-    {
-      "id": "n_99bc0c93f816",
-      "date": "2026-09-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] YuE2: Unifying Symbolic and Audio Music Generation at Fronti",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.33757"
-    },
-    {
-      "id": "n_e659151e49aa",
-      "date": "2026-09-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Free, open-source AI engineering course where you build each algorithm by hand: ",
-      "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, L...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/"
     }
   ],
   "ticker": [
+    "Adding memory to search instead of ...",
+    "Topological Out-of-Domain Generaliz...",
+    "[论文] On-Policy or Off-Policy Learni...",
+    "[论文] OneStreamer: Unifying Percepti...",
     "LLMs that push back on a wrong user...",
     "Parallel-in-Time Training of Recurr...",
     "[论文] Beyond Memory: Harnessing Long...",
     "[论文] Hierarchical Continuous Diffus...",
     "[论文] Adaptive Reward Routing: Dynam...",
-    "For those who just submit to worksh...",
-    "How to address novelty concerns in ...",
-    "[论文] False Frontiers: Diagnosing an...",
-    "[论文] UniEvo-VL: An On-policy Self-D...",
-    "[论文] The Teacher Is a Direction, No..."
+    "For those who just submit to worksh..."
   ],
   "learning": {
     "phases": [
