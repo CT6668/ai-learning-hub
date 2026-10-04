@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-03",
+    "last_updated": "2026-10-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_23e34dc0d572",
+      "date": "2026-10-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICLR 2027 Reviewing Scores [D]",
+      "summary": "I got my three papers to review, and it seems like they have changed the review score range again this year? It is now: ––––––––––––––––––––...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wwqzxy/iclr_2027_reviewing_scores_d/"
+    },
+    {
+      "id": "n_71941db80391",
+      "date": "2026-10-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "The Principles of Diffusion Models by Lai et al.: thoughts on the monograph [D]",
+      "summary": "I recently finished The Principles of Diffusion Models, and honestly I think it’s exceptional. The authors strike a really good balance betw...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wwtpg6/the_principles_of_diffusion_models_by_lai_et_al/"
+    },
     {
       "id": "n_c42b38214ee2",
       "date": "2026-10-02",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.33439"
-    },
-    {
-      "id": "n_e12a63c48a81",
-      "date": "2026-09-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Functional Gradient Descent with Adaptive Representations [R]",
-      "summary": "Sharing our recent work, now accepted at NeurIPS: Functional Gradient Descent with Adaptive Representations. Functional GD algorithms genera...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/"
-    },
-    {
-      "id": "n_e6f80b492dae",
-      "date": "2026-09-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "BA Computer Science, but fell in love with machine learning and AI. Just got my ",
-      "summary": "I want to attend and present my findings in Atlanta. How is the vibe there? Are people overly critical or are people generally open-minded? ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsyu8m/ba_computer_science_but_fell_in_love_with_machine/"
     }
   ],
   "ticker": [
+    "ICLR 2027 Reviewing Scores [D]",
+    "The Principles of Diffusion Models ...",
     "Adding memory to search instead of ...",
     "Topological Out-of-Domain Generaliz...",
     "[论文] On-Policy or Off-Policy Learni...",
@@ -213,9 +215,7 @@
     "LLMs that push back on a wrong user...",
     "Parallel-in-Time Training of Recurr...",
     "[论文] Beyond Memory: Harnessing Long...",
-    "[论文] Hierarchical Continuous Diffus...",
-    "[论文] Adaptive Reward Routing: Dynam...",
-    "For those who just submit to worksh..."
+    "[论文] Hierarchical Continuous Diffus..."
   ],
   "learning": {
     "phases": [
