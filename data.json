@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-04",
+    "last_updated": "2026-10-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_5ec4d2a91c5b",
+      "date": "2026-10-04",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
+      "summary": "https://preview.redd.it/gkjgii48gfth1.png?width=575&format=png&auto=webp&s=4e1c35bdacf41d18a6409baedcddc9432ec79814 This happened over the p...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/"
+    },
+    {
+      "id": "n_51832d01a18f",
+      "date": "2026-10-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Distilling Stockfish on a Billion Positions, Full 3.9B Dataset Available [P]",
+      "summary": "In this project, I distilled the Stockfish value function into a ResNet/ViT model using 1 billion positions from the Gigafish dataset. The 3...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/"
+    },
+    {
+      "id": "n_86e6cbf1a319",
+      "date": "2026-10-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FrameMorrow: Future-guided Frame Selection with Prospective ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.38839"
+    },
+    {
+      "id": "n_be713e5f942c",
+      "date": "2026-10-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Does Learning Protein Folding Generalize to Broader Reasonin",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.38879"
+    },
+    {
+      "id": "n_e085562291ba",
+      "date": "2026-10-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MotorMind: Scaffolding General Vision Language Models for Ze",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.38078"
+    },
     {
       "id": "n_23e34dc0d572",
       "date": "2026-10-03",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.38721"
-    },
-    {
-      "id": "n_9bf6a59ff674",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] The Teacher Is a Direction, Not a Destination: Extrapolating",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.36484"
-    },
-    {
-      "id": "n_7e2ddc5729cc",
-      "date": "2026-09-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "LessThink-Qwen3-4B: the same model, with far less thinking [P]",
-      "summary": "I post-trained Qwen3-4B to spend 44% fewer tokens on reasoning, keeping its knowledge and answer style. The whole pipeline ran on one GPU. f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtygav/lessthinkqwen34b_the_same_model_with_far_less/"
-    },
-    {
-      "id": "n_79e9c2f4c9e6",
-      "date": "2026-09-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PanoVLN: Towards Effective Panoramic Vision-and-Language Nav",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.34759"
-    },
-    {
-      "id": "n_8dddb3afaedc",
-      "date": "2026-09-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MaLiang-Harness: A Programmable Path to Image and Video Gene",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.34309"
-    },
-    {
-      "id": "n_895125016c74",
-      "date": "2026-09-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Raven: The Harness of Harnesses for Composable Agentic Intel",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.33439"
     }
   ],
   "ticker": [
+    "Top ARC-ΑGI-3 scores on Kaggle just...",
+    "Distilling Stockfish on a Billion P...",
+    "[论文] FrameMorrow: Future-guided Fra...",
+    "[论文] Does Learning Protein Folding ...",
+    "[论文] MotorMind: Scaffolding General...",
     "ICLR 2027 Reviewing Scores [D]",
     "The Principles of Diffusion Models ...",
     "Adding memory to search instead of ...",
     "Topological Out-of-Domain Generaliz...",
-    "[论文] On-Policy or Off-Policy Learni...",
-    "[论文] OneStreamer: Unifying Percepti...",
-    "LLMs that push back on a wrong user...",
-    "Parallel-in-Time Training of Recurr...",
-    "[论文] Beyond Memory: Harnessing Long...",
-    "[论文] Hierarchical Continuous Diffus..."
+    "[论文] On-Policy or Off-Policy Learni..."
   ],
   "learning": {
     "phases": [
