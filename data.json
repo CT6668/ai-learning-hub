@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-05",
+    "last_updated": "2026-10-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d8941b263547",
+      "date": "2026-10-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Embedding Every Font with Neural Networks makes some Nice Structures (including ",
+      "summary": "Ive been working on a font searching tool for about a year now, and my investigations have centered around pre-training neural networks to p...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wypbnf/embedding_every_font_with_neural_networks_makes/"
+    },
+    {
+      "id": "n_467d4fbf0f7c",
+      "date": "2026-10-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I have trained a model to predict my blood sugar (Part 2) [P]",
+      "summary": "This is related to my previous post where I shared an encoder-only transformer model trained on ohiot1dm + shanghait1dm + azt1d datasets. Th...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wy99gd/i_have_trained_a_model_to_predict_my_blood_sugar/"
+    },
+    {
+      "id": "n_f81fe1ca89b7",
+      "date": "2026-10-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ASCENT: Online Test-Time Training of Long-Horizon Agents via",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.05303"
+    },
+    {
+      "id": "n_d55d8273c9bb",
+      "date": "2026-10-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ALoDLM: Adaptively Looped Diffusion Language Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.04198"
+    },
+    {
+      "id": "n_ad468ea8946c",
+      "date": "2026-10-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Kandinsky 6.0 Video: Foundation Models for Synchronized Vide",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.05608"
+    },
     {
       "id": "n_5ec4d2a91c5b",
       "date": "2026-10-04",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.02193"
-    },
-    {
-      "id": "n_ef93fa52627e",
-      "date": "2026-10-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Adaptive Reward Routing: Dynamic Multi-Reward Optimization f",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.37200"
-    },
-    {
-      "id": "n_37cadeea8f43",
-      "date": "2026-09-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "For those who just submit to workshop [D]",
-      "summary": "More recently, I am seeing a lot of posts on the sub regarding the workshop acceptance, with lack of funds to attend the conference. I unfor...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuc7ft/for_those_who_just_submit_to_workshop_d/"
-    },
-    {
-      "id": "n_6c94da1d0506",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How to address novelty concerns in top ai conference? [D]",
-      "summary": "Hi, I’m a researcher working in computer vision. Over the past few years, I’ve submitted several papers to top-tier conferences such as Neur...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/"
-    },
-    {
-      "id": "n_9649311fc187",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] False Frontiers: Diagnosing and Mitigating Co-Cheating in Se",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.39102"
-    },
-    {
-      "id": "n_235fadec3c08",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] UniEvo-VL: An On-policy Self-Distillation Training Recipe fo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.38721"
     }
   ],
   "ticker": [
+    "Embedding Every Font with Neural Ne...",
+    "I have trained a model to predict m...",
+    "[论文] ASCENT: Online Test-Time Train...",
+    "[论文] ALoDLM: Adaptively Looped Diff...",
+    "[论文] Kandinsky 6.0 Video: Foundatio...",
     "Top ARC-ΑGI-3 scores on Kaggle just...",
     "Distilling Stockfish on a Billion P...",
     "[论文] FrameMorrow: Future-guided Fra...",
     "[论文] Does Learning Protein Folding ...",
-    "[论文] MotorMind: Scaffolding General...",
-    "ICLR 2027 Reviewing Scores [D]",
-    "The Principles of Diffusion Models ...",
-    "Adding memory to search instead of ...",
-    "Topological Out-of-Domain Generaliz...",
-    "[论文] On-Policy or Off-Policy Learni..."
+    "[论文] MotorMind: Scaffolding General..."
   ],
   "learning": {
     "phases": [
