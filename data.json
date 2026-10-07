@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-06",
+    "last_updated": "2026-10-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8639c57bd78c",
+      "date": "2026-10-06",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ML PHD without A* Publications [D]",
+      "summary": "I know top ML PhD admissions are insanely competitive, so I’m trying to figure out if it’s even worth applying or if I should just focus ser...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wzeszo/ml_phd_without_a_publications_d/"
+    },
+    {
+      "id": "n_25ed44ba2807",
+      "date": "2026-10-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Saw this on Rednote, WTF [D]",
+      "summary": "https://preview.redd.it/t7wxguxqvzth1.png?width=1314&format=png&auto=webp&s=0ba382fb88894c6e687d5bb9a4b14a85334eae67 Guess we have a dataset...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wzpzh3/saw_this_on_rednote_wtf_d/"
+    },
+    {
+      "id": "n_99ff9da6c8d7",
+      "date": "2026-10-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TRACE: Rollout-Guided Quantization-Aware Training for FP4 Re",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.07767"
+    },
+    {
+      "id": "n_be7af87edffa",
+      "date": "2026-10-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Rethinking Cross-Tokenizer On-Policy Distillation: From Alig",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.08448"
+    },
+    {
+      "id": "n_e21241a7a203",
+      "date": "2026-10-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DuoMatching: Joint-Marginal Distribution Matching for Few-St",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.03543"
+    },
     {
       "id": "n_d8941b263547",
       "date": "2026-10-06",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.35259"
-    },
-    {
-      "id": "n_8cfdeaa134ba",
-      "date": "2026-10-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OneStreamer: Unifying Perception, Memory, and Proactive Resp",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.01762"
-    },
-    {
-      "id": "n_1974ce72a7d4",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"v",
-      "summary": "Im one of the authors. We kept seeing models that hold their ground when the user insists on a wrong answer, yet change their answer when th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/"
-    },
-    {
-      "id": "n_715203b469a4",
-      "date": "2026-10-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Rec",
-      "summary": "Can training of nonlinear RNNs be efficiently parallelized, ensuring fast convergence even on very long time series from chaotic systems? In...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/"
-    },
-    {
-      "id": "n_11d486af1aa1",
-      "date": "2026-10-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beyond Memory: Harnessing Long-Horizon Agents with Explicit ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.01415"
-    },
-    {
-      "id": "n_bf0ddd17fc7e",
-      "date": "2026-10-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Hierarchical Continuous Diffusion Language Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.02193"
     }
   ],
   "ticker": [
+    "ML PHD without A* Publications [D]",
+    "Saw this on Rednote, WTF [D]",
+    "[论文] TRACE: Rollout-Guided Quantiza...",
+    "[论文] Rethinking Cross-Tokenizer On-...",
+    "[论文] DuoMatching: Joint-Marginal Di...",
     "Embedding Every Font with Neural Ne...",
     "I have trained a model to predict m...",
     "[论文] ASCENT: Online Test-Time Train...",
     "[论文] ALoDLM: Adaptively Looped Diff...",
-    "[论文] Kandinsky 6.0 Video: Foundatio...",
-    "Top ARC-ΑGI-3 scores on Kaggle just...",
-    "Distilling Stockfish on a Billion P...",
-    "[论文] FrameMorrow: Future-guided Fra...",
-    "[论文] Does Learning Protein Folding ...",
-    "[论文] MotorMind: Scaffolding General..."
+    "[论文] Kandinsky 6.0 Video: Foundatio..."
   ],
   "learning": {
     "phases": [
