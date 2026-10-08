@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-10-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e9df9bf11c37",
+      "date": "2026-10-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Instead of another GPU terminal renderer, I trained a 1.26M-param model to turn ",
+      "summary": "Write-up + demo: https://drksci.com/labs-phosphene So this started as a bit of a gripe. Modern terminal renderers are seriously impressive a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/"
+    },
+    {
+      "id": "n_e81d0c97fa75",
+      "date": "2026-10-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
+      "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/"
+    },
+    {
+      "id": "n_83b07a47c955",
+      "date": "2026-10-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] nanoMuse: An Open-Source Personal Agent for Every Device You",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.08699"
+    },
+    {
+      "id": "n_c0edd95e5120",
+      "date": "2026-10-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Long-WAM: Scaling the Context of World-Action Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.10528"
+    },
+    {
+      "id": "n_c870918567a2",
+      "date": "2026-10-08",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] STEPQuant: When and Where Errors Matter in Delta-Rule Recurr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.38169"
+    },
     {
       "id": "n_8639c57bd78c",
       "date": "2026-10-06",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.38078"
-    },
-    {
-      "id": "n_23e34dc0d572",
-      "date": "2026-10-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICLR 2027 Reviewing Scores [D]",
-      "summary": "I got my three papers to review, and it seems like they have changed the review score range again this year? It is now: ––––––––––––––––––––...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wwqzxy/iclr_2027_reviewing_scores_d/"
-    },
-    {
-      "id": "n_71941db80391",
-      "date": "2026-10-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The Principles of Diffusion Models by Lai et al.: thoughts on the monograph [D]",
-      "summary": "I recently finished The Principles of Diffusion Models, and honestly I think it’s exceptional. The authors strike a really good balance betw...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wwtpg6/the_principles_of_diffusion_models_by_lai_et_al/"
-    },
-    {
-      "id": "n_c42b38214ee2",
-      "date": "2026-10-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Adding memory to search instead of sampling in reward maximization tasks [R]",
-      "summary": "I am one of the authors of FLEET - an algorithm that enhances Best-of-N generation by attributing external rewards to particular tokens and ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvs12j/adding_memory_to_search_instead_of_sampling_in/"
-    },
-    {
-      "id": "n_f5dcbfe40236",
-      "date": "2026-10-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction [R]",
-      "summary": "In our #NeurIPS2026 paper “Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction” (preprint: https://arxiv.org/abs/26...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/"
-    },
-    {
-      "id": "n_65d389c64edd",
-      "date": "2026-10-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] On-Policy or Off-Policy Learning? A Systematic Study of Dist",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.35259"
     }
   ],
   "ticker": [
+    "Instead of another GPU terminal ren...",
+    "Nvidia’s erroneous paper accepted a...",
+    "[论文] nanoMuse: An Open-Source Perso...",
+    "[论文] Long-WAM: Scaling the Context ...",
+    "[论文] STEPQuant: When and Where Erro...",
     "ML PHD without A* Publications [D]",
     "Saw this on Rednote, WTF [D]",
     "[论文] TRACE: Rollout-Guided Quantiza...",
     "[论文] Rethinking Cross-Tokenizer On-...",
-    "[论文] DuoMatching: Joint-Marginal Di...",
-    "Embedding Every Font with Neural Ne...",
-    "I have trained a model to predict m...",
-    "[论文] ASCENT: Online Test-Time Train...",
-    "[论文] ALoDLM: Adaptively Looped Diff...",
-    "[论文] Kandinsky 6.0 Video: Foundatio..."
+    "[论文] DuoMatching: Joint-Marginal Di..."
   ],
   "learning": {
     "phases": [
