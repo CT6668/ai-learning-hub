@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-10-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e47a7014b196",
+      "date": "2026-10-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workf",
+      "summary": "Figure 1b from our paper Disclosure: Im one of the authors (Microsoft). The paper, code, dataset are public and ThinkingBox is on Hugging Fa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/"
+    },
+    {
+      "id": "n_7a4ee2587e14",
+      "date": "2026-10-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TokenRouter: Efficient Serving System for Token-Level LLM Ro",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.12242"
+    },
+    {
+      "id": "n_f16871740913",
+      "date": "2026-10-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AgentGarten: Code Worlds for Evolving Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.12374"
+    },
+    {
+      "id": "n_2a528cca2f50",
+      "date": "2026-10-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Learn2Play Bench: How Well Do LLM Agents Learn from Experien",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.08215"
+    },
     {
       "id": "n_e9df9bf11c37",
       "date": "2026-10-08",
@@ -163,59 +203,19 @@
       "summary": "https://preview.redd.it/gkjgii48gfth1.png?width=575&format=png&auto=webp&s=4e1c35bdacf41d18a6409baedcddc9432ec79814 This happened over the p...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/"
-    },
-    {
-      "id": "n_51832d01a18f",
-      "date": "2026-10-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Distilling Stockfish on a Billion Positions, Full 3.9B Dataset Available [P]",
-      "summary": "In this project, I distilled the Stockfish value function into a ResNet/ViT model using 1 billion positions from the Gigafish dataset. The 3...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/"
-    },
-    {
-      "id": "n_86e6cbf1a319",
-      "date": "2026-10-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FrameMorrow: Future-guided Frame Selection with Prospective ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.38839"
-    },
-    {
-      "id": "n_be713e5f942c",
-      "date": "2026-10-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Does Learning Protein Folding Generalize to Broader Reasonin",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.38879"
-    },
-    {
-      "id": "n_e085562291ba",
-      "date": "2026-10-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MotorMind: Scaffolding General Vision Language Models for Ze",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.38078"
     }
   ],
   "ticker": [
+    "ThinkingBox: Solving an agent task ...",
+    "[论文] TokenRouter: Efficient Serving...",
+    "[论文] AgentGarten: Code Worlds for E...",
+    "[论文] Learn2Play Bench: How Well Do ...",
     "Instead of another GPU terminal ren...",
     "Nvidia’s erroneous paper accepted a...",
     "[论文] nanoMuse: An Open-Source Perso...",
     "[论文] Long-WAM: Scaling the Context ...",
     "[论文] STEPQuant: When and Where Erro...",
-    "ML PHD without A* Publications [D]",
-    "Saw this on Rednote, WTF [D]",
-    "[论文] TRACE: Rollout-Guided Quantiza...",
-    "[论文] Rethinking Cross-Tokenizer On-...",
-    "[论文] DuoMatching: Joint-Marginal Di..."
+    "ML PHD without A* Publications [D]"
   ],
   "learning": {
     "phases": [
