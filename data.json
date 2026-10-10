@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-09",
+    "last_updated": "2026-10-10",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_eb89ffe2d099",
+      "date": "2026-10-10",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Help With Choosing Hardware [P]",
+      "summary": "&#x200B; I am going to fine-tune a satire model, with the base model being `Qwen3.5-14B-Base`. The dataset has ~18000 examples, most of whic...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/"
+    },
+    {
+      "id": "n_a2d29356d219",
+      "date": "2026-10-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Talus: a 23M-parameter diffusion model for game terrain, evaluated against a rea",
+      "summary": "Talus generates 64x64 heightmaps (4 km, up to 1,200 m) conditioned on a terrain type and any subset of five measured properties: mean elevat...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1v71p/talus_a_23mparameter_diffusion_model_for_game/"
+    },
     {
       "id": "n_e47a7014b196",
       "date": "2026-10-09",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.04198"
-    },
-    {
-      "id": "n_ad468ea8946c",
-      "date": "2026-10-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Kandinsky 6.0 Video: Foundation Models for Synchronized Vide",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.05608"
-    },
-    {
-      "id": "n_5ec4d2a91c5b",
-      "date": "2026-10-04",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
-      "summary": "https://preview.redd.it/gkjgii48gfth1.png?width=575&format=png&auto=webp&s=4e1c35bdacf41d18a6409baedcddc9432ec79814 This happened over the p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/"
     }
   ],
   "ticker": [
+    "Help With Choosing Hardware [P]",
+    "Talus: a 23M-parameter diffusion mo...",
     "ThinkingBox: Solving an agent task ...",
     "[论文] TokenRouter: Efficient Serving...",
     "[论文] AgentGarten: Code Worlds for E...",
@@ -213,9 +215,7 @@
     "Instead of another GPU terminal ren...",
     "Nvidia’s erroneous paper accepted a...",
     "[论文] nanoMuse: An Open-Source Perso...",
-    "[论文] Long-WAM: Scaling the Context ...",
-    "[论文] STEPQuant: When and Where Erro...",
-    "ML PHD without A* Publications [D]"
+    "[论文] Long-WAM: Scaling the Context ..."
   ],
   "learning": {
     "phases": [
