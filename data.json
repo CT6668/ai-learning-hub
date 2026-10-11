@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-10",
+    "last_updated": "2026-10-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_989d9bd66cb8",
+      "date": "2026-10-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
+      "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews rema...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/"
+    },
+    {
+      "id": "n_a155655635f8",
+      "date": "2026-10-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Has machine learning research gotten more \"wordy\"? [D]",
+      "summary": "I feel like I am unable to digest most machine learning research these days. The primary reason is because I feel like they have gotten trem...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2uklq/has_machine_learning_research_gotten_more_wordy_d/"
+    },
     {
       "id": "n_eb89ffe2d099",
       "date": "2026-10-10",
@@ -183,29 +203,11 @@
       "summary": "This is related to my previous post where I shared an encoder-only transformer model trained on ohiot1dm + shanghait1dm + azt1d datasets. Th...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wy99gd/i_have_trained_a_model_to_predict_my_blood_sugar/"
-    },
-    {
-      "id": "n_f81fe1ca89b7",
-      "date": "2026-10-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ASCENT: Online Test-Time Training of Long-Horizon Agents via",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.05303"
-    },
-    {
-      "id": "n_d55d8273c9bb",
-      "date": "2026-10-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ALoDLM: Adaptively Looped Diffusion Language Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.04198"
     }
   ],
   "ticker": [
+    "Do I need to do anything now to use...",
+    "Has machine learning research gotte...",
     "Help With Choosing Hardware [P]",
     "Talus: a 23M-parameter diffusion mo...",
     "ThinkingBox: Solving an agent task ...",
@@ -213,9 +215,7 @@
     "[论文] AgentGarten: Code Worlds for E...",
     "[论文] Learn2Play Bench: How Well Do ...",
     "Instead of another GPU terminal ren...",
-    "Nvidia’s erroneous paper accepted a...",
-    "[论文] nanoMuse: An Open-Source Perso...",
-    "[论文] Long-WAM: Scaling the Context ..."
+    "Nvidia’s erroneous paper accepted a..."
   ],
   "learning": {
     "phases": [
