@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-11",
+    "last_updated": "2026-10-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_53a7681deb53",
+      "date": "2026-10-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
+      "summary": "submitted by /u/moschles [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/"
+    },
+    {
+      "id": "n_84b75bf24181",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How's ICLR reviewing going for you? Any observations? [D]",
+      "summary": "I know its early but Ive been browsing through ICLR OpenReview and I see a lot of good papers! Maybe the first big conference with automated...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3ve39/hows_iclr_reviewing_going_for_you_any/"
+    },
+    {
+      "id": "n_07dd9a75477b",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SoftwareGym: Scaling Computer-Use Agent Training with Divers",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.12611"
+    },
+    {
+      "id": "n_a15aa6ac5c42",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Reflex: Visually Grounded Reactive Humanoid Control",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.12772"
+    },
+    {
+      "id": "n_a0495ccc055f",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DiffusionART: Efficient, Stable and Scalable Reinforcement o",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.12572"
+    },
     {
       "id": "n_989d9bd66cb8",
       "date": "2026-10-11",
@@ -153,69 +203,19 @@
       "summary": "https://preview.redd.it/t7wxguxqvzth1.png?width=1314&format=png&auto=webp&s=0ba382fb88894c6e687d5bb9a4b14a85334eae67 Guess we have a dataset...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wzpzh3/saw_this_on_rednote_wtf_d/"
-    },
-    {
-      "id": "n_99ff9da6c8d7",
-      "date": "2026-10-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TRACE: Rollout-Guided Quantization-Aware Training for FP4 Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.07767"
-    },
-    {
-      "id": "n_be7af87edffa",
-      "date": "2026-10-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Rethinking Cross-Tokenizer On-Policy Distillation: From Alig",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.08448"
-    },
-    {
-      "id": "n_e21241a7a203",
-      "date": "2026-10-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DuoMatching: Joint-Marginal Distribution Matching for Few-St",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.03543"
-    },
-    {
-      "id": "n_d8941b263547",
-      "date": "2026-10-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Embedding Every Font with Neural Networks makes some Nice Structures (including ",
-      "summary": "Ive been working on a font searching tool for about a year now, and my investigations have centered around pre-training neural networks to p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wypbnf/embedding_every_font_with_neural_networks_makes/"
-    },
-    {
-      "id": "n_467d4fbf0f7c",
-      "date": "2026-10-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I have trained a model to predict my blood sugar (Part 2) [P]",
-      "summary": "This is related to my previous post where I shared an encoder-only transformer model trained on ohiot1dm + shanghait1dm + azt1d datasets. Th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wy99gd/i_have_trained_a_model_to_predict_my_blood_sugar/"
     }
   ],
   "ticker": [
+    "World Action Models vs VLAs: Roboti...",
+    "How's ICLR reviewing going for you?...",
+    "[论文] SoftwareGym: Scaling Computer-...",
+    "[论文] Reflex: Visually Grounded Reac...",
+    "[论文] DiffusionART: Efficient, Stabl...",
     "Do I need to do anything now to use...",
     "Has machine learning research gotte...",
     "Help With Choosing Hardware [P]",
     "Talus: a 23M-parameter diffusion mo...",
-    "ThinkingBox: Solving an agent task ...",
-    "[论文] TokenRouter: Efficient Serving...",
-    "[论文] AgentGarten: Code Worlds for E...",
-    "[论文] Learn2Play Bench: How Well Do ...",
-    "Instead of another GPU terminal ren...",
-    "Nvidia’s erroneous paper accepted a..."
+    "ThinkingBox: Solving an agent task ..."
   ],
   "learning": {
     "phases": [
