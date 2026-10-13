@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-12",
+    "last_updated": "2026-10-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_16bdcec835b6",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Looped Diffusion Transformer: the same blocks run several times inside each deno",
+      "summary": "Paper: Looped Diffusion Transformer (arXiv 2609.40305, 30 Sep). Instead of making a text-to-image DiT bigger, it runs a shared group of tran...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/"
+    },
+    {
+      "id": "n_ac020bb0e956",
+      "date": "2026-10-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is the strongest mechanistic argument that next token prediction plus reinf",
+      "summary": "Most conversations I see on various AI subreddits start from the assumption that AGI/RSI/ASI is possible, were on the way right now, and tha...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4awlk/what_is_the_strongest_mechanistic_argument_that/"
+    },
+    {
+      "id": "n_6496f027e436",
+      "date": "2026-10-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AgentSWE: Can Coding Agents Build the Agent You Actually Wan",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.13361"
+    },
+    {
+      "id": "n_9514c130c624",
+      "date": "2026-10-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.13166"
+    },
+    {
+      "id": "n_9a4844e0d62e",
+      "date": "2026-10-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GroundingPI: A Grounding Foundation Model towards Physical I",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2609.39601"
+    },
     {
       "id": "n_53a7681deb53",
       "date": "2026-10-11",
@@ -153,69 +203,19 @@
       "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/"
-    },
-    {
-      "id": "n_83b07a47c955",
-      "date": "2026-10-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] nanoMuse: An Open-Source Personal Agent for Every Device You",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.08699"
-    },
-    {
-      "id": "n_c0edd95e5120",
-      "date": "2026-10-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Long-WAM: Scaling the Context of World-Action Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.10528"
-    },
-    {
-      "id": "n_c870918567a2",
-      "date": "2026-10-08",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] STEPQuant: When and Where Errors Matter in Delta-Rule Recurr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.38169"
-    },
-    {
-      "id": "n_8639c57bd78c",
-      "date": "2026-10-06",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ML PHD without A* Publications [D]",
-      "summary": "I know top ML PhD admissions are insanely competitive, so I’m trying to figure out if it’s even worth applying or if I should just focus ser...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wzeszo/ml_phd_without_a_publications_d/"
-    },
-    {
-      "id": "n_25ed44ba2807",
-      "date": "2026-10-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Saw this on Rednote, WTF [D]",
-      "summary": "https://preview.redd.it/t7wxguxqvzth1.png?width=1314&format=png&auto=webp&s=0ba382fb88894c6e687d5bb9a4b14a85334eae67 Guess we have a dataset...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wzpzh3/saw_this_on_rednote_wtf_d/"
     }
   ],
   "ticker": [
+    "Looped Diffusion Transformer: the s...",
+    "What is the strongest mechanistic a...",
+    "[论文] AgentSWE: Can Coding Agents Bu...",
+    "[论文] Scaling Agentic Data for Long-...",
+    "[论文] GroundingPI: A Grounding Found...",
     "World Action Models vs VLAs: Roboti...",
     "How's ICLR reviewing going for you?...",
     "[论文] SoftwareGym: Scaling Computer-...",
     "[论文] Reflex: Visually Grounded Reac...",
-    "[论文] DiffusionART: Efficient, Stabl...",
-    "Do I need to do anything now to use...",
-    "Has machine learning research gotte...",
-    "Help With Choosing Hardware [P]",
-    "Talus: a 23M-parameter diffusion mo...",
-    "ThinkingBox: Solving an agent task ..."
+    "[论文] DiffusionART: Efficient, Stabl..."
   ],
   "learning": {
     "phases": [
