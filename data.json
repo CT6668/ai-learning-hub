@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-13",
+    "last_updated": "2026-10-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ea6dde78ac7e",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "PhD students, how ya feeling? [D]",
+      "summary": "All seems a bit pointless now. Either pump out AI papers and neglect your own development, or take it slow and fall behind in the publishing...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5fv1a/phd_students_how_ya_feeling_d/"
+    },
+    {
+      "id": "n_2b34f1dc7f14",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Weird pattern in the ICLR papers I was assigned to review [D]",
+      "summary": "I was assigned 3 ICLR papers to review. I generally consider myself a pretty nice reviewer but...all 3 of them are slop. Unfiltered Claude s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5dc8f/weird_pattern_in_the_iclr_papers_i_was_assigned/"
+    },
+    {
+      "id": "n_9f0ab12957b8",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Vela: User Behavior as Supervision Sparks LLM Intelligence",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.14709"
+    },
+    {
+      "id": "n_f22b75361f92",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DoSA: Dots Sparse Attention",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.13990"
+    },
+    {
+      "id": "n_0acdf8b735cc",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.18356"
+    },
     {
       "id": "n_16bdcec835b6",
       "date": "2026-10-12",
@@ -153,69 +203,19 @@
       "summary": "Figure 1b from our paper Disclosure: Im one of the authors (Microsoft). The paper, code, dataset are public and ThinkingBox is on Hugging Fa...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/"
-    },
-    {
-      "id": "n_7a4ee2587e14",
-      "date": "2026-10-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TokenRouter: Efficient Serving System for Token-Level LLM Ro",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.12242"
-    },
-    {
-      "id": "n_f16871740913",
-      "date": "2026-10-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AgentGarten: Code Worlds for Evolving Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.12374"
-    },
-    {
-      "id": "n_2a528cca2f50",
-      "date": "2026-10-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Learn2Play Bench: How Well Do LLM Agents Learn from Experien",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.08215"
-    },
-    {
-      "id": "n_e9df9bf11c37",
-      "date": "2026-10-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Instead of another GPU terminal renderer, I trained a 1.26M-param model to turn ",
-      "summary": "Write-up + demo: https://drksci.com/labs-phosphene So this started as a bit of a gripe. Modern terminal renderers are seriously impressive a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/"
-    },
-    {
-      "id": "n_e81d0c97fa75",
-      "date": "2026-10-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
-      "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/"
     }
   ],
   "ticker": [
+    "PhD students, how ya feeling? [D]",
+    "Weird pattern in the ICLR papers I ...",
+    "[论文] Vela: User Behavior as Supervi...",
+    "[论文] DoSA: Dots Sparse Attention",
+    "[论文] Urbex: Agentic Spatial Groundi...",
     "Looped Diffusion Transformer: the s...",
     "What is the strongest mechanistic a...",
     "[论文] AgentSWE: Can Coding Agents Bu...",
     "[论文] Scaling Agentic Data for Long-...",
-    "[论文] GroundingPI: A Grounding Found...",
-    "World Action Models vs VLAs: Roboti...",
-    "How's ICLR reviewing going for you?...",
-    "[论文] SoftwareGym: Scaling Computer-...",
-    "[论文] Reflex: Visually Grounded Reac...",
-    "[论文] DiffusionART: Efficient, Stabl..."
+    "[论文] GroundingPI: A Grounding Found..."
   ],
   "learning": {
     "phases": [
