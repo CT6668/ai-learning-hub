@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-15",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_c07b3c43ed43",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Mapping the Post-Transformer Architecture Landscape in 2026 [D]",
+      "summary": "Went down the rabbit hole to map the different Post-Transformer architectures. Various directions include Dragon Hatchling (BDH), Mamba, RWK...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/"
+    },
+    {
+      "id": "n_e16df96656a4",
+      "date": "2026-10-14",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Remember alphaXiv? Their new research agents are told to report on users without",
+      "summary": "I was curious about OpenResearch by alphaXiv. \"Turn your coding agents into research agents\"? Sounds great! Just what I needed to save time ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/"
+    },
+    {
+      "id": "n_987cccce9183",
+      "date": "2026-10-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LatentLoop: Scaling Looped MoE Models with Asymmetric Comput",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.19975"
+    },
+    {
+      "id": "n_8efddb415880",
+      "date": "2026-10-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Any Time, Any Space: A World-State-Centric Framework for Age",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.20571"
+    },
+    {
+      "id": "n_6b3818f861ca",
+      "date": "2026-10-15",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Player-1: Learning to Play from Synthetic Experience",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.20584"
+    },
     {
       "id": "n_ea6dde78ac7e",
       "date": "2026-10-14",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.12572"
-    },
-    {
-      "id": "n_989d9bd66cb8",
-      "date": "2026-10-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
-      "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews rema...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/"
-    },
-    {
-      "id": "n_a155655635f8",
-      "date": "2026-10-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Has machine learning research gotten more \"wordy\"? [D]",
-      "summary": "I feel like I am unable to digest most machine learning research these days. The primary reason is because I feel like they have gotten trem...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2uklq/has_machine_learning_research_gotten_more_wordy_d/"
-    },
-    {
-      "id": "n_eb89ffe2d099",
-      "date": "2026-10-10",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Help With Choosing Hardware [P]",
-      "summary": "&#x200B; I am going to fine-tune a satire model, with the base model being `Qwen3.5-14B-Base`. The dataset has ~18000 examples, most of whic...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/"
-    },
-    {
-      "id": "n_a2d29356d219",
-      "date": "2026-10-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Talus: a 23M-parameter diffusion model for game terrain, evaluated against a rea",
-      "summary": "Talus generates 64x64 heightmaps (4 km, up to 1,200 m) conditioned on a terrain type and any subset of five measured properties: mean elevat...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1v71p/talus_a_23mparameter_diffusion_model_for_game/"
-    },
-    {
-      "id": "n_e47a7014b196",
-      "date": "2026-10-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workf",
-      "summary": "Figure 1b from our paper Disclosure: Im one of the authors (Microsoft). The paper, code, dataset are public and ThinkingBox is on Hugging Fa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/"
     }
   ],
   "ticker": [
+    "Mapping the Post-Transformer Archit...",
+    "Remember alphaXiv? Their new resear...",
+    "[论文] LatentLoop: Scaling Looped MoE...",
+    "[论文] Any Time, Any Space: A World-S...",
+    "[论文] Player-1: Learning to Play fro...",
     "PhD students, how ya feeling? [D]",
     "Weird pattern in the ICLR papers I ...",
     "[论文] Vela: User Behavior as Supervi...",
     "[论文] DoSA: Dots Sparse Attention",
-    "[论文] Urbex: Agentic Spatial Groundi...",
-    "Looped Diffusion Transformer: the s...",
-    "What is the strongest mechanistic a...",
-    "[论文] AgentSWE: Can Coding Agents Bu...",
-    "[论文] Scaling Agentic Data for Long-...",
-    "[论文] GroundingPI: A Grounding Found..."
+    "[论文] Urbex: Agentic Spatial Groundi..."
   ],
   "learning": {
     "phases": [
