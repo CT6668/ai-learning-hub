@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-15",
+    "last_updated": "2026-10-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_f62a847a0a35",
+      "date": "2026-10-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "NeurIPS 2026 - waitlist [R]",
+      "summary": "Hey everyone, I am trying to register for NeurIPS 2026 in Sydney, they mentioned more tickets would be out mid October and I am registered f...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x6p42z/neurips_2026_waitlist_r/"
+    },
+    {
+      "id": "n_0aa5e2749b10",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How many of your paper (either paper you authored or reviewed) are desk rejected",
+      "summary": "Just spend 4h reviewing a paper while I was sick, gave it a 3/4. This morning got an email saying its desk rejected. I saw many people aroun...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/"
+    },
+    {
+      "id": "n_5ec485bf57a5",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Self-Evolving Agent Harness",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.18813"
+    },
+    {
+      "id": "n_2c10e6a41d28",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gate",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.21601"
+    },
+    {
+      "id": "n_aef2ef24f219",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OmniCompass: A Holistic Benchmark for Omni-Modal Video Groun",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.18829"
+    },
     {
       "id": "n_c07b3c43ed43",
       "date": "2026-10-14",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2609.39601"
-    },
-    {
-      "id": "n_53a7681deb53",
-      "date": "2026-10-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
-      "summary": "submitted by /u/moschles [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/"
-    },
-    {
-      "id": "n_84b75bf24181",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How's ICLR reviewing going for you? Any observations? [D]",
-      "summary": "I know its early but Ive been browsing through ICLR OpenReview and I see a lot of good papers! Maybe the first big conference with automated...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3ve39/hows_iclr_reviewing_going_for_you_any/"
-    },
-    {
-      "id": "n_07dd9a75477b",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SoftwareGym: Scaling Computer-Use Agent Training with Divers",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.12611"
-    },
-    {
-      "id": "n_a15aa6ac5c42",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Reflex: Visually Grounded Reactive Humanoid Control",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.12772"
-    },
-    {
-      "id": "n_a0495ccc055f",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DiffusionART: Efficient, Stable and Scalable Reinforcement o",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.12572"
     }
   ],
   "ticker": [
+    "NeurIPS 2026 - waitlist [R]",
+    "How many of your paper (either pape...",
+    "[论文] Self-Evolving Agent Harness",
+    "[论文] Waypoint-OPD: Transferring RL-...",
+    "[论文] OmniCompass: A Holistic Benchm...",
     "Mapping the Post-Transformer Archit...",
     "Remember alphaXiv? Their new resear...",
     "[论文] LatentLoop: Scaling Looped MoE...",
     "[论文] Any Time, Any Space: A World-S...",
-    "[论文] Player-1: Learning to Play fro...",
-    "PhD students, how ya feeling? [D]",
-    "Weird pattern in the ICLR papers I ...",
-    "[论文] Vela: User Behavior as Supervi...",
-    "[论文] DoSA: Dots Sparse Attention",
-    "[论文] Urbex: Agentic Spatial Groundi..."
+    "[论文] Player-1: Learning to Play fro..."
   ],
   "learning": {
     "phases": [
