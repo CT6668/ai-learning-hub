@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-10-16",
+    "last_updated": "2026-10-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_646db6ba0d00",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A simulated fruit fly brain learns to drive. I turned the training into a 24/7 r",
+      "summary": "For the past 4 weeks I’ve been training models of the Drosophila brain to control a car in a drag racing simulator. To make the training wat...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x7tj60/a_simulated_fruit_fly_brain_learns_to_drive_i/"
+    },
+    {
+      "id": "n_c91ca22012ce",
+      "date": "2026-10-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducin",
+      "summary": "Hey r/MachineLearning! Were excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs)...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
+    },
+    {
+      "id": "n_8892a839639a",
+      "date": "2026-10-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OpenGCUA: Toward a Fully Open Stack for Generalist Computer ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.22200"
+    },
     {
       "id": "n_f62a847a0a35",
       "date": "2026-10-15",
@@ -173,49 +203,19 @@
       "summary": "Most conversations I see on various AI subreddits start from the assumption that AGI/RSI/ASI is possible, were on the way right now, and tha...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x4awlk/what_is_the_strongest_mechanistic_argument_that/"
-    },
-    {
-      "id": "n_6496f027e436",
-      "date": "2026-10-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AgentSWE: Can Coding Agents Build the Agent You Actually Wan",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.13361"
-    },
-    {
-      "id": "n_9514c130c624",
-      "date": "2026-10-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.13166"
-    },
-    {
-      "id": "n_9a4844e0d62e",
-      "date": "2026-10-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] GroundingPI: A Grounding Foundation Model towards Physical I",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2609.39601"
     }
   ],
   "ticker": [
+    "A simulated fruit fly brain learns ...",
+    "[Research] 2,788 tokens/s on a sing...",
+    "[论文] OpenGCUA: Toward a Fully Open ...",
     "NeurIPS 2026 - waitlist [R]",
     "How many of your paper (either pape...",
     "[论文] Self-Evolving Agent Harness",
     "[论文] Waypoint-OPD: Transferring RL-...",
     "[论文] OmniCompass: A Holistic Benchm...",
     "Mapping the Post-Transformer Archit...",
-    "Remember alphaXiv? Their new resear...",
-    "[论文] LatentLoop: Scaling Looped MoE...",
-    "[论文] Any Time, Any Space: A World-S...",
-    "[论文] Player-1: Learning to Play fro..."
+    "Remember alphaXiv? Their new resear..."
   ],
   "learning": {
     "phases": [
