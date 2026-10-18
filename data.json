@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-17",
+    "last_updated": "2026-10-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_153fffadd7d6",
+      "date": "2026-10-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "17 AIs, 7,700 hands of poker: frontier vs cheap vs local vs Jev [P]",
+      "summary": "submitted by /u/Civil-Demand555 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/"
+    },
+    {
+      "id": "n_637ebb5e0947",
+      "date": "2026-10-17",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is wrong with AI writing - ICLR edition [D]",
+      "summary": "Im sure many of us are slogging through impenetrable AI writing as we finish ICLR reviewing. Ill try to create an anonymized version from a ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/"
+    },
     {
       "id": "n_646db6ba0d00",
       "date": "2026-10-16",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.18356"
-    },
-    {
-      "id": "n_16bdcec835b6",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Looped Diffusion Transformer: the same blocks run several times inside each deno",
-      "summary": "Paper: Looped Diffusion Transformer (arXiv 2609.40305, 30 Sep). Instead of making a text-to-image DiT bigger, it runs a shared group of tran...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/"
-    },
-    {
-      "id": "n_ac020bb0e956",
-      "date": "2026-10-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What is the strongest mechanistic argument that next token prediction plus reinf",
-      "summary": "Most conversations I see on various AI subreddits start from the assumption that AGI/RSI/ASI is possible, were on the way right now, and tha...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4awlk/what_is_the_strongest_mechanistic_argument_that/"
     }
   ],
   "ticker": [
+    "17 AIs, 7,700 hands of poker: front...",
+    "What is wrong with AI writing - ICL...",
     "A simulated fruit fly brain learns ...",
     "[Research] 2,788 tokens/s on a sing...",
     "[论文] OpenGCUA: Toward a Fully Open ...",
@@ -213,9 +215,7 @@
     "How many of your paper (either pape...",
     "[论文] Self-Evolving Agent Harness",
     "[论文] Waypoint-OPD: Transferring RL-...",
-    "[论文] OmniCompass: A Holistic Benchm...",
-    "Mapping the Post-Transformer Archit...",
-    "Remember alphaXiv? Their new resear..."
+    "[论文] OmniCompass: A Holistic Benchm..."
   ],
   "learning": {
     "phases": [
