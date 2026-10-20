@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-19",
+    "last_updated": "2026-10-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_610e4b640e6b",
+      "date": "2026-10-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Maxwell: a new model that speeds up AI models like Whisper and LTX-2 by rewritin",
+      "summary": "Came across this today and havent seen it discussed here yet. Its apparently a new type of model (called Maxwell) that sits under a running ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa2rrh/maxwell_a_new_model_that_speeds_up_ai_models_like/"
+    },
+    {
+      "id": "n_46ed611a9462",
+      "date": "2026-10-19",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
+      "summary": "Ive been using AI extensively for ML research, and Ive noticed a bottleneck: brainstorming research directions and generating smoke run impl...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/"
+    },
+    {
+      "id": "n_ac849c153604",
+      "date": "2026-10-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ScaleNav: Scalable Internet Video Pretraining for Language-C",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.25690"
+    },
+    {
+      "id": "n_9eb42d90e5a5",
+      "date": "2026-10-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OpenVLHarness: Real World Visual Agentic Tool-Use with Multi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.26860"
+    },
+    {
+      "id": "n_17269615c099",
+      "date": "2026-10-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Learning from Fleet Experience: A Collective Learning Paradi",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.25736"
+    },
     {
       "id": "n_724ce1c9f433",
       "date": "2026-10-18",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.18829"
-    },
-    {
-      "id": "n_c07b3c43ed43",
-      "date": "2026-10-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Mapping the Post-Transformer Architecture Landscape in 2026 [D]",
-      "summary": "Went down the rabbit hole to map the different Post-Transformer architectures. Various directions include Dragon Hatchling (BDH), Mamba, RWK...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/"
-    },
-    {
-      "id": "n_e16df96656a4",
-      "date": "2026-10-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Remember alphaXiv? Their new research agents are told to report on users without",
-      "summary": "I was curious about OpenResearch by alphaXiv. \"Turn your coding agents into research agents\"? Sounds great! Just what I needed to save time ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/"
-    },
-    {
-      "id": "n_987cccce9183",
-      "date": "2026-10-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LatentLoop: Scaling Looped MoE Models with Asymmetric Comput",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.19975"
-    },
-    {
-      "id": "n_8efddb415880",
-      "date": "2026-10-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Any Time, Any Space: A World-State-Centric Framework for Age",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.20571"
-    },
-    {
-      "id": "n_6b3818f861ca",
-      "date": "2026-10-15",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Player-1: Learning to Play from Synthetic Experience",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.20584"
     }
   ],
   "ticker": [
+    "Maxwell: a new model that speeds up...",
+    "AI generates research ideas faster ...",
+    "[论文] ScaleNav: Scalable Internet Vi...",
+    "[论文] OpenVLHarness: Real World Visu...",
+    "[论文] Learning from Fleet Experience...",
     "Beating Warcraft III’s insane AI wi...",
     "Conference papers are cooked! [D]",
     "[论文] HexaShell: A Thin Harness for ...",
     "[论文] Pack Light, CarryOn: Building ...",
-    "[论文] Has GPT-6-Astra Achieved Embod...",
-    "17 AIs, 7,700 hands of poker: front...",
-    "What is wrong with AI writing - ICL...",
-    "A simulated fruit fly brain learns ...",
-    "[Research] 2,788 tokens/s on a sing...",
-    "[论文] OpenGCUA: Toward a Fully Open ..."
+    "[论文] Has GPT-6-Astra Achieved Embod..."
   ],
   "learning": {
     "phases": [
