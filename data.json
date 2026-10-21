@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-21",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_99c09cd623be",
+      "date": "2026-10-20",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Best way to accurately annotate 500 images for fine-tuning Meta DETR?[P]",
+      "summary": "Hey everyone! Im working on an object-detection project and fine-tuning Metas DETR model on a custom dataset of around 500 images. The main ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xao1wy/best_way_to_accurately_annotate_500_images_for/"
+    },
+    {
+      "id": "n_c720cd1457c7",
+      "date": "2026-10-21",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Will our paper be removed from EMNLP because of no-show? [D]",
+      "summary": "Hello, Our paper was accepted to EMNLP and we were given poster slot. However due to Visa issue, we cannot attend in-person anymore. We mail...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/"
+    },
+    {
+      "id": "n_ce22edcb22a9",
+      "date": "2026-10-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Sage-A1.5: From Long-Horizon Execution to Scientific Explora",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.28578"
+    },
+    {
+      "id": "n_5839eef759ad",
+      "date": "2026-10-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PAR: Progress-Aligned Recurrence for Length Generalization i",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.27628"
+    },
+    {
+      "id": "n_16b873148222",
+      "date": "2026-10-21",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Focused Omni-Modal GUI Agents",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.26203"
+    },
     {
       "id": "n_610e4b640e6b",
       "date": "2026-10-19",
@@ -153,69 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.22200"
-    },
-    {
-      "id": "n_f62a847a0a35",
-      "date": "2026-10-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "NeurIPS 2026 - waitlist [R]",
-      "summary": "Hey everyone, I am trying to register for NeurIPS 2026 in Sydney, they mentioned more tickets would be out mid October and I am registered f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x6p42z/neurips_2026_waitlist_r/"
-    },
-    {
-      "id": "n_0aa5e2749b10",
-      "date": "2026-10-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How many of your paper (either paper you authored or reviewed) are desk rejected",
-      "summary": "Just spend 4h reviewing a paper while I was sick, gave it a 3/4. This morning got an email saying its desk rejected. I saw many people aroun...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/"
-    },
-    {
-      "id": "n_5ec485bf57a5",
-      "date": "2026-10-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Self-Evolving Agent Harness",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.18813"
-    },
-    {
-      "id": "n_2c10e6a41d28",
-      "date": "2026-10-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gate",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.21601"
-    },
-    {
-      "id": "n_aef2ef24f219",
-      "date": "2026-10-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OmniCompass: A Holistic Benchmark for Omni-Modal Video Groun",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.18829"
     }
   ],
   "ticker": [
+    "Best way to accurately annotate 500...",
+    "Will our paper be removed from EMNL...",
+    "[论文] Sage-A1.5: From Long-Horizon E...",
+    "[论文] PAR: Progress-Aligned Recurren...",
+    "[论文] Focused Omni-Modal GUI Agents",
     "Maxwell: a new model that speeds up...",
     "AI generates research ideas faster ...",
     "[论文] ScaleNav: Scalable Internet Vi...",
     "[论文] OpenVLHarness: Real World Visu...",
-    "[论文] Learning from Fleet Experience...",
-    "Beating Warcraft III’s insane AI wi...",
-    "Conference papers are cooked! [D]",
-    "[论文] HexaShell: A Thin Harness for ...",
-    "[论文] Pack Light, CarryOn: Building ...",
-    "[论文] Has GPT-6-Astra Achieved Embod..."
+    "[论文] Learning from Fleet Experience..."
   ],
   "learning": {
     "phases": [
