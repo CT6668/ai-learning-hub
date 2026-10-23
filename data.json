@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_74a1139c3523",
+      "date": "2026-10-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "I built Open-XTTS-Trainer: Now you can add new language scripts and train all 3 ",
+      "summary": "TL;DR: When Coqui AI shut down, they left XTTS v2 without official training code for the DVAE audio tokenizer and Latent HiFi-GAN vocoder, a...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/"
+    },
+    {
+      "id": "n_7bbec6ec8a81",
+      "date": "2026-10-22",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
+      "summary": "Carbon-X is a 14.8B parameter decoder-only model that takes raw DNA in a normal chat and answers in English. It shares one token stream for ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/"
+    },
+    {
+      "id": "n_971ccac13e21",
+      "date": "2026-10-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Deep Fusion Memory: A Chunk-Level Parametric Memory for Larg",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.25100"
+    },
+    {
+      "id": "n_d6cc467c9feb",
+      "date": "2026-10-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Making MLLM Latents Matter: Factor-Aware Predictive Learning",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.30926"
+    },
+    {
+      "id": "n_8321c0b846c2",
+      "date": "2026-10-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Deep Search in Real-World Web Environments",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.30181"
+    },
     {
       "id": "n_b38d6b7357ac",
       "date": "2026-10-21",
@@ -153,69 +203,19 @@
       "summary": "submitted by /u/ToraxXx [link] [comments]",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x9c5ty/beating_warcraft_iiis_insane_ai_with_selfplay/"
-    },
-    {
-      "id": "n_efd433b89d0b",
-      "date": "2026-10-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Conference papers are cooked! [D]",
-      "summary": "Got three papers to review for ICLR and five for AAMAS, and believe me the quality of these papers is insanely bad. I would even refrain fro...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d/"
-    },
-    {
-      "id": "n_6fe6529adf5f",
-      "date": "2026-10-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] HexaShell: A Thin Harness for Exploring the Limits of VLM Ag",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.23479"
-    },
-    {
-      "id": "n_6b8ff6a723df",
-      "date": "2026-10-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Pack Light, CarryOn: Building Object-Oriented Context for Lo",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.18784"
-    },
-    {
-      "id": "n_b4379e3d8e52",
-      "date": "2026-10-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Has GPT-6-Astra Achieved Embodied Intelligence?",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.22471"
-    },
-    {
-      "id": "n_153fffadd7d6",
-      "date": "2026-10-17",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "17 AIs, 7,700 hands of poker: frontier vs cheap vs local vs Jev [P]",
-      "summary": "submitted by /u/Civil-Demand555 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/"
     }
   ],
   "ticker": [
+    "I built Open-XTTS-Trainer: Now you ...",
+    "Carbon-X is an open 14.8B model tra...",
+    "[论文] Deep Fusion Memory: A Chunk-Le...",
+    "[论文] Making MLLM Latents Matter: Fa...",
+    "[论文] Deep Search in Real-World Web ...",
     "Few-read fault localization in simu...",
     "[论文] Looking Ahead: Modeling Future...",
     "[论文] Agent World Model in the Wild:...",
     "[论文] Cache Engineering for Agents",
-    "Best way to accurately annotate 500...",
-    "Will our paper be removed from EMNL...",
-    "[论文] Sage-A1.5: From Long-Horizon E...",
-    "[论文] PAR: Progress-Aligned Recurren...",
-    "[论文] Focused Omni-Modal GUI Agents",
-    "Maxwell: a new model that speeds up..."
+    "Best way to accurately annotate 500..."
   ],
   "learning": {
     "phases": [
