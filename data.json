@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-10-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e70540b55b83",
+      "date": "2026-10-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Is symbolic ai dead? [D]",
+      "summary": "New research keeps finding things that keep reintroducing symbolic ai structures to machine learning and I have wondered why more research h...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdekrf/is_symbolic_ai_dead_d/"
+    },
+    {
+      "id": "n_bb4750081d4a",
+      "date": "2026-10-23",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact E",
+      "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site vi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/"
+    },
+    {
+      "id": "n_36024a4905eb",
+      "date": "2026-10-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WeVisOne-VL: Unified Visual Perception from Objects to Pixel",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.31329"
+    },
     {
       "id": "n_74a1139c3523",
       "date": "2026-10-22",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.25690"
-    },
-    {
-      "id": "n_9eb42d90e5a5",
-      "date": "2026-10-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OpenVLHarness: Real World Visual Agentic Tool-Use with Multi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.26860"
-    },
-    {
-      "id": "n_17269615c099",
-      "date": "2026-10-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Learning from Fleet Experience: A Collective Learning Paradi",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.25736"
-    },
-    {
-      "id": "n_724ce1c9f433",
-      "date": "2026-10-18",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Beating Warcraft III’s insane AI with self-play reinforcement learning on one de",
-      "summary": "submitted by /u/ToraxXx [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x9c5ty/beating_warcraft_iiis_insane_ai_with_selfplay/"
     }
   ],
   "ticker": [
+    "Is symbolic ai dead? [D]",
+    "[R] The Hive Mind is a Single Reinf...",
+    "[论文] WeVisOne-VL: Unified Visual Pe...",
     "I built Open-XTTS-Trainer: Now you ...",
     "Carbon-X is an open 14.8B model tra...",
     "[论文] Deep Fusion Memory: A Chunk-Le...",
     "[论文] Making MLLM Latents Matter: Fa...",
     "[论文] Deep Search in Real-World Web ...",
     "Few-read fault localization in simu...",
-    "[论文] Looking Ahead: Modeling Future...",
-    "[论文] Agent World Model in the Wild:...",
-    "[论文] Cache Engineering for Agents",
-    "Best way to accurately annotate 500..."
+    "[论文] Looking Ahead: Modeling Future..."
   ],
   "learning": {
     "phases": [
