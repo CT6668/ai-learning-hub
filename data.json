@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-24",
+    "last_updated": "2026-10-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d82b8e8bf505",
+      "date": "2026-10-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x sm",
+      "summary": "been digesting the details behind memt-1.0s memory-native architecture recently, and the engineering tradeoffs between full context kv cachi...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/"
+    },
+    {
+      "id": "n_8cbdb9da8254",
+      "date": "2026-10-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICLR 2027 is still handing out desk rejects [N]",
+      "summary": "Thank you for your efforts in protecting the community from AI slop. submitted by /u/Temporary_Switch_339 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu2z1/iclr_2027_is_still_handing_out_desk_rejects_n/"
+    },
     {
       "id": "n_e70540b55b83",
       "date": "2026-10-23",
@@ -183,29 +203,11 @@
       "summary": "Came across this today and havent seen it discussed here yet. Its apparently a new type of model (called Maxwell) that sits under a running ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xa2rrh/maxwell_a_new_model_that_speeds_up_ai_models_like/"
-    },
-    {
-      "id": "n_46ed611a9462",
-      "date": "2026-10-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
-      "summary": "Ive been using AI extensively for ML research, and Ive noticed a bottleneck: brainstorming research directions and generating smoke run impl...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/"
-    },
-    {
-      "id": "n_ac849c153604",
-      "date": "2026-10-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ScaleNav: Scalable Internet Video Pretraining for Language-C",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.25690"
     }
   ],
   "ticker": [
+    "memt-1.0 architecture breakdown gat...",
+    "ICLR 2027 is still handing out desk...",
     "Is symbolic ai dead? [D]",
     "[R] The Hive Mind is a Single Reinf...",
     "[论文] WeVisOne-VL: Unified Visual Pe...",
@@ -213,9 +215,7 @@
     "Carbon-X is an open 14.8B model tra...",
     "[论文] Deep Fusion Memory: A Chunk-Le...",
     "[论文] Making MLLM Latents Matter: Fa...",
-    "[论文] Deep Search in Real-World Web ...",
-    "Few-read fault localization in simu...",
-    "[论文] Looking Ahead: Modeling Future..."
+    "[论文] Deep Search in Real-World Web ..."
   ],
   "learning": {
     "phases": [
