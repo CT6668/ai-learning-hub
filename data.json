@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-10-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2ae47327c808",
+      "date": "2026-10-25",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agent",
+      "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0,...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/"
+    },
+    {
+      "id": "n_0c9bc4df4658",
+      "date": "2026-10-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.32253"
+    },
+    {
+      "id": "n_97af4320b035",
+      "date": "2026-10-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.31162"
+    },
+    {
+      "id": "n_9d9935887ab2",
+      "date": "2026-10-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] UserArena: Benchmarking Interactive User Simulation for Long",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.30932"
+    },
     {
       "id": "n_d82b8e8bf505",
       "date": "2026-10-25",
@@ -163,59 +203,19 @@
       "summary": "Hello, Our paper was accepted to EMNLP and we were given poster slot. However due to Visa issue, we cannot attend in-person anymore. We mail...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/"
-    },
-    {
-      "id": "n_ce22edcb22a9",
-      "date": "2026-10-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Sage-A1.5: From Long-Horizon Execution to Scientific Explora",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.28578"
-    },
-    {
-      "id": "n_5839eef759ad",
-      "date": "2026-10-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PAR: Progress-Aligned Recurrence for Length Generalization i",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.27628"
-    },
-    {
-      "id": "n_16b873148222",
-      "date": "2026-10-21",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Focused Omni-Modal GUI Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.26203"
-    },
-    {
-      "id": "n_610e4b640e6b",
-      "date": "2026-10-19",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Maxwell: a new model that speeds up AI models like Whisper and LTX-2 by rewritin",
-      "summary": "Came across this today and havent seen it discussed here yet. Its apparently a new type of model (called Maxwell) that sits under a running ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa2rrh/maxwell_a_new_model_that_speeds_up_ai_models_like/"
     }
   ],
   "ticker": [
+    "Nanbeige releases Nanbeige4.3-33B, ...",
+    "[论文] RSIHub: A Composable Framework...",
+    "[论文] HiSTEVE 1.0: Harnessing Human-...",
+    "[论文] UserArena: Benchmarking Intera...",
     "memt-1.0 architecture breakdown gat...",
     "ICLR 2027 is still handing out desk...",
     "Is symbolic ai dead? [D]",
     "[R] The Hive Mind is a Single Reinf...",
     "[论文] WeVisOne-VL: Unified Visual Pe...",
-    "I built Open-XTTS-Trainer: Now you ...",
-    "Carbon-X is an open 14.8B model tra...",
-    "[论文] Deep Fusion Memory: A Chunk-Le...",
-    "[论文] Making MLLM Latents Matter: Fa...",
-    "[论文] Deep Search in Real-World Web ..."
+    "I built Open-XTTS-Trainer: Now you ..."
   ],
   "learning": {
     "phases": [
