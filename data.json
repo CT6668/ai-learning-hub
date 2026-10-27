@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-10-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_3991ad00de68",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is the value proposition of \"RL environment\" companies? [D]",
+      "summary": "Recently Ive been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI,...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/"
+    },
+    {
+      "id": "n_5762015f2eae",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How to do method research when I feel I have no guidance on doing it? [D]",
+      "summary": "I am a 3rd year PhD student in a small lab working on ML in healthcare. My PI is new (we have no PhD graduates yet - lab is 4 years old). I ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/"
+    },
+    {
+      "id": "n_2f3a430fca08",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Trial by Trace: Benchmarking AI Agent Harnesses for Reliabil",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.32285"
+    },
+    {
+      "id": "n_d435f585e725",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] StreamVibe: Proactive Video Agents for Evolving User Intent",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.34662"
+    },
+    {
+      "id": "n_7c7c579b7610",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Trajectory2Gym: Decision-Grounded Compositional Interaction ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.33568"
+    },
     {
       "id": "n_2ae47327c808",
       "date": "2026-10-25",
@@ -153,69 +203,19 @@
       "summary": "TL;DR In simulation, a sparse-recovery decoder over a few random +/-1 probe reads localizes up to 64 stuck cells in a 256x256 analog tile wi...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/"
-    },
-    {
-      "id": "n_2d79f084fb64",
-      "date": "2026-10-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Looking Ahead: Modeling Future Evolution in Autoregressive V",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.29989"
-    },
-    {
-      "id": "n_a62a51827732",
-      "date": "2026-10-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Agent World Model in the Wild: Computer-Use Agent Environmen",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.26828"
-    },
-    {
-      "id": "n_075a320c6a64",
-      "date": "2026-10-22",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Cache Engineering for Agents",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.28577"
-    },
-    {
-      "id": "n_99c09cd623be",
-      "date": "2026-10-20",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Best way to accurately annotate 500 images for fine-tuning Meta DETR?[P]",
-      "summary": "Hey everyone! Im working on an object-detection project and fine-tuning Metas DETR model on a custom dataset of around 500 images. The main ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xao1wy/best_way_to_accurately_annotate_500_images_for/"
-    },
-    {
-      "id": "n_c720cd1457c7",
-      "date": "2026-10-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Will our paper be removed from EMNLP because of no-show? [D]",
-      "summary": "Hello, Our paper was accepted to EMNLP and we were given poster slot. However due to Visa issue, we cannot attend in-person anymore. We mail...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/"
     }
   ],
   "ticker": [
+    "What is the value proposition of \"R...",
+    "How to do method research when I fe...",
+    "[论文] Trial by Trace: Benchmarking A...",
+    "[论文] StreamVibe: Proactive Video Ag...",
+    "[论文] Trajectory2Gym: Decision-Groun...",
     "Nanbeige releases Nanbeige4.3-33B, ...",
     "[论文] RSIHub: A Composable Framework...",
     "[论文] HiSTEVE 1.0: Harnessing Human-...",
     "[论文] UserArena: Benchmarking Intera...",
-    "memt-1.0 architecture breakdown gat...",
-    "ICLR 2027 is still handing out desk...",
-    "Is symbolic ai dead? [D]",
-    "[R] The Hive Mind is a Single Reinf...",
-    "[论文] WeVisOne-VL: Unified Visual Pe...",
-    "I built Open-XTTS-Trainer: Now you ..."
+    "memt-1.0 architecture breakdown gat..."
   ],
   "learning": {
     "phases": [
