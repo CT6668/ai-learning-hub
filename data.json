@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-27",
+    "last_updated": "2026-10-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_79cbd55a05db",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Understanding Transformer Autograd by Building It Manually in PyTorch [P]",
+      "summary": "I’ve uploaded a minimal, self-contained implementation of manual autograd for a transformer-based classifier in PyTorch. It can help build i...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh1z1p/understanding_transformer_autograd_by_building_it/"
+    },
+    {
+      "id": "n_554f822a2db6",
+      "date": "2026-10-27",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "The Paper Reviewing Process is Now in Critical Condition [D]",
+      "summary": "TL;DR: AI written reviews, and AI-writing in papers I was going to give this a title \"An Obituary of the Review Process\", but in the interes...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh2wzt/the_paper_reviewing_process_is_now_in_critical/"
+    },
+    {
+      "id": "n_7026158975ab",
+      "date": "2026-10-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PDRVLA: A Vision-Language-Action Model with Physical Dynamic",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.37381"
+    },
+    {
+      "id": "n_ce509fe7782d",
+      "date": "2026-10-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Hy-Nomas: Towards Free-form Interactive World Generation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.36729"
+    },
+    {
+      "id": "n_a819b80511e1",
+      "date": "2026-10-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ChronoReplay: One Answer Interface Is Not Enough for Streami",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.34283"
+    },
     {
       "id": "n_3991ad00de68",
       "date": "2026-10-27",
@@ -153,69 +203,19 @@
       "summary": "TL;DR: When Coqui AI shut down, they left XTTS v2 without official training code for the DVAE audio tokenizer and Latent HiFi-GAN vocoder, a...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/"
-    },
-    {
-      "id": "n_7bbec6ec8a81",
-      "date": "2026-10-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
-      "summary": "Carbon-X is a 14.8B parameter decoder-only model that takes raw DNA in a normal chat and answers in English. It shares one token stream for ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/"
-    },
-    {
-      "id": "n_971ccac13e21",
-      "date": "2026-10-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Deep Fusion Memory: A Chunk-Level Parametric Memory for Larg",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.25100"
-    },
-    {
-      "id": "n_d6cc467c9feb",
-      "date": "2026-10-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Making MLLM Latents Matter: Factor-Aware Predictive Learning",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.30926"
-    },
-    {
-      "id": "n_8321c0b846c2",
-      "date": "2026-10-23",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Deep Search in Real-World Web Environments",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.30181"
-    },
-    {
-      "id": "n_b38d6b7357ac",
-      "date": "2026-10-21",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Few-read fault localization in simulated analog crossbars: a sparse-recovery dec",
-      "summary": "TL;DR In simulation, a sparse-recovery decoder over a few random +/-1 probe reads localizes up to 64 stuck cells in a 256x256 analog tile wi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/"
     }
   ],
   "ticker": [
+    "Understanding Transformer Autograd ...",
+    "The Paper Reviewing Process is Now ...",
+    "[论文] PDRVLA: A Vision-Language-Acti...",
+    "[论文] Hy-Nomas: Towards Free-form In...",
+    "[论文] ChronoReplay: One Answer Inter...",
     "What is the value proposition of \"R...",
     "How to do method research when I fe...",
     "[论文] Trial by Trace: Benchmarking A...",
     "[论文] StreamVibe: Proactive Video Ag...",
-    "[论文] Trajectory2Gym: Decision-Groun...",
-    "Nanbeige releases Nanbeige4.3-33B, ...",
-    "[论文] RSIHub: A Composable Framework...",
-    "[论文] HiSTEVE 1.0: Harnessing Human-...",
-    "[论文] UserArena: Benchmarking Intera...",
-    "memt-1.0 architecture breakdown gat..."
+    "[论文] Trajectory2Gym: Decision-Groun..."
   ],
   "learning": {
     "phases": [
