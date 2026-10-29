@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-10-28",
+    "last_updated": "2026-10-29",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a936c3aba487",
+      "date": "2026-10-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchma",
+      "summary": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/"
+    },
+    {
+      "id": "n_f3c5c0e1800e",
+      "date": "2026-10-28",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AMA this Wednesday: Stephen “Cas” Casper, Harvard Kennedy School, on AI safeguar",
+      "summary": "https://www.reddit.com/r/ArtificialInteligence/comments/1xfuacm/ama_this_wednesday_stephen_cas_casper_harvard/ r/ArtificialInteligence We ha...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xhpnfs/ama_this_wednesday_stephen_cas_casper_harvard/"
+    },
+    {
+      "id": "n_fcceb727d733",
+      "date": "2026-10-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OmniShowcase: Omnidirectional Subject-Consistent Video Gener",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.35684"
+    },
+    {
+      "id": "n_5bae10e7f206",
+      "date": "2026-10-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Efficient Streaming Audio-Visual Target Speaker Extraction f",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.32749"
+    },
+    {
+      "id": "n_fa9060d219cc",
+      "date": "2026-10-29",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] DTCA: Denoising Token Credit Assignment for Reinforcement Le",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.35201"
+    },
     {
       "id": "n_79cbd55a05db",
       "date": "2026-10-27",
@@ -153,69 +203,19 @@
       "summary": "been digesting the details behind memt-1.0s memory-native architecture recently, and the engineering tradeoffs between full context kv cachi...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/"
-    },
-    {
-      "id": "n_8cbdb9da8254",
-      "date": "2026-10-25",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICLR 2027 is still handing out desk rejects [N]",
-      "summary": "Thank you for your efforts in protecting the community from AI slop. submitted by /u/Temporary_Switch_339 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu2z1/iclr_2027_is_still_handing_out_desk_rejects_n/"
-    },
-    {
-      "id": "n_e70540b55b83",
-      "date": "2026-10-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Is symbolic ai dead? [D]",
-      "summary": "New research keeps finding things that keep reintroducing symbolic ai structures to machine learning and I have wondered why more research h...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdekrf/is_symbolic_ai_dead_d/"
-    },
-    {
-      "id": "n_bb4750081d4a",
-      "date": "2026-10-23",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact E",
-      "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site vi...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/"
-    },
-    {
-      "id": "n_36024a4905eb",
-      "date": "2026-10-24",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WeVisOne-VL: Unified Visual Perception from Objects to Pixel",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.31329"
-    },
-    {
-      "id": "n_74a1139c3523",
-      "date": "2026-10-22",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "I built Open-XTTS-Trainer: Now you can add new language scripts and train all 3 ",
-      "summary": "TL;DR: When Coqui AI shut down, they left XTTS v2 without official training code for the DVAE audio tokenizer and Latent HiFi-GAN vocoder, a...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/"
     }
   ],
   "ticker": [
+    "[R] Taking EmbeddingGemma-2 (577M) ...",
+    "AMA this Wednesday: Stephen “Cas” C...",
+    "[论文] OmniShowcase: Omnidirectional ...",
+    "[论文] Efficient Streaming Audio-Visu...",
+    "[论文] DTCA: Denoising Token Credit A...",
     "Understanding Transformer Autograd ...",
     "The Paper Reviewing Process is Now ...",
     "[论文] PDRVLA: A Vision-Language-Acti...",
     "[论文] Hy-Nomas: Towards Free-form In...",
-    "[论文] ChronoReplay: One Answer Inter...",
-    "What is the value proposition of \"R...",
-    "How to do method research when I fe...",
-    "[论文] Trial by Trace: Benchmarking A...",
-    "[论文] StreamVibe: Proactive Video Ag...",
-    "[论文] Trajectory2Gym: Decision-Groun..."
+    "[论文] ChronoReplay: One Answer Inter..."
   ],
   "learning": {
     "phases": [
