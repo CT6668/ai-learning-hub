@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-30",
+    "last_updated": "2026-10-31",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_37443f3d4574",
+      "date": "2026-10-30",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Multi-Token Prediction Done Right [R]",
+      "summary": "Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it c...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/"
+    },
+    {
+      "id": "n_29dd7e73dd49",
+      "date": "2026-10-31",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-I",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.38568"
+    },
     {
       "id": "n_fb2961796c82",
       "date": "2026-10-29",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.32285"
-    },
-    {
-      "id": "n_d435f585e725",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] StreamVibe: Proactive Video Agents for Evolving User Intent",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.34662"
-    },
-    {
-      "id": "n_7c7c579b7610",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Trajectory2Gym: Decision-Grounded Compositional Interaction ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.33568"
     }
   ],
   "ticker": [
+    "Multi-Token Prediction Done Right [...",
+    "[论文] A-RSI: Adaptive Task Refresh f...",
     "Old-school classifiers are still ge...",
     "Freind of mine published a paper wi...",
     "[论文] Look Only When Needed: Certifi...",
@@ -213,9 +215,7 @@
     "[论文] Intrinsic Distribution Matchin...",
     "[R] Taking EmbeddingGemma-2 (577M) ...",
     "AMA this Wednesday: Stephen “Cas” C...",
-    "[论文] OmniShowcase: Omnidirectional ...",
-    "[论文] Efficient Streaming Audio-Visu...",
-    "[论文] DTCA: Denoising Token Credit A..."
+    "[论文] OmniShowcase: Omnidirectional ..."
   ],
   "learning": {
     "phases": [
