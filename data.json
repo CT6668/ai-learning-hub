@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-10-31",
+    "last_updated": "2026-11-01",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d6755186624e",
+      "date": "2026-11-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Best option for local models [D]",
+      "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/"
+    },
+    {
+      "id": "n_dab9dedf4343",
+      "date": "2026-11-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Are there fundamental repeating patterns in ML techniques across modalities (tex",
+      "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/"
+    },
     {
       "id": "n_37443f3d4574",
       "date": "2026-10-30",
@@ -183,29 +203,11 @@
       "summary": "Recently Ive been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI,...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/"
-    },
-    {
-      "id": "n_5762015f2eae",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How to do method research when I feel I have no guidance on doing it? [D]",
-      "summary": "I am a 3rd year PhD student in a small lab working on ML in healthcare. My PI is new (we have no PhD graduates yet - lab is 4 years old). I ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/"
-    },
-    {
-      "id": "n_2f3a430fca08",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Trial by Trace: Benchmarking AI Agent Harnesses for Reliabil",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.32285"
     }
   ],
   "ticker": [
+    "Best option for local models [D]",
+    "Are there fundamental repeating pat...",
     "Multi-Token Prediction Done Right [...",
     "[论文] A-RSI: Adaptive Task Refresh f...",
     "Old-school classifiers are still ge...",
@@ -213,9 +215,7 @@
     "[论文] Look Only When Needed: Certifi...",
     "[论文] Your Benchmark Is an Empirical...",
     "[论文] Intrinsic Distribution Matchin...",
-    "[R] Taking EmbeddingGemma-2 (577M) ...",
-    "AMA this Wednesday: Stephen “Cas” C...",
-    "[论文] OmniShowcase: Omnidirectional ..."
+    "[R] Taking EmbeddingGemma-2 (577M) ..."
   ],
   "learning": {
     "phases": [
