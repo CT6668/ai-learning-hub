@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-11-01",
+    "last_updated": "2026-11-02",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2a7e5dd47b98",
+      "date": "2026-11-01",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[D] Simple Questions Thread",
+      "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/"
+    },
+    {
+      "id": "n_84949685a22d",
+      "date": "2026-11-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How to handle object deduplication across multiple camera angles using YOLO (esp",
+      "summary": "I’m building a computer vision pipeline where users upload multiple photos of the same physical scene taken from different angles (front vie...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xloo4i/how_to_handle_object_deduplication_across/"
+    },
+    {
+      "id": "n_b6a3c4a11df2",
+      "date": "2026-11-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FrameForge: Harnessing Priors of Video Foundation Models for",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.36545"
+    },
+    {
+      "id": "n_de1cf69d7692",
+      "date": "2026-11-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] R^2Orch: Recursive Self-Improvement for Agent Orchestration ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.22740"
+    },
+    {
+      "id": "n_aedb3f39d093",
+      "date": "2026-11-02",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Does Scaling Toward AGI Depend on What System-1 Lets System-",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.39497"
+    },
     {
       "id": "n_d6755186624e",
       "date": "2026-11-01",
@@ -153,69 +203,19 @@
       "summary": "I’ve uploaded a minimal, self-contained implementation of manual autograd for a transformer-based classifier in PyTorch. It can help build i...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xh1z1p/understanding_transformer_autograd_by_building_it/"
-    },
-    {
-      "id": "n_554f822a2db6",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The Paper Reviewing Process is Now in Critical Condition [D]",
-      "summary": "TL;DR: AI written reviews, and AI-writing in papers I was going to give this a title \"An Obituary of the Review Process\", but in the interes...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh2wzt/the_paper_reviewing_process_is_now_in_critical/"
-    },
-    {
-      "id": "n_7026158975ab",
-      "date": "2026-10-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PDRVLA: A Vision-Language-Action Model with Physical Dynamic",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.37381"
-    },
-    {
-      "id": "n_ce509fe7782d",
-      "date": "2026-10-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Hy-Nomas: Towards Free-form Interactive World Generation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.36729"
-    },
-    {
-      "id": "n_a819b80511e1",
-      "date": "2026-10-28",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] ChronoReplay: One Answer Interface Is Not Enough for Streami",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.34283"
-    },
-    {
-      "id": "n_3991ad00de68",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What is the value proposition of \"RL environment\" companies? [D]",
-      "summary": "Recently Ive been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI,...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/"
     }
   ],
   "ticker": [
+    "[D] Simple Questions Thread",
+    "How to handle object deduplication ...",
+    "[论文] FrameForge: Harnessing Priors ...",
+    "[论文] R^2Orch: Recursive Self-Improv...",
+    "[论文] Does Scaling Toward AGI Depend...",
     "Best option for local models [D]",
     "Are there fundamental repeating pat...",
     "Multi-Token Prediction Done Right [...",
     "[论文] A-RSI: Adaptive Task Refresh f...",
-    "Old-school classifiers are still ge...",
-    "Freind of mine published a paper wi...",
-    "[论文] Look Only When Needed: Certifi...",
-    "[论文] Your Benchmark Is an Empirical...",
-    "[论文] Intrinsic Distribution Matchin...",
-    "[R] Taking EmbeddingGemma-2 (577M) ..."
+    "Old-school classifiers are still ge..."
   ],
   "learning": {
     "phases": [
