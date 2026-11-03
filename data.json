@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-11-02",
+    "last_updated": "2026-11-03",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_02f99a9717cf",
+      "date": "2026-11-02",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural networ",
+      "summary": "Link: https://rikiyat.github.io/blog/weight-space-programming/ Snippet: “We find that frontier LLMs are surprisingly good at natively readin...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/"
+    },
+    {
+      "id": "n_8093168dc724",
+      "date": "2026-11-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "We turned 10 years of ML papers into one page per topic: benchmark records, what",
+      "summary": "Weve been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/"
+    },
+    {
+      "id": "n_7eaaf11fb9f1",
+      "date": "2026-11-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.03178"
+    },
+    {
+      "id": "n_d81e3e955efa",
+      "date": "2026-11-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Video Generation Meets Agent Harness: Agentic Video Generati",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.40191"
+    },
+    {
+      "id": "n_47a6062581af",
+      "date": "2026-11-03",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Wave Forcing: Towards Speed-of-Light Streaming Video Generat",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.00859"
+    },
     {
       "id": "n_2a7e5dd47b98",
       "date": "2026-11-01",
@@ -153,69 +203,19 @@
       "summary": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/"
-    },
-    {
-      "id": "n_f3c5c0e1800e",
-      "date": "2026-10-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AMA this Wednesday: Stephen “Cas” Casper, Harvard Kennedy School, on AI safeguar",
-      "summary": "https://www.reddit.com/r/ArtificialInteligence/comments/1xfuacm/ama_this_wednesday_stephen_cas_casper_harvard/ r/ArtificialInteligence We ha...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xhpnfs/ama_this_wednesday_stephen_cas_casper_harvard/"
-    },
-    {
-      "id": "n_fcceb727d733",
-      "date": "2026-10-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] OmniShowcase: Omnidirectional Subject-Consistent Video Gener",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.35684"
-    },
-    {
-      "id": "n_5bae10e7f206",
-      "date": "2026-10-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Efficient Streaming Audio-Visual Target Speaker Extraction f",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.32749"
-    },
-    {
-      "id": "n_fa9060d219cc",
-      "date": "2026-10-29",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] DTCA: Denoising Token Credit Assignment for Reinforcement Le",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.35201"
-    },
-    {
-      "id": "n_79cbd55a05db",
-      "date": "2026-10-27",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Understanding Transformer Autograd by Building It Manually in PyTorch [P]",
-      "summary": "I’ve uploaded a minimal, self-contained implementation of manual autograd for a transformer-based classifier in PyTorch. It can help build i...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh1z1p/understanding_transformer_autograd_by_building_it/"
     }
   ],
   "ticker": [
+    "Sparks of Weight-Space Programming:...",
+    "We turned 10 years of ML papers int...",
+    "[论文] CoworkOS:Scaling Agent Coworke...",
+    "[论文] Video Generation Meets Agent H...",
+    "[论文] Wave Forcing: Towards Speed-of...",
     "[D] Simple Questions Thread",
     "How to handle object deduplication ...",
     "[论文] FrameForge: Harnessing Priors ...",
     "[论文] R^2Orch: Recursive Self-Improv...",
-    "[论文] Does Scaling Toward AGI Depend...",
-    "Best option for local models [D]",
-    "Are there fundamental repeating pat...",
-    "Multi-Token Prediction Done Right [...",
-    "[论文] A-RSI: Adaptive Task Refresh f...",
-    "Old-school classifiers are still ge..."
+    "[论文] Does Scaling Toward AGI Depend..."
   ],
   "learning": {
     "phases": [
