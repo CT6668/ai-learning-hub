@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-03",
+    "last_updated": "2026-11-04",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8e6819728a5a",
+      "date": "2026-11-03",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "A new, open-weights 278M PII detection model and reference benchmark [R]",
+      "summary": "Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. Its a fine-tune of RoBERTa using 1.2B s...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/"
+    },
+    {
+      "id": "n_96a1d5958fc1",
+      "date": "2026-11-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.02737"
+    },
+    {
+      "id": "n_6d2dfffe3e45",
+      "date": "2026-11-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Behind Video Generation: Observations and Insights on Multim",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.04916"
+    },
+    {
+      "id": "n_6aa96a005db3",
+      "date": "2026-11-04",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Route Anything: A Study of Model and Policy Routing for Gene",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.05275"
+    },
     {
       "id": "n_02f99a9717cf",
       "date": "2026-11-02",
@@ -163,59 +203,19 @@
       "summary": "A friend of mine was doing gap analysisas a project , the result he got werent that big from the original papers, so he simply fabricated an...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/"
-    },
-    {
-      "id": "n_e16ce24b36eb",
-      "date": "2026-10-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Look Only When Needed: Certificate-Guided Visual Routing for",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.36671"
-    },
-    {
-      "id": "n_52faa51b8ab1",
-      "date": "2026-10-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Your Benchmark Is an Empirical Measure Over Difficulty",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.29927"
-    },
-    {
-      "id": "n_e847efe66610",
-      "date": "2026-10-30",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Intrinsic Distribution Matching",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.39633"
-    },
-    {
-      "id": "n_a936c3aba487",
-      "date": "2026-10-28",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchma",
-      "summary": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/"
     }
   ],
   "ticker": [
+    "A new, open-weights 278M PII detect...",
+    "[论文] MoviEdit: Long-form Multi-Shot...",
+    "[论文] Behind Video Generation: Obser...",
+    "[论文] Route Anything: A Study of Mod...",
     "Sparks of Weight-Space Programming:...",
     "We turned 10 years of ML papers int...",
     "[论文] CoworkOS:Scaling Agent Coworke...",
     "[论文] Video Generation Meets Agent H...",
     "[论文] Wave Forcing: Towards Speed-of...",
-    "[D] Simple Questions Thread",
-    "How to handle object deduplication ...",
-    "[论文] FrameForge: Harnessing Priors ...",
-    "[论文] R^2Orch: Recursive Self-Improv...",
-    "[论文] Does Scaling Toward AGI Depend..."
+    "[D] Simple Questions Thread"
   ],
   "learning": {
     "phases": [
