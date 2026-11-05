@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-11-04",
+    "last_updated": "2026-11-05",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_142b40c34cbc",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Publication expectations for ML PhDs at top-10 US schools / top ML groups? [D]",
+      "summary": "From what I’ve read on Reddit so far, I’m getting the impression that around 4 first-author papers at top ML conferences (NeurIPS, ICML, ICL...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xoc358/publication_expectations_for_ml_phds_at_top10_us/"
+    },
+    {
+      "id": "n_bcde387fb487",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What is now considered a “reasonable” publication rate (papers/year) for a PhD s",
+      "summary": "I would assume LLMs have bumped this number, or maybe not. Which is why I am asking. If there are PIs on here, how many papers before you le...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo7q89/what_is_now_considered_a_reasonable_publication/"
+    },
+    {
+      "id": "n_c872c846ff37",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] From Pixels to Actions - Towards Native Vision-Language-Acti",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.06918"
+    },
+    {
+      "id": "n_be0bdb7d11f4",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] FrontierPhysics: Evaluating Agents for End-to-End Physics Re",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.06910"
+    },
+    {
+      "id": "n_44b49f6972cc",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.37257"
+    },
     {
       "id": "n_8e6819728a5a",
       "date": "2026-11-03",
@@ -153,69 +203,19 @@
       "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/"
-    },
-    {
-      "id": "n_dab9dedf4343",
-      "date": "2026-11-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Are there fundamental repeating patterns in ML techniques across modalities (tex",
-      "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/"
-    },
-    {
-      "id": "n_37443f3d4574",
-      "date": "2026-10-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Multi-Token Prediction Done Right [R]",
-      "summary": "Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it c...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/"
-    },
-    {
-      "id": "n_29dd7e73dd49",
-      "date": "2026-10-31",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-I",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.38568"
-    },
-    {
-      "id": "n_fb2961796c82",
-      "date": "2026-10-29",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Old-school classifiers are still generally better than Jev [P]",
-      "summary": "There’s a lot of hype right now around decision models like Jev. But in most real use cases, you have some labeled data, and can use it to p...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xil53d/oldschool_classifiers_are_still_generally_better/"
-    },
-    {
-      "id": "n_2a11117af639",
-      "date": "2026-10-30",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Freind of mine published a paper with fabricated results in a top journal and go",
-      "summary": "A friend of mine was doing gap analysisas a project , the result he got werent that big from the original papers, so he simply fabricated an...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/"
     }
   ],
   "ticker": [
+    "Publication expectations for ML PhD...",
+    "What is now considered a “reasonabl...",
+    "[论文] From Pixels to Actions - Towar...",
+    "[论文] FrontierPhysics: Evaluating Ag...",
+    "[论文] GameVerse: A Minute-Scale Game...",
     "A new, open-weights 278M PII detect...",
     "[论文] MoviEdit: Long-form Multi-Shot...",
     "[论文] Behind Video Generation: Obser...",
     "[论文] Route Anything: A Study of Mod...",
-    "Sparks of Weight-Space Programming:...",
-    "We turned 10 years of ML papers int...",
-    "[论文] CoworkOS:Scaling Agent Coworke...",
-    "[论文] Video Generation Meets Agent H...",
-    "[论文] Wave Forcing: Towards Speed-of...",
-    "[D] Simple Questions Thread"
+    "Sparks of Weight-Space Programming:..."
   ],
   "learning": {
     "phases": [
