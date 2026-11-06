@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_updated": "2026-11-05",
+    "last_updated": "2026-11-06",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_2c55521fb074",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICLR 2027 Reviews Discussion [D]",
+      "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found pa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/"
+    },
+    {
+      "id": "n_90e32f780fb2",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Mega",
+      "summary": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, Im Nouamane, one of the authors. Im at Hugging Face and also worked ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/"
+    },
+    {
+      "id": "n_9368e65eb624",
+      "date": "2026-11-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Harness-S: Learning from Sibling Harnesses for Generalizable",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.04277"
+    },
+    {
+      "id": "n_def222abed33",
+      "date": "2026-11-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Random Is Almost Enough? Stable and Low-Cost Benchmark Compr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.00883"
+    },
+    {
+      "id": "n_e213e22ba71b",
+      "date": "2026-11-06",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VFlash: Fast, Accurate Visual Planning via Flash Primitive D",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.08449"
+    },
     {
       "id": "n_142b40c34cbc",
       "date": "2026-11-05",
@@ -153,69 +203,19 @@
       "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! ...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/"
-    },
-    {
-      "id": "n_84949685a22d",
-      "date": "2026-11-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How to handle object deduplication across multiple camera angles using YOLO (esp",
-      "summary": "I’m building a computer vision pipeline where users upload multiple photos of the same physical scene taken from different angles (front vie...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xloo4i/how_to_handle_object_deduplication_across/"
-    },
-    {
-      "id": "n_b6a3c4a11df2",
-      "date": "2026-11-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FrameForge: Harnessing Priors of Video Foundation Models for",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.36545"
-    },
-    {
-      "id": "n_de1cf69d7692",
-      "date": "2026-11-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] R^2Orch: Recursive Self-Improvement for Agent Orchestration ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.22740"
-    },
-    {
-      "id": "n_aedb3f39d093",
-      "date": "2026-11-02",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Does Scaling Toward AGI Depend on What System-1 Lets System-",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.39497"
-    },
-    {
-      "id": "n_d6755186624e",
-      "date": "2026-11-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Best option for local models [D]",
-      "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/"
     }
   ],
   "ticker": [
+    "ICLR 2027 Reviews Discussion [D]",
+    "The Ultimate MoE Training Handbook:...",
+    "[论文] Harness-S: Learning from Sibli...",
+    "[论文] Random Is Almost Enough? Stabl...",
+    "[论文] VFlash: Fast, Accurate Visual ...",
     "Publication expectations for ML PhD...",
     "What is now considered a “reasonabl...",
     "[论文] From Pixels to Actions - Towar...",
     "[论文] FrontierPhysics: Evaluating Ag...",
-    "[论文] GameVerse: A Minute-Scale Game...",
-    "A new, open-weights 278M PII detect...",
-    "[论文] MoviEdit: Long-form Multi-Shot...",
-    "[论文] Behind Video Generation: Obser...",
-    "[论文] Route Anything: A Study of Mod...",
-    "Sparks of Weight-Space Programming:..."
+    "[论文] GameVerse: A Minute-Scale Game..."
   ],
   "learning": {
     "phases": [
