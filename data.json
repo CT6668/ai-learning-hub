@@ -1,9 +1,29 @@
 {
   "meta": {
-    "last_updated": "2026-11-06",
+    "last_updated": "2026-11-07",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_bef650cc92ec",
+      "date": "2026-11-07",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Try my dang hardest to come up with novel research ideas, but everything feels c",
+      "summary": "Im an incoming masters student in ML, a bit older than most (31). I’ve read 100s of papers over the last 7/8 years from the foundational pap...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xq06wu/try_my_dang_hardest_to_come_up_with_novel/"
+    },
+    {
+      "id": "n_61a71f70bf09",
+      "date": "2026-11-07",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SLA: Scaling Spatial-Language-Action Model via Continual Pre",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.08373"
+    },
     {
       "id": "n_2c55521fb074",
       "date": "2026-11-05",
@@ -183,29 +203,11 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.40191"
-    },
-    {
-      "id": "n_47a6062581af",
-      "date": "2026-11-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Wave Forcing: Towards Speed-of-Light Streaming Video Generat",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.00859"
-    },
-    {
-      "id": "n_2a7e5dd47b98",
-      "date": "2026-11-01",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[D] Simple Questions Thread",
-      "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/"
     }
   ],
   "ticker": [
+    "Try my dang hardest to come up with...",
+    "[论文] SLA: Scaling Spatial-Language-...",
     "ICLR 2027 Reviews Discussion [D]",
     "The Ultimate MoE Training Handbook:...",
     "[论文] Harness-S: Learning from Sibli...",
@@ -213,9 +215,7 @@
     "[论文] VFlash: Fast, Accurate Visual ...",
     "Publication expectations for ML PhD...",
     "What is now considered a “reasonabl...",
-    "[论文] From Pixels to Actions - Towar...",
-    "[论文] FrontierPhysics: Evaluating Ag...",
-    "[论文] GameVerse: A Minute-Scale Game..."
+    "[论文] From Pixels to Actions - Towar..."
   ],
   "learning": {
     "phases": [
