@@ -1,9 +1,19 @@
 {
   "meta": {
-    "last_updated": "2026-11-07",
+    "last_updated": "2026-11-08",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8c10cce0f58b",
+      "date": "2026-11-08",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "What if diffusion models generates Neural Network weights? Gen AI generate Gen A",
+      "summary": "Ihave been dreaming about using a Diffusion Model that will generates Weights instead of pixels. Diffusion models actually are vast used in ...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xqsl8d/what_if_diffusion_models_generates_neural_network/"
+    },
     {
       "id": "n_bef650cc92ec",
       "date": "2026-11-07",
@@ -193,19 +203,10 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.03178"
-    },
-    {
-      "id": "n_d81e3e955efa",
-      "date": "2026-11-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Video Generation Meets Agent Harness: Agentic Video Generati",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.40191"
     }
   ],
   "ticker": [
+    "What if diffusion models generates ...",
     "Try my dang hardest to come up with...",
     "[论文] SLA: Scaling Spatial-Language-...",
     "ICLR 2027 Reviews Discussion [D]",
@@ -214,8 +215,7 @@
     "[论文] Random Is Almost Enough? Stabl...",
     "[论文] VFlash: Fast, Accurate Visual ...",
     "Publication expectations for ML PhD...",
-    "What is now considered a “reasonabl...",
-    "[论文] From Pixels to Actions - Towar..."
+    "What is now considered a “reasonabl..."
   ],
   "learning": {
     "phases": [
