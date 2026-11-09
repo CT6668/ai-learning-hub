@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-08",
+    "last_updated": "2026-11-09",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_ec84e5162276",
+      "date": "2026-11-09",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Amazon applied science intern interview next week - EU based [D]",
+      "summary": "Hi all! After multiple rejections I finally got an interview for a PhD applied science intern role at Amazon in the EU (Germany or Ams). I h...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrkiaw/amazon_applied_science_intern_interview_next_week/"
+    },
+    {
+      "id": "n_3cb98bb9fcdb",
+      "date": "2026-11-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Beneath the Surface: What We Overlook When We Talk About Age",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.07624"
+    },
+    {
+      "id": "n_d963c31ce95f",
+      "date": "2026-11-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] LongBanana: An Expert-Verified Benchmark for Long-Context Mu",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.06856"
+    },
+    {
+      "id": "n_201a14b8a80f",
+      "date": "2026-11-09",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SplatAnything: Gaussian Spacing Normalization for Feed-forwa",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.08264"
+    },
     {
       "id": "n_8c10cce0f58b",
       "date": "2026-11-08",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.04916"
-    },
-    {
-      "id": "n_6aa96a005db3",
-      "date": "2026-11-04",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Route Anything: A Study of Model and Policy Routing for Gene",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.05275"
-    },
-    {
-      "id": "n_02f99a9717cf",
-      "date": "2026-11-02",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural networ",
-      "summary": "Link: https://rikiyat.github.io/blog/weight-space-programming/ Snippet: “We find that frontier LLMs are surprisingly good at natively readin...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/"
-    },
-    {
-      "id": "n_8093168dc724",
-      "date": "2026-11-03",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "We turned 10 years of ML papers into one page per topic: benchmark records, what",
-      "summary": "Weve been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/"
-    },
-    {
-      "id": "n_7eaaf11fb9f1",
-      "date": "2026-11-03",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] CoworkOS:Scaling Agent Coworkers for Real-world Automation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.03178"
     }
   ],
   "ticker": [
+    "Amazon applied science intern inter...",
+    "[论文] Beneath the Surface: What We O...",
+    "[论文] LongBanana: An Expert-Verified...",
+    "[论文] SplatAnything: Gaussian Spacin...",
     "What if diffusion models generates ...",
     "Try my dang hardest to come up with...",
     "[论文] SLA: Scaling Spatial-Language-...",
     "ICLR 2027 Reviews Discussion [D]",
     "The Ultimate MoE Training Handbook:...",
-    "[论文] Harness-S: Learning from Sibli...",
-    "[论文] Random Is Almost Enough? Stabl...",
-    "[论文] VFlash: Fast, Accurate Visual ...",
-    "Publication expectations for ML PhD...",
-    "What is now considered a “reasonabl..."
+    "[论文] Harness-S: Learning from Sibli..."
   ],
   "learning": {
     "phases": [
