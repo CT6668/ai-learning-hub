@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-10",
+    "last_updated": "2026-11-11",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_7ae97a5ec00d",
+      "date": "2026-11-11",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "Why are Anthropic's top researchers cited twice as much as OpenAI's? [D]",
+      "summary": "submitted by /u/NegotiationOk7535 [link] [comments]",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/"
+    },
+    {
+      "id": "n_3bcdcb9b83e1",
+      "date": "2026-11-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] MMDM: Measuring Massive Multitask Decision Making",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.14309"
+    },
+    {
+      "id": "n_143b73da1f9c",
+      "date": "2026-11-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] World In-Context Learning for Agentic Robot Manipulation",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.12885"
+    },
+    {
+      "id": "n_abcab5020c42",
+      "date": "2026-11-11",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] dNaViT: Discrete Codes are General-Purpose Visual Representa",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.12426"
+    },
     {
       "id": "n_43c083d29634",
       "date": "2026-11-09",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.08449"
-    },
-    {
-      "id": "n_142b40c34cbc",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Publication expectations for ML PhDs at top-10 US schools / top ML groups? [D]",
-      "summary": "From what I’ve read on Reddit so far, I’m getting the impression that around 4 first-author papers at top ML conferences (NeurIPS, ICML, ICL...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xoc358/publication_expectations_for_ml_phds_at_top10_us/"
-    },
-    {
-      "id": "n_bcde387fb487",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What is now considered a “reasonable” publication rate (papers/year) for a PhD s",
-      "summary": "I would assume LLMs have bumped this number, or maybe not. Which is why I am asking. If there are PIs on here, how many papers before you le...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo7q89/what_is_now_considered_a_reasonable_publication/"
-    },
-    {
-      "id": "n_c872c846ff37",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] From Pixels to Actions - Towards Native Vision-Language-Acti",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.06918"
-    },
-    {
-      "id": "n_be0bdb7d11f4",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] FrontierPhysics: Evaluating Agents for End-to-End Physics Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.06910"
     }
   ],
   "ticker": [
+    "Why are Anthropic's top researchers...",
+    "[论文] MMDM: Measuring Massive Multit...",
+    "[论文] World In-Context Learning for ...",
+    "[论文] dNaViT: Discrete Codes are Gen...",
     "Forecasting new power outages per c...",
     "[论文] Sage-Taiyi: A Metacognitive Ar...",
     "[论文] Learning Heterogeneous Tactile...",
     "[论文] WorldFoundry: Towards Unified ...",
     "Amazon applied science intern inter...",
-    "[论文] Beneath the Surface: What We O...",
-    "[论文] LongBanana: An Expert-Verified...",
-    "[论文] SplatAnything: Gaussian Spacin...",
-    "What if diffusion models generates ...",
-    "Try my dang hardest to come up with..."
+    "[论文] Beneath the Surface: What We O..."
   ],
   "learning": {
     "phases": [
