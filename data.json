@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-12",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_e47c048baccb",
+      "date": "2026-11-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "How much does reviewer confidence matter in ICLR decisions? [D]",
+      "summary": "My ICLR submission received ratings of 3 / 3 / 2 with confidence 1 / 3 / 3. One weak accept comes from a low-confidence reviewer (Though the...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xu3n5f/how_much_does_reviewer_confidence_matter_in_iclr/"
+    },
+    {
+      "id": "n_2d72a67753c5",
+      "date": "2026-11-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.13410"
+    },
+    {
+      "id": "n_100b9589f1fb",
+      "date": "2026-11-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Incentivizing Self-Learning in Large Language Models via Rei",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.39671"
+    },
+    {
+      "id": "n_1a938126471b",
+      "date": "2026-11-12",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Scaling Mathematical Proof Supervision from Structured Textb",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2610.40394"
+    },
     {
       "id": "n_7ae97a5ec00d",
       "date": "2026-11-11",
@@ -163,59 +203,19 @@
       "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found pa...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/"
-    },
-    {
-      "id": "n_90e32f780fb2",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Mega",
-      "summary": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, Im Nouamane, one of the authors. Im at Hugging Face and also worked ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/"
-    },
-    {
-      "id": "n_9368e65eb624",
-      "date": "2026-11-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Harness-S: Learning from Sibling Harnesses for Generalizable",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.04277"
-    },
-    {
-      "id": "n_def222abed33",
-      "date": "2026-11-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Random Is Almost Enough? Stable and Low-Cost Benchmark Compr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.00883"
-    },
-    {
-      "id": "n_e213e22ba71b",
-      "date": "2026-11-06",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VFlash: Fast, Accurate Visual Planning via Flash Primitive D",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.08449"
     }
   ],
   "ticker": [
+    "How much does reviewer confidence m...",
+    "[论文] SteerDistill: Quantizing LLM A...",
+    "[论文] Incentivizing Self-Learning in...",
+    "[论文] Scaling Mathematical Proof Sup...",
     "Why are Anthropic's top researchers...",
     "[论文] MMDM: Measuring Massive Multit...",
     "[论文] World In-Context Learning for ...",
     "[论文] dNaViT: Discrete Codes are Gen...",
     "Forecasting new power outages per c...",
-    "[论文] Sage-Taiyi: A Metacognitive Ar...",
-    "[论文] Learning Heterogeneous Tactile...",
-    "[论文] WorldFoundry: Towards Unified ...",
-    "Amazon applied science intern inter...",
-    "[论文] Beneath the Surface: What We O..."
+    "[论文] Sage-Taiyi: A Metacognitive Ar..."
   ],
   "learning": {
     "phases": [
