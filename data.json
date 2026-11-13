@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-12",
+    "last_updated": "2026-11-13",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a010cf5535ad",
+      "date": "2026-11-12",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "UMAP 0.6: new initialization, new optimizers and faster performance [P]",
+      "summary": "UMAP 0.6 is out! A new initialization, new optimizers, and faster nearest neighbour search make UMAP much faster and far better at large sca...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/"
+    },
+    {
+      "id": "n_7a5a089a6da0",
+      "date": "2026-11-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] G-STAR: Group-Scaled Token Capacity for Deeply Compressed Au",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.13004"
+    },
+    {
+      "id": "n_105425d6f674",
+      "date": "2026-11-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] BirdDreams: Joint Perspective and BEV Video Generation for a",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.14815"
+    },
+    {
+      "id": "n_b9d5393ca7a2",
+      "date": "2026-11-13",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] SO-Arena: Benchmarking the Capability Spectrum and Reliabili",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.15777"
+    },
     {
       "id": "n_e47c048baccb",
       "date": "2026-11-12",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.08264"
-    },
-    {
-      "id": "n_8c10cce0f58b",
-      "date": "2026-11-08",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "What if diffusion models generates Neural Network weights? Gen AI generate Gen A",
-      "summary": "Ihave been dreaming about using a Diffusion Model that will generates Weights instead of pixels. Diffusion models actually are vast used in ...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xqsl8d/what_if_diffusion_models_generates_neural_network/"
-    },
-    {
-      "id": "n_bef650cc92ec",
-      "date": "2026-11-07",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Try my dang hardest to come up with novel research ideas, but everything feels c",
-      "summary": "Im an incoming masters student in ML, a bit older than most (31). I’ve read 100s of papers over the last 7/8 years from the foundational pap...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xq06wu/try_my_dang_hardest_to_come_up_with_novel/"
-    },
-    {
-      "id": "n_61a71f70bf09",
-      "date": "2026-11-07",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SLA: Scaling Spatial-Language-Action Model via Continual Pre",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.08373"
-    },
-    {
-      "id": "n_2c55521fb074",
-      "date": "2026-11-05",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICLR 2027 Reviews Discussion [D]",
-      "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found pa...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/"
     }
   ],
   "ticker": [
+    "UMAP 0.6: new initialization, new o...",
+    "[论文] G-STAR: Group-Scaled Token Cap...",
+    "[论文] BirdDreams: Joint Perspective ...",
+    "[论文] SO-Arena: Benchmarking the Cap...",
     "How much does reviewer confidence m...",
     "[论文] SteerDistill: Quantizing LLM A...",
     "[论文] Incentivizing Self-Learning in...",
     "[论文] Scaling Mathematical Proof Sup...",
     "Why are Anthropic's top researchers...",
-    "[论文] MMDM: Measuring Massive Multit...",
-    "[论文] World In-Context Learning for ...",
-    "[论文] dNaViT: Discrete Codes are Gen...",
-    "Forecasting new power outages per c...",
-    "[论文] Sage-Taiyi: A Metacognitive Ar..."
+    "[论文] MMDM: Measuring Massive Multit..."
   ],
   "learning": {
     "phases": [
