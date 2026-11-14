@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-13",
+    "last_updated": "2026-11-14",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_a95e82df724a",
+      "date": "2026-11-13",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICML 2027 Changes [D]",
+      "summary": "Just read the ICML 2027 CFP and it looks like they’re trying to tackle the submission explosion in a reasonable way. Under the new two-stage...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xvkxbj/icml_2027_changes_d/"
+    },
+    {
+      "id": "n_2c55521fb074",
+      "date": "2026-11-05",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "ICLR 2027 Reviews Discussion [D]",
+      "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found pa...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/"
+    },
+    {
+      "id": "n_c7e0fc173d65",
+      "date": "2026-11-14",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improv",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.16748"
+    },
     {
       "id": "n_a010cf5535ad",
       "date": "2026-11-12",
@@ -173,49 +203,19 @@
       "summary": "Hi all! After multiple rejections I finally got an interview for a PhD applied science intern role at Amazon in the EU (Germany or Ams). I h...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xrkiaw/amazon_applied_science_intern_interview_next_week/"
-    },
-    {
-      "id": "n_3cb98bb9fcdb",
-      "date": "2026-11-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Beneath the Surface: What We Overlook When We Talk About Age",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.07624"
-    },
-    {
-      "id": "n_d963c31ce95f",
-      "date": "2026-11-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] LongBanana: An Expert-Verified Benchmark for Long-Context Mu",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.06856"
-    },
-    {
-      "id": "n_201a14b8a80f",
-      "date": "2026-11-09",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SplatAnything: Gaussian Spacing Normalization for Feed-forwa",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.08264"
     }
   ],
   "ticker": [
+    "ICML 2027 Changes [D]",
+    "ICLR 2027 Reviews Discussion [D]",
+    "[论文] PhysLoop: Harnessing LLMs' Phy...",
     "UMAP 0.6: new initialization, new o...",
     "[论文] G-STAR: Group-Scaled Token Cap...",
     "[论文] BirdDreams: Joint Perspective ...",
     "[论文] SO-Arena: Benchmarking the Cap...",
     "How much does reviewer confidence m...",
     "[论文] SteerDistill: Quantizing LLM A...",
-    "[论文] Incentivizing Self-Learning in...",
-    "[论文] Scaling Mathematical Proof Sup...",
-    "Why are Anthropic's top researchers...",
-    "[论文] MMDM: Measuring Massive Multit..."
+    "[论文] Incentivizing Self-Learning in..."
   ],
   "learning": {
     "phases": [
