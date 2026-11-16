@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-15",
+    "last_updated": "2026-11-16",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_1386ea496b85",
+      "date": "2026-11-15",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "[Meta FAIR + NYU] Unbundling Multimodal Vision Encoding: training 200+ MLLMs to ",
+      "summary": "X threads (with videos!): https://x.com/choang333/status/2121335484236386574 https://x.com/_ellisbrown/status/2121335477244428419 Paper: htt...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/"
+    },
+    {
+      "id": "n_0e982cefb444",
+      "date": "2026-11-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.18359"
+    },
+    {
+      "id": "n_95af6df9470f",
+      "date": "2026-11-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VibePrevisBench: Evaluating Agentic Coding for 4D Scene Gene",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.15789"
+    },
+    {
+      "id": "n_c0cb811eeb79",
+      "date": "2026-11-16",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Gamer: A Generalist Vision-Language-Action Foundation Model ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.18397"
+    },
     {
       "id": "n_fcd6fdbb5254",
       "date": "2026-11-14",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.12426"
-    },
-    {
-      "id": "n_43c083d29634",
-      "date": "2026-11-09",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Forecasting new power outages per county, hourly, 2 h ahead: 2.4× the PR-AUC of ",
-      "summary": "Hi all! I built an hourly power outage forecast for 216 counties (MO + IL): P(≥5% of a countys customers newly out in the 6 h starting 2 h f...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xs4hq8/forecasting_new_power_outages_per_county_hourly_2/"
-    },
-    {
-      "id": "n_da7404106508",
-      "date": "2026-11-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Sage-Taiyi: A Metacognitive Architecture for Scientific Disc",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.12762"
-    },
-    {
-      "id": "n_b449e4bd50c8",
-      "date": "2026-11-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Learning Heterogeneous Tactile Representation for General De",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.12806"
-    },
-    {
-      "id": "n_af8720817c59",
-      "date": "2026-11-10",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] WorldFoundry: Towards Unified Infrastructure for World Intel",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.10771"
     }
   ],
   "ticker": [
+    "[Meta FAIR + NYU] Unbundling Multim...",
+    "[论文] Envisioning Agentic Robotics: ...",
+    "[论文] VibePrevisBench: Evaluating Ag...",
+    "[论文] Gamer: A Generalist Vision-Lan...",
     "ICLR 2027 Rebuttal [D]",
     "ICML 2027 Changes [D]",
     "ICLR 2027 Reviews Discussion [D]",
     "[论文] PhysLoop: Harnessing LLMs' Phy...",
     "UMAP 0.6: new initialization, new o...",
-    "[论文] G-STAR: Group-Scaled Token Cap...",
-    "[论文] BirdDreams: Joint Perspective ...",
-    "[论文] SO-Arena: Benchmarking the Cap...",
-    "How much does reviewer confidence m...",
-    "[论文] SteerDistill: Quantizing LLM A..."
+    "[论文] G-STAR: Group-Scaled Token Cap..."
   ],
   "learning": {
     "phases": [
