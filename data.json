@@ -1,9 +1,49 @@
 {
   "meta": {
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-17",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_95e66ade57d3",
+      "date": "2026-11-16",
+      "tag": "research",
+      "tag_label": "🔬 深度",
+      "title": "AISTATS 2027 paper discussion [D]",
+      "summary": "Creating this post since the reviews are supposed to go live today. What do you guys think? submitted by /u/LongjumpingAd4741 [link] [commen...",
+      "source": "Reddit ML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xxqa3i/aistats_2027_paper_discussion_d/"
+    },
+    {
+      "id": "n_f069fe9bb8e5",
+      "date": "2026-11-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] InclusionMed: Benchmarking AI for Inclusive Healthcare",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.21218"
+    },
+    {
+      "id": "n_38e2a23041d5",
+      "date": "2026-11-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.21003"
+    },
+    {
+      "id": "n_44311462c738",
+      "date": "2026-11-17",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AllocFlow: End-to-End Portfolio Trading Action Generation fr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.19937"
+    },
     {
       "id": "n_1386ea496b85",
       "date": "2026-11-15",
@@ -163,59 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2610.40394"
-    },
-    {
-      "id": "n_7ae97a5ec00d",
-      "date": "2026-11-11",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "Why are Anthropic's top researchers cited twice as much as OpenAI's? [D]",
-      "summary": "submitted by /u/NegotiationOk7535 [link] [comments]",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/"
-    },
-    {
-      "id": "n_3bcdcb9b83e1",
-      "date": "2026-11-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] MMDM: Measuring Massive Multitask Decision Making",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.14309"
-    },
-    {
-      "id": "n_143b73da1f9c",
-      "date": "2026-11-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] World In-Context Learning for Agentic Robot Manipulation",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.12885"
-    },
-    {
-      "id": "n_abcab5020c42",
-      "date": "2026-11-11",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] dNaViT: Discrete Codes are General-Purpose Visual Representa",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.12426"
     }
   ],
   "ticker": [
+    "AISTATS 2027 paper discussion [D]",
+    "[论文] InclusionMed: Benchmarking AI ...",
+    "[论文] K2-Horizon: A Frontier Fleet o...",
+    "[论文] AllocFlow: End-to-End Portfoli...",
     "[Meta FAIR + NYU] Unbundling Multim...",
     "[论文] Envisioning Agentic Robotics: ...",
     "[论文] VibePrevisBench: Evaluating Ag...",
     "[论文] Gamer: A Generalist Vision-Lan...",
     "ICLR 2027 Rebuttal [D]",
-    "ICML 2027 Changes [D]",
-    "ICLR 2027 Reviews Discussion [D]",
-    "[论文] PhysLoop: Harnessing LLMs' Phy...",
-    "UMAP 0.6: new initialization, new o...",
-    "[论文] G-STAR: Group-Scaled Token Cap..."
+    "ICML 2027 Changes [D]"
   ],
   "learning": {
     "phases": [
