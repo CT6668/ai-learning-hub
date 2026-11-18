@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-17",
+    "last_updated": "2026-11-18",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_43358308f56f",
+      "date": "2026-11-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Weight-Space Programming Doesn't Need Transformers",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.22055"
+    },
+    {
+      "id": "n_4ad924ee4ecf",
+      "date": "2026-11-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Re",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.17621"
+    },
+    {
+      "id": "n_c3fea47476df",
+      "date": "2026-11-18",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] TeleChat to Xing4: Advancing Frontier Agentic Models on Dome",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.22115"
+    },
     {
       "id": "n_95e66ade57d3",
       "date": "2026-11-16",
@@ -173,49 +203,19 @@
       "summary": "My ICLR submission received ratings of 3 / 3 / 2 with confidence 1 / 3 / 3. One weak accept comes from a low-confidence reviewer (Though the...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xu3n5f/how_much_does_reviewer_confidence_matter_in_iclr/"
-    },
-    {
-      "id": "n_2d72a67753c5",
-      "date": "2026-11-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.13410"
-    },
-    {
-      "id": "n_100b9589f1fb",
-      "date": "2026-11-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Incentivizing Self-Learning in Large Language Models via Rei",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.39671"
-    },
-    {
-      "id": "n_1a938126471b",
-      "date": "2026-11-12",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Scaling Mathematical Proof Supervision from Structured Textb",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2610.40394"
     }
   ],
   "ticker": [
+    "[论文] Weight-Space Programming Doesn...",
+    "[论文] AscendGYM: A Cost-Aware Kernel...",
+    "[论文] TeleChat to Xing4: Advancing F...",
     "AISTATS 2027 paper discussion [D]",
     "[论文] InclusionMed: Benchmarking AI ...",
     "[论文] K2-Horizon: A Frontier Fleet o...",
     "[论文] AllocFlow: End-to-End Portfoli...",
     "[Meta FAIR + NYU] Unbundling Multim...",
     "[论文] Envisioning Agentic Robotics: ...",
-    "[论文] VibePrevisBench: Evaluating Ag...",
-    "[论文] Gamer: A Generalist Vision-Lan...",
-    "ICLR 2027 Rebuttal [D]",
-    "ICML 2027 Changes [D]"
+    "[论文] VibePrevisBench: Evaluating Ag..."
   ],
   "learning": {
     "phases": [
