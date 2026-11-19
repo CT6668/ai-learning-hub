@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-18",
+    "last_updated": "2026-11-19",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_7704f91d5fd9",
+      "date": "2026-11-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] PROLA: Principal-Orthogonal Low-rank Adaptation for Predicti",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.11318"
+    },
+    {
+      "id": "n_d64f5169513f",
+      "date": "2026-11-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Jeveration: System One Models Now Generate",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.24738"
+    },
+    {
+      "id": "n_f760dc7bf67e",
+      "date": "2026-11-19",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Tideway: Phase-Aware Tiered Memory Management for MoE Infere",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.14848"
+    },
     {
       "id": "n_43358308f56f",
       "date": "2026-11-18",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.13004"
-    },
-    {
-      "id": "n_105425d6f674",
-      "date": "2026-11-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] BirdDreams: Joint Perspective and BEV Video Generation for a",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.14815"
-    },
-    {
-      "id": "n_b9d5393ca7a2",
-      "date": "2026-11-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] SO-Arena: Benchmarking the Capability Spectrum and Reliabili",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.15777"
-    },
-    {
-      "id": "n_e47c048baccb",
-      "date": "2026-11-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "How much does reviewer confidence matter in ICLR decisions? [D]",
-      "summary": "My ICLR submission received ratings of 3 / 3 / 2 with confidence 1 / 3 / 3. One weak accept comes from a low-confidence reviewer (Though the...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xu3n5f/how_much_does_reviewer_confidence_matter_in_iclr/"
     }
   ],
   "ticker": [
+    "[论文] PROLA: Principal-Orthogonal Lo...",
+    "[论文] Jeveration: System One Models ...",
+    "[论文] Tideway: Phase-Aware Tiered Me...",
     "[论文] Weight-Space Programming Doesn...",
     "[论文] AscendGYM: A Cost-Aware Kernel...",
     "[论文] TeleChat to Xing4: Advancing F...",
     "AISTATS 2027 paper discussion [D]",
     "[论文] InclusionMed: Benchmarking AI ...",
     "[论文] K2-Horizon: A Frontier Fleet o...",
-    "[论文] AllocFlow: End-to-End Portfoli...",
-    "[Meta FAIR + NYU] Unbundling Multim...",
-    "[论文] Envisioning Agentic Robotics: ...",
-    "[论文] VibePrevisBench: Evaluating Ag..."
+    "[论文] AllocFlow: End-to-End Portfoli..."
   ],
   "learning": {
     "phases": [
