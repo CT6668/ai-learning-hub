@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-19",
+    "last_updated": "2026-11-20",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_258e9ac4ab1e",
+      "date": "2026-11-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.26595"
+    },
+    {
+      "id": "n_c8b6d6ad553e",
+      "date": "2026-11-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.26409"
+    },
+    {
+      "id": "n_62155ccbf89b",
+      "date": "2026-11-20",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Ph",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.26444"
+    },
     {
       "id": "n_7704f91d5fd9",
       "date": "2026-11-19",
@@ -173,49 +203,19 @@
       "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found pa...",
       "source": "Reddit ML",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/"
-    },
-    {
-      "id": "n_c7e0fc173d65",
-      "date": "2026-11-14",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improv",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.16748"
-    },
-    {
-      "id": "n_a010cf5535ad",
-      "date": "2026-11-12",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "UMAP 0.6: new initialization, new optimizers and faster performance [P]",
-      "summary": "UMAP 0.6 is out! A new initialization, new optimizers, and faster nearest neighbour search make UMAP much faster and far better at large sca...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/"
-    },
-    {
-      "id": "n_7a5a089a6da0",
-      "date": "2026-11-13",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] G-STAR: Group-Scaled Token Capacity for Deeply Compressed Au",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.13004"
     }
   ],
   "ticker": [
+    "[论文] Coda-DaVinci: Reimagining Vide...",
+    "[论文] WeMM-Video: Pushing the Fronti...",
+    "[论文] Mind2Act World: A Diagnostic B...",
     "[论文] PROLA: Principal-Orthogonal Lo...",
     "[论文] Jeveration: System One Models ...",
     "[论文] Tideway: Phase-Aware Tiered Me...",
     "[论文] Weight-Space Programming Doesn...",
     "[论文] AscendGYM: A Cost-Aware Kernel...",
     "[论文] TeleChat to Xing4: Advancing F...",
-    "AISTATS 2027 paper discussion [D]",
-    "[论文] InclusionMed: Benchmarking AI ...",
-    "[论文] K2-Horizon: A Frontier Fleet o...",
-    "[论文] AllocFlow: End-to-End Portfoli..."
+    "AISTATS 2027 paper discussion [D]"
   ],
   "learning": {
     "phases": [
