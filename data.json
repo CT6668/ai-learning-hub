@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-23",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_9c0443ad244a",
+      "date": "2026-11-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Clover-35B-A3B-Preview Technical Report",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.24636"
+    },
+    {
+      "id": "n_16cd26ae1ee0",
+      "date": "2026-11-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Non-penetrating World Models",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.27963"
+    },
+    {
+      "id": "n_299cb052cd59",
+      "date": "2026-11-23",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] cmHC: Balancing Stream Mixing in Hyper-Connections via Geome",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.27193"
+    },
     {
       "id": "n_a8fef4918754",
       "date": "2026-11-21",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.18359"
-    },
-    {
-      "id": "n_95af6df9470f",
-      "date": "2026-11-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] VibePrevisBench: Evaluating Agentic Coding for 4D Scene Gene",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.15789"
-    },
-    {
-      "id": "n_c0cb811eeb79",
-      "date": "2026-11-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Gamer: A Generalist Vision-Language-Action Foundation Model ",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.18397"
-    },
-    {
-      "id": "n_fcd6fdbb5254",
-      "date": "2026-11-14",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "ICLR 2027 Rebuttal [D]",
-      "summary": "For anyone who’s updating their manuscript during rebuttals - the guidelines seems to suggest a pdf diff will be applied automatically to th...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xw5uwe/iclr_2027_rebuttal_d/"
     }
   ],
   "ticker": [
+    "[论文] Clover-35B-A3B-Preview Technic...",
+    "[论文] Non-penetrating World Models",
+    "[论文] cmHC: Balancing Stream Mixing ...",
     "[论文] Probing the \"Conscious\" Mind: ...",
     "[论文] WeVisForensics: Self-Evolving ...",
     "[论文] Coda-DaVinci: Reimagining Vide...",
     "[论文] WeMM-Video: Pushing the Fronti...",
     "[论文] Mind2Act World: A Diagnostic B...",
     "[论文] PROLA: Principal-Orthogonal Lo...",
-    "[论文] Jeveration: System One Models ...",
-    "[论文] Tideway: Phase-Aware Tiered Me...",
-    "[论文] Weight-Space Programming Doesn...",
-    "[论文] AscendGYM: A Cost-Aware Kernel..."
+    "[论文] Jeveration: System One Models ..."
   ],
   "learning": {
     "phases": [
