@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-24",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_de5cd55ddb8f",
+      "date": "2026-11-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] WeMM-Ecom: Advancing Multimodal Content Understanding for We",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.30662"
+    },
+    {
+      "id": "n_c658a5cf0a9c",
+      "date": "2026-11-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Embo-Harness: Towards Understanding Frontier-Model-as-Policy",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.31201"
+    },
+    {
+      "id": "n_4466e1b36ff3",
+      "date": "2026-11-24",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Ho",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.29897"
+    },
     {
       "id": "n_9c0443ad244a",
       "date": "2026-11-23",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.21003"
-    },
-    {
-      "id": "n_44311462c738",
-      "date": "2026-11-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AllocFlow: End-to-End Portfolio Trading Action Generation fr",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.19937"
-    },
-    {
-      "id": "n_1386ea496b85",
-      "date": "2026-11-15",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "[Meta FAIR + NYU] Unbundling Multimodal Vision Encoding: training 200+ MLLMs to ",
-      "summary": "X threads (with videos!): https://x.com/choang333/status/2121335484236386574 https://x.com/_ellisbrown/status/2121335477244428419 Paper: htt...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/"
-    },
-    {
-      "id": "n_0e982cefb444",
-      "date": "2026-11-16",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Envisioning Agentic Robotics: A New Era of Robotic Systems",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.18359"
     }
   ],
   "ticker": [
+    "[论文] WeMM-Ecom: Advancing Multimoda...",
+    "[论文] Embo-Harness: Towards Understa...",
+    "[论文] Motion Mamba 2.0: Autoregressi...",
     "[论文] Clover-35B-A3B-Preview Technic...",
     "[论文] Non-penetrating World Models",
     "[论文] cmHC: Balancing Stream Mixing ...",
     "[论文] Probing the \"Conscious\" Mind: ...",
     "[论文] WeVisForensics: Self-Evolving ...",
     "[论文] Coda-DaVinci: Reimagining Vide...",
-    "[论文] WeMM-Video: Pushing the Fronti...",
-    "[论文] Mind2Act World: A Diagnostic B...",
-    "[论文] PROLA: Principal-Orthogonal Lo...",
-    "[论文] Jeveration: System One Models ..."
+    "[论文] WeMM-Video: Pushing the Fronti..."
   ],
   "learning": {
     "phases": [
