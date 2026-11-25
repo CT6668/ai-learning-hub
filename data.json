@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d576b23bc62b",
+      "date": "2026-11-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.31205"
+    },
+    {
+      "id": "n_b723036ad148",
+      "date": "2026-11-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Antom 3-in-1 Transformer: A Payment Foundation Model",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.25403"
+    },
+    {
+      "id": "n_5ba35c6d1359",
+      "date": "2026-11-25",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Rewirable Circuits in Transformers with Loom Attention",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.30634"
+    },
     {
       "id": "n_de5cd55ddb8f",
       "date": "2026-11-24",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.22115"
-    },
-    {
-      "id": "n_95e66ade57d3",
-      "date": "2026-11-16",
-      "tag": "research",
-      "tag_label": "🔬 深度",
-      "title": "AISTATS 2027 paper discussion [D]",
-      "summary": "Creating this post since the reviews are supposed to go live today. What do you guys think? submitted by /u/LongjumpingAd4741 [link] [commen...",
-      "source": "Reddit ML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xxqa3i/aistats_2027_paper_discussion_d/"
-    },
-    {
-      "id": "n_f069fe9bb8e5",
-      "date": "2026-11-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.21218"
-    },
-    {
-      "id": "n_38e2a23041d5",
-      "date": "2026-11-17",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] K2-Horizon: A Frontier Fleet of Open Source Language Models",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.21003"
     }
   ],
   "ticker": [
+    "[论文] ACAP: Asynchronous Coding Agen...",
+    "[论文] Antom 3-in-1 Transformer: A Pa...",
+    "[论文] Rewirable Circuits in Transfor...",
     "[论文] WeMM-Ecom: Advancing Multimoda...",
     "[论文] Embo-Harness: Towards Understa...",
     "[论文] Motion Mamba 2.0: Autoregressi...",
     "[论文] Clover-35B-A3B-Preview Technic...",
     "[论文] Non-penetrating World Models",
     "[论文] cmHC: Balancing Stream Mixing ...",
-    "[论文] Probing the \"Conscious\" Mind: ...",
-    "[论文] WeVisForensics: Self-Evolving ...",
-    "[论文] Coda-DaVinci: Reimagining Vide...",
-    "[论文] WeMM-Video: Pushing the Fronti..."
+    "[论文] Probing the \"Conscious\" Mind: ..."
   ],
   "learning": {
     "phases": [
