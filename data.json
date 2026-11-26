@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_b90384a9a405",
+      "date": "2026-11-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Mixture-of-Loops Transformer",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34923"
+    },
+    {
+      "id": "n_bd33f53acb6e",
+      "date": "2026-11-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] VibeVideoAgent: Closing the Perceptual Loop for Code-Driven ",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34237"
+    },
+    {
+      "id": "n_b462836295a4",
+      "date": "2026-11-26",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Real2SimLab: A Unified Platform for Real-to-Simulation Trans",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34849"
+    },
     {
       "id": "n_d576b23bc62b",
       "date": "2026-11-25",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.14848"
-    },
-    {
-      "id": "n_43358308f56f",
-      "date": "2026-11-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Weight-Space Programming Doesn't Need Transformers",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.22055"
-    },
-    {
-      "id": "n_4ad924ee4ecf",
-      "date": "2026-11-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Re",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.17621"
-    },
-    {
-      "id": "n_c3fea47476df",
-      "date": "2026-11-18",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] TeleChat to Xing4: Advancing Frontier Agentic Models on Dome",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.22115"
     }
   ],
   "ticker": [
+    "[论文] Mixture-of-Loops Transformer",
+    "[论文] VibeVideoAgent: Closing the Pe...",
+    "[论文] Real2SimLab: A Unified Platfor...",
     "[论文] ACAP: Asynchronous Coding Agen...",
     "[论文] Antom 3-in-1 Transformer: A Pa...",
     "[论文] Rewirable Circuits in Transfor...",
     "[论文] WeMM-Ecom: Advancing Multimoda...",
     "[论文] Embo-Harness: Towards Understa...",
     "[论文] Motion Mamba 2.0: Autoregressi...",
-    "[论文] Clover-35B-A3B-Preview Technic...",
-    "[论文] Non-penetrating World Models",
-    "[论文] cmHC: Balancing Stream Mixing ...",
-    "[论文] Probing the \"Conscious\" Mind: ..."
+    "[论文] Clover-35B-A3B-Preview Technic..."
   ],
   "learning": {
     "phases": [
