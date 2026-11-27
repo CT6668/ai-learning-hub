@@ -1,9 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_8d91774447c5",
+      "date": "2026-11-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] What a Forecasting Leaderboard Can Establish: Resolution Rep",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.31619"
+    },
+    {
+      "id": "n_fee6228fad8a",
+      "date": "2026-11-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] OS-Omni: Benchmarking Generalist Computer-Using Agents on Lo",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34232"
+    },
+    {
+      "id": "n_0a48f1475f05",
+      "date": "2026-11-27",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Stable Gated DeltaNet-2: Understanding and Mitigating Recurr",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34051"
+    },
     {
       "id": "n_b90384a9a405",
       "date": "2026-11-26",
@@ -173,49 +203,19 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.26444"
-    },
-    {
-      "id": "n_7704f91d5fd9",
-      "date": "2026-11-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] PROLA: Principal-Orthogonal Low-rank Adaptation for Predicti",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.11318"
-    },
-    {
-      "id": "n_d64f5169513f",
-      "date": "2026-11-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Jeveration: System One Models Now Generate",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.24738"
-    },
-    {
-      "id": "n_f760dc7bf67e",
-      "date": "2026-11-19",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Tideway: Phase-Aware Tiered Memory Management for MoE Infere",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.14848"
     }
   ],
   "ticker": [
+    "[论文] What a Forecasting Leaderboard...",
+    "[论文] OS-Omni: Benchmarking Generali...",
+    "[论文] Stable Gated DeltaNet-2: Under...",
     "[论文] Mixture-of-Loops Transformer",
     "[论文] VibeVideoAgent: Closing the Pe...",
     "[论文] Real2SimLab: A Unified Platfor...",
     "[论文] ACAP: Asynchronous Coding Agen...",
     "[论文] Antom 3-in-1 Transformer: A Pa...",
     "[论文] Rewirable Circuits in Transfor...",
-    "[论文] WeMM-Ecom: Advancing Multimoda...",
-    "[论文] Embo-Harness: Towards Understa...",
-    "[论文] Motion Mamba 2.0: Autoregressi...",
-    "[论文] Clover-35B-A3B-Preview Technic..."
+    "[论文] WeMM-Ecom: Advancing Multimoda..."
   ],
   "learning": {
     "phases": [
