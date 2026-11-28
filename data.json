@@ -1,9 +1,19 @@
 {
   "meta": {
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "version": "1.0"
   },
   "news": [
+    {
+      "id": "n_d644b429e078",
+      "date": "2026-11-28",
+      "tag": "research",
+      "tag_label": "🔬 论文",
+      "title": "[论文] Solve Vision with Code: Coding Agents Are Stronger Visual Re",
+      "summary": "最新 AI 研究论文",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/papers/2611.34813"
+    },
     {
       "id": "n_8d91774447c5",
       "date": "2026-11-27",
@@ -193,19 +203,10 @@
       "summary": "最新 AI 研究论文",
       "source": "Hugging Face",
       "url": "https://huggingface.co/papers/2611.26409"
-    },
-    {
-      "id": "n_62155ccbf89b",
-      "date": "2026-11-20",
-      "tag": "research",
-      "tag_label": "🔬 论文",
-      "title": "[论文] Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Ph",
-      "summary": "最新 AI 研究论文",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/papers/2611.26444"
     }
   ],
   "ticker": [
+    "[论文] Solve Vision with Code: Coding...",
     "[论文] What a Forecasting Leaderboard...",
     "[论文] OS-Omni: Benchmarking Generali...",
     "[论文] Stable Gated DeltaNet-2: Under...",
@@ -214,8 +215,7 @@
     "[论文] Real2SimLab: A Unified Platfor...",
     "[论文] ACAP: Asynchronous Coding Agen...",
     "[论文] Antom 3-in-1 Transformer: A Pa...",
-    "[论文] Rewirable Circuits in Transfor...",
-    "[论文] WeMM-Ecom: Advancing Multimoda..."
+    "[论文] Rewirable Circuits in Transfor..."
   ],
   "learning": {
     "phases": [
